@@ -1,0 +1,98 @@
+{
+  "id": "job_001",
+  "url": "https://nvidia.eightfold.ai/careers?start=0&location=Pune%2C++MH%2C++India&pid=893392069435&sort_by=distance&filter_distance=160&filter_include_remote=1&filter_include_relocation=0",
+  "source": "chat",
+  "created_at": "2026-09-11T09:07:02.406582+00:00",
+  "updated_at": "2026-09-12T10:55:46.028206+00:00",
+  "company": "NVIDIA",
+  "title": "AI Developer Technology Engineer",
+  "location": "Pune, India",
+  "job_type": "full-time",
+  "description": "NVIDIA Compute Developer Technology is seeking an AI Developer Technology Engineer to study and develop deep learning, graph, machine-learning, and data-analytics techniques; analyze and optimize their performance on current and next-generation GPU architectures; advise key customers on GPU-based AI solutions; and collaborate with architecture, research, libraries, tools, and system-software teams on future architectures, platforms, and programming models.",
+  "requirements": {
+    "required_skills": [
+      "Deep Learning",
+      "Graph Machine Learning",
+      "Machine Learning",
+      "Data Analytics",
+      "GPU Performance Analysis and Optimization",
+      "C/C++",
+      "Software Design",
+      "AI Algorithms",
+      "Parallel Programming"
+    ],
+    "preferred_skills": [
+      "CUDA C/C++",
+      "GPU Architecture",
+      "Customer-facing Technical Collaboration"
+    ],
+    "experience_years": 2,
+    "education": "Masters degree or PhD in engineering/computer science, or equivalent experience with 2+ years of relevant work or research experience"
+  },
+  "match": {
+    "score": 57,
+    "reasoning": "Partial, stretch match. Your AI/ML education, deep-learning and computer-vision projects, Python engineering work, data/reporting tooling, software-design foundation, and Pune location align. However, the role specifically expects 2+ years of relevant work or research plus firsthand parallel programming and C/C++, ideally CUDA C/C++; the profile does not substantiate C++, CUDA, GPU performance optimization, GPU architecture, or customer-facing DevTech work.",
+    "relevant_experience": [
+      "Amadeus Software Labs: Python/Java engineering, AI systems, GMS reporting with Splunk and SQL, and software modernization.",
+      "AI-ML Virtual Intern, AWS Academy: machine-learning pipeline experience and cloud ML services.",
+      "B.Tech in CSE (AI/ML): coursework in machine learning, deep learning, neural networks, and algorithms."
+    ],
+    "relevant_projects": [
+      "Crowd Detection & Management System: Python, YOLOv8, OpenCV, computer vision, and a reported 80% detection accuracy.",
+      "Red Light Violation Detection: Python, TensorFlow, YOLOv8, CNNs, and computer vision.",
+      "iHotelier Data-Driven Reporting Platform: Python multiprocessing with Splunk and SQL data workflows."
+    ],
+    "skill_gaps": [
+      "C++ (profile lists C, not C++)",
+      "CUDA C/C++",
+      "GPU performance analysis and optimization",
+      "GPU architecture",
+      "Firsthand GPU parallel programming",
+      "Graph machine learning",
+      "Documented customer-facing technical collaboration",
+      "2+ years of directly relevant work or research experience"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "REVIEWED",
+    "path": "resumes/job_001/resume_v2.tex",
+    "version": 2,
+    "review_notes": "7/10 review. Resume v2 compiled successfully with Tectonic and was visually inspected as one balanced A4 page; PDF text extraction verified. Added the confirmed GMS Knowledge Bot project plus verified certifications and achievements. C++, CUDA, GPU optimization/architecture, and firsthand GPU parallel-programming requirements remain excluded because they are unsupported."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "content_review": {
+    "proposal_ids": [
+      "job001-nvidia-devtech-skills-001",
+      "job001-cuda-project-001"
+    ],
+    "hold": true,
+    "note": "NVIDIA v3 preview prepared with invented personal project job001-cuda-project-001; exact entry approval pending. Existing rejected skills decision is preserved. The active resume remains v2; matching and canonical profile are unchanged.",
+    "pending_resume_preview": {
+      "version": 3,
+      "source_path": "resumes/job_001/review/resume_v3_preview.tex",
+      "pdf_path": "resumes/job_001/review/resume_v3_preview.pdf",
+      "proposal_ids": [
+        "job001-cuda-project-001"
+      ],
+      "approved": false,
+      "validation": {
+        "source_review": "Complete: 10pt document body, 0.58-inch margins, confirmed dates and contact links, invented project isolated to the preview; no invented metrics or URLs.",
+        "compilation": "Tectonic succeeded. One A4 page; no overfull/underfull boxes or missing-character warnings in final TeX log. Console emitted non-blocking Fontconfig configuration diagnostic.",
+        "visual_review": "Full page inspected at 140 dpi: readable, aligned headings, no clipped text or overlaps.",
+        "text_extraction": "pypdf and pdfplumber inspected. Section order, bullet associations, dates and contact details preserved. Parsers differ on ligatures/kerning and spacing; not a universal ATS guarantee.",
+        "links_and_fonts": "Email, LinkedIn and GitHub link targets verified; all six referenced fonts embedded.",
+        "content_approval": "Pending job001-cuda-project-001; not approved for application use."
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{\vspace{-4pt}\scshape\raggedright\large}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+\newcommand{\resumeItem}[1]{\item\small{#1\vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{0.97\textwidth}[t]{@{}>{\raggedright\arraybackslash}X@{\hspace{0.75em}}r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.75em}}r@{}}
+      \small#1 & #2 \\
+    \end{tabularx}\vspace{-5pt}
+}
+\newcommand{\resumeSubItemListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubItemListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+\begin{center}
+  {\Huge\bfseries Pratyush Shendre} \\ \vspace{1pt}
+  \small Pune, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{\underline{pshendre6604@gmail.com}} $|$
+  \href{https://linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small{Software Development Engineer with experience in Java and Spring modernization, application security, Kubernetes-based delivery, and generative AI products. Builds backend automation and context-aware AI systems using Python, Java, Azure AI Foundry, RAG, MCP, and modern cloud tooling.}
+
+\section{Experience}
+\resumeSubItemListStart
+  \resumeSubheading
+    {Software Development Engineer}{January 2025 -- Present}
+    {Amadeus Software Labs}{Pune, India}
+    \resumeItemListStart
+      \resumeItem{Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.}
+      \resumeItem{Built ContX AI, a context-aware campaign application that uses guest, property, booking, audience, and brand context to generate personalized marketing content with Python, React, Azure AI Foundry, MJML, and REST APIs.}
+      \resumeItem{Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and Core and Loyalty dependency upgrades.}
+      \resumeItem{Fixed a customer-reported stability defect in the currency exchange-rate synchronization service.}
+      \resumeItem{Designed and documented an AI Skills Toolkit for Rally, Jenkins, Kubernetes, and knowledge-retrieval workflows.}
+    \resumeItemListEnd
+\resumeSubItemListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages}{: Java, Python, SQL} \\
+    \textbf{Frameworks}{: Spring Boot, React, LangChain, Streamlit} \\
+    \textbf{Databases / AI}{: ChromaDB, Azure OpenAI, Azure AI Foundry, RAG, Meta-RAG} \\
+    \textbf{Tools / Platforms}{: Git, Jenkins, Kubernetes, Helm, Splunk, Black Duck, Checkmarx, Azure}
+  }}
+\end{itemize}
+
+\section{Projects}
+\resumeSubItemListStart
+  \resumeProjectHeading
+    {\textbf{GMS Knowledge Bot} $|$ \emph{Python, LangChain, Azure OpenAI, ChromaDB, Streamlit}}{2025}
+    \resumeItemListStart
+      \resumeItem{Built a two-LLM Meta-RAG assistant that classifies question intent and adjusts retrieval depth, generation settings, token budget, and prompts for each query.}
+      \resumeItem{Created an ingestion pipeline that preserved tables and navigation metadata and produced 86 normalized documents for vector-store ingestion.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Black Duck Container Image Security Scanner} $|$ \emph{Python, ACR, Podman, REST APIs}}{2025}
+    \resumeItemListStart
+      \resumeItem{Automated container-image retrieval, Black Duck scan submission, result polling, and Teams notifications; packaged the application as a Windows executable.}
+    \resumeItemListEnd
+\resumeSubItemListEnd
+
+\section{Certifications \& Achievements}
+\resumeItemListStart
+  \resumeItem{\textbf{Claude Certified Architect, Foundations} -- Anthropic}
+  \resumeItem{Solved 1,000+ LeetCode problems; GATE Qualified (2023).}
+  \resumeItem{\textbf{Technical Club Member:} Led the planning and execution of multiple technical events, contributing to the growth of the college's tech community.}
+\resumeItemListEnd
+
+\section{Education}
+\resumeSubItemListStart
+  \resumeSubheading
+    {Bachelor of Technology in Computer Science and Engineering (AI and ML)}{August 2021 -- July 2025}
+    {RCOEM Nagpur}{Nagpur, India}
+  \resumeItemListStart
+    \resumeItem{CGPA: 8.23/10}
+    \resumeItem{\textbf{Relevant Coursework:} Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.}
+  \resumeItemListEnd
+\resumeSubItemListEnd
+
+\end{document}

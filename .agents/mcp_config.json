@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "comment": "Playwright MCP is configured globally. This file documents the expected MCP tools available to agents in this workspace."
+    }
+  }
+}

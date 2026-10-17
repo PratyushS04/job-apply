@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Claude Certified Architect, Foundations",
+    "type": "certification",
+    "date": "",
+    "issuer": "Anthropic",
+    "description": "Earned Anthropic's Claude Certified Architect, Foundations certification.",
+    "source": "Candidate-confirmed; official certification name verified against Anthropic."
+  },
+  {
+    "title": "GATE Qualified",
+    "type": "certification",
+    "date": "2023",
+    "issuer": "GATE",
+    "description": "Qualified the GATE examination in 2023."
+  },
+  {
+    "title": "Technical Club Member",
+    "type": "other",
+    "date": "",
+    "issuer": "RCOEM Nagpur",
+    "description": "Led the planning and execution of multiple technical events, contributing to the growth of the college's tech community."
+  },
+  {
+    "title": "Solved 1,000+ LeetCode Problems",
+    "type": "other",
+    "date": "",
+    "issuer": "LeetCode",
+    "description": "Solved over 1,000 LeetCode problems, demonstrating sustained practice in data structures, algorithms, and problem solving."
+  }
+]

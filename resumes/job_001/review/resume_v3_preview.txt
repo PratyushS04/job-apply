@@ -1,0 +1,48 @@
+Pratyush Shendre
+Pune, Maharashtra, India | +91-9975080249 | pshendre6604@gmail.com
+linkedin.com/in/pratyush-shendre-2256a7223 | github.com/PratyushS04
+Experience
+Software Development Engineer Jan. 2025 – Present
+Amadeus Software Labs India
+• Built reporting workflows combining Splunk telemetry and SQL data; ran independent queries concurrently with
+Python multiprocessing, structured logging, and progress reporting.
+• Built and deployed a Meta-RAG framework for the Loyalty Portal chatbot, using multi-stage contextual validation
+to improve response grounding.
+• Developed Python and Java automation for application security and modernization, including a Black Duck API
+v2 tool that reduced manual security-developer work by 40%.
+AI–ML Virtual Intern May 2023 – Jul. 2023
+AWS Academy Virtual
+• Implemented machine-learning pipelines in Amazon SageMaker covering data collection, feature engineering, model
+training, deployment, and evaluation.
+Selected Projects
+CUDA Neural Network Kernel Lab Personal project
+C++, CUDA, Python, NVIDIA Nsight Compute
+• Built C++ and CUDA implementations of matrix multiplication and ReLU for a small neural-network forward pass,
+with a CPU reference for output comparison.
+• Implemented a shared-memory tiled matrix-multiplication kernel and compared thread-block configurations using
+CUDA events and NVIDIA Nsight Compute.
+• Added numerical checks against the CPU reference and Python scripts to summarize kernel timings across matrix
+sizes, separating execution time from host-device transfers.
+GMS Knowledge Bot 2025; Amadeus
+Python, LangChain, Azure OpenAI, ChromaDB, Streamlit
+• Built an internal knowledge assistant that classifies questions by intent and adapts document retrieval and answer-
+generation settings for each query.
+• Implemented retrieval and generation with LangChain, Azure OpenAI, and ChromaDB; built a Streamlit interface
+for answers, routing decisions, logs, and query history.
+Crowd Detection & Management System 2023
+Python, YOLOv8, OpenCV, Telegram API
+• Collected and labeled data for a YOLOv8 crowd-density detection pipeline with a reported 80% accuracy; imple-
+mented a real-time Telegram alert bot for crowd management.
+Technical Skills
+Languages / Data: Python, Java, C, SQL, Python Multiprocessing, PostgreSQL, Splunk
+AI / ML: TensorFlow, Deep Learning, Computer Vision, YOLOv8, OpenCV, CNNs, RAG, Azure OpenAI
+Engineering: Software Design, Data Structures and Algorithms, Git, Docker, Linux, REST APIs, AWS
+Certifications & Achievements
+• Claude Certified Architect, Foundations – Anthropic; GATE Qualified (2023).
+• Solved 1,000+ LeetCode problems; led technical-event planning and execution as a Technical Club Member at
+RCOEM Nagpur.
+Education
+B.Tech., Computer Science and Engineering (AI & ML) Aug. 2021 – Jul. 2025
+RCOEM Nagpur CGPA: 8.23/10
+Coursework: Machine Learning, Deep Learning, Neural Networks, Algorithms, Operating Systems.
+REVIEW PREVIEW: Invented, unbuilt personal project pending approval.

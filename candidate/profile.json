@@ -1,0 +1,14 @@
+{
+  "name": "Pratyush Shendre",
+  "email": "pshendre6604@gmail.com",
+  "phone": "+91-9975080249",
+  "location": {
+    "city": "Pune",
+    "state": "Maharashtra",
+    "country": "India"
+  },
+  "linkedin": "https://linkedin.com/in/pratyush-shendre-2256a7223/",
+  "github": "https://github.com/PratyushS04",
+  "portfolio": "",
+  "summary": "Software Development Engineer with experience in Java and Spring modernization, application security, Kubernetes-based delivery, and generative AI products. Builds backend automation and context-aware AI systems using Python, Java, Azure AI Foundry, RAG, MCP, and modern cloud tooling."
+}

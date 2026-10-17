@@ -1,0 +1,58 @@
+[
+  {
+    "company": "Amadeus Software Labs",
+    "title": "Software Development Engineer",
+    "start_date": "2025-01",
+    "end_date": "",
+    "current": true,
+    "location": "",
+    "description": "Develops secure backend systems and context-aware generative AI products, including chatbot architecture, vulnerability-management tooling, Java modernization, and operational automation for GMS workflows.",
+    "technologies": ["Python", "Java", "Spring", "Spring Boot", "React", "MJML", "Azure AI Foundry", "REST APIs", "Generative AI", "RAG", "Meta-RAG", "Large Language Models", "Model Context Protocol", "Prompt Engineering", "Black Duck API v2", "Checkmarx", "Container Security", "OpenRewrite", "GitHub Copilot Agent SDK", "Agentic AI", "Jenkins", "Kubernetes", "Azure Kubernetes Service"],
+    "achievements": [
+      "Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.",
+      "Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.",
+      "Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information.",
+      "Engineered and deployed a Meta-RAG framework for the Loyalty Portal chatbot, implementing multi-stage contextual validation to minimize LLM hallucinations and improve response grounding.",
+      "Developed a custom Model Context Protocol server for Black Duck, enabling LLMs to query vulnerability metadata, analyze project risks, and generate real-time remediation strategies through a chat-based interface.",
+      "Independently developed an end-to-end security tool using Black Duck API v2 to automate container image downloads and vulnerability scanning, reducing manual work for security developers by 40%.",
+      "Architected a proof of concept for agentic AI-assisted Java Spring migration using OpenRewrite recipes and the GitHub Copilot Agent SDK to automate legacy-code modernization and reduce manual migration effort.",
+      "Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and Core and Loyalty dependency upgrades.",
+      "Resolved a customer-reported stability defect in the sync-currency-exchange-rates service, improving the reliability of currency exchange-rate synchronization.",
+      "Supported the AKS regression program and DE93897 through testing, issue investigation, deployment validation, reverts, and redeployments.",
+      "Designed and documented the GMS AI Skills Toolkit to automate Rally, Jenkins, Kubernetes, and knowledge-retrieval workflows.",
+      "Developed and demonstrated practical MCP and GitHub Copilot Skills use cases during GMS IP Weeks 26.1 and 26.2, showing how AI-assisted workflows can improve developer productivity.",
+      "Strengthened engineering documentation by creating detailed Rally notes, research findings, and implementation analyses for previously undocumented or under-documented GMS areas.",
+      "Advanced internal innovation efforts by drafting three Lift proposals, contributing to the Internship Idea Program, and presenting an AI-based Hotel Receptionist concept to the GMS initiative group."
+    ]
+  },
+  {
+    "company": "AWS Academy",
+    "title": "AI-ML Virtual Intern",
+    "start_date": "2023-05",
+    "end_date": "2023-07",
+    "current": false,
+    "location": "Virtual",
+    "description": "Completed an AI-ML virtual internship focused on AWS cloud infrastructure and machine learning applications.",
+    "technologies": ["AWS", "Amazon SageMaker", "Amazon Rekognition", "Amazon Forecast", "Amazon Lex", "Machine Learning", "Computer Vision", "Natural Language Processing"],
+    "achievements": [
+      "Developed foundational knowledge of AWS cloud infrastructure and its use in machine learning, including forecasting, computer vision, and natural language processing.",
+      "Implemented end-to-end machine learning pipelines with Amazon SageMaker covering problem formulation, data collection, feature engineering, model training, deployment, and evaluation.",
+      "Used Amazon Rekognition, Forecast, and Lex to build practical image and video analysis, forecasting, and natural language processing solutions."
+    ]
+  },
+  {
+    "company": "Gear To Care",
+    "title": "Android Developer",
+    "start_date": "2022-09",
+    "end_date": "2022-12",
+    "current": false,
+    "location": "Nagpur, India",
+    "description": "Developed Android application capabilities for payments, authentication, and user notifications.",
+    "technologies": ["Android", "Firebase", "Firebase Authentication", "Razorpay"],
+    "achievements": [
+      "Integrated Razorpay to facilitate seamless in-app transactions and improve the user payment experience.",
+      "Implemented Firebase Authentication protocols to secure application access and user data.",
+      "Designed and deployed instant and scheduled Firebase notifications, improving response time by 30%."
+    ]
+  }
+]

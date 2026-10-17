@@ -1,0 +1,24 @@
+{
+  "last_updated": null,
+  "total_jobs": 0,
+  "status_counts": {
+    "NEW": 0,
+    "ANALYZING": 0,
+    "ANALYZED": 0,
+    "MATCHING": 0,
+    "MATCHED": 0,
+    "RESUME_GENERATING": 0,
+    "RESUME_READY": 0,
+    "RESUME_REVIEWED": 0,
+    "APP_PREPARING": 0,
+    "APP_READY": 0,
+    "FILLING": 0,
+    "READY_TO_SUBMIT": 0,
+    "AWAITING_APPROVAL": 0,
+    "SUBMITTED": 0,
+    "SKIPPED": 0,
+    "ERROR": 0
+  },
+  "active_jobs": [],
+  "recent_errors": []
+}

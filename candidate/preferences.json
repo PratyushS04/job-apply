@@ -1,0 +1,16 @@
+{
+  "target_roles": [],
+  "target_locations": ["Bengaluru", "Pune", "Hyderabad"],
+  "remote_preference": "flexible",
+  "min_salary": null,
+  "max_salary": null,
+  "salary_currency": "INR",
+  "job_types": ["full-time"],
+  "industries": [],
+  "company_sizes": [],
+  "deal_breakers": [],
+  "max_experience_years_required": null,
+  "min_match_score": 50,
+  "notice_period_months": 2,
+  "notes": "Two-month notice period. Preferred Indian job locations: Bengaluru, Pune, and Hyderabad."
+}

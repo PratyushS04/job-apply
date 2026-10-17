@@ -1,0 +1,72 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.58in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=0.15in,itemsep=1pt,topsep=2pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\newcommand{\role}[4]{\textbf{#1}\hfill #2\\\textit{#3}\hfill\textit{#4}\par}
+\newcommand{\project}[3]{\textbf{#1}\hfill #2\\\textit{#3}\par}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Pratyush Shendre}\\[3pt]
+Pune, Maharashtra, India $|$ +91-9975080249 $|$ \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com}\\[1pt]
+\href{https://linkedin.com/in/pratyush-shendre-2256a7223/}{linkedin.com/in/pratyush-shendre-2256a7223} $|$ \href{https://github.com/PratyushS04}{github.com/PratyushS04}
+\end{center}
+
+\section{Experience}
+\role{Software Development Engineer}{Jan. 2025 -- Present}{Amadeus Software Labs}{India}
+\begin{itemize}
+\item Built reporting workflows combining Splunk telemetry and SQL data; ran independent queries concurrently with Python multiprocessing, structured logging, and progress reporting.
+\item Built and deployed a Meta-RAG framework for the Loyalty Portal chatbot, using multi-stage contextual validation to improve response grounding.
+\item Developed Python and Java automation for application security and modernization, including a Black Duck API v2 tool that reduced manual security-developer work by 40\%.
+\end{itemize}
+\role{AI--ML Virtual Intern}{May 2023 -- Jul. 2023}{AWS Academy}{Virtual}
+\begin{itemize}
+\item Implemented machine-learning pipelines in Amazon SageMaker covering data collection, feature engineering, model training, deployment, and evaluation.
+\end{itemize}
+
+\section{Selected Projects}
+% Invented personal-project proposal job001-cuda-project-001: not built,
+% unverified, pending exact-entry approval. This file is a review preview only.
+\project{CUDA Neural Network Kernel Lab}{Personal project}{C++, CUDA, Python, NVIDIA Nsight Compute}
+\begin{itemize}
+\item Built C++ and CUDA implementations of matrix multiplication and ReLU for a small neural-network forward pass, with a CPU reference for output comparison.
+\item Implemented a shared-memory tiled matrix-multiplication kernel and compared thread-block configurations using CUDA events and NVIDIA Nsight Compute.
+\item Added numerical checks against the CPU reference and Python scripts to summarize kernel timings across matrix sizes, separating execution time from host-device transfers.
+\end{itemize}
+\project{GMS Knowledge Bot}{2025; Amadeus}{Python, LangChain, Azure OpenAI, ChromaDB, Streamlit}
+\begin{itemize}
+\item Built an internal knowledge assistant that classifies questions by intent and adapts document retrieval and answer-generation settings for each query.
+\item Implemented retrieval and generation with LangChain, Azure OpenAI, and ChromaDB; built a Streamlit interface for answers, routing decisions, logs, and query history.
+\end{itemize}
+\project{Crowd Detection \& Management System}{2023}{Python, YOLOv8, OpenCV, Telegram API}
+\begin{itemize}
+\item Collected and labeled data for a YOLOv8 crowd-density detection pipeline with a reported 80\% accuracy; implemented a real-time Telegram alert bot for crowd management.
+\end{itemize}
+
+\section{Technical Skills}
+\textbf{Languages / Data:} Python, Java, C, SQL, Python Multiprocessing, PostgreSQL, Splunk\\
+\textbf{AI / ML:} TensorFlow, Deep Learning, Computer Vision, YOLOv8, OpenCV, CNNs, RAG, Azure OpenAI\\
+\textbf{Engineering:} Software Design, Data Structures and Algorithms, Git, Docker, Linux, REST APIs, AWS
+
+\section{Certifications \& Achievements}
+\begin{itemize}
+\item \textbf{Claude Certified Architect, Foundations} -- Anthropic; \textbf{GATE Qualified} (2023).
+\item Solved 1,000+ LeetCode problems; led technical-event planning and execution as a Technical Club Member at RCOEM Nagpur.
+\end{itemize}
+
+\section{Education}
+\textbf{B.Tech., Computer Science and Engineering (AI \& ML)}\hfill Aug. 2021 -- Jul. 2025\\
+RCOEM Nagpur\hfill CGPA: 8.23/10\\
+Coursework: Machine Learning, Deep Learning, Neural Networks, Algorithms, Operating Systems.
+
+\vfill
+{\textit{REVIEW PREVIEW: Invented, unbuilt personal project pending approval.}}
+\end{document}

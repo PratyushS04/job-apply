@@ -1,0 +1,12 @@
+{
+  "technical": {
+    "languages": ["Java", "Python", "Go", "C", "SQL", "Shell scripting"],
+    "frameworks": ["TensorFlow", "Spring", "Spring Boot", "React", "LangChain", "Streamlit", "Tkinter"],
+    "tools": ["Git", "GitHub", "Docker", "Podman", "Kubernetes", "Helm", "Jenkins", "Kafka", "Argo CD", "Power BI", "OpenCV", "OCR", "YOLOv8", "Black Duck", "Checkmarx", "OpenRewrite", "GitHub Copilot Agent SDK", "Requests", "BeautifulSoup", "Splunk", "PyInstaller", "PlantUML", "MJML"],
+    "platforms": ["Linux", "Azure", "Azure Kubernetes Service", "AWS", "Amazon SageMaker", "Amazon Rekognition", "Amazon Forecast", "Amazon Lex", "Firebase", "Razorpay", "Android", "Azure OpenAI", "Azure AI Foundry", "Azure Container Registry"],
+    "databases": ["SQL", "PostgreSQL", "Couchbase", "NoSQL", "ChromaDB"],
+    "other": ["Backend Development", "Microservices", "Client-Server Development", "REST API Integration", "CI/CD", "System Design", "Design Patterns", "SOLID Principles", "Object-Oriented Programming", "Data Structures and Algorithms", "Operating Systems", "Computer Networking", "Database Management Systems", "Debugging", "Code Review", "Cybersecurity", "Application Security", "AI-driven Automation", "AI-assisted Software Modernization", "Generative AI", "RAG", "Meta-RAG", "Large Language Models", "Model Context Protocol", "Prompt Engineering", "Context-aware Personalization", "Agentic AI", "Vulnerability Management", "Container Security", "Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "Convolutional Neural Networks", "Web Scraping", "Multiprocessing", "Vector Databases"]
+  },
+  "soft_skills": ["Technical event planning", "Technical event execution", "Community leadership"],
+  "certifications": ["Claude Certified Architect, Foundations (Anthropic)", "GATE Qualified (2023)"]
+}

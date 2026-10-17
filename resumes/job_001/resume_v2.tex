@@ -1,0 +1,78 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.58in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.16in,itemsep=1pt,topsep=2pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]\titlespacing*{\section}{0pt}{6pt}{3pt}
+\newcommand{\resumeItem}[1]{\item \small{#1}}
+\newcommand{\resumeSubheading}[4]{\item \begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1} & #2 \\ \textit{\small #3} & \textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\resumeProjectHeading}[2]{\item \begin{tabularx}{\textwidth}{@{}Xr@{}}\small\textbf{#1} & \small #2\end{tabularx}\vspace{-5pt}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[-1pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$ \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$ \href{https://linkedin.com/in/pratyush-shendre-2256a7223/}{LinkedIn} $|$ \href{https://github.com/PratyushS04}{GitHub}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer with a B.Tech. in AI/ML and hands-on experience building Python-based AI systems, computer-vision projects, and concurrent data workflows. Brings foundations in deep learning, machine learning, AI algorithms, software design, and data analysis to performance-focused AI engineering.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \resumeSubheading{Software Development Engineer}{Jan. 2025 -- Present}{Amadeus Software Labs}{India}
+  \begin{itemize}
+    \resumeItem{Engineered and deployed a Meta-RAG framework for a Loyalty Portal chatbot, using multi-stage contextual validation to improve response grounding and reduce LLM hallucinations.}
+    \resumeItem{Built data-driven reporting workflows that combine Splunk application telemetry with SQL data; used Python multiprocessing to execute independent queries concurrently with structured logging and progress reporting.}
+    \resumeItem{Developed Python and Java automation for application-security and modernization workflows, including a Black Duck API v2 tool that reduced manual security-developer work by 40\%.}
+  \end{itemize}
+  \resumeSubheading{AI--ML Virtual Intern}{May 2023 -- Jul. 2023}{AWS Academy}{Virtual}
+  \begin{itemize}
+    \resumeItem{Implemented end-to-end machine-learning pipelines with Amazon SageMaker, covering problem formulation, data collection, feature engineering, model training, deployment, and evaluation.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small \textbf{AI / ML:} Python, TensorFlow, Machine Learning, Deep Learning, Computer Vision, YOLOv8, OpenCV, CNNs, Natural Language Processing, RAG, Meta-RAG, Azure OpenAI \\
+\textbf{Programming / Data:} Java, C, SQL, Python Multiprocessing, Software Design, Data Structures and Algorithms, Splunk, PostgreSQL, ChromaDB \\
+\textbf{Engineering:} Git, Docker, Kubernetes, Linux, REST APIs, CI/CD, Azure, AWS, Jenkins
+
+\section{Selected Projects}
+\begin{itemize}[leftmargin=0in,label={}]
+  \resumeProjectHeading{GMS Knowledge Bot $|$ \emph{Python, LangChain, Azure OpenAI, ChromaDB}}{2025}
+  \begin{itemize}
+    \resumeItem{Built an internal knowledge assistant that classifies questions by intent and adapts document retrieval and answer-generation settings for each query.}
+    \resumeItem{Implemented retrieval and generation with LangChain, Azure OpenAI, and ChromaDB; created a Streamlit interface showing routing decisions, answers, logs, and session query history.}
+  \end{itemize}
+  \resumeProjectHeading{Crowd Detection \& Management System $|$ \emph{Python, YOLOv8, OpenCV, Computer Vision}}{2023}
+  \begin{itemize}
+    \resumeItem{Collected and labeled data, then built a crowd-density detection pipeline using YOLOv8 and computer-vision algorithms with a reported 80\% accuracy.}
+    \resumeItem{Implemented a real-time Telegram alert bot to support crowd-management response.}
+  \end{itemize}
+  \resumeProjectHeading{Red Light Violation Detection $|$ \emph{Python, TensorFlow, YOLOv8, CNNs}}{2024}
+  \begin{itemize}
+    \resumeItem{Designed and implemented a computer-vision system to identify traffic-signal violations using deep-learning technologies.}
+  \end{itemize}
+\end{itemize}
+
+\section{Certifications \& Achievements}
+\begin{itemize}[leftmargin=0.16in]
+  \resumeItem{\textbf{Claude Certified Architect, Foundations} -- Anthropic}
+  \resumeItem{\textbf{GATE Qualified} (2023)}
+  \resumeItem{Solved 1,000+ LeetCode problems; led planning and execution of technical events as a Technical Club Member at RCOEM Nagpur.}
+\end{itemize}
+
+\section{Education}
+\begin{itemize}[leftmargin=0in,label={}]
+  \resumeSubheading{Bachelor of Technology in Computer Science and Engineering (AI \& ML)}{Aug. 2021 -- Jul. 2025}{RCOEM Nagpur}{CGPA: 8.23/10}
+  \begin{itemize}
+    \resumeItem{Coursework: Machine Learning, Deep Learning, Neural Networks, Data Structures and Algorithms (Java), Design and Analysis of Algorithms, Operating Systems, and Computer Networks.}
+  \end{itemize}
+\end{itemize}
+\end{document}

@@ -1,0 +1,12 @@
+[
+  {
+    "institution": "RCOEM Nagpur",
+    "degree": "Bachelor of Technology",
+    "field": "Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+    "start_date": "2021-08",
+    "end_date": "2025-07",
+    "gpa": "8.23/10",
+    "coursework": ["Data Structures and Algorithms (Java)", "Design and Analysis of Algorithms (Java)", "Object-Oriented Programming (Java)", "Computer Networks", "Operating Systems", "Database Management Systems", "Machine Learning", "Deep Learning (Python)", "Neural Networks", "Natural Language Processing", "Digital Image Processing"],
+    "honors": ["GATE Qualified (2023)"]
+  }
+]

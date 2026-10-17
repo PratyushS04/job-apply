@@ -1,0 +1,260 @@
+[
+  {
+    "name": "GMS Knowledge Bot - Meta-RAG Question Answering System",
+    "category": "work_project",
+    "description": "An internal knowledge assistant for the Guest Management Solution product suite, using intent classification to adapt document retrieval and answer generation.",
+    "technologies": [
+      "Python",
+      "LangChain",
+      "Azure OpenAI",
+      "ChromaDB",
+      "Streamlit",
+      "RAG",
+      "Meta-RAG",
+      "Prompt Engineering"
+    ],
+    "highlights": [
+      "Built a knowledge assistant that classifies questions by intent and adjusts retrieval depth, generation settings, token budget, and prompts for each query.",
+      "Implemented retrieval and generation with LangChain, Azure OpenAI, and ChromaDB, using 1,000-character chunks with a 200-character overlap.",
+      "Built a Streamlit interface showing routing decisions, answers, execution logs, and session query history.",
+      "Implemented an HTTP client layer for the corporate network environment and documented architecture, setup, and troubleshooting."
+    ],
+    "status": "Built; candidate confirmed a two-LLM Meta-RAG structure",
+    "review_notes": [
+      "Candidate clarified that the GMS Knowledge Bot is a distinct project and uses a two-LLM Meta-RAG structure. Avoid merging it with the Loyalty Portal chatbot unless later evidence changes this attribution.",
+      "Source does not provide evaluation results supporting claims of novelty, measurable relevance improvement, or deterministic answers.",
+      "Documentation page count is unspecified. Exact model deployments can be retained from the source if needed; do not imply every model supports every generation parameter."
+    ],
+    "url": "",
+    "start_date": "2025",
+    "end_date": "2025",
+    "context": "Company/internal work associated with the Amadeus role; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "GMS Documentation Ingestion Pipeline",
+    "category": "work_project",
+    "description": "The documentation ingestion component of the GMS Knowledge Bot, converting online help content into structured data for retrieval.",
+    "technologies": [
+      "Python",
+      "Requests",
+      "BeautifulSoup",
+      "Web Scraping",
+      "JSON",
+      "Data Processing"
+    ],
+    "highlights": [
+      "Mapped a help portal's hash-based navigation to static content URLs and built a Python scraper for product documentation.",
+      "Preserved tables as structured records and added breadcrumb and parent-category metadata to retain context during retrieval.",
+      "Produced 86 normalized documents and versioned JSON datasets for vector-store ingestion.",
+      "Built normalization, schema-correction, and token-accounting utilities to inspect data quality and embedding inputs."
+    ],
+    "status": "Built; source reports 86 normalized documents",
+    "review_notes": [
+      "Treat as a component of the GMS Knowledge Bot when selecting resume content, rather than counting the same delivery twice.",
+      "The supplied count is 86 normalized documents, not necessarily 86 source pages or vector chunks."
+    ],
+    "url": "",
+    "start_date": "2025",
+    "end_date": "2025",
+    "context": "Company/internal component of the GMS Knowledge Bot; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "Black Duck Container Image Security Scanner",
+    "category": "work_project",
+    "description": "Internal container vulnerability-scanning tooling with a Windows desktop interface, command-line tools, and programmatic access.",
+    "technologies": [
+      "Python",
+      "Azure Container Registry",
+      "Podman",
+      "Black Duck",
+      "REST APIs",
+      "Tkinter",
+      "PyInstaller",
+      "Microsoft Teams Webhooks"
+    ],
+    "highlights": [
+      "Automated image retrieval from Azure Container Registry, export with Podman, and scan submission and result polling through Black Duck REST APIs.",
+      "Built a Tkinter interface for scanning registry images or existing image archives, with live progress output.",
+      "Integrated Teams notifications with scan status, vulnerability summaries, and links to detailed results.",
+      "Packaged the scanner as a Windows executable with PyInstaller and provided CLI tools and a programmatic interface."
+    ],
+    "status": "Built and packaged; adoption not specified",
+    "review_notes": [
+      "Likely overlaps with the existing Black Duck API v2 security-automation achievement; confirm before duplicating it in Experience and Projects.",
+      "This source supplies no time-saving measurements. Do not automatically attach the existing 40% figure without confirming that it describes this tool.",
+      "Credential caching is described but its storage security is unspecified; do not claim encrypted or secure caching."
+    ],
+    "url": "",
+    "start_date": "2025",
+    "end_date": "2025",
+    "context": "Company/internal work associated with the Amadeus role; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "iHotelier Data-Driven Reporting Platform (HIT)",
+    "category": "work_project",
+    "description": "An internal reporting system combining application telemetry and database data for monthly, weekly, and promotional hospitality reports.",
+    "technologies": [
+      "Python",
+      "Splunk",
+      "SQL",
+      "Multiprocessing",
+      "PlantUML"
+    ],
+    "highlights": [
+      "Built reporting workflows combining Splunk application logs and SQL data to report request volumes, hotel and source traffic, rate and inventory updates, and response times.",
+      "Ran independent queries concurrently using Python multiprocessing, with structured logging and progress reporting.",
+      "Separated query execution from report formatting through a pluggable writer interface.",
+      "Documented the system with PlantUML sequence diagrams and provided a batch runner for stakeholders to trigger reports."
+    ],
+    "status": "Built; production scheduling and adoption not specified",
+    "review_notes": [
+      "Query count and before/after runtime are missing; do not add a speedup percentage or claim a quantified reduction.",
+      "The source describes both scheduled and on-demand reporting; confirm scheduling implementation if highlighting scheduled operation."
+    ],
+    "url": "",
+    "start_date": "2025",
+    "end_date": "2025",
+    "context": "Company/internal work associated with the Amadeus role; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "AI-Powered Social Engagement Bot - Futurize Innovation POC",
+    "category": "work_project",
+    "description": "An internal proof of concept using Azure OpenAI to generate replies to X/Twitter mentions, with persistent interaction state and adaptive polling.",
+    "technologies": [
+      "Python",
+      "Azure OpenAI",
+      "REST APIs",
+      "X/Twitter API"
+    ],
+    "highlights": [
+      "Built a proof of concept that monitors mentions, generates replies within platform character limits, and persists reply state across restarts.",
+      "Implemented adaptive polling with exponential backoff and configurable interval bounds to handle API rate limits.",
+      "Refactored the bot into modules for inference, API transport, configuration, persistence, logging, and orchestration, with separate AI and TLS test harnesses.",
+      "Moved credentials into environment configuration and addressed certificate-chain issues in the corporate network."
+    ],
+    "status": "Proof of concept",
+    "review_notes": [
+      "Persistent state supports duplicate prevention but does not establish an exactly-once guarantee under all failures.",
+      "No load or duration measurements were provided; omit 'at scale', guaranteed quota compliance, and unsupported production-reliability claims."
+    ],
+    "url": "",
+    "start_date": "2025",
+    "end_date": "2025",
+    "context": "Company/internal innovation proof of concept associated with the Amadeus role; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "Infrastructure Configuration Automation",
+    "category": "work_project",
+    "description": "An unfinished Python scaffold for applying Kubernetes/Helm configuration changes across GitHub repositories.",
+    "technologies": [
+      "Python",
+      "PyGithub",
+      "GitPython",
+      "GitHub",
+      "Kubernetes",
+      "Helm"
+    ],
+    "highlights": [
+      "Started a Python scaffold for coordinating GitHub repository changes using PyGithub and GitPython.",
+      "Outlined a workflow for branch creation and pull requests around Helm configuration updates; YAML modification logic remains unfinished."
+    ],
+    "status": "Scaffold; YAML modification logic incomplete",
+    "review_notes": [
+      "Source implementation caveat contradicts its opening completed-rollout description. Preserve scaffold status.",
+      "Do not claim completed configuration changes, rollout, idempotency, or validated failure isolation without implementation evidence.",
+      "Normally omit from a space-constrained resume unless unfinished tooling is directly relevant and clearly labeled."
+    ],
+    "url": "",
+    "start_date": "2026",
+    "end_date": "2026",
+    "context": "Company/internal unfinished scaffold associated with the Amadeus role; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "Black Duck Report Retrieval Utility",
+    "category": "work_project",
+    "description": "A companion CLI utility for inspecting report status and downloading completed Black Duck report artifacts.",
+    "technologies": [
+      "Python",
+      "Black Duck",
+      "REST APIs",
+      "CLI Development"
+    ],
+    "highlights": [
+      "Built a CLI that retrieves report metadata and distinguishes in-progress, failed, and completed Black Duck reports before downloading artifacts.",
+      "Added timestamped output names, local metadata records, and authentication through configuration files or direct parameters."
+    ],
+    "status": "Built; adoption not specified",
+    "review_notes": [
+      "Use as supporting depth for Black Duck tooling rather than a separate headline project when space is limited."
+    ],
+    "url": "",
+    "start_date": "2025",
+    "end_date": "2025",
+    "context": "Company/internal work associated with the Amadeus role; year is an approximate editorial assignment authorized by the candidate.",
+    "source": {
+      "path": "C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt",
+      "evidence_status": "user_reported",
+      "authorization": "User requested adding these supplied projects to their profile; final application approval remains separate."
+    }
+  },
+  {
+    "name": "Crowd Detection & Management System",
+    "category": "personal_project",
+    "description": "An end-to-end crowd monitoring solution designed to mitigate overpopulation issues using object detection and computer vision.",
+    "technologies": ["Python", "YOLOv8", "OpenCV", "Computer Vision", "Telegram API"],
+    "url": "",
+    "highlights": ["Collected and labeled data for the crowd-detection pipeline.", "Used YOLOv8 and computer vision algorithms to detect crowd density with 80% accuracy.", "Implemented a real-time Telegram bot alert system for crowd management."],
+    "start_date": "2023",
+    "end_date": "2023"
+  },
+  {
+    "name": "MediInfo",
+    "category": "personal_project",
+    "description": "A medication identification and treatment-guidance system using OCR and large language models.",
+    "technologies": ["OCR", "Large Language Models"],
+    "url": "",
+    "highlights": ["Extracted prescription text using OCR and analyzed medicine names with large language models.", "Designed the system to streamline medication identification for healthcare professionals and provide patients with treatment guidance."],
+    "start_date": "2024",
+    "end_date": "2024"
+  },
+  {
+    "name": "Red Light Violation Detection",
+    "category": "personal_project",
+    "description": "A computer-vision system for detecting vehicles that violate traffic signals.",
+    "technologies": ["Python", "Computer Vision", "TensorFlow", "YOLOv8", "Convolutional Neural Networks"],
+    "url": "",
+    "highlights": ["Designed and implemented a red-light violation detection system using computer vision and deep-learning technologies.", "Focused the system on accurately identifying traffic-signal violations to support improved road safety."],
+    "start_date": "2024",
+    "end_date": "2024"
+  }
+]
