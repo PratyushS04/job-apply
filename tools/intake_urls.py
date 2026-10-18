@@ -11,6 +11,8 @@ Usage:
     python intake_urls.py --test
 """
 
+from __future__ import annotations
+
 import json
 import sys
 import os

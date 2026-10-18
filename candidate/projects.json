@@ -1,5 +1,33 @@
 [
   {
+    "name": "ContX AI — Pod Brain and AI Evaluation",
+    "category": "work_project",
+    "description": "Internal Amadeus work on a curated knowledge layer for AI development agents and hands-on evaluation of generative AI workflows used in hospitality marketing.",
+    "technologies": [],
+    "highlights": [
+      "Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents.",
+      "Designed source linkage, ownership, approval states, indexing, and lifecycle metadata for the knowledge assets.",
+      "Explored automated ingestion and summarization of project artifacts to keep agent context current.",
+      "Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation."
+    ],
+    "status": "Working Pod Brain prototype and hands-on evaluations; production deployment not confirmed",
+    "review_notes": [
+      "Keep this attributed to Amadeus Software Labs under the Software Development Engineer role; do not invent a separate GenAI Engineer title.",
+      "The candidate confirmed that ContX AI and Pod Brain work belongs to the August 2025–present full-time role, not the January–July 2025 internship.",
+      "The candidate confirmed a working Pod Brain prototype and hands-on model and multi-agent evaluations on 2026-10-17. No production deployment, benchmark result, or model-training claim is supported.",
+      "Detailed data-integration ownership and AI guardrail contributions from the pasted draft remain under separate review."
+    ],
+    "url": "",
+    "start_date": "",
+    "end_date": "",
+    "context": "Company/internal work associated with the current Amadeus Software Labs role; no project dates were supplied.",
+    "source": {
+      "path": "/Users/animeshmurai/.codex/attachments/7b2fcf81-3b3e-4222-b7dd-b6d538645c78/Pasted text.txt",
+      "evidence_status": "user_reported",
+      "confirmation": "User requested this organizational-work update and confirmed official name ContX AI, a working Pod Brain prototype, and hands-on model and multi-agent evaluations on 2026-10-17."
+    }
+  },
+  {
     "name": "GMS Knowledge Bot - Meta-RAG Question Answering System",
     "category": "work_project",
     "description": "An internal knowledge assistant for the Guest Management Solution product suite, using intent classification to adapt document retrieval and answer generation.",
@@ -124,7 +152,8 @@
     "status": "Built; production scheduling and adoption not specified",
     "review_notes": [
       "Query count and before/after runtime are missing; do not add a speedup percentage or claim a quantified reduction.",
-      "The source describes both scheduled and on-demand reporting; confirm scheduling implementation if highlighting scheduled operation."
+      "The source describes both scheduled and on-demand reporting; confirm scheduling implementation if highlighting scheduled operation.",
+      "The candidate confirmed iHotelier Power BI dashboard work during the January–July 2025 internship but is unsure whether that dashboard and this HIT reporting platform are the same project. Do not merge them or count them as two distinct deliveries until their relationship and this project's timing are clarified."
     ],
     "url": "",
     "start_date": "2025",

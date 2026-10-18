@@ -1,0 +1,61 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.65in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=3pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://linkedin.com/in/pratyush-shendre-2256a7223/}{LinkedIn} $|$
+  \href{https://github.com/PratyushS04}{GitHub}
+\end{center}
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Software Development Engineer}{Aug. 2025 -- Present}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Built React components and wrote tests for ContX AI, a campaign-design application using Python, Azure AI Foundry, MJML, and REST APIs to turn briefs and hotel context into personalized marketing content.}
+    \bulletpoint{Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and dependency upgrades.}
+    \bulletpoint{Resolved a customer-reported stability defect in the currency exchange-rate synchronization service and supported AKS regression testing and deployment validation.}
+  \end{itemize}
+  \entry{Software Development Intern}{Jan. 2025 -- Jul. 2025}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to prepare shopping, availability, and promotion data from Splunk and SQL sources; developed interactive Power BI reports with Top-N property f{}ilters and DAX queries.}
+    \bulletpoint{Published the iHotelier dashboards, checked data and visuals during QA, and documented the extraction and reporting workf{}lows.}
+  \end{itemize}
+  \entry{Android Developer}{Sep. 2022 -- Dec. 2022}{Gear To Care}{Nagpur, India}
+  \begin{itemize}
+    \bulletpoint{Integrated Razorpay for in-app payments.}
+    \bulletpoint{Implemented Firebase Authentication and instant and scheduled notif{}ications.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages:} Java, Python, SQL, Go, C \\
+\textbf{Application development:} React, Spring, Spring Boot, Android, REST APIs, MJML \\
+\textbf{Tools and platforms:} Git, GitHub, Jenkins, Kubernetes, Azure, AWS, Splunk, Power BI, DAX
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Relevant coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Operating Systems, Database Management Systems.
+
+\section{Additional}
+\small Solved over 1,000 LeetCode problems.
+\end{document}

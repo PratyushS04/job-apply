@@ -5,8 +5,8 @@
 - **Email:** pshendre6604@gmail.com
 - **Phone:** +91-9975080249
 - **Location:** India
-- **LinkedIn:** https://linkedin.com/in/pratyush-shendre-2256a7223/
-- **GitHub:** https://github.com/PratyushS04
+- **LinkedIn:** [LinkedIn](https://www.linkedin.com/in/pratyush-shendre-2256a7223/)
+- **GitHub:** [GitHub](https://github.com/PratyushS04)
 
 ## Summary
 
@@ -16,11 +16,16 @@ Software Development Engineer with experience in Java and Spring modernization, 
 
 ### Software Development Engineer - Amadeus Software Labs
 
-**January 2025 - Present**
+**August 2025 - Present**
+
+Internal review note: The candidate confirmed a separate Amadeus internship from January through July 2025. ContX AI, Pod Brain, and the separate AI-assisted developer portal prototype belong to this full-time role only. Recheck the timing of other undated Amadeus achievements before placing them in a new application resume.
 
 - Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.
 - Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.
 - Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information.
+- Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents; designed source linkage, ownership, approval states, indexing, and lifecycle metadata for its knowledge assets.
+- Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.
+- Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation.
 - Engineered and deployed a Meta-RAG framework for the Loyalty Portal chatbot, implementing multi-stage contextual validation to minimize LLM hallucinations and improve response grounding.
 - Developed a custom Model Context Protocol server for Black Duck, enabling LLMs to query vulnerability metadata, analyze project risks, and generate real-time remediation strategies through a chat-based interface.
 - Independently developed an end-to-end security tool using Black Duck API v2 to automate container image downloads and vulnerability scanning, reducing manual work for security developers by 40%.
@@ -32,6 +37,16 @@ Software Development Engineer with experience in Java and Spring modernization, 
 - Developed and demonstrated practical MCP and GitHub Copilot Skills use cases during GMS IP Weeks 26.1 and 26.2, showing how AI-assisted workflows can improve developer productivity.
 - Strengthened engineering documentation by creating detailed Rally notes, research findings, and implementation analyses for previously undocumented or under-documented GMS areas.
 - Advanced internal innovation efforts by drafting three Lift proposals, contributing to the Internship Idea Program, and presenting an AI-based Hotel Receptionist concept to the GMS initiative group.
+
+### Software Development Intern - Amadeus Software Labs
+
+**January 2025 - July 2025**
+
+- Built Python workflows to extract and prepare iHotelier shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.
+- Migrated dashboard inputs from Excel to CSV, developed Power BI visuals and interactive Top-N property filters, and optimized DAX queries.
+- Published the dashboards in the iHotelier workspace, checked data and visuals during QA, and documented the extraction and reporting workflows.
+
+Internal selection notes (exclude from submitted resumes): The candidate confirmed that the portal/AI hub prototype belongs to the full-time role and that iHotelier dashboard work was during this internship. They personally worked on all listed Python/Splunk, SQL, CSV, Power BI/DAX, Top-N, publishing, QA, and documentation tasks. Overlap with the existing HIT project and performance metrics still need confirmation. The candidate explicitly denied implementing RAG ingestion from Jira, Confluence, or PDFs during this internship.
 
 ### AI-ML Virtual Intern - AWS Academy
 
@@ -51,7 +66,20 @@ Software Development Engineer with experience in Java and Spring modernization, 
 
 ## Projects
 
-The following seven internal projects were supplied by the candidate in the newer-project write-up and associated with the Amadeus role. Approximate years were assigned with the candidate's authorization. Source: `C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt`. Treat related components as one project story when tailoring; do not duplicate existing Experience achievements. Status and review notes below are for internal selection, not application copy.
+The internal projects below are associated with the Amadeus role. The GMS, Black Duck, reporting, and automation entries came from the candidate's earlier project write-up; the ContX AI Pod Brain entry follows the candidate's 2026-10-17 confirmations. Approximate years appear only where previously authorized. Treat related components as one project story when tailoring; do not duplicate existing Experience achievements. Status and review notes below are for internal selection, not application copy.
+
+### ContX AI — Pod Brain and AI Evaluation
+
+**Working prototype; dates not supplied** | Internal Amadeus work
+
+Built a curated knowledge-layer prototype for AI development agents and ran hands-on evaluations of generative AI workflows for hospitality marketing.
+
+- Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents.
+- Designed source linkage, ownership, approval states, indexing, and lifecycle metadata for the knowledge assets.
+- Explored automated ingestion and summarization of project artifacts to keep agent context current.
+- Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation.
+
+Internal selection notes (exclude from submitted resumes): The candidate confirmed this belongs to the August 2025–present full-time role, not the preceding internship. They also confirmed the prototype and hands-on evaluations. Production deployment, benchmark results, model training, detailed data-integration ownership, and a separate GenAI Engineer title are not established. Avoid duplicating these bullets under Experience and Projects in a one-page resume.
 
 ### GMS Knowledge Bot - Meta-RAG Question Answering System
 
@@ -103,7 +131,7 @@ An internal reporting system combining application telemetry and database data f
 - Separated query execution from report formatting through a pluggable writer interface.
 - Documented the system with PlantUML sequence diagrams and provided a batch runner for stakeholders to trigger reports.
 
-Internal selection notes (exclude from submitted resumes): Query count and before/after runtime are missing; do not add a speedup percentage or claim a quantified reduction. The source describes both scheduled and on-demand reporting; confirm scheduling implementation if highlighting scheduled operation.
+Internal selection notes (exclude from submitted resumes): Query count and before/after runtime are missing; do not add a speedup percentage or claim a quantified reduction. The source describes both scheduled and on-demand reporting; confirm scheduling implementation if highlighting scheduled operation. The candidate is unsure whether the internship Power BI dashboard and this HIT platform are the same project; do not merge or count them separately until clarified.
 
 ### AI-Powered Social Engagement Bot - Futurize Innovation POC
 
@@ -176,10 +204,10 @@ Relevant coursework: Data Structures and Algorithms (Java), Design and Analysis 
 
 - **Languages:** Java, Python, Go, C, SQL, Shell scripting
 - **Frameworks:** TensorFlow, Spring, Spring Boot, React, LangChain, Streamlit, Tkinter
-- **Tools:** Git, GitHub, Docker, Podman, Kubernetes, Helm, Jenkins, Kafka, Argo CD, Power BI, OpenCV, OCR, YOLOv8, Black Duck, Checkmarx, OpenRewrite, GitHub Copilot Agent SDK, Requests, BeautifulSoup, Splunk, PyInstaller, PlantUML, MJML
+- **Tools:** Git, GitHub, Docker, Podman, Kubernetes, Helm, Jenkins, Kafka, Argo CD, Power BI, DAX, OpenCV, OCR, YOLOv8, Black Duck, Checkmarx, OpenRewrite, GitHub Copilot Agent SDK, Requests, BeautifulSoup, Splunk, PyInstaller, PlantUML, MJML
 - **Platforms:** Linux, Azure, Azure Kubernetes Service, AWS, Amazon SageMaker, Amazon Rekognition, Amazon Forecast, Amazon Lex, Firebase, Razorpay, Android, Azure OpenAI, Azure AI Foundry, Azure Container Registry
 - **Databases:** SQL, PostgreSQL, Couchbase, NoSQL, ChromaDB
-- **Areas:** Backend Development, Microservices, Client-Server Development, REST API Integration, CI/CD, System Design, Design Patterns, SOLID Principles, Object-Oriented Programming, Data Structures and Algorithms, Operating Systems, Computer Networking, Database Management Systems, Debugging, Code Review, Cybersecurity, Application Security, AI-driven Automation, AI-assisted Software Modernization, Generative AI, RAG, Meta-RAG, Large Language Models, Model Context Protocol, Prompt Engineering, Context-aware Personalization, Agentic AI, Vulnerability Management, Container Security, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Convolutional Neural Networks, Web Scraping, Multiprocessing, Vector Databases
+- **Areas:** Backend Development, Microservices, Client-Server Development, REST API Integration, CI/CD, System Design, Design Patterns, SOLID Principles, Object-Oriented Programming, Data Structures and Algorithms, Operating Systems, Computer Networking, Database Management Systems, Debugging, Code Review, Cybersecurity, Application Security, AI-driven Automation, AI-assisted Software Modernization, Generative AI, RAG, Meta-RAG, Large Language Models, Model Context Protocol, Prompt Engineering, Context-aware Personalization, Agentic AI, Knowledge Engineering, LLM Evaluation, Vulnerability Management, Container Security, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Convolutional Neural Networks, Web Scraping, Multiprocessing, Vector Databases
 
 ## Certifications and Achievements
 

@@ -32,6 +32,10 @@ Set job `pipeline_status` to `"RESUME_GENERATING"`.
 
 Using the match analysis as a guide, select:
 
+- **Education**: Copy the candidate's college, degree, field, dates, grades,
+  and coursework from `candidate/education.json` without changing them for a
+  job posting. Root `AGENTS.md` makes this non-negotiable.
+
 - **Experience entries**: Prioritize roles that demonstrate required skills.
   Rewrite bullet points to emphasize the most relevant achievements.
   Use numbers and metrics where available.
@@ -116,9 +120,17 @@ To compile PDF: pdflatex resumes/job_001/resume_v1.tex
 ## Guidelines
 
 - Keep the resume to **1 page** unless the candidate has 10+ years of experience
+- Fill that page with relevant, supported work and balanced spacing, normally
+  reaching within about one inch of the bottom page edge while retaining standard
+  margins. If a rendered draft leaves a conspicuously blank lower third, revisit
+  omitted experience, distinct projects, and a concise factual summary before
+  calling it ready. Never use unapproved content or repetition just to occupy space.
 - Use action verbs: "Designed", "Implemented", "Reduced", "Scaled"
 - ATS-friendly: avoid tables, columns, graphics, or unusual LaTeX packages
 - Every bullet point should follow: **Action → Context → Result**
+- Render LinkedIn and GitHub as concise, clickable labels in every application
+  resume, using the exact URL targets from `profile.json`. Do not print the full
+  addresses in the resume header.
 
 ## Approved invented personal-project entries
 

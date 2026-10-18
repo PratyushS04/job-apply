@@ -13,6 +13,8 @@ Usage:
     python job_state.py --test
 """
 
+from __future__ import annotations
+
 import json
 import sys
 import os

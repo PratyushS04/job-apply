@@ -1,0 +1,82 @@
+{
+  "purpose": "Candidate-confirmed answers for preparing future job applications. These are reference facts and preferences, not blanket approval to submit a later application.",
+  "recorded_on": "2026-10-18",
+  "source": "Candidate replies during the Amazon Software Development Engineer I (job 10580011) application; submission confirmed on 2026-10-18.",
+  "reusable_answers": {
+    "india_work_authorization": {
+      "answer": "Yes",
+      "confirmed_on": "2026-10-18",
+      "note": "Country-specific answer; do not infer authorization in another country."
+    },
+    "india_employer_visa_sponsorship_needed_now_or_future": {
+      "answer": "No",
+      "confirmed_on": "2026-10-18",
+      "note": "Country-specific and time-sensitive; recheck if circumstances change."
+    },
+    "citizenship": {
+      "answer": "India",
+      "confirmed_on": "2026-10-18"
+    },
+    "permanent_residency_in_another_country_since_indian_citizenship": {
+      "answer": "No",
+      "confirmed_on": "2026-10-18",
+      "note": "Recheck for later applications."
+    },
+    "notice_period": {
+      "answer": "Two-month notice period",
+      "confirmed_on": "2026-10-18"
+    },
+    "willing_to_relocate_to_hyderabad": {
+      "answer": "Yes",
+      "confirmed_on": "2026-10-18"
+    },
+    "restrictive_employment_agreement": {
+      "answer": "No",
+      "confirmed_on": "2026-10-18",
+      "note": "Recheck if a later application asks."
+    },
+    "government_or_armed_forces_or_public_institution_employment_in_past_three_years": {
+      "answer": "Never a government employee",
+      "confirmed_on": "2026-10-18",
+      "note": "Use the exact definition and lookback period in each future form."
+    },
+    "currently_in_amazon_named_sanctioned_regions": {
+      "answer": "No",
+      "confirmed_on": "2026-10-18",
+      "note": "This was a location-at-the-time answer; check current location and the form's list again."
+    },
+    "voluntary_gender_self_identification": {
+      "answer": "Male",
+      "confirmed_on": "2026-10-18",
+      "note": "Candidate selected this for Amazon; ask before using voluntary self-identification on another employer's form."
+    },
+    "voluntary_military_status": {
+      "ex_military": "No",
+      "reserve_forces": "No",
+      "military_spouse": "No",
+      "confirmed_on": "2026-10-18",
+      "note": "Candidate selected these for Amazon; check the wording and voluntary choice on another form."
+    }
+  },
+  "amazon_specific_answers": {
+    "prior_amazon_application": {
+      "answer_before_job_10580011_submission": "No",
+      "current_answer": "Yes",
+      "reason": "Amazon job 10580011 was submitted on 2026-10-18; future Amazon applications must not reuse the earlier No answer."
+    },
+    "prior_amazon_employment": {
+      "answer": "No",
+      "confirmed_on": "2026-10-18"
+    },
+    "preferred_work_location_for_job_10580011": "Hyderabad",
+    "salary_expectation_for_job_10580011": "INR 30 lakh per annum",
+    "salary_scope_note": "This was given for the Amazon role, not as a universal salary minimum. The form did not ask for salary.",
+    "contact_address_for_job_10580011": "98B Ramna Maruti Nagar, Nagpur, Maharashtra, India, 440024",
+    "contact_address_note": "Candidate chose to keep this Nagpur address on the Amazon application; current location in candidate/profile.json is Pune.",
+    "job_discovery_for_job_10580011": "Advertisement / Internet (LinkedIn paid posting URL)",
+    "optional_ai_preference_for_job_10580011": "No consent to personalized job recommendations, recruiter recommendations, use of information to improve tools, or interview transcription.",
+    "approved_draft_screening_answers": "applications/job_002/review.md",
+    "application_record": "jobs/job_002.json"
+  },
+  "reuse_rule": "Use these answers to prepare future applications, but verify relative dates, current circumstances, company-specific history, sensitive voluntary choices, and any differently worded question. Final application approval remains separate."
+}

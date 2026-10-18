@@ -1,0 +1,196 @@
+{
+  "id": "job_002",
+  "url": "https://www.amazon.jobs/en/jobs/10580011/software-development-engineer-i?cmpid=SPLICX0248M&utm_source=linkedin.com&utm_campaign=cxro&utm_medium=social_media&utm_content=job_posting&ss=paid",
+  "source": "chat",
+  "created_at": "2026-10-18T10:57:59.300562+00:00",
+  "updated_at": "2026-10-18T11:52:34.307226+00:00",
+  "company": "Amazon",
+  "title": "Software Development Engineer I",
+  "location": "Hyderabad, Telangana, India",
+  "job_type": "full-time",
+  "description": "Amazon IN Payments is building PayUI, a new suite of standardized, reusable UX components for Amazon Pay pages. The team is building a large-scale tier-1 rendering platform that payment pages will depend on to host and render experiences used by thousands of customers daily. Engineers work across requirements review, service and interface design, UX component development, prototyping, coding, testing, and delivery. The role collaborates with product managers, UX designers, software developers, and client teams to build customer experiences across Amazon Pay use cases.",
+  "requirements": {
+    "required_skills": [
+      "1+ years of non-internship professional software development experience",
+      "Programming in at least one software language"
+    ],
+    "preferred_skills": [
+      "Reusable UX component development",
+      "Rendering platform or frontend experience",
+      "Cross-functional product and UX collaboration"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's degree in computer science or equivalent (preferred)"
+  },
+  "match": {
+    "score": 90,
+    "reasoning": "Meets both formal basic qualifications and the preferred CS degree. Candidate confirmed hands-on React component construction and tests for ContX AI, relevant to PayUI. Direct ownership of a shared rendering platform or reusable component library is not established.",
+    "relevant_experience": [
+      "Amadeus Software Development Engineer, August 2025\u2013present: built a React/Python campaign-design application; contributed to backend modernization, testing, and customer-facing reliability work.",
+      "Gear To Care Android Developer, September\u2013December 2022: integrated Razorpay payments and Firebase Authentication; role classification and scope should not be used to extend the non-internship 1-year calculation.",
+      "Amadeus Software Development Intern, January\u2013July 2025: built Python data workflows and interactive Power BI dashboards."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot: Amadeus internal knowledge assistant with a Streamlit interface.",
+      "Black Duck Container Image Security Scanner: Amadeus internal scanning tool with a Tkinter interface and REST API integration."
+    ],
+    "skill_gaps": [
+      "Direct experience building a shared rendering platform or reusable UX component library is not confirmed.",
+      "Specific component types, UI test frameworks, and UX design collaboration are unconfirmed."
+    ],
+    "preference_fit": "Hyderabad is an explicitly preferred location; full-time matches preference; no recorded deal-breaker.",
+    "status": "SCORED",
+    "score_note": "Editorial fit estimate, not an employer score; considers role description as well as formal qualifications."
+  },
+  "resume": {
+    "status": "REVIEWED",
+    "path": "resumes/job_002/resume_v6.tex",
+    "pdf_path": "resumes/job_002/resume_v6.pdf",
+    "version": 6,
+    "review_notes": "Corrected hyperlink presentation per candidate clarification: compact LinkedIn and GitHub labels are clickable, with full URLs used only as PDF targets. Tectonic compiled without warnings. One A4 page, 11pt base/10pt body, 0.65-inch margins; visual inspection passed. Source, extracted text, hyperlink targets, education, section order, and embedded fonts checked. Reusable template was compiled and visually checked with a populated sample."
+  },
+  "application": {
+    "status": "SUBMITTED",
+    "questions": [
+      {
+        "question": "Do you have at least one year of non-internship professional software development experience?",
+        "draft_answer": "Yes. I have worked as a Software Development Engineer at Amadeus Software Labs since August 2025.",
+        "basis": "candidate/experience.json; date as of 2026-10-18",
+        "review_required": true
+      },
+      {
+        "question": "Which programming languages have you used professionally?",
+        "draft_answer": "Java and Python. My Amadeus work includes Java modernization initiatives and Python application and reporting workflows.",
+        "basis": "candidate/experience.json and candidate/skills.json",
+        "review_required": true
+      },
+      {
+        "question": "Describe relevant software development experience.",
+        "draft_answer": "At Amadeus, I built ContX AI using React and Python, worked across Java modernization initiatives, and supported regression testing and deployment validation. I also integrated Razorpay payments into an Android app at Gear To Care.",
+        "basis": "candidate/experience.json; excludes the newly confirmed React component/testing claim because its approval scope is job_002 resume only",
+        "review_required": true
+      }
+    ],
+    "answers": [
+      {
+        "question": "Which option best describes your total non-internship professional software development experience?",
+        "selected_answer": "1 year to less than 2 years",
+        "basis": "Amadeus full-time employment began August 2025; internship excluded"
+      },
+      {
+        "question": "Do you have experience programming with at least one software programming language?",
+        "selected_answer": "Yes",
+        "basis": "Confirmed Java and Python experience"
+      },
+      {
+        "question": "Do you have a Bachelor's degree in computer science or equivalent?",
+        "selected_answer": "Yes",
+        "basis": "candidate/education.json"
+      }
+    ],
+    "required_fields": {
+      "full_name": "Pratyush Shendre",
+      "email": "pshendre6604@gmail.com",
+      "phone": "+91-9975080249",
+      "current_location": "Pune, Maharashtra, India",
+      "linkedin": "https://www.linkedin.com/in/pratyush-shendre-2256a7223/",
+      "github": "https://github.com/PratyushS04",
+      "notice_period": "2 months (candidate confirmed 2026-10-18)",
+      "india_work_authorization": "Yes (candidate confirmed 2026-10-18)",
+      "india_employer_visa_sponsorship_needed": "No (candidate confirmed 2026-10-18)",
+      "willing_to_relocate_to_hyderabad": "Yes (candidate confirmed 2026-10-18)",
+      "annual_salary_expectation": "INR 30,00,000 per annum (candidate confirmed 2026-10-18)"
+    },
+    "pending_fields": [],
+    "prep_path": "applications/job_002/prep.json",
+    "screenshots": [
+      "applications/job_002/screenshots/resume_uploaded.png",
+      "applications/job_002/screenshots/acknowledgement_pending.png",
+      "applications/job_002/screenshots/review_all_answers.png",
+      "applications/job_002/screenshots/confirmation.png"
+    ],
+    "review_hold": null,
+    "review_path": "applications/job_002/review.md",
+    "form_observed": true,
+    "approved_answer_scope": "Candidate approved the three draft answers in applications/job_002/review.md on 2026-10-18 for this Amazon application.",
+    "form_url": "https://account.amazon.jobs/en-GB/applicant/jobs/10580011/apply?locale_override=en-US",
+    "observed_job_specific_questions": [
+      "Which option best describes your total non-internship professional software development experience?",
+      "Do you have experience programming with at least one software programming language?",
+      "Do you have a Bachelor's degree in computer science or equivalent?"
+    ],
+    "observed_work_eligibility": {
+      "sponsorship_needed_now_or_future": "No; selected from candidate confirmation",
+      "prior_amazon_application": "No (candidate confirmed 2026-10-18; already selected)",
+      "prior_amazon_employment": "No (candidate confirmed 2026-10-18; already selected)",
+      "restrictive_employment_agreement": "No (candidate confirmed 2026-10-18; already selected)",
+      "government_employment_past_three_years": "Never (candidate confirmed and selected 2026-10-18)",
+      "currently_in_sanctioned_country_or_region": "No (candidate confirmed and selected 2026-10-18)",
+      "country_of_citizenship": "India (candidate confirmed and selected 2026-10-18)",
+      "permanent_residency_elsewhere_since_latest_citizenship": "No (candidate confirmed and selected 2026-10-18)"
+    },
+    "resume_upload": {
+      "status": "uploaded_successfully",
+      "date": "2026-10-18",
+      "file": "resumes/job_002/resume_v6.pdf",
+      "size_bytes": 25938,
+      "browser_confirmation": "Download resume_v6.pdf link; Uploaded: Just now; Your resume was uploaded successfully; Resume section marked complete",
+      "screenshot": "applications/job_002/screenshots/resume_uploaded.png",
+      "candidate_approval": "Explicitly approved upload to Amazon Jobs job 10580011 on 2026-10-18"
+    },
+    "voluntary_self_identification": {
+      "gender": "Male (candidate selected)",
+      "ex_military": "No (candidate selected)",
+      "reserve_forces": "No (candidate selected)",
+      "military_spouse": "No (candidate selected)"
+    },
+    "form_review": {
+      "status": "verified",
+      "date": "2026-10-18",
+      "all_sections_complete": true,
+      "screenshot": "applications/job_002/screenshots/review_all_answers.png",
+      "verification_path": "applications/job_002/verification.md",
+      "submit_clicked": true,
+      "salary_or_notice_asked": false,
+      "submission_confirmed": true
+    },
+    "verification_path": "applications/job_002/verification.md",
+    "submitted_at": "2026-10-18T11:52:34.306820+00:00",
+    "confirmation_number": null,
+    "confirmation_screenshot": "applications/job_002/screenshots/confirmation.png",
+    "confirmation_url": "https://account.amazon.jobs/en-GB/applicant/jobs/10580011/summary?result=success",
+    "confirmation_observed": "Amazon Applications lists: Application submitted, Software Development Engineer I, job ID 10580011, Applied Oct 18, 2026.",
+    "submission_approval": {
+      "date": "2026-10-18",
+      "decision": "Candidate explicitly approved final submission to Amazon Jobs for Software Development Engineer I, job 10580011."
+    },
+    "ai_preference": {
+      "decision": "No",
+      "date": "2026-10-18",
+      "basis": "Candidate selected No to optional AI recommendations, recruiter recommendations, tool improvement, and interview transcription; confirmed decline in Amazon modal."
+    }
+  },
+  "user_comment": null,
+  "pipeline_status": "SUBMITTED",
+  "error": null,
+  "posting_metadata": {
+    "job_id": "10580011",
+    "team": "ADCI HYD 13 SEZ / Amazon IN Payments PayUI",
+    "source_url": "https://www.amazon.jobs/en/jobs/10580011/software-development-engineer-i",
+    "checked_date": "2026-10-18",
+    "note": "Preferred UX skills are inferred from role description, not listed as formal qualifications."
+  },
+  "content_review": {
+    "proposal_ids": [
+      "job002-payment-ui-project-001",
+      "job002-contx-react-tests-002",
+      "job002-internal-project-placement-003",
+      "job002-application-workskills-004"
+    ],
+    "on_hold": false,
+    "excluded_pending_optional": [
+      "job002-payment-ui-project-001"
+    ],
+    "note": "Optional invented project excluded from current factual resume; approval needed only to create a later version with it."
+  }
+}

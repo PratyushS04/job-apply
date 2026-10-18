@@ -12,6 +12,8 @@ Usage:
 Requires: openpyxl (pip install openpyxl)
 """
 
+from __future__ import annotations
+
 import json
 import sys
 import os

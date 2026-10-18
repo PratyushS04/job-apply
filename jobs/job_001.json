@@ -3,7 +3,7 @@
   "url": "https://nvidia.eightfold.ai/careers?start=0&location=Pune%2C++MH%2C++India&pid=893392069435&sort_by=distance&filter_distance=160&filter_include_remote=1&filter_include_relocation=0",
   "source": "chat",
   "created_at": "2026-09-11T09:07:02.406582+00:00",
-  "updated_at": "2026-09-12T10:55:46.028206+00:00",
+  "updated_at": "2026-10-17T13:42:07.169389+00:00",
   "company": "NVIDIA",
   "title": "AI Developer Technology Engineer",
   "location": "Pune, India",
@@ -73,10 +73,16 @@
   "content_review": {
     "proposal_ids": [
       "job001-nvidia-devtech-skills-001",
-      "job001-cuda-project-001"
+      "job001-cuda-project-001",
+      "amadeus-intern-timeline-007",
+      "amadeus-intern-correction-010",
+      "amadeus-intern-ihotelier-011",
+      "amadeus-fulltime-portal-013",
+      "amadeus-intern-ihotelier-core-014",
+      "amadeus-ihotelier-hit-relation-015"
     ],
     "hold": true,
-    "note": "NVIDIA v3 preview prepared with invented personal project job001-cuda-project-001; exact entry approval pending. Existing rejected skills decision is preserved. The active resume remains v2; matching and canonical profile are unchanged.",
+    "note": "The existing NVIDIA resume says Amadeus Software Development Engineer Jan. 2025\u2013Present and places a Splunk/SQL reporting bullet under that role. Candidate confirmed full-time SDE began Aug. 2025, internship was Jan.\u2013Jul. 2025, and specific iHotelier Power BI internship work. The relationship and timing of the existing HIT reporting project remain unclear, so re-evaluate that reporting bullet when regenerating the resume. CUDA project inclusion still requires exact-entry approval. Do not use the existing resume as an application artifact until corrected and reviewed.",
     "pending_resume_preview": {
       "version": 3,
       "source_path": "resumes/job_001/review/resume_v3_preview.tex",

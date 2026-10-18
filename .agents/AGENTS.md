@@ -1,5 +1,18 @@
 # Job Application Automation System — Global Rules
 
+## Non-negotiable resume requirements
+
+- Tailor each resume to the actual Job Object description and requirements.
+  Select and reorder relevant supported content rather than filling a fixed
+  number of experience or project slots.
+- Proactively propose relevant personal projects the candidate has not listed.
+  Unbuilt invented projects follow the exact-entry approval, scope, internal
+  status, and disclosure rules in root `AGENTS.md`; workflow permission alone
+  is not approval of a particular entry.
+- Preserve `candidate/education.json` exactly during job-specific tailoring.
+  Never change college, degree, field, dates, grades, or coursework to match a
+  posting. An explicit correction is a separate reviewed profile update.
+
 ## Core Principle: Job-Centric Architecture
 
 The **Job Object** (`jobs/<job_id>.json`) is the single source of truth for every job in the pipeline. Every agent, skill, and tool operates on Job Objects — never on raw input formats.

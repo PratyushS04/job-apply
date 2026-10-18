@@ -2,7 +2,7 @@
   {
     "company": "Amadeus Software Labs",
     "title": "Software Development Engineer",
-    "start_date": "2025-01",
+    "start_date": "2025-08",
     "end_date": "",
     "current": true,
     "location": "",
@@ -12,6 +12,9 @@
       "Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.",
       "Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.",
       "Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information.",
+      "Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents; designed source linkage, ownership, approval states, indexing, and lifecycle metadata for its knowledge assets.",
+      "Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.",
+      "Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation.",
       "Engineered and deployed a Meta-RAG framework for the Loyalty Portal chatbot, implementing multi-stage contextual validation to minimize LLM hallucinations and improve response grounding.",
       "Developed a custom Model Context Protocol server for Black Duck, enabling LLMs to query vulnerability metadata, analyze project risks, and generate real-time remediation strategies through a chat-based interface.",
       "Independently developed an end-to-end security tool using Black Duck API v2 to automate container image downloads and vulnerability scanning, reducing manual work for security developers by 40%.",
@@ -23,6 +26,29 @@
       "Developed and demonstrated practical MCP and GitHub Copilot Skills use cases during GMS IP Weeks 26.1 and 26.2, showing how AI-assisted workflows can improve developer productivity.",
       "Strengthened engineering documentation by creating detailed Rally notes, research findings, and implementation analyses for previously undocumented or under-documented GMS areas.",
       "Advanced internal innovation efforts by drafting three Lift proposals, contributing to the Internship Idea Program, and presenting an AI-based Hotel Receptionist concept to the GMS initiative group."
+    ],
+    "review_notes": [
+      "Full-time start corrected to August 2025 after the candidate confirmed a separate January–July 2025 Amadeus internship. ContX AI, Pod Brain, and the working AI-assisted developer portal prototype belong to the full-time role. The candidate confirmed the portal is separate from ContX AI. Confirm timing of other undated Amadeus achievements before reassigning them in a new application resume."
+    ]
+  },
+  {
+    "company": "Amadeus Software Labs",
+    "title": "Software Development Intern",
+    "start_date": "2025-01",
+    "end_date": "2025-07",
+    "current": false,
+    "location": "",
+    "description": "Built data extraction and Power BI reporting workflows for iHotelier Shopping, Availability, and Promotions analytics.",
+    "technologies": ["Python", "Splunk", "SQL", "CSV", "Power BI", "DAX"],
+    "achievements": [
+      "Built Python workflows to extract and prepare iHotelier shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.",
+      "Migrated dashboard inputs from Excel to CSV, developed Power BI visuals and interactive Top-N property filters, and optimized DAX queries.",
+      "Published the dashboards in the iHotelier workspace, checked data and visuals during QA, and documented the extraction and reporting workflows."
+    ],
+    "review_notes": [
+      "The candidate directly confirmed this employer, official title, January–July 2025 dates, and that iHotelier dashboard work occurred during the internship. The earlier portal/AI hub achievement belongs to the full-time role and must not be attributed to this internship.",
+      "The candidate explicitly said they did not implement RAG ingestion from Jira, Confluence, or PDFs during this internship. Do not attribute a RAG pipeline to this role.",
+      "The candidate confirmed personally working on all listed iHotelier tasks: Python/Splunk extraction, SQL queries, Excel-to-CSV migration, Power BI visuals and DAX, Top-N filters, publishing, QA, and documentation. The relationship to the existing HIT project and conflicting performance metrics remain unresolved."
     ]
   },
   {

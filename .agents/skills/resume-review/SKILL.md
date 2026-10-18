@@ -43,8 +43,13 @@ the target job's requirements and provide actionable feedback.
 ### 5. Formatting & Length
 - Is it within 1 page (or 2 if 10+ years experience)?
 - Is whitespace balanced? Not too cramped or too sparse?
+- Does the rendered one-page resume make substantial use of the page, without a
+  conspicuously empty lower third? If not, request a revision using relevant,
+  supported content and comfortable spacing.
 - Consistent formatting (bullet styles, date formats, spacing)?
 - LaTeX compiles without errors?
+- Are the LinkedIn and GitHub labels clickable, with PDF link targets matching
+  the addresses in the candidate profile?
 
 ### 6. Common Pitfalls
 - Generic phrases ("team player", "hard worker", "detail-oriented")

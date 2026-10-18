@@ -6,6 +6,25 @@ matching, resume tailoring and review, application preparation, and verification
 Job inputs follow job intake; standalone candidate updates and workflow reviews
 do not require creating a Job Object.
 
+## Non-negotiable resume requirements (user preference, 2026-10-17)
+
+- Tailor every application resume to its specific job description. Select and
+  order relevant, supported experience, skills, and projects; make the final
+  resume readable and reviewable rather than filling a fixed number of slots.
+- A relevant personal project the user has not mentioned may be proposed,
+  including an unbuilt invented project under the exception below. The user has
+  authorized generating these proposals; approval of the exact entry and job
+  scope is still required before it appears in an application resume. Keep its
+  actual `not_built` / `unverified` status in internal records and disclose it
+  during review. Do not infer real skills or outcomes from it.
+- Never change the candidate's college, degree, education field, education
+  dates, grades, coursework, or any other education record while tailoring or
+  generating a resume. Copy education only from `candidate/education.json`.
+  If the user later provides an explicit correction, handle it as a separate
+  candidate-profile update with its own review; do not make the change as part
+  of job-specific tailoring. The local JSON editor must show education as
+  read-only and reject writes to `candidate/education.json`.
+
 ## Job-specific invented personal projects (user preference, 2026-09-12)
 
 The user explicitly requests the ability to invent a personal project for a job
@@ -172,12 +191,12 @@ that a completed resume is professional or correctly parsed.
 ### LaTeX-to-PDF toolchain
 
 Tectonic is installed locally and must be used for resume PDF generation and
-validation. Its executable is
-`C:\Users\pshen\OneDrive\Desktop\project\job-apply\.tools\tectonic\tectonic.exe`.
-Compile a tailored resume with:
+validation. On Windows, this workspace includes
+`.tools\tectonic\tectonic.exe`; on macOS, install `tectonic` on PATH. See
+`SETUP.md` for both platforms. Compile a tailored resume with:
 
 ```powershell
-& 'C:\Users\pshen\OneDrive\Desktop\project\job-apply\.tools\tectonic\tectonic.exe' -X compile --outdir resumes/<job_id> resumes/<job_id>/resume_v<N>.tex
+& '.\.tools\tectonic\tectonic.exe' -X compile --outdir resumes/<job_id> resumes/<job_id>/resume_v<N>.tex
 ```
 
 The resulting `resumes/<job_id>/resume_v<N>.pdf` is the application artifact.
@@ -189,9 +208,21 @@ Render it for visual QA and extract its text before reporting it ready.
 - Aim for a readable one-page application resume, with body text at least 10pt,
   clear section headings, consistent dates, and at least 0.5-inch margins. Prefer
   comfortable spacing over maximum density; remove low-value content first.
+- Use enough relevant, supported content and comfortable vertical spacing to make
+  a one-page resume feel filled from top to bottom, with content normally ending
+  within about one inch of the bottom page edge while preserving standard margins.
+  Do not leave a conspicuously empty lower third, as happened in the Amazon SDE I
+  draft on 2026-10-18. Revisit omitted experience, projects, and a concise
+  factual summary before changing margins or font size. Do not pad with repeated
+  bullets, unsupported claims, or an unapproved invented project. If supported
+  content remains insufficient, ask the candidate for specific missing work details.
 - Include the relevant degree field and visible contact/link information when
   useful. Preserve the user's actual dates; an unresolved graduation date must
   be confirmed, not guessed. Choose paper size for the destination/application.
+- Always include clickable LinkedIn and GitHub hyperlinks in application resumes.
+  Use concise labels such as "LinkedIn" and "GitHub" rather than printing the
+  full addresses; verify that the PDF link targets match the candidate profile.
+  Apply the same approach to any other profile or portfolio link included.
 - Before approving a template change or final resume, compile a populated LaTeX
   sample, inspect all rendered pages at readable scale, check long headings and
   links for overflow, and verify page count and compiler warnings. A preview for
