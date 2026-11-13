@@ -1,0 +1,64 @@
+{
+  "job_id": "job_003",
+  "posting_id": "LinkedIn 4488195630",
+  "resume_pdf": "resumes/job_003/resume_v2.pdf",
+  "status": "DRAFT_PENDING_CANDIDATE_INPUT",
+  "form_observed": false,
+  "form_access_note": "LinkedIn guest view exposes only a sign-in apply button; the form (LinkedIn Easy Apply or HPE's external careers site) was not observed. Questions below are predictions.",
+  "confirmed_fields": {
+    "name": "Pratyush Shendre",
+    "email": "pshendre6604@gmail.com",
+    "phone": "+91-9975080249",
+    "linkedin": "https://www.linkedin.com/in/pratyush-shendre-2256a7223/",
+    "github": "https://github.com/PratyushS04",
+    "current_location": "Pune, Maharashtra, India",
+    "india_work_authorization": "Yes (confirmed 2026-10-18)",
+    "visa_sponsorship_needed": "No (confirmed 2026-10-18)",
+    "notice_period": "Two months (confirmed 2026-10-18)",
+    "highest_education": "Bachelor of Technology, Computer Science and Engineering (Artificial Intelligence and Machine Learning), RCOEM Nagpur, Aug 2021 - Jul 2025, GPA 8.23/10",
+    "how_did_you_hear": "LinkedIn"
+  },
+  "predicted_questions_and_drafts": [
+    {
+      "question": "Total years of professional experience",
+      "draft_answer": "1 year 3 months full-time (Software Development Engineer, Amadeus, since Aug 2025); about 1 year 10 months including the Jan-Jul 2025 Amadeus internship.",
+      "basis": "experience.json; as of 2026-11-13",
+      "review_required": true
+    },
+    {
+      "question": "Years of experience with Python",
+      "draft_answer": "About 1 year 10 months professionally (Amadeus internship from Jan 2025 and full-time role).",
+      "basis": "experience.json",
+      "review_required": true
+    },
+    {
+      "question": "Years of experience with C++",
+      "draft_answer": "0 / No professional C++ experience.",
+      "basis": "Candidate declined C++ experience on 2026-09-12 (job001-nvidia-devtech-skills-001)",
+      "review_required": true
+    },
+    {
+      "question": "Describe your experience with networking and Linux/Unix",
+      "draft_answer": "At Amadeus I support Azure Kubernetes Service regression testing and deployment validation, and I build Python tools that call REST APIs on the corporate network. On one proof of concept I fixed TLS certificate-chain issues and added retries with exponential backoff for API rate limits. My networking and operating-systems foundation comes from my B.Tech coursework in Computer Networks and Operating Systems.",
+      "basis": "experience.json, projects.json, education.json; excludes the invented project (approved for resume only)",
+      "review_required": true
+    },
+    {
+      "question": "Describe your software testing experience",
+      "draft_answer": "I support regression testing on Azure Kubernetes Service, including investigating issues, validating deployments, and redeploying. I also built separate AI and TLS test harnesses for an internal proof of concept, and fixed a customer-reported stability defect in a currency exchange-rate synchronization service.",
+      "basis": "experience.json, projects.json",
+      "review_required": true
+    }
+  ],
+  "candidate_input_if_asked": {
+    "willing_to_work_onsite_in_bengaluru_or_relocate": "NEEDED: role is onsite in Bengaluru; Bengaluru is a preferred location but relocation/onsite willingness has not been confirmed.",
+    "expected_salary": "NEEDED: the Amazon figure was job-specific and is not reused.",
+    "current_ctc": "NEEDED if asked.",
+    "prior_hpe_employment_or_application": "NEEDED if asked.",
+    "why_hpe": "NEEDED only if asked: no confirmed motivation on file; will not invent one.",
+    "voluntary_self_identification": "Ask before reusing the Amazon choice."
+  },
+  "cover_letter": "Not drafted; LinkedIn/HPE flows usually do not require one. Will draft on request.",
+  "invented_content_note": "The approved Linux Network Diagnostics CLI appears only in the resume. It is not used in any screening answer.",
+  "submission_approval": null
+}

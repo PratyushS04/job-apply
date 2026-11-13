@@ -1,0 +1,86 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer who builds Python and Java tooling, f{}ixes production and security defects, and supports regression testing and deployment validation on Kubernetes.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Software Development Engineer}{Aug. 2025 -- Present}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Resolved a customer-reported stability defect in the service that synchronizes currency exchange rates.}
+    \bulletpoint{Supported Azure Kubernetes Service regression testing through issue investigation, deployment validation, and redeployments.}
+    \bulletpoint{Investigated and f{}ixed application-security issues found by Black Duck, Checkmarx, and penetration testing.}
+    \bulletpoint{Applied AI-assisted development across four Java modernization initiatives (Java 17, Spring 6, Spring Boot 3).}
+    \bulletpoint{Designed and documented an internal toolkit to automate Jenkins, Kubernetes, and work-tracking workf{}lows.}
+  \end{itemize}
+  \entry{Software Development Intern}{Jan. 2025 -- Jul. 2025}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract and prepare shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.}
+  \end{itemize}
+  \entry{Android Developer}{Sep. 2022 -- Dec. 2022}{Gear To Care}{Nagpur, India}
+  \begin{itemize}
+    \bulletpoint{Integrated Razorpay in-app payments and implemented Firebase Authentication in an Android application.}
+  \end{itemize}
+\end{itemize}
+
+\section{Selected Internal Projects -- Amadeus Software Labs}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Container Image Security Scanner}{2025}{Python, Podman, Black Duck REST APIs, Tkinter, PyInstaller}{}
+  \begin{itemize}
+    \bulletpoint{Automated image retrieval from Azure Container Registry, export with Podman, and scan submission and result polling through Black Duck REST APIs.}
+    \bulletpoint{Provided command-line tools and a programmatic interface; packaged a desktop version as a Windows executable.}
+  \end{itemize}
+  \entry{Social Engagement Bot (proof of concept)}{2025}{Python, REST APIs, Azure OpenAI}{}
+  \begin{itemize}
+    \bulletpoint{Implemented adaptive polling with exponential backof{}f and conf{}igurable interval bounds to handle API rate limits.}
+    \bulletpoint{Split the bot into inference, API transport, conf{}iguration, persistence, and logging modules, with separate AI and TLS test harnesses; addressed certif{}icate-chain issues on the corporate network.}
+  \end{itemize}
+\end{itemize}
+
+\section{Personal Project}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Linux Network Diagnostics CLI}{}{Python, Linux, Sockets, pytest, coverage.py}{}
+  \begin{itemize}
+    \bulletpoint{Built a Python command-line tool for Linux that checks DNS resolution, TCP port reachability, TLS certif{}icate chains, and HTTP response times for a list of hosts, and reports interface and route details from /proc and iproute2.}
+    \bulletpoint{Wrote a short functional specif{}ication and a pytest suite with mocked sockets, and enforced a minimum code-coverage threshold before each commit.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages:} Python, Java, C, Go, SQL, Shell scripting \\
+\textbf{Systems and tools:} Linux, Docker, Podman, Kubernetes, Helm, Jenkins, Git, PlantUML \\
+\textbf{Concepts:} Computer networking, operating systems, REST APIs, debugging, system design \\
+\textbf{Certif{}ications and achievements:} Claude Certif{}ied Architect, Foundations (Anthropic); GATE Qualif{}ied (2023); 1,000+ LeetCode problems solved
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+
+\end{document}

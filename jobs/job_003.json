@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4488195630/",
   "source": "chat",
   "created_at": "2026-11-13T09:41:53.735651+00:00",
-  "updated_at": "2026-11-13T10:32:34.660857+00:00",
+  "updated_at": "2026-11-13T12:16:06.098153+00:00",
   "company": "Hewlett Packard Enterprise",
   "title": "Software Engineer 2",
   "location": "Bengaluru, Karnataka, India (Onsite)",
@@ -62,21 +62,77 @@
     "score_note": "Editorial fit estimate from supported facts only, not an employer score."
   },
   "resume": {
-    "status": "GENERATED",
-    "path": "resumes/job_003/resume_v1.tex",
-    "pdf_path": "resumes/job_003/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "Draft v1 from supported content only; no pending or invented content included. Tectonic 0.15.0 (Linux) compiled with no warnings; one A4 page, 11pt base with 10pt body, 0.6-inch margins; content ends about 0.75 inch from the bottom. Visual check at 150 dpi passed. Extracted text: section order, bullet association, dates, and contact details correct; f-ligatures removed. LinkedIn, GitHub, and mailto link targets match profile.json. Fonts embedded. Education copied unchanged from education.json, with full coursework. Excluded: 40% Black Duck metric (basis and tool link unconfirmed), 30% notification metric, HIT reporting platform (pending relation proposal amadeus-ihotelier-hit-relation-015), AWS Academy internship (low relevance). Internal projects listed in a separate employer-attributed section, not assigned to a specific Amadeus role, because their timing is unconfirmed."
+    "status": "REVIEWED",
+    "path": "resumes/job_003/resume_v2.tex",
+    "pdf_path": "resumes/job_003/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 = user-approved v1 content plus approved invented project job003-linux-netdiag-project-001 (not_built/unverified; disclosed to user; not factually verified). To keep one page, removed the GMS Knowledge Bot and ContX AI bullets, shortened the summary, and moved certifications into Technical Skills; no confirmed facts were reworded in meaning. Checks: Tectonic 0.15.0 compiled with no warnings; one A4 page; 11pt base, 10pt body; 0.6-inch margins; content ends about 0.8 inch from the bottom; visual check at 80 and 150 dpi passed; extracted text has correct section order, bullet association, dates, and contact details, with no ligature artifacts; fonts embedded; mailto, LinkedIn, and GitHub targets match profile.json; no placeholders. Education copied unchanged from education.json.",
+    "user_approval": {
+      "date": "2026-11-13",
+      "scope": "Resume content approved together with the invented project for job_003."
+    }
   },
   "application": {
-    "status": "NOT_STARTED",
-    "questions": [],
+    "status": "DRAFT_PENDING_CANDIDATE_INPUT",
+    "prep_path": "applications/job_003/prep.json",
+    "questions": [
+      {
+        "question": "Total years of professional experience",
+        "draft_answer": "1 year 3 months full-time (Software Development Engineer, Amadeus, since Aug 2025); about 1 year 10 months including the Jan-Jul 2025 Amadeus internship.",
+        "basis": "experience.json; as of 2026-11-13",
+        "review_required": true
+      },
+      {
+        "question": "Years of experience with Python",
+        "draft_answer": "About 1 year 10 months professionally (Amadeus internship from Jan 2025 and full-time role).",
+        "basis": "experience.json",
+        "review_required": true
+      },
+      {
+        "question": "Years of experience with C++",
+        "draft_answer": "0 / No professional C++ experience.",
+        "basis": "Candidate declined C++ experience on 2026-09-12 (job001-nvidia-devtech-skills-001)",
+        "review_required": true
+      },
+      {
+        "question": "Describe your experience with networking and Linux/Unix",
+        "draft_answer": "At Amadeus I support Azure Kubernetes Service regression testing and deployment validation, and I build Python tools that call REST APIs on the corporate network. On one proof of concept I fixed TLS certificate-chain issues and added retries with exponential backoff for API rate limits. My networking and operating-systems foundation comes from my B.Tech coursework in Computer Networks and Operating Systems.",
+        "basis": "experience.json, projects.json, education.json; excludes the invented project (approved for resume only)",
+        "review_required": true
+      },
+      {
+        "question": "Describe your software testing experience",
+        "draft_answer": "I support regression testing on Azure Kubernetes Service, including investigating issues, validating deployments, and redeploying. I also built separate AI and TLS test harnesses for an internal proof of concept, and fixed a customer-reported stability defect in a currency exchange-rate synchronization service.",
+        "basis": "experience.json, projects.json",
+        "review_required": true
+      }
+    ],
     "answers": [],
-    "required_fields": {},
+    "required_fields": {
+      "name": "Pratyush Shendre",
+      "email": "pshendre6604@gmail.com",
+      "phone": "+91-9975080249",
+      "linkedin": "https://www.linkedin.com/in/pratyush-shendre-2256a7223/",
+      "github": "https://github.com/PratyushS04",
+      "current_location": "Pune, Maharashtra, India",
+      "india_work_authorization": "Yes (confirmed 2026-10-18)",
+      "visa_sponsorship_needed": "No (confirmed 2026-10-18)",
+      "notice_period": "Two months (confirmed 2026-10-18)",
+      "highest_education": "Bachelor of Technology, Computer Science and Engineering (Artificial Intelligence and Machine Learning), RCOEM Nagpur, Aug 2021 - Jul 2025, GPA 8.23/10",
+      "how_did_you_hear": "LinkedIn"
+    },
+    "pending_candidate_input": [
+      "willing_to_work_onsite_in_bengaluru_or_relocate",
+      "expected_salary",
+      "current_ctc",
+      "prior_hpe_employment_or_application",
+      "why_hpe",
+      "voluntary_self_identification"
+    ],
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "RESUME_READY",
+  "pipeline_status": "APP_PREPARING",
   "error": null,
   "metadata": {
     "linkedin_job_id": "4488195630",
@@ -88,7 +144,7 @@
     "proposal_ids": [
       "job003-linux-netdiag-project-001"
     ],
-    "hold": null,
-    "notes": "Optional invented project pending user decision; v1 excludes it, so no hold. Open factual questions: hands-on Linux work, test authoring and coverage tooling, root cause of the currency-sync defect, basis for the 40% Black Duck figure."
+    "hold": "Application answers need candidate input: onsite/relocation to Bengaluru, expected salary (and current CTC if asked); draft screening answers need approval.",
+    "notes": "Invented project approved for job_003 resume only and included in v2. Not usable in screening answers without separate reviewed wording. Open optional questions: hands-on Linux work, test/coverage tooling, currency-sync root cause, 40% Black Duck basis."
   }
 }

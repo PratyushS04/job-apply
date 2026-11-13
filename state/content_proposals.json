@@ -551,9 +551,22 @@
       "actual_status": "not_built",
       "evidence_status": "unverified",
       "confirmation_needed": "Approval of exact wording for use in the job_003 resume despite not_built status; choose approval scope.",
-      "approval_scope": null,
-      "approval_status": "pending",
-      "approval_record": null
+      "approval_scope": {
+        "job_id": "job_003",
+        "artifacts": [
+          "resumes/job_003/resume_v2.tex",
+          "resumes/job_003/resume_v2.pdf"
+        ],
+        "reuse": "job_003 resume only; not screening answers, not canonical profile"
+      },
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-13",
+        "decision": "User chose 'Project and resume': approved the exact invented project wording for the HPE (job_003) resume only, and approved the resume.",
+        "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
+        "applied": true,
+        "applied_to": "resumes/job_003/resume_v2.tex (Personal Project section, wording verbatim)"
+      }
     }
   ]
 }

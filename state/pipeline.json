@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T10:32:34.661530+00:00",
+  "last_updated": "2026-11-13T12:16:06.099095+00:00",
   "total_jobs": 3,
   "status_counts": {
     "NEW": 0,
@@ -8,9 +8,9 @@
     "MATCHING": 0,
     "MATCHED": 0,
     "RESUME_GENERATING": 0,
-    "RESUME_READY": 2,
+    "RESUME_READY": 1,
     "RESUME_REVIEWED": 0,
-    "APP_PREPARING": 0,
+    "APP_PREPARING": 1,
     "APP_READY": 0,
     "FILLING": 0,
     "READY_TO_SUBMIT": 0,
