@@ -1,0 +1,94 @@
+{
+  "id": "job_003",
+  "url": "https://www.linkedin.com/jobs/view/4488195630/",
+  "source": "chat",
+  "created_at": "2026-11-13T09:41:53.735651+00:00",
+  "updated_at": "2026-11-13T10:32:34.660857+00:00",
+  "company": "Hewlett Packard Enterprise",
+  "title": "Software Engineer 2",
+  "location": "Bengaluru, Karnataka, India (Onsite)",
+  "job_type": "full-time",
+  "description": "Onsite role, primarily from an HPE office. Job family: designs, develops, troubleshoots and debugs software programs for software enhancements and new products, including operating systems, compilers, routers, networks, utilities, databases and Internet-related tools; determines hardware compatibility and/or influences hardware design; translates customer requirements into functional specifications and implements them in languages such as Python and C++. Management level: intermediate subject-matter expertise on common technical problems; informed team member providing analysis and recommendations; works independently within an established framework with moderate supervision. What you'll do: understand and write correct functional specs for a requirement; design limited enhancements, updates and programming changes for portions and subsystems of systems software (operating systems, compilers, networking, utilities, databases, Internet-related tools); analyse design and determine coding, programming and integration activities; execute and write portions of test plans, protocols and documentation, identify and debug code issues and suggest improvements; achieve more than expected code coverage before commit; work as a project-team member with internal and outsourced development partners; communicate design status, project progress and issue resolution. Job level TCP_02; tags #india #networking; LinkedIn seniority 'Not Applicable'; industry IT Services and IT Consulting. Posted about 2026-11-11; over 200 applicants at fetch time.",
+  "requirements": {
+    "required_skills": [
+      "Proficient in C++/Python",
+      "Very good understanding of networking fundamentals",
+      "Very good understanding of operating systems (Linux/Unix)",
+      "Software systems design tools",
+      "Analytical and problem-solving skills",
+      "Designing software systems running on multiple platform types",
+      "Software systems testing methodology: test plans, debugging, testing scripts and tools",
+      "Strong written and verbal communication in English and the local language; communicating design proposals"
+    ],
+    "preferred_skills": [
+      "Writing functional specifications from requirements",
+      "High code coverage before commit",
+      "Systems software subsystems: operating systems, compilers, networking, utilities, databases",
+      "Collaboration with internal and outsourced development partners"
+    ],
+    "experience_years": 2,
+    "education": "Bachelor's or Master's degree in Computer Science, Information Systems, or equivalent (required); typically 2-4 years experience"
+  },
+  "match": {
+    "score": 63,
+    "reasoning": "Meets the degree requirement and the 'C++/Python' language requirement through Python (C++ is not supported; candidate confirmed no C++ experience on 2026-09-12). Supported strengths: production defect fixing, AKS regression testing and deployment validation, security-issue remediation, Python CLI/REST tooling, Java modernization, and documentation. Networking and Linux/Unix evidence is limited to coursework, listed skills, Kubernetes/Podman tooling, and corporate-network HTTP/TLS client work; no OS, compiler, router, or network-stack development is supported. Experience is below the typical 2-4 years: about 15 months full-time (Aug 2025-Nov 2026) plus a 7-month internship.",
+    "score_breakdown": {
+      "required_skills": "21/35",
+      "experience": "12/25",
+      "preferred_skills": "5/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus Software Development Engineer, Aug 2025-present: resolved a customer-reported stability defect in the currency exchange-rate sync service; supported AKS regression testing, deployment validation, reverts and redeployments; fixed Black Duck/Checkmarx/pen-test security issues; Java 17/Spring Boot 3 modernization.",
+      "Amadeus Software Development Intern, Jan-Jul 2025: Python/SQL/Splunk data extraction workflows.",
+      "Gear To Care Android Developer, Sep-Dec 2022: Android payments and authentication (another platform type)."
+    ],
+    "relevant_projects": [
+      "Black Duck Container Image Security Scanner (Amadeus internal): Python, Podman, REST APIs, CLI and packaged Windows executable.",
+      "AI-Powered Social Engagement Bot POC (Amadeus internal): exponential-backoff polling, modular design, separate AI and TLS test harnesses, corporate-network certificate-chain fixes.",
+      "GMS Knowledge Bot (Amadeus internal): HTTP client layer for the corporate network; documented architecture and troubleshooting."
+    ],
+    "skill_gaps": [
+      "C++: not supported (explicitly declined 2026-09-12). Python alone satisfies the stated 'C++/Python'.",
+      "Networking fundamentals: coursework and adjacent HTTP/TLS work only; no network protocol or device software.",
+      "Linux/Unix: listed skill and container tooling; depth of hands-on Linux work is unconfirmed.",
+      "Code coverage targets, test-plan authoring, and formal functional specifications are unconfirmed.",
+      "Experience below the typical 2-4 years."
+    ],
+    "unresolved_proposals": "job003-linux-netdiag-project-001 (invented, not built) is pending and does not affect this score.",
+    "preference_fit": "Bengaluru is a preferred location; full-time; onsite compatible with flexible remote preference; no deal-breakers.",
+    "status": "SCORED",
+    "score_note": "Editorial fit estimate from supported facts only, not an employer score."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_003/resume_v1.tex",
+    "pdf_path": "resumes/job_003/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "Draft v1 from supported content only; no pending or invented content included. Tectonic 0.15.0 (Linux) compiled with no warnings; one A4 page, 11pt base with 10pt body, 0.6-inch margins; content ends about 0.75 inch from the bottom. Visual check at 150 dpi passed. Extracted text: section order, bullet association, dates, and contact details correct; f-ligatures removed. LinkedIn, GitHub, and mailto link targets match profile.json. Fonts embedded. Education copied unchanged from education.json, with full coursework. Excluded: 40% Black Duck metric (basis and tool link unconfirmed), 30% notification metric, HIT reporting platform (pending relation proposal amadeus-ihotelier-hit-relation-015), AWS Academy internship (low relevance). Internal projects listed in a separate employer-attributed section, not assigned to a specific Amadeus role, because their timing is unconfirmed."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4488195630",
+    "apply_flow": "LinkedIn sign-in required; offsite apply link not exposed in guest view",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4488195630",
+    "fetched_at": "2026-11-13"
+  },
+  "content_review": {
+    "proposal_ids": [
+      "job003-linux-netdiag-project-001"
+    ],
+    "hold": null,
+    "notes": "Optional invented project pending user decision; v1 excludes it, so no hold. Open factual questions: hands-on Linux work, test authoring and coverage tooling, root cause of the currency-sync defect, basis for the 40% Black Duck figure."
+  }
+}

@@ -521,6 +521,39 @@
         "scope": "job_002 Amazon application only; no reusable candidate-profile merge",
         "applied": true
       }
+    },
+    {
+      "id": "job003-linux-netdiag-project-001",
+      "job_id": "job_003",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_003/resume_v<N>.tex",
+        "field": "Personal Projects section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Linux Network Diagnostics CLI",
+        "attribution": "Personal project",
+        "technologies": [
+          "Python",
+          "Linux",
+          "Sockets",
+          "pytest",
+          "coverage.py"
+        ],
+        "resume_bullets": [
+          "Built a Python command-line tool for Linux that checks DNS resolution, TCP port reachability, TLS certificate chains, and HTTP response times for a list of hosts, and reports interface and route details from /proc and iproute2.",
+          "Wrote a short functional specification and a pytest suite with mocked sockets, and enforced a minimum code-coverage threshold before each commit."
+        ]
+      },
+      "rationale": "Maps to HPE's networking fundamentals, Linux/Unix, testing methodology, functional-spec, and code-coverage requirements, which supported profile content covers only partially. Uses Python, not C++, because the candidate declined C++ experience on 2026-09-12.",
+      "source": "Assistant-generated from the job_003 HPE Software Engineer 2 posting; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for use in the job_003 resume despite not_built status; choose approval scope.",
+      "approval_scope": null,
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }
