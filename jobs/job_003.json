@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4488195630/",
   "source": "chat",
   "created_at": "2026-11-13T09:41:53.735651+00:00",
-  "updated_at": "2026-11-13T12:16:06.098153+00:00",
+  "updated_at": "2026-11-13T15:28:58.582103+00:00",
   "company": "Hewlett Packard Enterprise",
   "title": "Software Engineer 2",
   "location": "Bengaluru, Karnataka, India (Onsite)",
@@ -122,12 +122,9 @@
       "how_did_you_hear": "LinkedIn"
     },
     "pending_candidate_input": [
-      "willing_to_work_onsite_in_bengaluru_or_relocate",
-      "expected_salary",
-      "current_ctc",
-      "prior_hpe_employment_or_application",
-      "why_hpe",
-      "voluntary_self_identification"
+      "current_ctc (if asked)",
+      "contact_address (if asked)",
+      "approval of draft screening answers"
     ],
     "screenshots": []
   },
@@ -144,7 +141,7 @@
     "proposal_ids": [
       "job003-linux-netdiag-project-001"
     ],
-    "hold": "Application answers need candidate input: onsite/relocation to Bengaluru, expected salary (and current CTC if asked); draft screening answers need approval.",
+    "hold": "Draft screening answers await candidate approval; current CTC and contact address needed only if the form asks.",
     "notes": "Invented project approved for job_003 resume only and included in v2. Not usable in screening answers without separate reviewed wording. Open optional questions: hands-on Linux work, test/coverage tooling, currency-sync root cause, 40% Black Duck basis."
   }
 }

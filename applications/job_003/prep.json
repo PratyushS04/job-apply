@@ -51,14 +51,17 @@
     }
   ],
   "candidate_input_if_asked": {
-    "willing_to_work_onsite_in_bengaluru_or_relocate": "NEEDED: role is onsite in Bengaluru; Bengaluru is a preferred location but relocation/onsite willingness has not been confirmed.",
-    "expected_salary": "NEEDED: the Amazon figure was job-specific and is not reused.",
+    "willing_to_work_onsite_in_bengaluru_or_relocate": "Yes (candidate confirmed 2026-11-13: 'Yes i can go to bangalore')",
+    "expected_salary": "INR 20,00,000 per annum (candidate supplied '2000000' on 2026-11-13; per-annum INR interpretation stated to candidate)",
     "current_ctc": "NEEDED if asked.",
-    "prior_hpe_employment_or_application": "NEEDED if asked.",
+    "prior_hpe_employment_or_application": "No (candidate confirmed 2026-11-13)",
     "why_hpe": "NEEDED only if asked: no confirmed motivation on file; will not invent one.",
-    "voluntary_self_identification": "Ask before reusing the Amazon choice."
+    "voluntary_self_identification": "Ask before reusing the Amazon choice.",
+    "contact_address": "NEEDED if asked: profile/resume say Pune; Amazon application used a Nagpur address.",
+    "two_plus_years_experience_if_asked_yes_no": "Answer No if asked: 1 yr 3 mo full-time, about 1 yr 10 mo including internship (as of 2026-11-13)."
   },
   "cover_letter": "Not drafted; LinkedIn/HPE flows usually do not require one. Will draft on request.",
   "invented_content_note": "The approved Linux Network Diagnostics CLI appears only in the resume. It is not used in any screening answer.",
-  "submission_approval": null
+  "submission_approval": null,
+  "draft_answer_approval": "pending"
 }

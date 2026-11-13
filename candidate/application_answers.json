@@ -56,6 +56,11 @@
       "military_spouse": "No",
       "confirmed_on": "2026-10-18",
       "note": "Candidate selected these for Amazon; check the wording and voluntary choice on another form."
+    },
+    "willing_to_relocate_to_bengaluru": {
+      "answer": "Yes",
+      "confirmed_on": "2026-11-13",
+      "note": "Candidate said they can go to Bangalore for the onsite HPE role."
     }
   },
   "amazon_specific_answers": {
@@ -78,5 +83,15 @@
     "approved_draft_screening_answers": "applications/job_002/review.md",
     "application_record": "jobs/job_002.json"
   },
-  "reuse_rule": "Use these answers to prepare future applications, but verify relative dates, current circumstances, company-specific history, sensitive voluntary choices, and any differently worded question. Final application approval remains separate."
+  "reuse_rule": "Use these answers to prepare future applications, but verify relative dates, current circumstances, company-specific history, sensitive voluntary choices, and any differently worded question. Final application approval remains separate.",
+  "hpe_specific_answers": {
+    "prior_hpe_employment_or_application": {
+      "answer": "No",
+      "confirmed_on": "2026-11-13",
+      "note": "Becomes Yes once job_003 is submitted."
+    },
+    "salary_expectation_for_job_003": "INR 20,00,000 per annum",
+    "salary_scope_note": "Given for the HPE Software Engineer 2 role (job_003); not a universal minimum.",
+    "application_record": "jobs/job_003.json"
+  }
 }
