@@ -567,6 +567,63 @@
         "applied": true,
         "applied_to": "resumes/job_003/resume_v2.tex (Personal Project section, wording verbatim)"
       }
+    },
+    {
+      "id": "job004-contx-react-tests-001",
+      "job_id": "job_004",
+      "target": {
+        "file": "resumes/job_004/resume_v<N>.tex",
+        "field": "Amadeus SDE ContX AI bullet"
+      },
+      "current_wording": "Built ContX AI, a campaign-design application ... using Python, React, Azure AI Foundry, and REST APIs.",
+      "proposed_wording": "Built React components and wrote tests for ContX AI, a campaign-design application using Python, Azure AI Foundry, MJML, and REST APIs to turn briefs and hotel context into personalized marketing content.",
+      "rationale": "Mastercard asks for React and frontend testing; this fact was confirmed for job_002 but its approval scope is the job_002 resume only.",
+      "source": "Candidate confirmation 2026-10-18 (job002-contx-react-tests-002)",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Approval to use the same wording in the job_004 resume.",
+      "approval_status": "pending",
+      "approval_record": null
+    },
+    {
+      "id": "job004-fullstack-payments-project-001",
+      "job_id": "job_004",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_004/resume_v<N>.tex",
+        "field": "Personal Project section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Payments Ledger Service",
+        "attribution": "Personal project",
+        "technologies": [
+          "Java 17",
+          "Spring Boot",
+          "gRPC",
+          "Protocol Buffers",
+          "PostgreSQL",
+          "Kafka",
+          "React",
+          "TypeScript",
+          "JUnit 5",
+          "Mockito",
+          "Jest",
+          "React Testing Library",
+          "Playwright"
+        ],
+        "resume_bullets": [
+          "Built a Java 17 and Spring Boot ledger service with REST and gRPC (Protocol Buffers) APIs, PostgreSQL storage through Spring Data JPA, and Kafka events for settled transfers.",
+          "Developed features test-first with JUnit 5, Mockito, and Spring Boot Test, and added a React and TypeScript dashboard covered by Jest, React Testing Library, and Playwright end-to-end tests run as CI quality gates."
+        ]
+      },
+      "rationale": "Maps to Mastercard's gRPC/protobuf, JPA, PostgreSQL, Kafka, TypeScript, TDD, JUnit/Mockito, Jest/RTL, and Playwright requirements, none of which supported content covers.",
+      "source": "Assistant-generated from the job_004 Mastercard posting; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for use in the job_004 resume despite not_built status; choose approval scope.",
+      "approval_scope": null,
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }

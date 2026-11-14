@@ -1,0 +1,104 @@
+{
+  "id": "job_004",
+  "url": "https://www.linkedin.com/jobs/view/4480029565/",
+  "source": "chat",
+  "created_at": "2026-11-14T13:45:42.140824+00:00",
+  "updated_at": "2026-11-14T13:48:09.767396+00:00",
+  "company": "Mastercard",
+  "title": "Software Engineer II - Java Full Stack React",
+  "location": "Pune, Maharashtra, India",
+  "job_type": "full-time",
+  "description": "Design, develop, test, deploy and maintain scalable, secure full-stack applications with Java/Spring Boot and React. Build REST APIs, gRPC services, microservices and event-driven components; design relational data models and optimized SQL; follow TDD/test-first with unit, integration, API, contract and E2E tests in CI/CD with quality gates; use AI-assisted tools (GitHub Copilot etc.) for code generation, test generation, refactoring, debugging, documentation and review while critically validating AI output and following responsible-AI, security, privacy and IP policies; troubleshoot production issues with root-cause analysis; code reviews, coding standards, mentoring junior/mid engineers; collaborate with product managers, architects, DevOps and distributed teams. Overall 3-5 years of full-stack developer experience. LinkedIn seniority 'Not Applicable'; posted about 2026-11-13; over 200 applicants at fetch time.",
+  "requirements": {
+    "required_skills": [
+      "Java 17/21+",
+      "Spring Framework / Spring Boot",
+      "RESTful API design and microservices",
+      "gRPC and Protocol Buffers",
+      "OOD, SOLID, design patterns, clean code",
+      "JPA/Hibernate and Spring Data",
+      "Relational databases (Oracle, PostgreSQL), SQL, indexing, transactions, query optimization",
+      "Apache Kafka or equivalent messaging",
+      "Multithreading, concurrency, caching, performance optimization",
+      "React (hooks, state management, routing, async API integration)",
+      "JavaScript and/or TypeScript",
+      "HTML5, CSS3, responsive design",
+      "TDD / Red-Green-Refactor; unit, integration, API, contract, E2E tests",
+      "JUnit 5, Mockito, Spring Boot Test",
+      "Jest / React Testing Library",
+      "Playwright or similar E2E",
+      "Automated tests in CI/CD with quality gates",
+      "AI coding assistants (GitHub Copilot, ChatGPT) with critical validation and responsible-AI practice"
+    ],
+    "preferred_skills": [
+      "Redux / Context API",
+      "Frontend performance, accessibility, security",
+      "Production troubleshooting and root-cause analysis",
+      "Code reviews and mentoring",
+      "Driving AI-enabled engineering automation"
+    ],
+    "experience_years": 3,
+    "education": "Not stated"
+  },
+  "match": {
+    "score": 60,
+    "reasoning": "Strong on Java 17/Spring 6/Spring Boot 3 modernization, React (ContX AI), REST APIs, AI-assisted engineering (GitHub Copilot Agent SDK, OpenRewrite migration proof of concept, MCP, Copilot Skills demos, LLM guardrails), production defect fixing, and payments integration (Razorpay). No supported evidence for gRPC/protobuf, TDD, JUnit/Mockito, Jest/RTL, Playwright, TypeScript, JPA/Hibernate, Redux, or hands-on Kafka/PostgreSQL work (listed as skills only). Experience is about 1 year 3 months full-time versus 3-5 years asked.",
+    "score_breakdown": {
+      "required_skills": "18/35",
+      "experience": "9/25",
+      "preferred_skills": "8/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE (Aug 2025-present): Java 17/Spring 6/Spring Boot 3 modernization with AI assistance; OpenRewrite + Copilot Agent SDK migration proof of concept; ContX AI (Python, React, REST APIs) with PII and grounding guardrails; currency-sync defect fix; AKS regression and deployment validation; security fixes.",
+      "Amadeus intern (Jan-Jul 2025): Python/SQL data workflows, DAX query optimization.",
+      "Gear To Care (2022): Razorpay payments and Firebase Authentication on Android."
+    ],
+    "relevant_projects": [
+      "Black Duck Container Image Security Scanner (REST APIs, CLI)",
+      "AI-assisted internal developer portal prototype"
+    ],
+    "skill_gaps": [
+      "gRPC/protobuf",
+      "TDD and test frameworks (JUnit 5, Mockito, Jest, RTL, Playwright)",
+      "TypeScript, Redux, HTML/CSS depth",
+      "JPA/Hibernate, hands-on Kafka/PostgreSQL",
+      "3-5 years experience (about 1.3 full-time)"
+    ],
+    "preference_fit": "Pune is a preferred location and current city; full-time; no deal-breakers.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_004/resume_v1.tex",
+    "pdf_path": "resumes/job_004/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "Draft v1 from supported content only; no pending or invented content. Tectonic 0.15.0 compiled with no warnings; one A4 page; 11pt base, 10pt body; 0.6-inch margins; content ends about 0.75 inch from the bottom; visual check passed; extracted text has correct order, dates, and contacts, with no ligature artifacts; fonts embedded; mailto, LinkedIn, and GitHub targets match profile.json; education copied unchanged. Excluded: 40% Black Duck and 30% notification metrics (bases unconfirmed); HIT platform (pending relation); React testing claim (job_002 scope only, re-proposed as job004-contx-react-tests-001)."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4480029565",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480029565",
+    "fetched_at": "2026-11-14",
+    "apply_flow": "LinkedIn sign-in required"
+  },
+  "content_review": {
+    "proposal_ids": [
+      "job004-contx-react-tests-001",
+      "job004-fullstack-payments-project-001"
+    ],
+    "hold": null,
+    "notes": "Both proposals optional; v1 excludes them. Open questions: JUnit/Mockito tests in Java modernization, hands-on PostgreSQL/Kafka, TypeScript use, Spring REST API design."
+  }
+}
