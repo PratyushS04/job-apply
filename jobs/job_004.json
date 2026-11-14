@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4480029565/",
   "source": "chat",
   "created_at": "2026-11-14T13:45:42.140824+00:00",
-  "updated_at": "2026-11-14T13:48:09.767396+00:00",
+  "updated_at": "2026-11-14T14:09:33.501471+00:00",
   "company": "Mastercard",
   "title": "Software Engineer II - Java Full Stack React",
   "location": "Pune, Maharashtra, India",
@@ -72,10 +72,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_004/resume_v1.tex",
-    "pdf_path": "resumes/job_004/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "Draft v1 from supported content only; no pending or invented content. Tectonic 0.15.0 compiled with no warnings; one A4 page; 11pt base, 10pt body; 0.6-inch margins; content ends about 0.75 inch from the bottom; visual check passed; extracted text has correct order, dates, and contacts, with no ligature artifacts; fonts embedded; mailto, LinkedIn, and GitHub targets match profile.json; education copied unchanged. Excluded: 40% Black Duck and 30% notification metrics (bases unconfirmed); HIT platform (pending relation); React testing claim (job_002 scope only, re-proposed as job004-contx-react-tests-001)."
+    "path": "resumes/job_004/resume_v2.tex",
+    "pdf_path": "resumes/job_004/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 = v1 plus approved invented project job004-fullstack-payments-project-001 (not_built/unverified; disclosed to user; not factually verified). Removed the scanner project and the Black Duck MCP bullet to keep one page. Tectonic compiled with no warnings; one A4 page; 10pt body; 0.6-inch margins; content ends about 0.75 inch from the bottom; visual check passed; text extraction clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -99,6 +99,6 @@
       "job004-fullstack-payments-project-001"
     ],
     "hold": null,
-    "notes": "Both proposals optional; v1 excludes them. Open questions: JUnit/Mockito tests in Java modernization, hands-on PostgreSQL/Kafka, TypeScript use, Spring REST API design."
+    "notes": "Invented project approved and included in v2. React-tests reuse (job004-contx-react-tests-001) still pending and excluded."
   }
 }

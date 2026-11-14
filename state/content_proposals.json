@@ -621,9 +621,22 @@
       "actual_status": "not_built",
       "evidence_status": "unverified",
       "confirmation_needed": "Approval of exact wording for use in the job_004 resume despite not_built status; choose approval scope.",
-      "approval_scope": null,
-      "approval_status": "pending",
-      "approval_record": null
+      "approval_scope": {
+        "job_id": "job_004",
+        "artifacts": [
+          "resumes/job_004/resume_v2.tex",
+          "resumes/job_004/resume_v2.pdf"
+        ],
+        "reuse": "job_004 resume only; not screening answers, not canonical profile"
+      },
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-14",
+        "decision": "After seeing the exact entry, the user replied 'Invent new resume'. Interpreted as approval of this exact wording for the job_004 resume; interpretation stated to the user.",
+        "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
+        "applied": true,
+        "applied_to": "resumes/job_004/resume_v2.tex (Personal Project; bullets verbatim; header lists a subset of the approved technologies)"
+      }
     }
   ]
 }

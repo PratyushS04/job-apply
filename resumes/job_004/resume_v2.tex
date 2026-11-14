@@ -1,0 +1,77 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer working with Java 17, Spring Boot 3, React, and Python. Uses AI-assisted development in day-to-day engineering, from Java modernization and code migration to developer tooling, and builds generative AI features with guardrails for privacy and factual grounding.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Software Development Engineer}{Aug. 2025 -- Present}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and dependency upgrades.}
+    \bulletpoint{Built a proof of concept for AI-assisted Java Spring migration that combines OpenRewrite recipes with the GitHub Copilot Agent SDK to automate legacy-code modernization.}
+    \bulletpoint{Built ContX AI, a campaign-design application that turns natural-language briefs and hotel guest, property, and brand context into personalized email and ad content using Python, React, Azure AI Foundry, and REST APIs.}
+    \bulletpoint{Implemented audience-specif{}ic variants, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing personal data or fabricating property information.}
+    \bulletpoint{Resolved a customer-reported stability defect in the service that synchronizes currency exchange rates.}
+    \bulletpoint{Supported Azure Kubernetes Service regression testing through issue investigation, deployment validation, reverts, and redeployments.}
+    \bulletpoint{Investigated and f{}ixed application-security issues found by Black Duck, Checkmarx, and penetration testing.}
+    \bulletpoint{Demonstrated practical Model Context Protocol and GitHub Copilot Skills use cases to engineering teams during internal innovation weeks.}
+  \end{itemize}
+  \entry{Software Development Intern}{Jan. 2025 -- Jul. 2025}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract and prepare shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.}
+  \end{itemize}
+  \entry{Android Developer}{Sep. 2022 -- Dec. 2022}{Gear To Care}{Nagpur, India}
+  \begin{itemize}
+    \bulletpoint{Integrated Razorpay in-app payments and implemented Firebase Authentication in an Android application.}
+  \end{itemize}
+\end{itemize}
+
+\section{Personal Project}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Payments Ledger Service}{}{Java 17, Spring Boot, gRPC, PostgreSQL, Kafka, React, TypeScript, JUnit 5, Jest, Playwright}{}
+  \begin{itemize}
+    \bulletpoint{Built a Java 17 and Spring Boot ledger service with REST and gRPC (Protocol Buffers) APIs, PostgreSQL storage through Spring Data JPA, and Kafka events for settled transfers.}
+    \bulletpoint{Developed features test-f{}irst with JUnit 5, Mockito, and Spring Boot Test, and added a React and TypeScript dashboard covered by Jest, React Testing Library, and Playwright end-to-end tests run as CI quality gates.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages:} Java, Python, SQL, Go, C \\
+\textbf{Backend and frontend:} Spring, Spring Boot, REST APIs, microservices, React \\
+\textbf{Data and DevOps:} PostgreSQL, Couchbase, Kafka, Git, Jenkins, Docker, Kubernetes, Helm, Argo CD, CI/CD \\
+\textbf{AI-assisted engineering:} GitHub Copilot Agent SDK, OpenRewrite, Model Context Protocol, prompt engineering, LLM evaluation \\
+\textbf{Concepts:} Object-oriented design, SOLID principles, design patterns, system design, data structures and algorithms \\
+\textbf{Certif{}ications and achievements:} Claude Certif{}ied Architect, Foundations (Anthropic); GATE Qualif{}ied (2023); 1,000+ LeetCode problems solved
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+
+\end{document}
