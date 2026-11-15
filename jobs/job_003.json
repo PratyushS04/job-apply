@@ -1,0 +1,48 @@
+{
+  "id": "job_003",
+  "url": "https://www.naukri.com/job-listings-software-development-engineer-apple-india-pvt-ltd-bengaluru-0-to-6-years-110826502201",
+  "source": "chat",
+  "created_at": "2026-11-15T18:53:29.607398+00:00",
+  "updated_at": "2026-11-15T18:53:29.607398+00:00",
+  "company": "Apple India Pvt Ltd",
+  "title": "Software Development Engineer",
+  "location": "Bengaluru, India",
+  "job_type": null,
+  "description": null,
+  "requirements": {
+    "required_skills": [],
+    "preferred_skills": [],
+    "experience_years": null,
+    "education": null
+  },
+  "match": {
+    "score": null,
+    "reasoning": null,
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [],
+    "status": "NOT_SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/). Tailor base_sde_v11 to this posting.",
+  "pipeline_status": "NEW",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidates/animesh_murai",
+    "experience_range_from_url": "0-6 years",
+    "source_site": "naukri.com",
+    "fetch_status": "Blocked 2026-11-15: www.naukri.com not reachable from this session's network policy (DNS ENOTFOUND). Awaiting pasted job description."
+  }
+}
