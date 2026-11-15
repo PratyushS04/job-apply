@@ -1,0 +1,80 @@
+{
+  "id": "job_006",
+  "url": "https://www.linkedin.com/jobs/view/4480668670/",
+  "source": "chat",
+  "created_at": "2026-11-15T12:54:06.626076+00:00",
+  "updated_at": "2026-11-15T12:54:33.628487+00:00",
+  "company": "MSCI Inc.",
+  "title": "AI Engineer",
+  "location": "Pune, Maharashtra, India",
+  "job_type": "full-time",
+  "description": "MSCI Data AI Engineering (central team) builds data-centric applications and AI-driven data-quality enhancements. Responsibilities: develop data science applications; implement ML/NLP/GenAI/agentic AI and statistical, ML-based, and AI-driven anomaly detection in data science tools for the internal production and client delivery platforms; help teams integrate AI services; learn MSCI APIs and data delivery platforms; collaborate with Product, QA, Data Operations, and IT Infrastructure. LinkedIn seniority 'Not Applicable'; financial services; posted about 2026-11-14; over 200 applicants at fetch time.",
+  "requirements": {
+    "required_skills": [
+      "Bachelor's or Master's in CS, Mathematics, Engineering, or related",
+      "5 years finding patterns in data, statistical modeling, data exploration, visualization, data mining",
+      "Developing AI/ML solutions and delivering them to production",
+      "Strong hands-on Python and NLP",
+      "Anomaly detection expertise: statistical, ML-based, AI-driven; data drift and quality issues",
+      "TDD, refactoring, pair programming, solid design principles",
+      "Cloud: Azure or GCP",
+      "DevOps and CI/CD"
+    ],
+    "preferred_skills": [
+      "LLMs and agentic AI (strong plus)"
+    ],
+    "experience_years": 5,
+    "education": "Bachelor's or Master's in Computer Science, Mathematics, Engineering, or related"
+  },
+  "match": {
+    "score": 55,
+    "reasoning": "Strong on the 'strong plus' area: production LLM work (Meta-RAG framework for the Loyalty Portal chatbot), GenAI product (ContX AI), agentic AI migration proof of concept, MCP server, LLM and multi-agent evaluations; Python; Azure; Jenkins/AKS CI/CD. Major gaps: 5 years of data-science experience required versus about 1 year 3 months full-time (about 1 year 10 months with internship); no supported anomaly-detection, statistical-modeling, data-drift, or production ML-model work; NLP is coursework plus RAG/LLM applications; no TDD evidence. Shortlisting likelihood judged low because the experience requirement is a common screening filter and the core anomaly-detection skill is missing.",
+    "score_breakdown": {
+      "required_skills": "16/35",
+      "experience": "4/25",
+      "preferred_skills": "12/15",
+      "education": "10/10",
+      "preferences": "13/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Meta-RAG chatbot framework, ContX AI GenAI app on Azure AI Foundry, agentic AI migration proof of concept, Black Duck MCP server, LLM/multi-agent evaluations, AKS/Jenkins delivery.",
+      "Amadeus intern: Python/SQL/Splunk data extraction and Power BI visualization.",
+      "AWS Academy AI-ML virtual intern (2023): SageMaker pipelines, Rekognition, Forecast, Lex."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot (intent-routed RAG)",
+      "Crowd Detection (YOLOv8 computer vision)"
+    ],
+    "skill_gaps": [
+      "5 years data science/statistical modeling",
+      "Anomaly detection and data drift",
+      "Production ML model delivery (vs LLM application delivery)",
+      "TDD",
+      "NLP beyond RAG/LLM applications"
+    ],
+    "preference_fit": "Pune is a preferred location and current city; full-time; flexible working.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only; shortlisting odds judged low because of the 5-year requirement."
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "MATCHED",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4480668670",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480668670",
+    "fetched_at": "2026-11-15"
+  }
+}
