@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4480520415/",
   "source": "chat",
   "created_at": "2026-11-15T12:55:35.138886+00:00",
-  "updated_at": "2026-11-15T13:00:47.532714+00:00",
+  "updated_at": "2026-11-15T14:22:06.889377+00:00",
   "company": "Rockwell Automation",
   "title": "AI/ML Engineer",
   "location": "Pune, Maharashtra, India (hybrid: office Mon, Tue, Thu)",
@@ -71,10 +71,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_007/resume_v1.tex",
-    "pdf_path": "resumes/job_007/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "v1 from supported content only; no invented content. Leads with GenAI: Meta-RAG (deployed), ContX AI and guardrails, LLM/multi-agent evaluations, agentic migration proof of concept, MCP server; GMS Knowledge Bot RAG details; AWS Academy SageMaker virtual internship; YOLOv8 project. Omitted: 80% crowd-detection accuracy (no measurement basis recorded), 40%/30% metrics, Pod Brain, Gear To Care (space). Tectonic compiled with no warnings; one A4 page; 10pt body; 0.6-inch margins; content ends about 0.6 inch from the bottom; visual check passed; text extraction clean; fonts embedded; links match profile.json; education unchanged."
+    "path": "resumes/job_007/resume_v2.tex",
+    "pdf_path": "resumes/job_007/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 adds a supported AWS Academy bullet (Amazon Forecast, Rekognition, Lex) from experience.json; tightened the MCP, internship, and ingestion bullets to keep one page. No invented content. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -93,8 +93,10 @@
     "fetched_at": "2026-11-15"
   },
   "content_review": {
-    "proposal_ids": [],
+    "proposal_ids": [
+      "job007-amadeus-intern-forecasting-001"
+    ],
     "hold": null,
-    "notes": "Open questions: real use of scikit-learn, PyTorch, FastAPI/Flask, MLflow."
+    "notes": "Amadeus-internship forecasting claim pending factual confirmation; excluded. College ML/DL details requested (libraries, projects)."
   }
 }

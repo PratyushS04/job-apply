@@ -690,6 +690,22 @@
       "approval_scope": null,
       "approval_status": "pending",
       "approval_record": null
+    },
+    {
+      "id": "job007-amadeus-intern-forecasting-001",
+      "job_id": "job_007",
+      "target": {
+        "file": "candidate/experience.json",
+        "field": "Amadeus Software Development Intern achievements"
+      },
+      "current_wording": null,
+      "proposed_wording": "[To be drafted after confirmation] Built a machine-learning forecasting model for <metric> using <library/method> on <data source>.",
+      "rationale": "Rockwell asks for classical ML in production; the user said on 2026-11-15 'we can say in my intern project we have used ml for forecasting'.",
+      "source": "User chat message 2026-11-15; ambiguous whether this is actual work or a suggested framing, and which internship it refers to.",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Confirm the Amadeus internship actually included ML forecasting that the candidate personally built; what was forecast, data, method/library, and whether it was used. Note: AWS Academy Forecast use is already supported and is included in job_007 v2.",
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }
