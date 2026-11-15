@@ -17,3 +17,9 @@ Candidate: Animesh Murai (candidates/animesh_murai). Built from base_sde_v11.
 ## Presentation checks
 - Source: inspected. Compile: Tectonic 0.15.0 (Linux), no warnings. Visual: 1 A4 page, rendered and inspected.
 - Text extraction: section order and dates correct. Links: mailto, LinkedIn, GitHub, LeetCode targets match profile. Fonts embedded.
+
+# resume_v2 (2026-11-15)
+- Added FlowPilot (proposal am-proj-flowpilot-014): NOT BUILT. Labelled "In progress" with intent wording; no outcomes, dates, or repo link. Pending user approval.
+- Removed SpendWise parser bullet; MediHelp merged into one bullet; Security skills row dropped; summary shortened (certifications remain in their own section). Summary "LLM apps" phrased as "has worked on".
+- FlowPilot stack (Claude API, pytest, GitHub Actions) not added to Skills.
+- Checks: Tectonic compile clean, 1 A4 page, rendered and inspected, text extraction order correct.

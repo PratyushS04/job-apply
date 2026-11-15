@@ -3,7 +3,7 @@
   "url": "https://www.naukri.com/job-listings-software-development-engineer-apple-india-pvt-ltd-bengaluru-0-to-6-years-110826502201",
   "source": "chat",
   "created_at": "2026-11-15T18:53:29.607398+00:00",
-  "updated_at": "2026-11-15T18:58:03.771392+00:00",
+  "updated_at": "2026-11-15T19:09:54.547034+00:00",
   "company": "Apple India Pvt Ltd",
   "title": "Software Development Engineer",
   "location": "Bengaluru, India",
@@ -56,11 +56,12 @@
     ]
   },
   "resume": {
-    "version": 1,
-    "tex": "resumes/job_003/resume_v1.tex",
-    "pdf": "resumes/job_003/resume_v1.pdf",
+    "version": 2,
+    "tex": "resumes/job_003/resume_v2.tex",
+    "pdf": "resumes/job_003/resume_v2.pdf",
     "base": "candidates/animesh_murai/resumes/base_sde_v11.tex",
-    "review_notes": "resumes/job_003/review/review_notes.md"
+    "review_notes": "resumes/job_003/review/review_notes.md",
+    "previous": "resumes/job_003/resume_v1.pdf"
   },
   "application": {
     "status": "NOT_STARTED",
@@ -85,10 +86,11 @@
     }
   },
   "content_review": {
-    "hold": false,
+    "hold": true,
     "proposal_ids": [
-      "am-proj-medihelp-007"
+      "am-proj-medihelp-007",
+      "am-proj-flowpilot-014"
     ],
-    "note": "MediHelp individual contribution unconfirmed; included as team-scope wording. Awaiting user review of tailored resume."
+    "note": "resume_v2 includes FlowPilot (not built, labelled In progress) pending user approval of exact entry and scope; resume_v1 has supported content only. MediHelp individual contribution still unconfirmed."
   }
 }

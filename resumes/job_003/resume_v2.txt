@@ -1,0 +1,63 @@
+                                    Animesh Murai
+            Hyderabad, India | +91-8308082999 | asmurai27@gmail.com | LinkedIn | GitHub | LeetCode
+
+
+Summary
+Engineer with a B.Tech in Computer Science (AI & ML), working with Google’s security team through Accenture
+on endpoint security for third-party generative AI tools. Automates workﬂows with Google Apps Script and has
+worked on LLM apps in Python; also uses Swift and Node.js. Strong in C++, DSA, and DBMS/SQL.
+
+
+Experience
+  Security Managed Services Associate                                                          Jan 2026 – Present
+  Accenture | Client: Google (vendor, external workforce)                                        Hyderabad, India
+     • Built a Google Apps Script automation that generates the team’s end-of-week report, replacing a manual
+       step and saving about 20 minutes every week.
+     • Review endpoint security for third-party generative AI tools and other software components for Google’s
+
+       security team, handling about 1,000 security tickets individually since March 2026.
+     • Created a page on the team’s internal site using Google Apps Script, showcasing major team milestones.
+
+     • Trained by Accenture in SIEM operations with Splunk (SPL searches, dashboards, alert tuning, log
+
+       analysis), SIEM architecture, NIST incident response, and threat intelligence.
+
+
+Projects
+  FlowPilot – agentic workﬂow automation tool | Python, Claude API, pytest, GitHub Actions             In progress
+     • Building a Python agent on the Claude API that uses tool calls to run multi-step workﬂows (collect data,
+       summarize, draft reports), with human approval before any action.
+     • Adding prompt evaluation with pytest test cases and guardrails for unsafe or oﬀ-task requests, run by a
+
+       GitHub Actions CI pipeline on every change.
+  MediHelp – LLM-powered app (team project) | Python, PaddleOCR, Llama 2, LangChain                          2024
+     •   Web app that reads a photo of a medicine, extracts its name, ingredients, and strength with PaddleOCR,
+         and explains what it does by scraping Drugs.com and summarizing with Llama 2 through LangChain.
+  SpendWise – personal ﬁnance app (solo) | Swift, SwiftUI, Node.js, Kotlin, Gmail API                    Jul 2026
+     • Built a privacy-ﬁrst expense tracker with native iPhone, Apple Watch, and Android apps that turns Gmail
+       bank-alert emails into categorized transactions on-device; built v1 in about two weeks, in daily use since.
+     • Automated transaction import with a Gmail API pipeline in Swift Concurrency that adjusts parallelism to
+
+       rate limits, retries failures with backoﬀ, and syncs incrementally.
+     • Wrote a Node.js/Express service that relays Gmail change notiﬁcations from Google Cloud Pub/Sub to the
+
+       app as silent APNs pushes, verifying Google ID tokens before registering devices.
+
+
+Certifications & Achievements
+  Claude Certiﬁed Architect – Foundations (CCA-F) – Anthropic                                Jul 2026 – Jul 2027
+  Claude Certiﬁed Developer – Foundations (CCDV-F) – Anthropic                              Nov 2026 – Nov 2027
+  Solved 300 problems on LeetCode, including about 50 database (SQL) problems
+
+Technical Skills
+  Languages: Python, C++, Java, Swift, Kotlin, SQL
+  AI / LLM: LangChain, Llama 2, PaddleOCR, scikit-learn, Pandas, NumPy
+  Automation / APIs: Google Apps Script, Gmail API, OAuth 2.0, Google Cloud Pub/Sub, Node.js, Express
+  Apple / Mobile: SwiftUI, SwiftData, Swift Concurrency, WatchConnectivity, WidgetKit, Jetpack Compose
+  Databases: DBMS, MySQL, SwiftData, Room
+
+
+Education
+  B. Tech. in Computer Science Engineering (specialization in AI & ML)                      Dec 2021 – May 2025
+  Shri Ramdeobaba College of Engineering and Management | CGPA: 7.57                        Nagpur, Maharashtra
+

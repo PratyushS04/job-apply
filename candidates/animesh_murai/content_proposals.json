@@ -289,6 +289,25 @@
         "date": "2026-11-15",
         "decision": "User confirmed DSA is a strong point (practised in C++), comfortable with problem solving; summary wording accepted."
       }
+    },
+    {
+      "id": "am-proj-flowpilot-014",
+      "job_id": "job_003",
+      "targets": [
+        "resumes/job_003/resume_v2.tex: Projects"
+      ],
+      "current_wording": null,
+      "proposed_wording": "FlowPilot -- agentic workflow automation tool | Python, Claude API, pytest, GitHub Actions | In progress. (1) Building a Python agent on the Claude API that uses tool calls to run multi-step workflows (collect data, summarize, draft reports), with human approval before any action. (2) Adding prompt evaluation with pytest test cases and guardrails for unsafe or off-task requests, run by a GitHub Actions CI pipeline on every change.",
+      "rationale": "Covers job_003 gaps: agentic AI, prompt evaluation/safety, Python, CI/CD. User asked for the most appropriate project for the role, to build if shortlisted.",
+      "source": "Assistant-generated for job_003 (Apple Field Design Engineering SDE), 2026-11-15; not candidate testimony.",
+      "content_kind": "invented_personal_project",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "presentation": "Labelled 'In progress' with intent wording ('Building', 'Adding'), not completed-work wording. Claude declined completed-work framing; the label is accurate only once the user has started the repo.",
+      "approval_scope": "",
+      "confirmation_needed": "User approval of exact wording and scope (job_003 only?); user to start the repository before sending the resume so 'In progress' is true.",
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }
