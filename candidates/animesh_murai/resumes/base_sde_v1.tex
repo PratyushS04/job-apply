@@ -1,0 +1,145 @@
+%-------------------------
+% Animesh Murai -- Base SDE resume (DRAFT PREVIEW, not an approved application)
+% Built from candidate/resume_template.tex
+%-------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-4pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{#1\vspace{-1pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabularx}{0.97\textwidth}[t]{@{}>{\raggedright\arraybackslash}X@{\hspace{0.75em}}r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-4pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.75em}}r@{}}
+      \small#1 & #2 \\
+    \end{tabularx}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItemListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubItemListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=1pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge\bfseries Animesh Murai} \\ \vspace{3pt}
+    \small Nagpur, Maharashtra $|$ +91-830-808-2999 $|$
+    \href{mailto:asmurai27@gmail.com}{\underline{asmurai27@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/animesh-murai-538384253/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/muraias7781}{\underline{GitHub}} $|$
+    \href{https://leetcode.com/u/sAMurai7781/}{\underline{LeetCode}}
+\end{center}
+
+%----------SUMMARY----------
+\section{Summary}
+  \small{Software engineer who has built native iOS, watchOS, and Android apps in Swift and Kotlin; strongest in C++. Currently an Accenture associate on Google's security team, reviewing endpoint security for third-party generative AI tools and automating team reporting.}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubItemListStart
+
+    \resumeSubheading
+      {Security Managed Services Associate}{Jan 2026 -- Present}
+      {Accenture $|$ Client: Google (vendor, external workforce)}{India}
+      \resumeItemListStart
+        \resumeItem{Review endpoint security for third-party generative AI tools and other software components on Google's security team, working through about 1,000 review tickets since March 2026.}
+        \resumeItem{Automated the team's end-of-week report, replacing manual compilation and saving about 20 minutes each week; built a page for the team on an internal site.}
+        \resumeItem{Completed new-hire SIEM training in Splunk: SPL searches, dashboards, alert tuning, and log analysis.}
+      \resumeItemListEnd
+
+  \resumeSubItemListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubItemListStart
+
+    \resumeProjectHeading
+      {\textbf{SpendWise} -- finance app for iOS, watchOS, and Android $|$ \emph{Swift, SwiftUI, Kotlin, Jetpack Compose, Node.js}}{}
+      \resumeItemListStart
+        \resumeItem{Built a privacy-first expense tracker for iPhone, Apple Watch, and Android that turns Gmail bank-alert emails into categorized transactions, keeping all financial data on the device.}
+        \resumeItem{Designed and built push-driven sync (Gmail Watch $\rightarrow$ Pub/Sub $\rightarrow$ Node.js/Express $\rightarrow$ silent APNs push) that wakes the app in the background; the service verifies Google ID tokens before registering devices.}
+        \resumeItem{Wrote a Gmail API import pipeline with Swift Concurrency (actors, task groups) that adjusts parallel requests between 2 and 30 based on rate-limit responses, retries with backoff, and syncs incrementally.}
+        \resumeItem{Built a bank-alert parser (UPI, NEFT, IMPS, card) behind a pluggable parser protocol, with merchant scoring, three-step duplicate detection, and auto-categorization that learns from user corrections.}
+        \resumeItem{Built an insights engine (monthly trends, streaks, merchant profiles, spending heatmap) with per-month caching, synced to a watchOS app and complications through a single WatchConnectivity snapshot.}
+        \resumeItem{Rebuilt the app natively for Android with Clean Architecture (MVVM), Hilt, Room, and Jetpack Compose.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{MediHelp} (team project) $|$ \emph{Python, PaddleOCR, Llama 2, LangChain}}{2024}
+      \resumeItemListStart
+        \resumeItem{Web app that reads a photo of a medicine, extracts its name, ingredients, and strength with PaddleOCR, and explains its use by scraping Drugs.com and summarizing with Llama 2 through LangChain.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Lifestyle Disease Prediction} $|$ \emph{Python, scikit-learn, Pandas, NumPy}}{2023}
+      \resumeItemListStart
+        \resumeItem{Trained and compared SVM, neural network, Naive Bayes, decision tree, and KNN classifiers on a Kaggle dataset to predict lifestyle-disease risk from user inputs, reaching about 90\% accuracy.}
+      \resumeItemListEnd
+
+  \resumeSubItemListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills \& Certifications}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages}{: C++, Java, Python, Swift, Kotlin, SQL (MySQL)} \\
+      \textbf{Mobile}{: SwiftUI, SwiftData, Combine, Swift Charts, WatchConnectivity, WidgetKit, Jetpack Compose, Room} \\
+      \textbf{Backend / Cloud}{: Node.js, Express, Gmail API, Google Cloud Pub/Sub, APNs, OAuth 2.0, REST APIs} \\
+      \textbf{AI / ML}{: scikit-learn, Pandas, NumPy, LangChain, Llama 2, PaddleOCR} \\
+      \textbf{Security}{: Splunk (SPL, dashboards, alerts), SIEM, log analysis, NIST incident response} \\
+      \textbf{Certifications}{: Claude Certified Architect -- Foundations; Claude Certified Developer -- Foundations (Anthropic)}
+    }}
+  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubItemListStart
+    \resumeSubheading
+      {B. Tech. in Computer Science Engineering (specialization in AI \& ML)}{Dec 2021 -- May 2025}
+      {Shri Ramdeobaba College of Engineering and Management $|$ CGPA: 7.57}{Nagpur, Maharashtra}
+  \resumeSubItemListEnd
+
+%-----------ADDITIONAL-----------
+\section{Additional Experience}
+  \resumeItemListStart
+    \resumeItem{\textbf{Sports Content Writer} -- freelance for PFSN and ITRWrestling (2025--2026); SportsLumo (2023--2024). 3,500+ published articles; 900,000+ reads at PFSN.}
+  \resumeItemListEnd
+
+\end{document}

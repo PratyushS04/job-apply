@@ -1,0 +1,14 @@
+{
+  "name": "Animesh Murai",
+  "email": "asmurai27@gmail.com",
+  "email_note": "Personal email from the content-writing resume; the Accenture work email is not used for external applications. Confirm.",
+  "phone": "+91-830-808-2999",
+  "location": {"city": "Nagpur", "state": "Maharashtra", "country": "India"},
+  "linkedin": "https://www.linkedin.com/in/animesh-murai-538384253/",
+  "github": "https://github.com/muraias7781",
+  "leetcode": "https://leetcode.com/u/sAMurai7781/",
+  "portfolio": "",
+  "strongest_language": "C++",
+  "target_roles": ["Software Development Engineer", "Software Engineer (Apple)"],
+  "summary": "Software engineer with hands-on experience building native iOS, watchOS, and Android apps in Swift and Kotlin. Currently an Accenture associate supporting Google's security team, reviewing endpoint security for third-party generative AI tools and automating team reporting."
+}

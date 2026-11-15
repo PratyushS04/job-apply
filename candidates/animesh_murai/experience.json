@@ -1,0 +1,46 @@
+[
+  {
+    "company": "Accenture",
+    "client": "Google",
+    "engagement_note": "Accenture employee providing services to Google as external vendor workforce; not a Google employee. User confirmed Google may be named on the resume (2026-11-15).",
+    "title": "Security Managed Services Associate",
+    "start_date": "2026-01",
+    "end_date": "",
+    "current": true,
+    "phases": [
+      {"period": "2026-01 to 2026-03", "description": "On bench; completed required new-hire trainings, including SIEM training (Splunk)."},
+      {"period": "2026-03 to present", "description": "Google security team: reviewing Google's endpoint security with regard to third-party generative AI tools and other components."}
+    ],
+    "facts_user_reported": [
+      "Works on approximately 1,000 tickets since joining the Google project (user: 'around 1000 tickets so far').",
+      "Created an automation for the team's end-of-week report that removed manual effort and saved around 20 minutes (frequency/basis to confirm).",
+      "Created a page for the team on an internal site."
+    ],
+    "training_from_technical_resume": [
+      "Splunk: SPL searches, dashboard creation, alerts",
+      "SIEM architecture: log forwarders, collectors, correlation engine, log collection and normalization",
+      "Log analysis on Windows, authentication, firewall, DNS, and network events",
+      "Alert tuning to reduce false positives",
+      "Virtual-machine lab simulations; remote access (RDP/SSH concepts)",
+      "NIST incident response lifecycle; threat intelligence concepts (MISP, TAXII); QRadar conceptual exposure"
+    ]
+  },
+  {
+    "company": "PFSN",
+    "title": "Sports Content Writer (freelance)",
+    "start_date": "2025-04", "end_date": "2026-04",
+    "achievements": ["Published 1,300+ articles (WWE, Tennis, Formula 1, 2026 Winter Olympics).", "900,000+ cumulative article reads as of July 2026."]
+  },
+  {
+    "company": "ITRWrestling",
+    "title": "Wrestling Content Writer (freelance)",
+    "start_date": "2025-08", "end_date": "2026-02",
+    "achievements": ["Published 1,000+ articles covering WWE, AEW, TNA, and independent wrestling."]
+  },
+  {
+    "company": "SportsLumo",
+    "title": "Sports Content Writer",
+    "start_date": "2023-06", "end_date": "2024-04",
+    "achievements": ["Published 1,200+ articles covering Tennis and Football."]
+  }
+]

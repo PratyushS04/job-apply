@@ -1,0 +1,64 @@
+                                    Animesh Murai
+          Nagpur, Maharashtra | +91-830-808-2999 | asmurai27@gmail.com | LinkedIn | GitHub | LeetCode
+
+Summary
+Software engineer who has built native iOS, watchOS, and Android apps in Swift and Kotlin; strongest in C++.
+Currently an Accenture associate on Google’s security team, reviewing endpoint security for third-party generative
+AI tools and automating team reporting.
+
+Experience
+  Security Managed Services Associate                                                        Jan 2026 – Present
+  Accenture | Client: Google (vendor, external workforce)                                                 India
+     • Review endpoint security for third-party generative AI tools and other software components on Google’s
+
+       security team, working through about 1,000 review tickets since March 2026.
+     • Automated the team’s end-of-week report, replacing manual compilation and saving about 20 minutes each
+
+       week; built a page for the team on an internal site.
+     • Completed new-hire SIEM training in Splunk: SPL searches, dashboards, alert tuning, and log analysis.
+
+
+
+
+Projects
+  SpendWise – ﬁnance app for iOS, watchOS, and Android | Swift, SwiftUI, Kotlin, Jetpack Compose, Node.js
+     • Built a privacy-ﬁrst expense tracker for iPhone, Apple Watch, and Android that turns Gmail bank-alert
+       emails into categorized transactions, keeping all ﬁnancial data on the device.
+     • Designed and built push-driven sync (Gmail Watch → Pub/Sub → Node.js/Express → silent APNs push)
+
+       that wakes the app in the background; the service veriﬁes Google ID tokens before registering devices.
+     • Wrote a Gmail API import pipeline with Swift Concurrency (actors, task groups) that adjusts parallel
+
+       requests between 2 and 30 based on rate-limit responses, retries with backoﬀ, and syncs incrementally.
+     • Built a bank-alert parser (UPI, NEFT, IMPS, card) behind a pluggable parser protocol, with merchant
+
+       scoring, three-step duplicate detection, and auto-categorization that learns from user corrections.
+     • Built an insights engine (monthly trends, streaks, merchant proﬁles, spending heatmap) with per-month
+
+       caching, synced to a watchOS app and complications through a single WatchConnectivity snapshot.
+     • Rebuilt the app natively for Android with Clean Architecture (MVVM), Hilt, Room, and Jetpack Compose.
+
+
+  MediHelp (team project) | Python, PaddleOCR, Llama 2, LangChain                                             2024
+     •   Web app that reads a photo of a medicine, extracts its name, ingredients, and strength with PaddleOCR,
+         and explains its use by scraping Drugs.com and summarizing with Llama 2 through LangChain.
+  Lifestyle Disease Prediction | Python, scikit-learn, Pandas, NumPy                                          2023
+     •   Trained and compared SVM, neural network, Naive Bayes, decision tree, and KNN classiﬁers on a Kaggle
+         dataset to predict lifestyle-disease risk from user inputs, reaching about 90% accuracy.
+
+Technical Skills & Certifications
+  Languages: C++, Java, Python, Swift, Kotlin, SQL (MySQL)
+  Mobile: SwiftUI, SwiftData, Combine, Swift Charts, WatchConnectivity, WidgetKit, Jetpack Compose, Room
+  Backend / Cloud: Node.js, Express, Gmail API, Google Cloud Pub/Sub, APNs, OAuth 2.0, REST APIs
+  AI / ML: scikit-learn, Pandas, NumPy, LangChain, Llama 2, PaddleOCR
+  Security: Splunk (SPL, dashboards, alerts), SIEM, log analysis, NIST incident response
+  Certiﬁcations: Claude Certiﬁed Architect – Foundations; Claude Certiﬁed Developer – Foundations (Anthropic)
+
+Education
+  B. Tech. in Computer Science Engineering (specialization in AI & ML)                       Dec 2021 – May 2025
+  Shri Ramdeobaba College of Engineering and Management | CGPA: 7.57                         Nagpur, Maharashtra
+
+Additional Experience
+   • Sports Content Writer – freelance for PFSN and ITRWrestling (2025–2026); SportsLumo (2023–2024).
+     3,500+ published articles; 900,000+ reads at PFSN.
+
