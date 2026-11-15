@@ -19,8 +19,9 @@
     "type": "profile",
     "name": "LeetCode",
     "url": "https://leetcode.com/u/sAMurai7781/",
-    "note": "User-reported 2026-11-15.",
-    "problems_solved": 300
+    "note": "User-reported 2026-11-15: 300 problems; ~50 database questions (whether included in the 300 to confirm).",
+    "problems_solved": 300,
+    "database_problems_solved": 50
   },
   {
     "type": "writing",

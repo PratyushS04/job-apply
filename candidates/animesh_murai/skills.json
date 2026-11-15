@@ -59,5 +59,12 @@
     "Teamwork",
     "Communication",
     "Technical and editorial writing"
+  ],
+  "databases": [
+    "DBMS (user: very proficient)",
+    "SQL",
+    "MySQL",
+    "SwiftData",
+    "Room"
   ]
 }

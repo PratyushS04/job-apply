@@ -196,6 +196,57 @@
           "note": "User supplied CCA-F (2026-07-12) and CCDV-F (2026-11-14), each valid one year; asked to include them."
         }
       ]
+    },
+    {
+      "id": "am-skill-dbms-010",
+      "job_id": null,
+      "targets": [
+        "skills.json",
+        "resumes/base_sde_v4.tex"
+      ],
+      "current_wording": null,
+      "proposed_wording": "Databases: DBMS, MySQL, SwiftData, Room",
+      "rationale": "User asked to add DBMS; SwiftData and Room are the databases used in SpendWise.",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "None for inclusion.",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User directly asked to add DBMS."
+      }
+    },
+    {
+      "id": "am-ach-leetcode-sql-011",
+      "job_id": null,
+      "targets": [
+        "achievements.json",
+        "resumes/base_sde_v4.tex"
+      ],
+      "current_wording": "Solved 300 problems on LeetCode",
+      "proposed_wording": "Solved 300 problems on LeetCode, including about 50 database (SQL) problems",
+      "rationale": "Supports the DBMS skill with evidence.",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Are the ~50 database problems part of the 300 or in addition?",
+      "approval_status": "pending",
+      "approval_record": null
+    },
+    {
+      "id": "am-proj-homeserver-012",
+      "job_id": null,
+      "targets": [
+        "projects.json",
+        "resumes/base_sde_v4.tex"
+      ],
+      "current_wording": null,
+      "proposed_wording": "Home Server -- self-hosted on a spare laptop: Set up and run a spare laptop at home as a personal server for hosting.",
+      "rationale": "User asked to fit it in; shows systems/self-hosting interest. Currently thin.",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "OS, services hosted, access method, tools used.",
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }

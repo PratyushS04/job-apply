@@ -73,5 +73,16 @@
     ],
     "source": "Technical resume.",
     "resume_use": "Remove from technical resumes (user, 2026-11-15)."
+  },
+  {
+    "name": "Home Server",
+    "category": "personal_project",
+    "team": "Solo",
+    "dates": "",
+    "status": "In use (user-reported)",
+    "description": "Spare laptop at home used for hosting / as a personal server.",
+    "technologies": [],
+    "details_needed": "OS, what is hosted, how it is accessed/exposed, tools (Docker, Nginx, SSH, etc.), uptime/backup setup.",
+    "source": "User chat 2026-11-15"
   }
 ]
