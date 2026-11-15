@@ -1,0 +1,143 @@
+%-------------------------
+% Animesh Murai -- Base SDE resume v6 (for final review before use)
+% Built from candidate/resume_template.tex
+%-------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{0pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule\vspace{-3pt}]
+
+\newcommand{\resumeItem}[1]{\item\small{#1\vspace{-1pt}}}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabularx}{0.97\textwidth}[t]{@{}>{\raggedright\arraybackslash}X@{\hspace{0.75em}}r@{}}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabularx}\vspace{-3pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabularx}{0.97\textwidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.75em}}r@{}}
+      \small#1 & #2 \\
+    \end{tabularx}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubItemListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubItemListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[itemsep=2pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge\bfseries Animesh Murai} \\ \vspace{4pt}
+    \small Hyderabad, India $|$ +91-8308082999 $|$
+    \href{mailto:asmurai27@gmail.com}{\underline{asmurai27@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/animesh-murai-538384253/}{\underline{LinkedIn}} $|$
+    \href{https://github.com/muraias7781}{\underline{GitHub}} $|$
+    \href{https://leetcode.com/u/sAMurai7781/}{\underline{LeetCode}}
+\end{center}
+
+%----------SUMMARY----------
+\section{Summary}
+  \small{Accenture associate on Google's security team, reviewing endpoint security for third-party generative AI tools and automating team reporting with Google Apps Script. Strongest in C++ and DBMS/SQL, with projects spanning mobile apps, API integrations, and applied AI. Claude Certified Architect and Developer -- Foundations.}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubItemListStart
+
+    \resumeSubheading
+      {Security Managed Services Associate}{Jan 2026 -- Present}
+      {Accenture $|$ Client: Google (vendor, external workforce)}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Review endpoint security for third-party generative AI tools and other software components for Google's security team, handling about 1,000 security tickets individually since March 2026.}
+        \resumeItem{Built a Google Apps Script automation that generates the team's end-of-week report, replacing a manual step and saving about 20 minutes every week.}
+        \resumeItem{Created a page on the team's internal site, under Accenture team leadership, showcasing the team's major milestones.}
+        \resumeItem{Completed new-hire SIEM training (Jan--Mar 2026) in Splunk: SPL searches, dashboards, alert tuning to reduce false positives, and log analysis of Windows, authentication, firewall, and DNS events.}
+      \resumeItemListEnd
+
+  \resumeSubItemListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubItemListStart
+
+    \resumeProjectHeading
+      {\textbf{SpendWise} -- personal finance app (solo) $|$ \emph{Swift, SwiftUI, SwiftData, Kotlin, Jetpack Compose}}{Jul 2026}
+      \resumeItemListStart
+        \resumeItem{Built a privacy-first expense tracker with native iPhone, Apple Watch, and Android apps that turns Gmail bank-alert emails into categorized transactions on-device; built v1 in about two weeks, in daily use since.}
+        \resumeItem{Wrote a Gmail API sync pipeline with Swift Concurrency that adjusts request parallelism to rate limits, retries with backoff, and syncs incrementally.}
+        \resumeItem{Built a bank-alert parser (UPI, NEFT, IMPS, card) with merchant scoring, duplicate detection, and auto-categorization that learns from user corrections; added a watchOS app with complications.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{MediHelp} (team project) $|$ \emph{Python, PaddleOCR, Llama 2, LangChain, web scraping}}{2024}
+      \resumeItemListStart
+        \resumeItem{Web app that reads a photo of a medicine and extracts its name, ingredients, and strength using PaddleOCR text recognition.}
+        \resumeItem{Explained what each medicine does by scraping Drugs.com and summarizing the results with Llama 2 through LangChain.}
+      \resumeItemListEnd
+
+  \resumeSubItemListEnd
+
+%-----------CERTIFICATIONS & ACHIEVEMENTS-----------
+\section{Certifications \& Achievements}
+  \resumeSubItemListStart
+    \resumeProjectHeading
+      {\textbf{Claude Certified Architect -- Foundations (CCA-F)} -- Anthropic}{Jul 2026 -- Jul 2027}
+    \resumeProjectHeading
+      {\textbf{Claude Certified Developer -- Foundations (CCDV-F)} -- Anthropic}{Nov 2026 -- Nov 2027}
+    \resumeProjectHeading
+      {Solved 300 problems on \href{https://leetcode.com/u/sAMurai7781/}{\underline{LeetCode}}, including about 50 database (SQL) problems}{}
+  \resumeSubItemListEnd
+
+%-----------SKILLS-----------
+\section{Technical Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Languages}{: C++, Java, Python, Swift, Kotlin, SQL} \\
+      \textbf{Databases}{: DBMS, MySQL, SwiftData, Room} \\
+      \textbf{Mobile}{: SwiftUI, Swift Concurrency, Combine, Swift Charts, WatchConnectivity, WidgetKit} \\
+      \textbf{Android}{: Jetpack Compose, Hilt, WorkManager, Coroutines} \\
+      \textbf{APIs / Cloud}{: Gmail API, OAuth 2.0, Google Apps Script, Google Cloud Pub/Sub, Node.js, Express} \\
+      \textbf{AI / ML}{: LangChain, Llama 2, PaddleOCR, scikit-learn, Pandas, NumPy} \\
+      \textbf{Security}{: Splunk (SPL, dashboards, alerts), SIEM, log analysis, NIST incident response}
+    }}
+  \end{itemize}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubItemListStart
+    \resumeSubheading
+      {B. Tech. in Computer Science Engineering (specialization in AI \& ML)}{Dec 2021 -- May 2025}
+      {Shri Ramdeobaba College of Engineering and Management $|$ CGPA: 7.57}{Nagpur, Maharashtra}
+  \resumeSubItemListEnd
+
+\end{document}
