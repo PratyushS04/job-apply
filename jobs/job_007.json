@@ -1,0 +1,93 @@
+{
+  "id": "job_007",
+  "url": "https://www.linkedin.com/jobs/view/4480520415/",
+  "source": "chat",
+  "created_at": "2026-11-15T12:55:35.138886+00:00",
+  "updated_at": "2026-11-15T12:56:04.136829+00:00",
+  "company": "Rockwell Automation",
+  "title": "AI/ML Engineer",
+  "location": "Pune, Maharashtra, India (hybrid: office Mon, Tue, Thu)",
+  "job_type": "full-time",
+  "description": "Design, build, and deploy ML models and intelligent systems with a strong focus on generative AI: LLM applications, RAG pipelines, and agentic workflows, alongside classical ML. Full lifecycle: data pipelines, feature engineering, training, MLOps deployment (CI/CD for ML, containers, model versioning, retraining), drift/bias/data-quality monitoring, A/B and offline evaluation, latency/cost optimization (quantization, distillation, pruning), responsible AI, documentation, and code reviews. Reports to Team Lead-IT. Posting encourages applicants whose experience does not align with every qualification. Posted about 2026-11-14; over 200 applicants at fetch time.",
+  "requirements": {
+    "required_skills": [
+      "2-5+ years building and deploying ML models in production",
+      "Python; SQL",
+      "TensorFlow, PyTorch, scikit-learn, XGBoost/LightGBM",
+      "3+ years ML lifecycle (preprocessing, features, training, tuning, evaluation, deployment)",
+      "MLOps tooling (MLflow, Kubeflow, SageMaker, Vertex AI, Airflow)",
+      "Statistics, probability, linear algebra, core ML/DL algorithms",
+      "Azure; Docker; Kubernetes",
+      "Spark/Ray/Dask; Airflow/Dagster",
+      "3+ years model serving and APIs (FastAPI/Flask, TorchServe, Triton)",
+      "Git and CI/CD for ML",
+      "LLM applications (OpenAI, Claude, Llama, Mistral, Gemini APIs)",
+      "RAG pipelines: chunking, embeddings, retrieval evaluation",
+      "Agentic AI: tool use, function calling, planning, orchestration (LangChain, LlamaIndex)",
+      "Vector databases (Pinecone, Weaviate, FAISS, Milvus, Chroma)",
+      "Prompt engineering, evaluation, fine-tuning (LoRA, PEFT)",
+      "LLM production trade-offs: latency, cost, safety"
+    ],
+    "preferred_skills": [
+      "Multi-agent systems in production (orchestration, memory, guardrails, observability)",
+      "Open-source LLM/RAG contributions or publications; Kaggle",
+      "Streaming ML (Kafka, Flink, Spark Streaming)",
+      "Domain experience (fintech, healthcare, e-commerce, cybersecurity)",
+      "Responsible AI, interpretability (SHAP, LIME), privacy-preserving ML"
+    ],
+    "experience_years": 2,
+    "education": "Bachelor's in CS, Data Science, Statistics, Mathematics, ML, or related (or equivalent practical experience)"
+  },
+  "match": {
+    "score": 62,
+    "reasoning": "Strong match to the essential GenAI section: LLM applications on Azure OpenAI and Azure AI Foundry; RAG with explicit chunking (1,000-character chunks, 200 overlap), LangChain, and ChromaDB in the GMS Knowledge Bot; deployed Meta-RAG with multi-stage validation; agentic AI migration proof of concept (GitHub Copilot Agent SDK); MCP server; LLM and multi-agent evaluations; prompt engineering; PII and grounding guardrails; Azure, Docker, Kubernetes, Jenkins, Git. Gaps: classical ML in production (2-5+ years asked), PyTorch/scikit-learn/XGBoost, MLOps tools (MLflow/Kubeflow/Airflow; SageMaker only from a 2023 virtual internship), Spark, FastAPI/Flask model serving, LoRA/PEFT fine-tuning, drift monitoring, statistics beyond coursework. About 1 year 3 months full-time.",
+    "score_breakdown": {
+      "required_skills": "20/35",
+      "experience": "9/25",
+      "preferred_skills": "8/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Meta-RAG chatbot framework (deployed), ContX AI GenAI application with guardrails, agentic migration proof of concept, Black Duck MCP server, LLM/multi-agent evaluations, AKS and Jenkins delivery, security remediation.",
+      "AWS Academy AI-ML virtual intern (2023): SageMaker pipelines.",
+      "Amadeus intern: Python/SQL/Splunk data pipelines."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot and documentation ingestion pipeline (RAG, LangChain, ChromaDB, chunking, token accounting)",
+      "Crowd Detection and Red Light Violation Detection (YOLOv8, TensorFlow, computer vision)"
+    ],
+    "skill_gaps": [
+      "Classical ML models in production",
+      "PyTorch, scikit-learn, XGBoost/LightGBM",
+      "MLflow/Kubeflow/Airflow, Spark",
+      "FastAPI/Flask model serving",
+      "LoRA/PEFT fine-tuning",
+      "Drift monitoring and A/B testing"
+    ],
+    "preference_fit": "Pune is a preferred location and current city; hybrid three days a week; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only. Shortlisting odds moderate: the GenAI essentials match well; the classical ML and MLOps years do not."
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "MATCHED",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4480520415",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4480520415",
+    "fetched_at": "2026-11-15"
+  }
+}
