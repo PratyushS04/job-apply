@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-14T14:09:33.502823+00:00",
-  "total_jobs": 4,
+  "last_updated": "2026-11-15T06:59:43.236817+00:00",
+  "total_jobs": 5,
   "status_counts": {
     "NEW": 0,
     "ANALYZING": 0,
@@ -17,12 +17,14 @@
     "AWAITING_APPROVAL": 0,
     "SUBMITTED": 1,
     "SKIPPED": 0,
-    "ERROR": 0
+    "ERROR": 1
   },
   "active_jobs": [
     "job_001",
     "job_003",
     "job_004"
   ],
-  "recent_errors": []
+  "recent_errors": [
+    "job_005"
+  ]
 }

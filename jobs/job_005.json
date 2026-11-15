@@ -1,0 +1,42 @@
+{
+  "id": "job_005",
+  "url": "https://apply.careers.microsoft.com/careers/job/1970393556955128?utm_source=linkedin&domain=microsoft.com&source=linkedin",
+  "source": "chat",
+  "created_at": "2026-11-15T06:58:18.320752+00:00",
+  "updated_at": "2026-11-15T06:59:43.235244+00:00",
+  "company": "Microsoft",
+  "title": null,
+  "location": null,
+  "job_type": null,
+  "description": null,
+  "requirements": {
+    "required_skills": [],
+    "preferred_skills": [],
+    "experience_years": null,
+    "education": null
+  },
+  "match": {
+    "score": null,
+    "reasoning": null,
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [],
+    "status": "NOT_SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "ERROR",
+  "error": "Posting not read: apply.careers.microsoft.com is not allowed by this environment's network policy, and the user declined adding it on 2026-11-15. A web search did not find job ID 1970393556955128. Resume on hold until the job description is pasted or a LinkedIn link is provided."
+}
