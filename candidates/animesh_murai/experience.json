@@ -8,13 +8,19 @@
     "end_date": "",
     "current": true,
     "phases": [
-      {"period": "2026-01 to 2026-03", "description": "On bench; completed required new-hire trainings, including SIEM training (Splunk)."},
-      {"period": "2026-03 to present", "description": "Google security team: reviewing Google's endpoint security with regard to third-party generative AI tools and other components."}
+      {
+        "period": "2026-01 to 2026-03",
+        "description": "On bench; completed required new-hire trainings, including SIEM training (Splunk)."
+      },
+      {
+        "period": "2026-03 to present",
+        "description": "Google security team: reviewing Google's endpoint security with regard to third-party generative AI tools and other components."
+      }
     ],
     "facts_user_reported": [
-      "Works on approximately 1,000 tickets since joining the Google project (user: 'around 1000 tickets so far').",
-      "Created an automation for the team's end-of-week report that removed manual effort and saved around 20 minutes (frequency/basis to confirm).",
-      "Created a page for the team on an internal site."
+      "Personally worked on about 1,000 tickets since March 2026; all security-related (confirmed 2026-11-15).",
+      "Built an automation for the team's end-of-week report; saves about 20 minutes every week (confirmed weekly 2026-11-15; tool not specified).",
+      "Created a page on the internal site for the Accenture team at Google, under the team's leadership, showcasing the team's major milestones (confirmed 2026-11-15; tech not specified)."
     ],
     "training_from_technical_resume": [
       "Splunk: SPL searches, dashboard creation, alerts",
@@ -23,24 +29,38 @@
       "Alert tuning to reduce false positives",
       "Virtual-machine lab simulations; remote access (RDP/SSH concepts)",
       "NIST incident response lifecycle; threat intelligence concepts (MISP, TAXII); QRadar conceptual exposure"
-    ]
+    ],
+    "location": "Hyderabad, India"
   },
   {
     "company": "PFSN",
     "title": "Sports Content Writer (freelance)",
-    "start_date": "2025-04", "end_date": "2026-04",
-    "achievements": ["Published 1,300+ articles (WWE, Tennis, Formula 1, 2026 Winter Olympics).", "900,000+ cumulative article reads as of July 2026."]
+    "start_date": "2025-04",
+    "end_date": "2026-04",
+    "achievements": [
+      "Published 1,300+ articles (WWE, Tennis, Formula 1, 2026 Winter Olympics).",
+      "900,000+ cumulative article reads as of July 2026."
+    ],
+    "resume_use": "Omit from technical resumes (user, 2026-11-15)."
   },
   {
     "company": "ITRWrestling",
     "title": "Wrestling Content Writer (freelance)",
-    "start_date": "2025-08", "end_date": "2026-02",
-    "achievements": ["Published 1,000+ articles covering WWE, AEW, TNA, and independent wrestling."]
+    "start_date": "2025-08",
+    "end_date": "2026-02",
+    "achievements": [
+      "Published 1,000+ articles covering WWE, AEW, TNA, and independent wrestling."
+    ],
+    "resume_use": "Omit from technical resumes (user, 2026-11-15)."
   },
   {
     "company": "SportsLumo",
     "title": "Sports Content Writer",
-    "start_date": "2023-06", "end_date": "2024-04",
-    "achievements": ["Published 1,200+ articles covering Tennis and Football."]
+    "start_date": "2023-06",
+    "end_date": "2024-04",
+    "achievements": [
+      "Published 1,200+ articles covering Tennis and Football."
+    ],
+    "resume_use": "Omit from technical resumes (user, 2026-11-15)."
   }
 ]

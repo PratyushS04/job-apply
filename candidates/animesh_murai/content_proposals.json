@@ -4,94 +4,194 @@
   "note": "Separate from state/content_proposals.json, which belongs to a different candidate profile.",
   "proposals": [
     {
-      "id": "am-exp-google-role-001", "job_id": null,
-      "targets": ["experience.json: Accenture", "resumes/base_sde_v1.tex"],
+      "id": "am-exp-google-role-001",
+      "job_id": null,
+      "targets": [
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": null,
       "proposed_wording": "Review endpoint security for third-party generative AI tools and other software components as part of Google's security team, working as an Accenture vendor (external workforce).",
       "rationale": "Core description of current client work; states vendor relationship clearly.",
-      "source": "User chat 2026-11-15", "evidence_status": "user_reported",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
       "confirmation_needed": "What a typical review involves (e.g., assessing install/access requests, checking permissions or data handling) so the bullet can be more specific.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null
     },
     {
-      "id": "am-exp-tickets-002", "job_id": null,
-      "targets": ["experience.json: Accenture", "resumes/base_sde_v1.tex"],
+      "id": "am-exp-tickets-002",
+      "job_id": null,
+      "targets": [
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": null,
       "proposed_wording": "Worked through about 1,000 security review tickets since March 2026.",
       "rationale": "Shows volume and consistency.",
-      "source": "User chat 2026-11-15 ('around 1000 tickets so far')", "evidence_status": "user_reported",
+      "source": "User chat 2026-11-15 ('around 1000 tickets so far')",
+      "evidence_status": "user_reported",
       "confirmation_needed": "Are these tickets you personally resolved/reviewed (not team totals)? Are they all endpoint/security reviews?",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed tickets are their own and all security-related."
+        }
+      ]
     },
     {
-      "id": "am-exp-eow-automation-003", "job_id": null,
-      "targets": ["experience.json: Accenture", "resumes/base_sde_v1.tex"],
+      "id": "am-exp-eow-automation-003",
+      "job_id": null,
+      "targets": [
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": null,
       "proposed_wording": "Automated the team's end-of-week report, replacing manual compilation and saving about 20 minutes each week.",
       "rationale": "Concrete engineering contribution inside a security role.",
-      "source": "User chat 2026-11-15", "evidence_status": "estimated",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "estimated",
       "confirmation_needed": "Is the 20 minutes per weekly report? Tool used (Python, Apps Script, Sheets, SQL)? What did it pull data from?",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed ~20 min saved every week; left inclusion to Claude's judgment. Tool still unspecified."
+        }
+      ]
     },
     {
-      "id": "am-exp-internal-page-004", "job_id": null,
-      "targets": ["experience.json: Accenture", "resumes/base_sde_v1.tex"],
+      "id": "am-exp-internal-page-004",
+      "job_id": null,
+      "targets": [
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": null,
       "proposed_wording": "Built a page for the team on an internal site.",
       "rationale": "Web development contribution; currently thin.",
-      "source": "User chat 2026-11-15", "evidence_status": "user_reported",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
       "confirmation_needed": "What the page does/shows, who uses it, and what you built it with.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User clarified: page for the Accenture team at Google, under team leadership, showcasing team milestones."
+        }
+      ]
     },
     {
-      "id": "am-exp-training-005", "job_id": null,
-      "targets": ["resumes/base_sde_v1.tex"],
+      "id": "am-exp-training-005",
+      "job_id": null,
+      "targets": [
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": "Cyber Security - SIEM training (P2 proficiency in MyCompetency) ...",
       "proposed_wording": "Completed new-hire SIEM training with Splunk: SPL searches, dashboards, alert tuning to cut false positives, and log analysis of Windows, authentication, firewall, and DNS events.",
       "rationale": "Condenses the technical resume's training section; drops internal 'MyCompetency' jargon.",
-      "source": "Technical resume", "evidence_status": "document_supported",
+      "source": "Technical resume",
+      "evidence_status": "document_supported",
       "confirmation_needed": "Wording approval only.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null
     },
     {
-      "id": "am-proj-spendwise-006", "job_id": null,
-      "targets": ["projects.json: SpendWise", "resumes/base_sde_v1.tex"],
+      "id": "am-proj-spendwise-006",
+      "job_id": null,
+      "targets": [
+        "projects.json: SpendWise",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": null,
       "proposed_wording": "Six SpendWise bullets as shown in resumes/base_sde_v1.tex (privacy-first tracker; push-driven sync described as designed and built; adaptive Gmail API pipeline; parser/dedup/auto-categorization; insights + watchOS; native Android rebuild).",
       "rationale": "Strongest software project and directly relevant to Apple (Swift, SwiftUI, watchOS).",
-      "source": "User-supplied code review summary 2026-11-15", "evidence_status": "document_supported",
+      "source": "User-supplied code review summary 2026-11-15",
+      "evidence_status": "document_supported",
       "confirmation_needed": "Solo project? Start/end dates? Any App Store/Play Store or TestFlight release? Public GitHub link? You should be able to explain each design choice (AIMD limiter, dedup steps) in an interview.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed solo; v1 mid-Jul to 31 Jul 2026; in daily personal use on iPhone, Watch, Android; on GitHub, not App Store. Asked to shorten the entry."
+        }
+      ]
     },
     {
-      "id": "am-proj-medihelp-007", "job_id": null,
-      "targets": ["projects.json: MediHelp", "resumes/base_sde_v1.tex"],
+      "id": "am-proj-medihelp-007",
+      "job_id": null,
+      "targets": [
+        "projects.json: MediHelp",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": "Architected a system for automated extraction and generation of medication information from image data...",
       "proposed_wording": "Team project: web app that reads a photo of a medicine and extracts its name, ingredients, and strength with PaddleOCR; explains its use by scraping Drugs.com and summarizing with Llama 2 through LangChain.",
       "rationale": "Replaces vague 'architected... efficient pipelines' with the actual scope; labeled as team work.",
-      "source": "User chat 2026-11-15 and technical resume", "evidence_status": "user_reported",
+      "source": "User chat 2026-11-15 and technical resume",
+      "evidence_status": "user_reported",
       "confirmation_needed": "Which part you built personally; confirm site is Drugs.com; homeopathic-alternatives feature omitted for SDE roles.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed Drugs.com. Individual contribution still unspecified."
+        }
+      ]
     },
     {
-      "id": "am-proj-disease-008", "job_id": null,
-      "targets": ["resumes/base_sde_v1.tex"],
+      "id": "am-proj-disease-008",
+      "job_id": null,
+      "targets": [
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": "...predicts with an accuracy of around 90%...",
       "proposed_wording": "Trained and compared SVM, neural network, Naive Bayes, decision tree, and KNN classifiers on a Kaggle dataset to predict lifestyle-disease risk from user inputs, reaching about 90% accuracy.",
       "rationale": "Kept from technical resume per user instruction.",
-      "source": "Technical resume", "evidence_status": "document_supported",
+      "source": "Technical resume",
+      "evidence_status": "document_supported",
       "confirmation_needed": "Which model reached ~90% and on what test split; which disease. Will drop the number if you can't explain it in an interview.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "rejected",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User: remove Lifestyle Disease Prediction from the resume."
+      },
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User asked to remove the project from the resume."
+        }
+      ]
     },
     {
-      "id": "am-cert-claude-009", "job_id": null,
-      "targets": ["achievements.json", "resumes/base_sde_v1.tex"],
+      "id": "am-cert-claude-009",
+      "job_id": null,
+      "targets": [
+        "achievements.json",
+        "resumes/base_sde_v1.tex"
+      ],
       "current_wording": null,
       "proposed_wording": "Claude Certified Architect - Foundations; Claude Certified Developer - Foundations (Anthropic)",
       "rationale": "Relevant AI/developer certifications.",
-      "source": "User chat 2026-11-15", "evidence_status": "user_reported",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
       "confirmation_needed": "Exact certificate titles as printed, and issue dates.",
-      "approval_status": "pending", "approval_record": null
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User directly asked to add both certifications with supplied dates."
+      },
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User supplied CCA-F (2026-07-12) and CCDV-F (2026-11-14), each valid one year; asked to include them."
+        }
+      ]
     }
   ]
 }

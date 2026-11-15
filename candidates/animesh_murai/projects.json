@@ -2,13 +2,46 @@
   {
     "name": "SpendWise",
     "category": "personal_project",
-    "team": "Presumed solo (confirm)",
-    "dates": "",
-    "status": "Built (iOS/watchOS ~20.8K Swift LOC, Android ~13.3K Kotlin LOC). Push backend designed and built but not production-deployed: device tokens in a local JSON file; Pub/Sub topic still a placeholder.",
+    "team": "Solo (confirmed 2026-11-15)",
+    "dates": "2026-07 (v1 built mid-July to 2026-07-31; improvements afterward; now stable, in daily personal use)",
+    "status": "In daily personal use on the candidate's iPhone, Apple Watch, and Android phone. Not on the App Store; source on GitHub (repo URL not yet supplied). Push backend not production-deployed per code review.",
     "link": "",
     "description": "Privacy-first personal finance tracker for iPhone, Apple Watch, and Android that reads bank alert emails via the Gmail API and turns them into categorized transactions, with all financial data kept on device.",
-    "technologies": ["Swift", "SwiftUI", "SwiftData", "Swift Concurrency", "Combine", "Swift Charts", "WatchConnectivity", "WidgetKit", "BackgroundTasks", "LocalAuthentication", "Google Sign-In (OAuth 2.0)", "Gmail API", "Kotlin", "Jetpack Compose", "Material 3", "MVVM", "Clean Architecture", "Hilt", "Room", "DataStore", "WorkManager", "Coroutines/StateFlow", "JUnit", "Node.js", "Express", "Google Cloud Pub/Sub", "APNs"],
-    "do_not_claim": ["Multiple bank support (only HDFC parser built)", "Production deployment of push sync", "Android SMS import", "Test coverage figures"],
+    "technologies": [
+      "Swift",
+      "SwiftUI",
+      "SwiftData",
+      "Swift Concurrency",
+      "Combine",
+      "Swift Charts",
+      "WatchConnectivity",
+      "WidgetKit",
+      "BackgroundTasks",
+      "LocalAuthentication",
+      "Google Sign-In (OAuth 2.0)",
+      "Gmail API",
+      "Kotlin",
+      "Jetpack Compose",
+      "Material 3",
+      "MVVM",
+      "Clean Architecture",
+      "Hilt",
+      "Room",
+      "DataStore",
+      "WorkManager",
+      "Coroutines/StateFlow",
+      "JUnit",
+      "Node.js",
+      "Express",
+      "Google Cloud Pub/Sub",
+      "APNs"
+    ],
+    "do_not_claim": [
+      "Multiple bank support (only HDFC parser built)",
+      "Production deployment of push sync",
+      "Android SMS import",
+      "Test coverage figures"
+    ],
     "source": "User-supplied code review summary of the SpendWise codebases, 2026-11-15."
   },
   {
@@ -16,8 +49,15 @@
     "category": "academic_project",
     "team": "Group project (candidate's individual part to confirm)",
     "dates": "2024",
-    "description": "Interface where a user uploads a photo of a medicine; it extracts the medicine name, contents, and strength, explains what the medicine does by web scraping drug.com (confirm: Drugs.com?), and suggests homeopathic alternatives.",
-    "technologies": ["Python", "PaddleOCR", "Llama 2", "LangChain", "Web scraping", "NLP"],
+    "description": "Interface where a user uploads a photo of a medicine; it extracts the medicine name, contents, and strength, explains what the medicine does by web scraping Drugs.com (confirmed), and suggests homeopathic alternatives.",
+    "technologies": [
+      "Python",
+      "PaddleOCR",
+      "Llama 2",
+      "LangChain",
+      "Web scraping",
+      "NLP"
+    ],
     "source": "User description 2026-11-15 and technical resume."
   },
   {
@@ -25,7 +65,13 @@
     "category": "academic_project",
     "dates": "2023",
     "description": "Prediction model comparing SVM, ANN, Naive Bayes, Decision Tree, and KNN on a Kaggle dataset; takes user input and predicts disease risk with around 90% accuracy (measurement basis not confirmed).",
-    "technologies": ["Python", "Pandas", "NumPy", "scikit-learn"],
-    "source": "Technical resume."
+    "technologies": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "scikit-learn"
+    ],
+    "source": "Technical resume.",
+    "resume_use": "Remove from technical resumes (user, 2026-11-15)."
   }
 ]

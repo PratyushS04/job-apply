@@ -1,6 +1,29 @@
 [
-  {"type": "certification", "name": "Claude Certified Architect - Foundations", "issuer": "Anthropic", "date": "", "note": "User-reported 2026-11-15; confirm exact title and date."},
-  {"type": "certification", "name": "Claude Certified Developer - Foundations", "issuer": "Anthropic", "date": "", "note": "User-reported 2026-11-15; confirm exact title and date."},
-  {"type": "profile", "name": "LeetCode", "url": "https://leetcode.com/u/sAMurai7781/", "note": "Problem count/rating not supplied."},
-  {"type": "writing", "name": "900,000+ cumulative article reads at PFSN as of July 2026"}
+  {
+    "type": "certification",
+    "name": "Claude Certified Architect - Foundations (CCA-F)",
+    "issuer": "Anthropic",
+    "date": "2026-07-12",
+    "note": "User-reported 2026-11-15.",
+    "valid_until": "2027-07"
+  },
+  {
+    "type": "certification",
+    "name": "Claude Certified Developer - Foundations (CCDV-F)",
+    "issuer": "Anthropic",
+    "date": "2026-11-14",
+    "note": "User-reported 2026-11-15.",
+    "valid_until": "2027-11"
+  },
+  {
+    "type": "profile",
+    "name": "LeetCode",
+    "url": "https://leetcode.com/u/sAMurai7781/",
+    "note": "User-reported 2026-11-15.",
+    "problems_solved": 300
+  },
+  {
+    "type": "writing",
+    "name": "900,000+ cumulative article reads at PFSN as of July 2026"
+  }
 ]
