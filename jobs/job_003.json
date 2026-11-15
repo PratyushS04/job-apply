@@ -3,31 +3,64 @@
   "url": "https://www.naukri.com/job-listings-software-development-engineer-apple-india-pvt-ltd-bengaluru-0-to-6-years-110826502201",
   "source": "chat",
   "created_at": "2026-11-15T18:53:29.607398+00:00",
-  "updated_at": "2026-11-15T18:53:29.607398+00:00",
+  "updated_at": "2026-11-15T18:58:03.771392+00:00",
   "company": "Apple India Pvt Ltd",
   "title": "Software Development Engineer",
   "location": "Bengaluru, India",
-  "job_type": null,
-  "description": null,
+  "job_type": "Full Time, Permanent",
+  "description": "Apple Field Design Engineering team: Software Development Engineer / Automation Tools Development Engineer. Design, develop, and maintain automation systems and tools for engineering workflows for iPhone, iPad, and Apple Watch hardware. Meaningful focus on Agentic AI and Applied AI: LLM-powered features and intelligent services. Responsibilities: own automation frameworks/tools used across wireless technologies globally; build and ship agentic AI features and LLM-powered apps automating multi-step workflows; own prompt engineering, evaluation, and safety for AI features; integrate AI/ML tools for code generation and workflow optimization; collaborate with Hardware, Software, RF, Systems Engineering; write clean, documented code primarily in Python, with Java, Scala, Swift, or Node.js as needed; maintain CI/CD pipelines; troubleshoot automated and AI-powered systems; code reviews; document and communicate designs. Education: any graduate. Experience 0-6 years (from listing URL). Source: user-pasted Naukri text 2026-11-15.",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
-    "experience_years": null,
-    "education": null
+    "required_skills": [
+      "Python",
+      "Automation tools/frameworks",
+      "LLM-powered applications",
+      "Agentic AI",
+      "Prompt engineering, evaluation, safety",
+      "CI/CD pipelines",
+      "Debugging",
+      "Software development practices",
+      "Technical documentation"
+    ],
+    "preferred_skills": [
+      "Java",
+      "Scala",
+      "Swift",
+      "Node.js",
+      "AI-assisted code generation tools",
+      "Cross-functional collaboration (hardware/RF/systems)",
+      "Code reviews"
+    ],
+    "experience_years": "0-6",
+    "education": "Any graduate"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 58,
+    "reasoning": "Supported strengths: workflow automation in a real job (Google Apps Script weekly report automation, internal site page); an LLM-powered app (MediHelp: Python, Llama 2, LangChain, PaddleOCR; team project, individual role unconfirmed); Claude Certified Architect and Developer - Foundations; Swift and Node.js used in SpendWise (solo; native iPhone/Apple Watch apps, Gmail API automation pipeline with retries/backoff, Node.js push relay); security review of third-party generative AI tools (adjacent to AI safety awareness); strong DSA in C++. Gaps (no supported evidence): shipped agentic AI features, prompt evaluation/safety ownership, CI/CD pipelines, Scala, production Python services, large-scale automation frameworks. Python is used in projects but C++ is the strongest language.",
+    "strengths": [
+      "Automation at work (Apps Script)",
+      "LLM app (MediHelp)",
+      "Claude certifications",
+      "Swift + Apple Watch",
+      "Node.js",
+      "DSA"
+    ],
+    "gaps": [
+      "Agentic AI shipped work",
+      "Prompt eval/safety",
+      "CI/CD",
+      "Scala",
+      "Production Python"
+    ],
+    "unresolved_proposals": [
+      "MediHelp individual contribution unconfirmed"
+    ]
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "version": 1,
+    "tex": "resumes/job_003/resume_v1.tex",
+    "pdf": "resumes/job_003/resume_v1.pdf",
+    "base": "candidates/animesh_murai/resumes/base_sde_v11.tex",
+    "review_notes": "resumes/job_003/review/review_notes.md"
   },
   "application": {
     "status": "NOT_STARTED",
@@ -37,12 +70,25 @@
     "screenshots": []
   },
   "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/). Tailor base_sde_v11 to this posting.",
-  "pipeline_status": "NEW",
+  "pipeline_status": "RESUME_READY",
   "error": null,
   "posting_metadata": {
     "candidate_profile": "candidates/animesh_murai",
     "experience_range_from_url": "0-6 years",
     "source_site": "naukri.com",
-    "fetch_status": "Blocked 2026-11-15: www.naukri.com not reachable from this session's network policy (DNS ENOTFOUND). Awaiting pasted job description."
+    "fetch_status": "Description pasted by user 2026-11-15 (Naukri fetch blocked in session).",
+    "naukri_role_tags": {
+      "role": "Search Engineer",
+      "department": "Engineering - Software & QA",
+      "role_category": "Software Development",
+      "industry": "Consumer Electronics & Appliances"
+    }
+  },
+  "content_review": {
+    "hold": false,
+    "proposal_ids": [
+      "am-proj-medihelp-007"
+    ],
+    "note": "MediHelp individual contribution unconfirmed; included as team-scope wording. Awaiting user review of tailored resume."
   }
 }
