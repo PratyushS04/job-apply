@@ -49,7 +49,7 @@
         "resumes/base_sde_v1.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Automated the team's end-of-week report, replacing manual compilation and saving about 20 minutes each week.",
+      "proposed_wording": "Built a Google Apps Script automation that generates the team's end-of-week report, replacing a manual step and saving about 20 minutes every week.",
       "rationale": "Concrete engineering contribution inside a security role.",
       "source": "User chat 2026-11-15",
       "evidence_status": "estimated",
@@ -60,6 +60,10 @@
         {
           "date": "2026-11-15",
           "note": "User confirmed ~20 min saved every week; left inclusion to Claude's judgment. Tool still unspecified."
+        },
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed tool: Google Apps Script."
         }
       ]
     },

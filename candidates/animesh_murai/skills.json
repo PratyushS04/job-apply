@@ -1,9 +1,63 @@
 {
-  "languages": ["C++", "Java", "Python", "Swift", "Kotlin", "SQL (MySQL)"],
-  "mobile": ["SwiftUI", "SwiftData", "Swift Concurrency", "Combine", "Swift Charts", "WatchConnectivity", "WidgetKit", "Jetpack Compose", "Room", "Hilt", "WorkManager"],
-  "backend_cloud_apis": ["Node.js", "Express", "Gmail API", "Google Cloud Pub/Sub", "APNs", "OAuth 2.0", "REST APIs"],
-  "ai_ml": ["scikit-learn", "Pandas", "NumPy", "LangChain", "Llama 2", "PaddleOCR"],
-  "security": ["Splunk (SPL, dashboards, alerts)", "SIEM", "Log analysis", "Alert tuning", "NIST incident response", "Threat intelligence basics (MISP, TAXII)", "QRadar (conceptual)"],
-  "unconfirmed_not_used": ["Git", "Xcode", "Android Studio", "JavaScript vs TypeScript for the Node.js backend"],
-  "soft": ["Problem solving", "Decision making", "Teamwork", "Communication", "Technical and editorial writing"]
+  "languages": [
+    "C++",
+    "Java",
+    "Python",
+    "Swift",
+    "Kotlin",
+    "SQL (MySQL)"
+  ],
+  "mobile": [
+    "SwiftUI",
+    "SwiftData",
+    "Swift Concurrency",
+    "Combine",
+    "Swift Charts",
+    "WatchConnectivity",
+    "WidgetKit",
+    "Jetpack Compose",
+    "Room",
+    "Hilt",
+    "WorkManager"
+  ],
+  "backend_cloud_apis": [
+    "Node.js",
+    "Express",
+    "Gmail API",
+    "Google Cloud Pub/Sub",
+    "APNs",
+    "OAuth 2.0",
+    "REST APIs",
+    "Google Apps Script"
+  ],
+  "ai_ml": [
+    "scikit-learn",
+    "Pandas",
+    "NumPy",
+    "LangChain",
+    "Llama 2",
+    "PaddleOCR"
+  ],
+  "security": [
+    "Splunk (SPL, dashboards, alerts)",
+    "SIEM",
+    "Log analysis",
+    "Alert tuning",
+    "NIST incident response",
+    "Threat intelligence basics (MISP, TAXII)",
+    "QRadar (conceptual)"
+  ],
+  "unconfirmed_not_used": [
+    "Git",
+    "Xcode",
+    "Android Studio",
+    "JavaScript vs TypeScript for the Node.js backend"
+  ],
+  "soft": [
+    "Problem solving",
+    "Decision making",
+    "Teamwork",
+    "Communication",
+    "Technical and editorial writing"
+  ]
 }
