@@ -10,7 +10,7 @@
     "phases": [
       {
         "period": "2026-01 to 2026-03",
-        "description": "On bench; completed required new-hire trainings, including SIEM training (Splunk)."
+        "description": "On bench, seeking onboarding to a project (user, 2026-11-15). No training claimed for this period."
       },
       {
         "period": "2026-03 to present",
@@ -30,7 +30,12 @@
       "Virtual-machine lab simulations; remote access (RDP/SSH concepts)",
       "NIST incident response lifecycle; threat intelligence concepts (MISP, TAXII); QRadar conceptual exposure"
     ],
-    "location": "Hyderabad, India"
+    "location": "Hyderabad, India",
+    "siem_training": {
+      "dates": "2025-08 to 2025-10",
+      "provider": "Unconfirmed (possibly Accenture pre-joining training; ask before labeling)",
+      "source": "User correction 2026-11-15"
+    }
   },
   {
     "company": "PFSN",

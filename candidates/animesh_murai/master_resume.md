@@ -9,7 +9,8 @@ LinkedIn: https://www.linkedin.com/in/animesh-murai-538384253/ | GitHub: https:/
 ## Experience
 
 ### Security Managed Services Associate — Accenture | Client: Google (vendor, external workforce) | Jan 2026 – Present
-- Jan–Mar 2026: on bench, completed required new-hire training (SIEM / Splunk).
+- Jan–Mar 2026: on bench, seeking project onboarding.
+- SIEM training (Splunk): Aug–Oct 2025 (provider to confirm).
 - Mar 2026–present: Google security team; reviewing endpoint security for third-party generative AI tools and other components.
 - ~1,000 tickets worked so far (user-reported).
 - Automated end-of-week team report; saved manual effort, ~20 minutes (frequency to confirm).
