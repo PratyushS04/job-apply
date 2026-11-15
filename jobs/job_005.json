@@ -3,31 +3,62 @@
   "url": "https://apply.careers.microsoft.com/careers/job/1970393556955128?utm_source=linkedin&domain=microsoft.com&source=linkedin",
   "source": "chat",
   "created_at": "2026-11-15T06:58:18.320752+00:00",
-  "updated_at": "2026-11-15T06:59:43.235244+00:00",
+  "updated_at": "2026-11-15T07:04:53.792593+00:00",
   "company": "Microsoft",
-  "title": null,
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "title": "Software Engineer (Fabric Platform Shell)",
+  "location": "Hyderabad, Telangana, India (+1 more); 3 days/week in office; 25-50% travel",
+  "job_type": "full-time",
+  "description": "Azure Data / Microsoft Fabric Platform Shell team builds the unified, extensible SaaS web developer environment for Fabric, onboarding first- and third-party workloads. Responsibilities: design and build Fabric Platform experiences in browser environments; full-stack and backend development; collaborate with UX/UI designers, product and program managers and engineers across the feature lifecycle; technical leadership by identifying gaps and writing high-quality code. Requires passing the Microsoft Cloud background check at hire and every two years. Job number 200046578; posted 2026-11-11. Source: posting text pasted by the user on 2026-11-15 (careers site not reachable from this environment).",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
-    "experience_years": null,
-    "education": null
+    "required_skills": [
+      "Bachelor's in CS or related AND 2+ years technical engineering experience coding in C, C++, C#, Java, JavaScript, or Python",
+      "2+ years web application development: JavaScript, TypeScript, HTML, CSS, and a frontend framework (React, Vue, or Angular)",
+      "Microsoft Cloud background check"
+    ],
+    "preferred_skills": [
+      "High-performance browser user experiences",
+      "Developer and user experiences for modern analytics systems",
+      "Cross-team global collaboration",
+      "Customer empathy"
+    ],
+    "experience_years": 2,
+    "education": "Bachelor's Degree in Computer Science or related technical field"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 58,
+    "reasoning": "Meets the degree and coding-language requirement (Java, Python). React is supported through ContX AI, and there is strong developer-tooling and Azure context: AI-assisted developer portal prototype, Pod Brain, Streamlit/Tkinter tool UIs, and Power BI dashboards (Power BI is part of Fabric). JavaScript, TypeScript, HTML, and CSS are not in the profile, and 2+ years of web-application development is not supported. Technical engineering experience is about 1 year 10 months at Amadeus (intern plus full-time), or about 2 years 2 months including the 2022 Gear To Care role.",
+    "score_breakdown": {
+      "required_skills": "16/35",
+      "experience": "14/25",
+      "preferred_skills": "8/15",
+      "education": "10/10",
+      "preferences": "10/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: ContX AI (React + Python REST), developer portal prototype, Pod Brain, Java 17/Spring Boot 3 modernization, Copilot/MCP demos.",
+      "Amadeus intern: Power BI dashboards, DAX optimization, Python/SQL/Splunk data workflows.",
+      "Gear To Care: Android app features."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot (Streamlit interface)",
+      "Black Duck scanner (Tkinter interface, CLI)"
+    ],
+    "skill_gaps": [
+      "JavaScript, TypeScript, HTML, CSS (not in profile)",
+      "2+ years web application development",
+      "Browser performance engineering"
+    ],
+    "unresolved_proposals": "job005-contx-react-tests-001 and job005-web-shell-project-001 are pending and do not affect this score.",
+    "preference_fit": "Hyderabad is a preferred location and relocation was confirmed; 3 days/week in office is fine. 25-50% travel has not been discussed with the candidate.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "status": "GENERATED",
+    "path": "resumes/job_005/resume_v1.tex",
+    "pdf_path": "resumes/job_005/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "Draft v1 from supported content only. Tectonic compiled with no warnings; one A4 page; 10pt body; 0.6-inch margins; content ends about 1.1 inch from the bottom; visual check passed; text extraction clean; fonts embedded; links match profile.json; education unchanged. JavaScript, TypeScript, HTML, and CSS are not listed because they are not in the profile. Excluded: React-tests claim (job_002 scope only), metrics with unconfirmed bases, HIT platform."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -37,6 +68,19 @@
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "ERROR",
-  "error": "Posting not read: apply.careers.microsoft.com is not allowed by this environment's network policy, and the user declined adding it on 2026-11-15. A web search did not find job ID 1970393556955128. Resume on hold until the job description is pasted or a LinkedIn link is provided."
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "microsoft_job_number": "200046578",
+    "careers_id": "1970393556955128",
+    "source_text": "pasted by user 2026-11-15"
+  },
+  "content_review": {
+    "proposal_ids": [
+      "job005-contx-react-tests-001",
+      "job005-web-shell-project-001"
+    ],
+    "hold": null,
+    "notes": "Both optional; v1 excludes them. Questions: JavaScript/TypeScript/HTML/CSS used in ContX AI or the developer portal? Developer portal stack? 25-50% travel acceptable?"
+  }
 }

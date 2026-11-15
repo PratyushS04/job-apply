@@ -637,6 +637,59 @@
         "applied": true,
         "applied_to": "resumes/job_004/resume_v2.tex (Personal Project; bullets verbatim; header lists a subset of the approved technologies)"
       }
+    },
+    {
+      "id": "job005-contx-react-tests-001",
+      "job_id": "job_005",
+      "target": {
+        "file": "resumes/job_005/resume_v<N>.tex",
+        "field": "Amadeus SDE ContX AI bullet"
+      },
+      "current_wording": "Built ContX AI, a campaign-design application ... using Python, React, Azure AI Foundry, and REST APIs.",
+      "proposed_wording": "Built React components and wrote tests for ContX AI, a campaign-design application using Python, Azure AI Foundry, MJML, and REST APIs to turn briefs and hotel context into personalized marketing content.",
+      "rationale": "The Microsoft role is frontend-heavy; this fact was confirmed for job_002 but approved for the job_002 resume only.",
+      "source": "Candidate confirmation 2026-10-18 (job002-contx-react-tests-002)",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Approval to use the same wording in the job_005 resume.",
+      "approval_status": "pending",
+      "approval_record": null
+    },
+    {
+      "id": "job005-web-shell-project-001",
+      "job_id": "job_005",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_005/resume_v<N>.tex",
+        "field": "Personal Project section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Extensible Data Workspace",
+        "attribution": "Personal project",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "HTML",
+          "CSS",
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "Jest",
+          "Playwright"
+        ],
+        "resume_bullets": [
+          "Built a browser-based data workspace in React and TypeScript with a shared navigation shell, tabbed editors, and a plugin interface that lets independent tools register their own panels and commands.",
+          "Built a Python FastAPI backend for workspace metadata and SQL queries against PostgreSQL, and tested the interface with Jest and Playwright, including keyboard navigation and responsive layouts."
+        ]
+      },
+      "rationale": "Maps to Fabric Platform Shell's extensible web developer environment and the JavaScript/TypeScript/HTML/CSS/React requirement, which supported content covers only through React in ContX AI.",
+      "source": "Assistant-generated from the job_005 Microsoft posting text; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for use in the job_005 resume despite not_built status; choose approval scope.",
+      "approval_scope": null,
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }
