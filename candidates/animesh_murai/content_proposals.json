@@ -75,7 +75,7 @@
         "resumes/base_sde_v1.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Created a page on the team's internal site showcasing major team milestones.",
+      "proposed_wording": "Created a page on the team's internal site using Google Apps Script, showcasing major team milestones.",
       "rationale": "Web development contribution; currently thin.",
       "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
@@ -83,7 +83,7 @@
       "approval_status": "approved",
       "approval_record": {
         "date": "2026-11-15",
-        "decision": "User supplied this exact wording."
+        "decision": "User supplied wording and asked to add that it used Google Apps Script."
       },
       "factual_confirmations": [
         {
@@ -270,6 +270,22 @@
         "date": "2026-11-15",
         "decision": "User said the laptop is not currently used and asked to present usage anyway; Claude declined to state unbuilt usage as completed work. Removed from resume v5. Reconsider as a new proposal once actually set up."
       }
+    },
+    {
+      "id": "am-summary-013",
+      "job_id": null,
+      "targets": [
+        "profile.json: summary",
+        "resumes/base_sde_v11.tex"
+      ],
+      "current_wording": "Accenture associate on Google's security team, reviewing endpoint security ... Claude Certified Architect and Developer - Foundations.",
+      "proposed_wording": "Engineer with a B.Tech in Computer Science (AI & ML), working with Google's security team through Accenture on endpoint security for third-party generative AI tools. Strong in C++, data structures and algorithms, and DBMS/SQL; builds software end to end, from Google Apps Script tools to native mobile apps and AI projects.",
+      "rationale": "User asked for a stronger SDE-oriented summary not centered on the iOS app.",
+      "source": "User chat 2026-11-15; 'data structures and algorithms' inferred from 300 LeetCode problems solved",
+      "evidence_status": "derived",
+      "confirmation_needed": "User to confirm wording, including the DSA claim.",
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }

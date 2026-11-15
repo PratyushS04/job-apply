@@ -14,7 +14,7 @@ LinkedIn: https://www.linkedin.com/in/animesh-murai-538384253/ | GitHub: https:/
 - Mar 2026–present: Google security team; reviewing endpoint security for third-party generative AI tools and other components.
 - ~1,000 security tickets handled individually since Mar 2026 (user-reported).
 - Google Apps Script automation for the team's end-of-week report; saves ~20 minutes every week.
-- Created a page on the team's internal site showcasing major team milestones.
+- Created a page on the team's internal site using Google Apps Script, showcasing major team milestones.
 - Training: Splunk SPL, dashboards, alerts; SIEM architecture (forwarders, collectors, correlation engine, normalization); log analysis (Windows, auth, firewall, DNS); alert tuning; VM labs; NIST IR; MISP/TAXII; QRadar (conceptual).
 
 ### Sports Content Writer (freelance) — PFSN | Apr 2025 – Apr 2026
