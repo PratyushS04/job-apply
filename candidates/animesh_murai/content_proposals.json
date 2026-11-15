@@ -75,13 +75,16 @@
         "resumes/base_sde_v1.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Built a page for the team on an internal site.",
+      "proposed_wording": "Created a page on the team's internal site showcasing major team milestones.",
       "rationale": "Web development contribution; currently thin.",
       "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
       "confirmation_needed": "What the page does/shows, who uses it, and what you built it with.",
-      "approval_status": "pending",
-      "approval_record": null,
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User supplied this exact wording."
+      },
       "factual_confirmations": [
         {
           "date": "2026-11-15",
