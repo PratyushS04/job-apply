@@ -3,7 +3,7 @@
   "url": "https://www.naukri.com/job-listings-software-development-engineer-apple-india-pvt-ltd-bengaluru-0-to-6-years-110826502201",
   "source": "chat",
   "created_at": "2026-11-15T18:53:29.607398+00:00",
-  "updated_at": "2026-11-15T19:09:54.547034+00:00",
+  "updated_at": "2026-11-15T19:15:00.953119+00:00",
   "company": "Apple India Pvt Ltd",
   "title": "Software Development Engineer",
   "location": "Bengaluru, India",
@@ -56,22 +56,25 @@
     ]
   },
   "resume": {
-    "version": 2,
-    "tex": "resumes/job_003/resume_v2.tex",
-    "pdf": "resumes/job_003/resume_v2.pdf",
+    "version": 1,
+    "tex": "resumes/job_003/resume_v1.tex",
+    "pdf": "resumes/job_003/resume_v1.pdf",
     "base": "candidates/animesh_murai/resumes/base_sde_v11.tex",
     "review_notes": "resumes/job_003/review/review_notes.md",
-    "previous": "resumes/job_003/resume_v1.pdf"
+    "previous": "resumes/job_003/resume_v1.pdf",
+    "approved": {
+      "date": "2026-11-15",
+      "decision": "Candidate chose option A: submit resume_v1 (supported content only)."
+    },
+    "not_used": "resumes/job_003/resume_v2.pdf (contains unbuilt FlowPilot)"
   },
   "application": {
-    "status": "NOT_STARTED",
-    "questions": [],
-    "answers": [],
-    "required_fields": {},
-    "screenshots": []
+    "prep": "applications/job_003/application_prep.md",
+    "resume_upload": "applications/job_003/Animesh_Murai_Resume.pdf",
+    "submission": "Candidate applies manually on Naukri/Apple Careers; this session has no browser or account access."
   },
   "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/). Tailor base_sde_v11 to this posting.",
-  "pipeline_status": "RESUME_READY",
+  "pipeline_status": "APP_PREPARING",
   "error": null,
   "posting_metadata": {
     "candidate_profile": "candidates/animesh_murai",
@@ -91,6 +94,6 @@
       "am-proj-medihelp-007",
       "am-proj-flowpilot-014"
     ],
-    "note": "resume_v2 includes FlowPilot (not built, labelled In progress) pending user approval of exact entry and scope; resume_v1 has supported content only. MediHelp individual contribution still unconfirmed."
+    "note": "FlowPilot excluded from the application (v1). Hold: screening answers need candidate input (total experience, notice period, current/expected CTC, relocation, start date)."
   }
 }

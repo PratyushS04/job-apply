@@ -307,7 +307,13 @@
       "approval_scope": "",
       "confirmation_needed": "User approval of exact wording and scope (job_003 only?); user to start the repository before sending the resume so 'In progress' is true.",
       "approval_status": "pending",
-      "approval_record": null
+      "approval_record": null,
+      "decision_log": [
+        {
+          "date": "2026-11-15",
+          "note": "User asked to drop the 'In progress' label; Claude declined completed-work framing for an unbuilt project. User chose to apply with resume_v1 (no FlowPilot). Proposal remains pending; build later."
+        }
+      ]
     }
   ]
 }
