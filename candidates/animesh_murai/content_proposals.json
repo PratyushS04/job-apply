@@ -96,7 +96,7 @@
         "resumes/base_sde_v1.tex"
       ],
       "current_wording": "Cyber Security - SIEM training (P2 proficiency in MyCompetency) ...",
-      "proposed_wording": "SIEM Training (Splunk) -- Accenture: SPL searches, dashboards, alert tuning to reduce false positives, and log analysis of Windows, authentication, firewall, and DNS events | Aug -- Oct 2025",
+      "proposed_wording": "Trained by Accenture in SIEM operations with Splunk: SPL searches, dashboards, alert tuning to reduce false positives, and log analysis of Windows, authentication, firewall, and DNS events. | Covered SIEM architecture (forwarders, collectors, normalization, correlation), NIST incident response, threat intelligence (MISP, TAXII), QRadar basics, and VM lab simulations over RDP/SSH.",
       "rationale": "Condenses the technical resume's training section; drops internal 'MyCompetency' jargon.",
       "source": "Technical resume",
       "evidence_status": "document_supported",
@@ -111,6 +111,10 @@
         {
           "date": "2026-11-15",
           "note": "User confirmed Accenture provided the training for the job."
+        },
+        {
+          "date": "2026-11-15",
+          "note": "User asked to omit training dates and include all Accenture training items from the original technical resume."
         }
       ]
     },

@@ -34,7 +34,8 @@
     "siem_training": {
       "dates": "2025-08 to 2025-10",
       "provider": "Accenture (required training for the job, confirmed 2026-11-15)",
-      "source": "User correction 2026-11-15"
+      "source": "User correction 2026-11-15",
+      "resume_display": "Show without dates, as Accenture training bullets under the Accenture role (user, 2026-11-15)."
     }
   },
   {
