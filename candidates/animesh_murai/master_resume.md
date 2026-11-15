@@ -3,18 +3,18 @@
 Separate profile from `candidate/` (which belongs to another candidate). Pending wording
 lives in `content_proposals.json`; nothing below is approved for a submitted application yet.
 
-Nagpur, Maharashtra | +91-830-808-2999 | asmurai27@gmail.com (confirm)
+Hyderabad, India | +91-8308082999 | asmurai27@gmail.com
 LinkedIn: https://www.linkedin.com/in/animesh-murai-538384253/ | GitHub: https://github.com/muraias7781 | LeetCode: https://leetcode.com/u/sAMurai7781/
 
 ## Experience
 
 ### Security Managed Services Associate — Accenture | Client: Google (vendor, external workforce) | Jan 2026 – Present
 - Jan–Mar 2026: on bench, seeking project onboarding.
-- SIEM training (Splunk): Aug–Oct 2025 (provider to confirm).
+- SIEM training (Splunk), provided by Accenture for the job: Aug–Oct 2025.
 - Mar 2026–present: Google security team; reviewing endpoint security for third-party generative AI tools and other components.
-- ~1,000 tickets worked so far (user-reported).
-- Automated end-of-week team report; saved manual effort, ~20 minutes (frequency to confirm).
-- Built a page for the team on an internal site.
+- ~1,000 security tickets handled individually since Mar 2026 (user-reported).
+- Google Apps Script automation for the team's end-of-week report; saves ~20 minutes every week.
+- Created a page on the team's internal site, under Accenture team leadership, showcasing the team's major milestones.
 - Training: Splunk SPL, dashboards, alerts; SIEM architecture (forwarders, collectors, correlation engine, normalization); log analysis (Windows, auth, firewall, DNS); alert tuning; VM labs; NIST IR; MISP/TAXII; QRadar (conceptual).
 
 ### Sports Content Writer (freelance) — PFSN | Apr 2025 – Apr 2026
