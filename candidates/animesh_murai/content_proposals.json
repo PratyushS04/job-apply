@@ -229,8 +229,11 @@
       "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
       "confirmation_needed": "Are the ~50 database problems part of the 300 or in addition?",
-      "approval_status": "pending",
-      "approval_record": null
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User confirmed the ~50 database problems are included in the 300."
+      }
     },
     {
       "id": "am-proj-homeserver-012",
@@ -245,8 +248,11 @@
       "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
       "confirmation_needed": "OS, services hosted, access method, tools used.",
-      "approval_status": "pending",
-      "approval_record": null
+      "approval_status": "rejected",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User said the laptop is not currently used and asked to present usage anyway; Claude declined to state unbuilt usage as completed work. Removed from resume v5. Reconsider as a new proposal once actually set up."
+      }
     }
   ]
 }

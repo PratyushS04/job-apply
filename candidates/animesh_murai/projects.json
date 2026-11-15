@@ -79,7 +79,7 @@
     "category": "personal_project",
     "team": "Solo",
     "dates": "",
-    "status": "In use (user-reported)",
+    "status": "future_project: spare laptop available but not currently in use (user, 2026-11-15). Do not list as experience until built.",
     "description": "Spare laptop at home used for hosting / as a personal server.",
     "technologies": [],
     "details_needed": "OS, what is hosted, how it is accessed/exposed, tools (Docker, Nginx, SSH, etc.), uptime/backup setup.",

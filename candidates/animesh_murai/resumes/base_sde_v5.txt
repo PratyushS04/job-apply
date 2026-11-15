@@ -1,0 +1,62 @@
+                                    Animesh Murai
+            Hyderabad, India | +91-8308082999 | asmurai27@gmail.com | LinkedIn | GitHub | LeetCode
+
+
+Summary
+Software engineer who has built native iOS, watchOS, and Android apps in Swift and Kotlin; strongest in C++.
+Currently an Accenture associate on Google’s security team, reviewing endpoint security for third-party generative
+AI tools. Claude Certiﬁed Architect and Developer – Foundations.
+
+
+Experience
+  Security Managed Services Associate                                                          Jan 2026 – Present
+  Accenture | Client: Google (vendor, external workforce)                                        Hyderabad, India
+     • Review endpoint security for third-party generative AI tools and other software components for Google’s
+       security team, handling about 1,000 security tickets individually since March 2026.
+     • Built a Google Apps Script automation that generates the team’s end-of-week report, replacing a manual
+
+       step and saving about 20 minutes every week.
+     • Created a page on the team’s internal site, under Accenture team leadership, showcasing the team’s major
+
+       milestones.
+     • Completed new-hire SIEM training (Jan–Mar 2026) in Splunk: SPL searches, dashboards, alert tuning to
+
+       reduce false positives, and log analysis of Windows, authentication, ﬁrewall, and DNS events.
+
+
+Projects
+  SpendWise – personal ﬁnance app (solo) | Swift, SwiftUI, SwiftData, Kotlin, Jetpack Compose             Jul 2026
+     • Built a privacy-ﬁrst expense tracker with native iPhone, Apple Watch, and Android apps that turns Gmail
+       bank-alert emails into categorized transactions on-device; built v1 in about two weeks, in daily use since.
+     • Wrote a Gmail API sync pipeline with Swift Concurrency that adjusts request parallelism to rate limits,
+
+       retries with backoﬀ, and syncs incrementally.
+     •   Built a bank-alert parser (UPI, NEFT, IMPS, card) with merchant scoring, duplicate detection, and
+         auto-categorization that learns from user corrections; added a watchOS app with complications.
+  MediHelp (team project) | Python, PaddleOCR, Llama 2, LangChain, web scraping                               2024
+     • Web app that reads a photo of a medicine and extracts its name, ingredients, and strength using
+       PaddleOCR text recognition.
+     • Explained what each medicine does by scraping Drugs.com and summarizing the results with Llama 2
+
+       through LangChain.
+
+
+Certifications & Achievements
+  Claude Certiﬁed Architect – Foundations (CCA-F) – Anthropic                                  Jul 2026 – Jul 2027
+  Claude Certiﬁed Developer – Foundations (CCDV-F) – Anthropic                               Nov 2026 – Nov 2027
+  Solved 300 problems on LeetCode, including about 50 database (SQL) problems
+
+Technical Skills
+  Languages: C++, Java, Python, Swift, Kotlin, SQL
+  Databases: DBMS, MySQL, SwiftData, Room
+  Mobile: SwiftUI, Swift Concurrency, Combine, Swift Charts, WatchConnectivity, WidgetKit
+  Android: Jetpack Compose, Hilt, WorkManager, Coroutines
+  APIs / Cloud: Gmail API, OAuth 2.0, Google Apps Script, Google Cloud Pub/Sub, Node.js, Express
+  AI / ML: LangChain, Llama 2, PaddleOCR, scikit-learn, Pandas, NumPy
+  Security: Splunk (SPL, dashboards, alerts), SIEM, log analysis, NIST incident response
+
+
+Education
+  B. Tech. in Computer Science Engineering (specialization in AI & ML)                       Dec 2021 – May 2025
+  Shri Ramdeobaba College of Engineering and Management | CGPA: 7.57                         Nagpur, Maharashtra
+
