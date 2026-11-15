@@ -66,5 +66,10 @@
     "MySQL",
     "SwiftData",
     "Room"
+  ],
+  "core_cs": [
+    "Data structures and algorithms (practised in C++; user-confirmed strong point 2026-11-15)",
+    "Problem solving",
+    "DBMS"
   ]
 }

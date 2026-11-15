@@ -282,10 +282,13 @@
       "proposed_wording": "Engineer with a B.Tech in Computer Science (AI & ML), working with Google's security team through Accenture on endpoint security for third-party generative AI tools. Strong in C++, data structures and algorithms, and DBMS/SQL; builds software end to end, from Google Apps Script tools to native mobile apps and AI projects.",
       "rationale": "User asked for a stronger SDE-oriented summary not centered on the iOS app.",
       "source": "User chat 2026-11-15; 'data structures and algorithms' inferred from 300 LeetCode problems solved",
-      "evidence_status": "derived",
+      "evidence_status": "user_reported",
       "confirmation_needed": "User to confirm wording, including the DSA claim.",
-      "approval_status": "pending",
-      "approval_record": null
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User confirmed DSA is a strong point (practised in C++), comfortable with problem solving; summary wording accepted."
+      }
     }
   ]
 }
