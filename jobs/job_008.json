@@ -3,7 +3,7 @@
   "url": "https://careers.google.com/jobs/results/105109659337007814-cloud-ai-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
   "source": "chat",
   "created_at": "2026-11-16T05:22:29.360532+00:00",
-  "updated_at": "2026-11-16T05:38:28.925653+00:00",
+  "updated_at": "2026-11-16T05:42:23.949747+00:00",
   "company": "Google",
   "title": "Cloud AI Engineer (English)",
   "location": "Bengaluru, Karnataka, India; Gurugram, Haryana, India; Pune, Maharashtra, India (preferred location chosen at application); in-person interviews usually required",
@@ -55,10 +55,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_008/resume_v1.tex",
-    "pdf_path": "resumes/job_008/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "v1 from supported content only; no invented content. Leads with GenAI, agents, RAG, and the MCP tool connection, then guardrails and compliance, multimodal evaluations, Pod Brain governance metadata, internal demos and presentations, AWS Rekognition/Lex/Forecast, and GMS Knowledge Bot. Does not claim customer-facing work (candidate declined it on 2026-09-12). Tectonic compiled with no warnings; one A4 page; content ends about 0.65 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
+    "path": "resumes/job_008/resume_v2.tex",
+    "pdf_path": "resumes/job_008/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 restructured toward the Google JD with only supported, previously confirmed facts: summary mirrors the JD language; bold theme labels on SDE bullets (RAG in production, LLM-tool integration, generative AI application, responsible AI and compliance, agent and multimodal evaluation, agentic automation, enterprise knowledge for agents, adoption and enablement); added the developer-portal prototype; skills regrouped (agents, RAG and AI platforms, responsible AI, cloud). Removed the toolkit and currency-defect bullets and Helm for space. No customer-facing claim. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text extraction clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
