@@ -1,0 +1,74 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer building generative AI applications, intelligent agents, and RAG architectures that connect language models to enterprise tools and data, with guardrails for privacy, compliance, and grounding.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Software Development Engineer}{Aug. 2025 -- Present}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{\textbf{RAG in production:} Engineered and deployed a Meta-RAG framework for the Loyalty Portal chatbot, using multi-stage contextual validation to reduce hallucinations and ground responses.}
+    \bulletpoint{\textbf{LLM--tool integration:} Developed a Model Context Protocol server that lets language models query Black Duck vulnerability metadata, analyze project risk, and suggest remediation through chat.}
+    \bulletpoint{\textbf{Generative AI application:} Built ContX AI, which turns natural-language briefs and hotel guest, property, and brand context into personalized email and ad content using Python, React, Azure AI Foundry, and REST APIs.}
+    \bulletpoint{\textbf{Responsible AI and compliance:} Implemented prompt-based editing, marketing compliance controls, and guardrails against storing personal data or fabricating property information.}
+    \bulletpoint{\textbf{Agent and multimodal evaluation:} Evaluated language models and multi-agent \mbox{workf{}lows} hands-on for personalized copy, structured email content, image generation, and output validation.}
+    \bulletpoint{\textbf{Enterprise knowledge for agents:} Built working prototypes of Pod Brain, a curated knowledge layer for AI development agents with ownership and approval states, and an AI-assisted developer portal.}
+    \bulletpoint{\textbf{Adoption and enablement:} Demonstrated Model Context Protocol and GitHub Copilot Skills use cases to engineering teams at internal innovation weeks, and pitched an AI hotel receptionist concept.}
+  \end{itemize}
+  \entry{Software Development Intern}{Jan. 2025 -- Jul. 2025}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract shopping, availability, and promotion data from Splunk and SQL for Power BI.}
+  \end{itemize}
+  \entry{AI-ML Virtual Intern}{May 2023 -- Jul. 2023}{AWS Academy}{Virtual}
+  \begin{itemize}
+    \bulletpoint{\textbf{Multimodal AI:} Used Amazon Rekognition, Lex, and Forecast to build image and video analysis, conversational language, and forecasting solutions.}
+  \end{itemize}
+\end{itemize}
+
+\section{Personal Project}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Gemini Workspace Agent}{}{Python, Agent Development Kit, Gemini, Vertex AI, Cloud Run, Workspace APIs, BigQuery}{}
+  \begin{itemize}
+    \bulletpoint{Built a multi-agent assistant with Google's Agent Development Kit and Gemini on Vertex AI that answers questions over Google Drive documents and a BigQuery table, and drafts Gmail replies and Calendar events through tool calls that require user conf{}irmation.}
+    \bulletpoint{Implemented retrieval with Vertex AI RAG Engine and accepted image and voice inputs through Gemini's multimodal APIs.}
+    \bulletpoint{Deployed the agents on Cloud Run with OAuth-scoped Workspace access, Secret Manager for credentials, and Cloud Logging traces for debugging agent behavior.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Agents and LLM applications:} LangChain, GitHub Copilot Agent SDK, Model Context Protocol, multi-agent workf{}lows, prompt engineering, LLM evaluation \\
+\textbf{RAG and AI platforms:} Meta-RAG, ChromaDB, vector search, Azure OpenAI, Azure AI Foundry \\
+\textbf{Cloud and languages:} Azure, Azure Kubernetes Service, AWS, Docker, Kubernetes, Jenkins, CI/CD, REST APIs; Python, Java, SQL \\
+\textbf{Certif{}ications and achievements:} Claude Certif{}ied Architect, Foundations (Anthropic); GATE Qualif{}ied (2023); 1,000+ LeetCode problems
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+\end{document}
