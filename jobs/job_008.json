@@ -3,31 +3,62 @@
   "url": "https://careers.google.com/jobs/results/105109659337007814-cloud-ai-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
   "source": "chat",
   "created_at": "2026-11-16T05:22:29.360532+00:00",
-  "updated_at": "2026-11-16T05:22:52.323476+00:00",
+  "updated_at": "2026-11-16T05:38:28.925653+00:00",
   "company": "Google",
-  "title": "Cloud AI Engineer (title from URL)",
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "title": "Cloud AI Engineer (English)",
+  "location": "Bengaluru, Karnataka, India; Gurugram, Haryana, India; Pune, Maharashtra, India (preferred location chosen at application); in-person interviews usually required",
+  "job_type": "full-time",
+  "description": "Google Cloud customer-facing role leading strategic customers' adoption of Gemini Enterprise and Google Cloud agentic AI products: design and implement production-ready application architectures on Gemini Enterprise and Google AI products; identify workflow transformations with autonomous agents; remove technical barriers to deployment and adoption; monitor, debug and troubleshoot agent behavior; act as trusted technical advisor; relay product challenges to engineering and provide workarounds; deliver best-practice recommendations and technical presentations to business and technical stakeholders; use Agent Development Kits (ADKs). No years of experience stated. Source: posting text pasted by the user on 2026-11-16 (careers.google.com not reachable from this environment).",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
+    "required_skills": [
+      "Bachelor's in CS or related, or equivalent practical experience",
+      "Building generative AI applications, intelligent agents, or LLM-powered solutions",
+      "Working directly with technical customers",
+      "Fluent English for client relationship management"
+    ],
+    "preferred_skills": [
+      "Agent orchestration with ADKs or frameworks (LangChain, LlamaIndex, AutoGen)",
+      "RAG architectures; securely connecting LLMs with productivity tools (e.g., Google Workspace) and internal databases",
+      "Multimodal LLM solutions: text, image, video, voice",
+      "Deploying and managing enterprise GenAI platforms (Gemini Enterprise) with security, governance, compliance",
+      "Cloud computing: serverless, virtualization, hosted services, multi-tenant infrastructure, secure networking"
+    ],
     "experience_years": null,
-    "education": null
+    "education": "Bachelor's degree in Computer Science or related technical field, or equivalent practical experience"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 68,
+    "reasoning": "Strong on the core technical bar: generative AI applications (ContX AI), deployed Meta-RAG chatbot framework, agentic AI proof of concept, LangChain RAG (GMS Knowledge Bot), an MCP server that connects LLMs to an external security tool, PII and grounding guardrails and compliance controls, Pod Brain approval and ownership metadata, LLM and multi-agent evaluations including image generation, AWS Rekognition and Lex exposure, Azure and Kubernetes. No years requirement is stated. Key gap: the minimum qualification 'working directly with technical customers' is not supported; the candidate confirmed on 2026-09-12 that they lack customer-facing technical collaboration experience. Internal technical presentations (IP Weeks demos, AI receptionist concept to the GMS initiative group) are related but are not customer work. No Gemini, ADK, or Google Cloud experience.",
+    "score_breakdown": {
+      "required_skills": "24/35",
+      "experience": "14/25",
+      "preferred_skills": "9/15",
+      "education": "10/10",
+      "preferences": "11/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Meta-RAG (deployed), ContX AI with guardrails, MCP server, agentic migration proof of concept, Pod Brain, LLM/multi-agent evaluations, internal AI demos and presentations.",
+      "AWS Academy AI-ML virtual intern: Rekognition (image/video), Lex (voice/chat), Forecast, SageMaker."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot (LangChain RAG, Azure OpenAI, ChromaDB)"
+    ],
+    "skill_gaps": [
+      "Working directly with technical customers (minimum qualification)",
+      "Gemini Enterprise, ADK, Google Cloud",
+      "Production multimodal (voice/video) LLM solutions",
+      "Serverless and multi-tenant cloud infrastructure depth"
+    ],
+    "preference_fit": "Pune is an available location and the candidate's current city; Bengaluru is also preferred. Customer-facing travel not stated.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "status": "GENERATED",
+    "path": "resumes/job_008/resume_v1.tex",
+    "pdf_path": "resumes/job_008/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Leads with GenAI, agents, RAG, and the MCP tool connection, then guardrails and compliance, multimodal evaluations, Pod Brain governance metadata, internal demos and presentations, AWS Rekognition/Lex/Forecast, and GMS Knowledge Bot. Does not claim customer-facing work (candidate declined it on 2026-09-12). Tectonic compiled with no warnings; one A4 page; content ends about 0.65 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -37,6 +68,15 @@
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "ERROR",
-  "error": "Posting not read: careers.google.com is not allowed by this environment's network policy. A web search did not find job ID 105109659337007814. Resume on hold until the job description is pasted or a readable link is provided."
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "google_job_id": "105109659337007814",
+    "source_text": "pasted by user 2026-11-16"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Ask whether any real external customer or client-facing technical work exists (minimum qualification)."
+  }
 }
