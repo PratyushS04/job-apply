@@ -1,0 +1,87 @@
+{
+  "id": "job_010",
+  "url": "https://www.linkedin.com/jobs/view/4489783477/",
+  "source": "chat",
+  "created_at": "2026-11-16T16:44:31.469309+00:00",
+  "updated_at": "2026-11-16T16:46:07.485089+00:00",
+  "company": "Strategy (MicroStrategy, Nasdaq: MSTR)",
+  "title": "AI Engineer I",
+  "location": "Pune, Maharashtra, India (in office 4 days a week)",
+  "job_type": "full-time",
+  "description": "Develop, maintain, and optimize Python AI applications; OOP, module creation, and unit testing; RESTful APIs with FastAPI for AI services; LLMs including OpenAI and Azure OpenAI; relational and vector databases; deploy on AWS, Azure, or GCP; Docker; Git collaboration with cross-functional teams. Recruitment starts with emailed online assessments (check spam). LinkedIn seniority Associate; posted about 48 minutes before fetch on 2026-11-16; 100 applicants at fetch time.",
+  "requirements": {
+    "required_skills": [
+      "Bachelor's/Master's in CS or equivalent",
+      "2-3 years hands-on Python development for AI/LLM applications (modular, scalable code)",
+      "RESTful APIs with FastAPI; relational databases",
+      "LLMs (OpenAI, Azure) with vector databases, text embeddings, and RAG",
+      "Cloud (AWS, Azure, GCP) and Docker for AI deployment",
+      "Git",
+      "Fast-paced environment; analytical problem solving"
+    ],
+    "preferred_skills": [
+      "Data visualization tools (Strategy preferred)",
+      "Unit testing",
+      "Object-oriented programming and module design"
+    ],
+    "experience_years": 2,
+    "education": "Bachelor's/Master's in Computer Science or equivalent"
+  },
+  "match": {
+    "score": 78,
+    "reasoning": "Strong match on the LLM core: Azure OpenAI and Azure AI Foundry applications, RAG with chunking, embeddings, and ChromaDB (GMS Knowledge Bot), deployed Meta-RAG, MCP server, and a ContX AI customer pilot. Python with modular design and separate AI and TLS test harnesses (social bot proof of concept); REST API integration; SQL; Docker/Podman, Kubernetes, Azure, AWS; Git; Power BI/DAX for the data-visualization preference. Gaps: FastAPI is not in the profile (REST APIs come from ContX AI and API clients); Python experience is about 1 year 10 months including the internship versus 2-3 years; no formal unit-testing framework named.",
+    "score_breakdown": {
+      "required_skills": "28/35",
+      "experience": "17/25",
+      "preferred_skills": "10/15",
+      "education": "10/10",
+      "preferences": "13/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Meta-RAG (deployed), ContX AI (Python, Azure AI Foundry, REST APIs; customer pilot), guardrails, MCP server, LLM evaluations, AKS deployment validation.",
+      "Amadeus intern: Python/SQL/Splunk data workflows; Power BI visuals and DAX optimization."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot (LangChain, Azure OpenAI, ChromaDB, chunking, ingestion pipeline)",
+      "Social Engagement Bot proof of concept (Azure OpenAI; modular design; AI and TLS test harnesses)",
+      "Container Image Security Scanner (Python REST client, Podman)"
+    ],
+    "skill_gaps": [
+      "FastAPI",
+      "2-3 years Python (about 1.8)",
+      "Named unit-testing framework (pytest)",
+      "GCP"
+    ],
+    "preference_fit": "Pune is the candidate's city and a preferred location; in office 4 days a week; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only. Posting was 48 minutes old with 100 applicants at fetch time; applying early helps."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_010/resume_v1.tex",
+    "pdf_path": "resumes/job_010/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Leads with Python LLM work (Meta-RAG, ContX AI customer pilot, guardrails, MCP server), deployment, SQL/Power BI internship, GMS Knowledge Bot RAG details, and the modular social bot with AI/TLS test harnesses. FastAPI is not claimed. Tectonic compiled with no warnings; one A4 page; content ends about 0.85 inch from the bottom; text extraction clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4489783477",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4489783477",
+    "fetched_at": "2026-11-16",
+    "assessment": "Online assessment emailed first; check spam."
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Ask about real FastAPI/Flask, pytest/unit testing, and PostgreSQL use."
+  }
+}
