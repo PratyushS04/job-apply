@@ -3,7 +3,7 @@
   "url": "https://careers.google.com/jobs/results/105109659337007814-cloud-ai-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
   "source": "chat",
   "created_at": "2026-11-16T05:22:29.360532+00:00",
-  "updated_at": "2026-11-16T05:56:38.030126+00:00",
+  "updated_at": "2026-11-16T06:10:02.141379+00:00",
   "company": "Google",
   "title": "Cloud AI Engineer (English)",
   "location": "Bengaluru, Karnataka, India; Gurugram, Haryana, India; Pune, Maharashtra, India (preferred location chosen at application); in-person interviews usually required",
@@ -54,21 +54,47 @@
     "score_note": "Editorial estimate from supported facts only."
   },
   "resume": {
-    "status": "GENERATED",
+    "status": "REVIEWED",
     "path": "resumes/job_008/resume_v5.tex",
     "pdf_path": "resumes/job_008/resume_v5.pdf",
     "version": 5,
-    "review_notes": "v5 = v4 with the AWS Academy virtual internship removed at the candidate's request (2026-11-16); restored the agentic-automation bullet (supported) in the freed space. Includes approved invented project job008-gemini-workspace-agent-001 (not_built/unverified; disclosed). Tectonic compiled with no warnings; one A4 page; content ends about 0.9 inch from the bottom; visual check passed; text clean; links match profile.json; education unchanged."
+    "review_notes": "v5 = v4 with the AWS Academy virtual internship removed at the candidate's request (2026-11-16); restored the agentic-automation bullet (supported) in the freed space. Includes approved invented project job008-gemini-workspace-agent-001 (not_built/unverified; disclosed). Tectonic compiled with no warnings; one A4 page; content ends about 0.9 inch from the bottom; visual check passed; text clean; links match profile.json; education unchanged.",
+    "user_approval": {
+      "date": "2026-11-16",
+      "scope": "Candidate asked to apply with the current Google resume after reviewing v5."
+    }
   },
   "application": {
-    "status": "NOT_STARTED",
+    "status": "READY_FOR_CANDIDATE_SUBMISSION",
+    "prep_path": "applications/job_008/prep.json",
     "questions": [],
     "answers": [],
-    "required_fields": {},
-    "screenshots": []
+    "required_fields": {
+      "name": "Pratyush Shendre",
+      "email": "pshendre6604@gmail.com",
+      "phone": "+91-9975080249",
+      "linkedin": "https://www.linkedin.com/in/pratyush-shendre-2256a7223/",
+      "github": "https://github.com/PratyushS04",
+      "preferred_location": "Pune, Maharashtra, India (Bengaluru also acceptable, confirmed 2026-11-13)",
+      "education": "Bachelor of Technology, Computer Science and Engineering (Artificial Intelligence and Machine Learning), RCOEM Nagpur, Aug 2021 - Jul 2025, GPA 8.23/10",
+      "current_employer": "Amadeus Software Labs, Software Development Engineer, Aug 2025 - present",
+      "india_work_authorization": "Yes",
+      "sponsorship_needed": "No",
+      "notice_period": "Two months",
+      "english": "Fluent (posting requirement; candidate has used English throughout)"
+    },
+    "pending_candidate_input": [
+      "Previously worked at or applied to Google",
+      "Expected salary for this role",
+      "Current CTC",
+      "Contact address (Pune vs Nagpur)",
+      "Why Google / cover letter (no confirmed motivation on file)"
+    ],
+    "screenshots": [],
+    "note": "Claude cannot submit: careers.google.com is blocked here and no user browser or computer is connected."
   },
   "user_comment": null,
-  "pipeline_status": "RESUME_READY",
+  "pipeline_status": "APP_READY",
   "error": null,
   "metadata": {
     "google_job_id": "105109659337007814",

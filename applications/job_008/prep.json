@@ -1,0 +1,31 @@
+{
+  "job_id": "job_008",
+  "posting": "Google Cloud AI Engineer (English), job 105109659337007814",
+  "resume_pdf": "resumes/job_008/resume_v5.pdf",
+  "status": "READY_FOR_CANDIDATE_SUBMISSION",
+  "form_observed": false,
+  "form_access_note": "careers.google.com is not reachable from this environment and no user computer is connected; the candidate submits it themselves.",
+  "invented_content_disclosure": "resume_v5 contains approved invented project job008-gemini-workspace-agent-001 (not_built). Do not repeat it in form answers or a cover letter.",
+  "confirmed_fields": {
+    "name": "Pratyush Shendre",
+    "email": "pshendre6604@gmail.com",
+    "phone": "+91-9975080249",
+    "linkedin": "https://www.linkedin.com/in/pratyush-shendre-2256a7223/",
+    "github": "https://github.com/PratyushS04",
+    "preferred_location": "Pune, Maharashtra, India (Bengaluru also acceptable, confirmed 2026-11-13)",
+    "education": "Bachelor of Technology, Computer Science and Engineering (Artificial Intelligence and Machine Learning), RCOEM Nagpur, Aug 2021 - Jul 2025, GPA 8.23/10",
+    "current_employer": "Amadeus Software Labs, Software Development Engineer, Aug 2025 - present",
+    "india_work_authorization": "Yes",
+    "sponsorship_needed": "No",
+    "notice_period": "Two months",
+    "english": "Fluent (posting requirement; candidate has used English throughout)"
+  },
+  "needs_candidate_input_if_asked": [
+    "Previously worked at or applied to Google",
+    "Expected salary for this role",
+    "Current CTC",
+    "Contact address (Pune vs Nagpur)",
+    "Why Google / cover letter (no confirmed motivation on file)"
+  ],
+  "submission_approval": "Candidate submits personally."
+}
