@@ -755,6 +755,30 @@
         "applied": true,
         "applied_to": "resumes/job_008/resume_v3.tex (Personal Project; bullets verbatim; header lists the approved technologies in shortened form)"
       }
+    },
+    {
+      "id": "contx-customer-pilot-016",
+      "job_id": null,
+      "target": {
+        "files": [
+          "candidate/experience.json",
+          "candidate/master_resume.md"
+        ],
+        "field": "Amadeus SDE achievements (after ContX AI bullet)"
+      },
+      "current_wording": null,
+      "proposed_wording": "Working with customers in an active ContX AI customer pilot.",
+      "rationale": "Supports customer-facing qualifications (e.g., Google's 'working directly with technical customers').",
+      "source": "Candidate chat message 2026-11-16: 'contx ai is a customer facing we have pilot running with customer and we are actively working with the customers'.",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Optional detail: the candidate's specific customer activities and the pilot's scope.",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-16",
+        "decision": "Candidate directly supplied this fact. Applied with conservative wording that states the pilot and the candidate's work with customers without inventing activities, counts, or outcomes.",
+        "applied": true,
+        "note": "Partly supersedes the 2026-09-12 statement (job001-nvidia-devtech-skills-001) that the candidate lacked customer-facing technical collaboration experience; that rejection remains for the other NVIDIA skills."
+      }
     }
   ]
 }

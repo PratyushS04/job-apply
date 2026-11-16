@@ -3,7 +3,7 @@
   "url": "https://careers.google.com/jobs/results/105109659337007814-cloud-ai-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
   "source": "chat",
   "created_at": "2026-11-16T05:22:29.360532+00:00",
-  "updated_at": "2026-11-16T05:45:33.449698+00:00",
+  "updated_at": "2026-11-16T05:47:31.791625+00:00",
   "company": "Google",
   "title": "Cloud AI Engineer (English)",
   "location": "Bengaluru, Karnataka, India; Gurugram, Haryana, India; Pune, Maharashtra, India (preferred location chosen at application); in-person interviews usually required",
@@ -27,10 +27,10 @@
     "education": "Bachelor's degree in Computer Science or related technical field, or equivalent practical experience"
   },
   "match": {
-    "score": 68,
-    "reasoning": "Strong on the core technical bar: generative AI applications (ContX AI), deployed Meta-RAG chatbot framework, agentic AI proof of concept, LangChain RAG (GMS Knowledge Bot), an MCP server that connects LLMs to an external security tool, PII and grounding guardrails and compliance controls, Pod Brain approval and ownership metadata, LLM and multi-agent evaluations including image generation, AWS Rekognition and Lex exposure, Azure and Kubernetes. No years requirement is stated. Key gap: the minimum qualification 'working directly with technical customers' is not supported; the candidate confirmed on 2026-09-12 that they lack customer-facing technical collaboration experience. Internal technical presentations (IP Weeks demos, AI receptionist concept to the GMS initiative group) are related but are not customer work. No Gemini, ADK, or Google Cloud experience.",
+    "score": 74,
+    "reasoning": "Strong on the core technical bar: generative AI applications (ContX AI), deployed Meta-RAG chatbot framework, agentic AI proof of concept, LangChain RAG (GMS Knowledge Bot), an MCP server that connects LLMs to an external security tool, PII and grounding guardrails and compliance controls, Pod Brain approval and ownership metadata, LLM and multi-agent evaluations including image generation, AWS Rekognition and Lex exposure, Azure and Kubernetes. No years requirement is stated. Update 2026-11-16: the candidate reports working with customers in an active ContX AI pilot, which partly supports 'working directly with technical customers'; the specific activities are unconfirmed. Internal technical presentations (IP Weeks demos, AI receptionist concept to the GMS initiative group) are related but are not customer work. No Gemini, ADK, or Google Cloud experience.",
     "score_breakdown": {
-      "required_skills": "24/35",
+      "required_skills": "29/35",
       "experience": "14/25",
       "preferred_skills": "9/15",
       "education": "10/10",
@@ -44,10 +44,10 @@
       "GMS Knowledge Bot (LangChain RAG, Azure OpenAI, ChromaDB)"
     ],
     "skill_gaps": [
-      "Working directly with technical customers (minimum qualification)",
       "Gemini Enterprise, ADK, Google Cloud",
       "Production multimodal (voice/video) LLM solutions",
-      "Serverless and multi-tenant cloud infrastructure depth"
+      "Serverless and multi-tenant cloud infrastructure depth",
+      "Depth of direct customer work (activities unconfirmed)"
     ],
     "preference_fit": "Pune is an available location and the candidate's current city; Bengaluru is also preferred. Customer-facing travel not stated.",
     "status": "SCORED",
@@ -55,10 +55,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_008/resume_v3.tex",
-    "pdf_path": "resumes/job_008/resume_v3.pdf",
-    "version": 3,
-    "review_notes": "v3 = v2 plus approved invented project job008-gemini-workspace-agent-001 (not_built/unverified; disclosed to user; not factually verified). Removed the GMS Knowledge Bot project, the agentic-automation bullet, and the Responsible AI skills line; shortened the summary and the adoption bullet. Google Cloud tools are not added to Technical Skills. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
+    "path": "resumes/job_008/resume_v4.tex",
+    "pdf_path": "resumes/job_008/resume_v4.pdf",
+    "version": 4,
+    "review_notes": "v4 = v3 plus the candidate-reported ContX AI customer pilot (contx-customer-pilot-016): 'Customer pilot' bullet and summary clause. Includes approved invented project job008-gemini-workspace-agent-001 (not_built/unverified; disclosed). Shortened the ContX and AWS bullets for space. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -79,6 +79,6 @@
       "job008-gemini-workspace-agent-001"
     ],
     "hold": null,
-    "notes": "Invented project approved for job_008 resume only."
+    "notes": "Invented project approved for job_008 only. Customer pilot added from candidate statement; specific customer activities still unconfirmed."
   }
 }
