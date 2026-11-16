@@ -1,0 +1,42 @@
+{
+  "id": "job_008",
+  "url": "https://careers.google.com/jobs/results/105109659337007814-cloud-ai-engineer/?src=Online/LinkedIn/linkedin_us&utm_source=linkedin&utm_medium=jobposting&utm_campaign=contract",
+  "source": "chat",
+  "created_at": "2026-11-16T05:22:29.360532+00:00",
+  "updated_at": "2026-11-16T05:22:52.323476+00:00",
+  "company": "Google",
+  "title": "Cloud AI Engineer (title from URL)",
+  "location": null,
+  "job_type": null,
+  "description": null,
+  "requirements": {
+    "required_skills": [],
+    "preferred_skills": [],
+    "experience_years": null,
+    "education": null
+  },
+  "match": {
+    "score": null,
+    "reasoning": null,
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [],
+    "status": "NOT_SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "ERROR",
+  "error": "Posting not read: careers.google.com is not allowed by this environment's network policy. A web search did not find job ID 105109659337007814. Resume on hold until the job description is pasted or a readable link is provided."
+}
