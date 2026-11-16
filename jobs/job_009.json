@@ -1,0 +1,74 @@
+{
+  "id": "job_009",
+  "url": null,
+  "source": "chat",
+  "created_at": "2026-11-16T06:11:13.766533+00:00",
+  "updated_at": "2026-11-16T06:12:38.983245+00:00",
+  "company": "Google",
+  "title": "Software Engineer II, Corp Eng",
+  "location": "Hyderabad, Telangana, India; in-person interviews usually required",
+  "job_type": "full-time",
+  "description": "Google Corp Eng (Google's IT organization; 'Google for Googlers') builds business solutions, tools, platforms, and experiences for Googlers. Responsibilities: write product or system development code; review other developers' code for style, accuracy, testability, and efficiency; contribute to and update documentation or educational content based on product updates and user feedback; triage, debug, track, and resolve product or system issues by analyzing sources and impact on hardware, network, or service operations; manage project priorities, deadlines, and deliverables; design, develop, test, deploy, maintain, and enhance software. Source: posting text pasted by the user on 2026-11-16.",
+  "requirements": {
+    "required_skills": [
+      "Bachelor's degree or equivalent practical experience",
+      "1 year of software development in one or more languages (Python, C, C++, Java, JavaScript)"
+    ],
+    "preferred_skills": [
+      "Master's or PhD in CS or related",
+      "Developing accessible technologies"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's degree or equivalent practical experience"
+  },
+  "match": {
+    "score": 80,
+    "reasoning": "Meets both minimum qualifications: B.Tech in CSE and about 1 year 3 months of full-time software development (plus a 7-month internship) in Java and Python. The responsibilities match supported work: production defect triage (currency-sync service), AKS regression investigation and redeployments, security-issue fixes, Java modernization, documentation of under-documented areas, and many internal tools for engineers (developer portal prototype, container scanner, knowledge bot, automation toolkit), which suits Corp Eng's internal-tools mission. 1,000+ LeetCode problems supports Google's coding interviews. Gaps: preferred Master's/PhD and accessibility work are not supported. Google SWE II hiring is highly competitive, so a good fit does not mean a likely shortlist.",
+    "score_breakdown": {
+      "required_skills": "33/35",
+      "experience": "20/25",
+      "preferred_skills": "2/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: defect triage, AKS regression and deployment validation, security fixes, Java 17/Spring Boot 3 modernization, internal developer portal prototype, ContX AI customer pilot, Meta-RAG, MCP server, documentation.",
+      "Amadeus intern: Python/SQL/Splunk workflows and Power BI dashboards for internal stakeholders, QA, and documentation.",
+      "Gear To Care: Android payments and authentication."
+    ],
+    "relevant_projects": [
+      "Container Image Security Scanner (internal tool: CLI, Tkinter, PyInstaller)",
+      "GMS Knowledge Bot (internal knowledge assistant)"
+    ],
+    "skill_gaps": [
+      "Accessible technologies (preferred)",
+      "Master's/PhD (preferred)",
+      "Formal code-review ownership not explicitly documented"
+    ],
+    "preference_fit": "Hyderabad is a preferred location; relocation confirmed; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_009/resume_v1.tex",
+    "pdf_path": "resumes/job_009/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content (the Google Cloud AI project is scoped to job_008 and not reused). Leads with triage, debugging, security fixes, Java modernization, and internal tools for engineers, matching Corp Eng's responsibilities; includes the ContX AI customer pilot, documentation work, and LeetCode. Tectonic compiled with no warnings; one A4 page; content ends about 1.1 inch from the bottom; visual check passed; text extraction clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": "Posting text pasted in chat on 2026-11-16; no URL supplied.",
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Optional: ask about any accessibility work and formal code-review duties."
+  }
+}
