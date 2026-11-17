@@ -1,0 +1,88 @@
+{
+  "id": "job_011",
+  "url": "https://www.linkedin.com/jobs/view/4491109747/",
+  "source": "chat",
+  "created_at": "2026-11-17T07:50:36.413845+00:00",
+  "updated_at": "2026-11-17T07:51:50.630631+00:00",
+  "company": "Walmart Global Tech India",
+  "title": "(IND) Software Engineer III - Returns Engineering",
+  "location": "Bengaluru, Karnataka, India (office-based: Prestige Tech Pacific Park, Outer Ring Road)",
+  "job_type": "full-time",
+  "description": "Returns Engineering builds and operates large-scale systems for Walmart returns and refunds (eligibility, refund calculation, processing, routing) across stores, app, and Walmart.com, handling hundreds of thousands of online returns daily. Responsibilities: develop customer-focused software; set best practices and requirements with the team; maintain and update code; analyze and test before launch; troubleshoot quickly; build software security, including programs that monitor sharing of private information; continuously improve software. Posted about 1 hour before fetch on 2026-11-17; 107 applicants at fetch time.",
+  "requirements": {
+    "required_skills": [
+      "B.E./B.Tech/MS/MCA in CS or related",
+      "2+ years object-oriented programming in Java",
+      "Computer systems fundamentals, data structures and algorithms, problem solving",
+      "Java EE web services, Kafka, Apache Camel, RESTful web services, Spring, Hibernate, Splunk, caching",
+      "Large-scale distributed services: scalability, fault tolerance",
+      "Cloud exposure (OpenStack, Azure, GCP, AWS)",
+      "CI/CD and deployment: Kubernetes, Docker, Jenkins",
+      "Systems design and distributed systems",
+      "SQL/NoSQL stores (Cassandra, Elastic, Mongo)",
+      "Minimum: Bachelor's + 2 years software engineering, or 4 years"
+    ],
+    "preferred_skills": [
+      "Master's degree",
+      "Accessibility (WCAG 2.2 AA, assistive technologies)"
+    ],
+    "experience_years": 2,
+    "education": "Bachelor's in CS or related (with 2 years experience)"
+  },
+  "match": {
+    "score": 62,
+    "reasoning": "Supported strengths: Java 17/Spring 6/Spring Boot 3 modernization across four initiatives, an OpenRewrite migration proof of concept, production defect fixing, AKS regression and deployment validation, application-security fixes (Black Duck, Checkmarx, penetration testing), PII guardrails in ContX AI, Splunk and SQL work, Docker/Kubernetes/Jenkins/Azure, Razorpay payments, and strong DSA (1,000+ LeetCode, GATE). Gaps: the 2-year minimum is borderline (about 1 year 3 months full-time, 1 year 10 months with the Amadeus internship, about 2 years 2 months including the 2022 Gear To Care role); Java work is modernization rather than building large distributed services; no supported Kafka, Apache Camel, Hibernate, caching, Cassandra/Elastic/Mongo, or large-scale distributed-systems experience (Kafka and Couchbase are listed skills only).",
+    "score_breakdown": {
+      "required_skills": "18/35",
+      "experience": "13/25",
+      "preferred_skills": "2/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Java/Spring modernization, migration proof of concept, defect fix, AKS deployment validation, security fixes, PII guardrails, CI/CD toolkit.",
+      "Amadeus intern: Python, Splunk, SQL workflows.",
+      "Gear To Care: Razorpay payments, Firebase Authentication."
+    ],
+    "relevant_projects": [
+      "Container Image Security Scanner (security automation, REST APIs)"
+    ],
+    "skill_gaps": [
+      "Kafka, Apache Camel, Hibernate, caching (hands-on)",
+      "Large-scale distributed services",
+      "Cassandra/Elastic/Mongo",
+      "2+ years Java (borderline)",
+      "Accessibility (preferred)"
+    ],
+    "preference_fit": "Bengaluru is a preferred location; relocation confirmed; office-based; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only. Posting was 1 hour old with 107 applicants at fetch time."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_011/resume_v1.tex",
+    "pdf_path": "resumes/job_011/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Java-first: modernization, migration proof of concept, defect fix, AKS deployment validation, security fixes, PII guardrails, MCP server, CI/CD toolkit; Splunk/SQL internship; Razorpay; container scanner; DSA/LeetCode in summary. Kafka and Couchbase are listed only as existing profile skills. Tectonic compiled with no warnings; one A4 page; content ends about 0.8 inch from the bottom; text extraction clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4491109747",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4491109747",
+    "fetched_at": "2026-11-17"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Ask about real Kafka, Hibernate/JPA, caching, Couchbase, and Splunk use at Amadeus."
+  }
+}

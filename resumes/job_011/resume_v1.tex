@@ -1,0 +1,76 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer working in Java and Spring, with experience modernizing Java services to Java 17 and Spring Boot 3, f{}ixing production and security defects, and validating deployments on Kubernetes. Strong data structures and algorithms background, with 1,000+ LeetCode problems solved.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Software Development Engineer}{Aug. 2025 -- Present}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and dependency upgrades.}
+    \bulletpoint{Built a proof of concept for AI-assisted Java Spring migration that combines OpenRewrite recipes with the GitHub Copilot Agent SDK to automate legacy-code modernization.}
+    \bulletpoint{Resolved a customer-reported stability defect in the service that synchronizes currency exchange rates.}
+    \bulletpoint{Supported Azure Kubernetes Service regression testing through issue investigation, deployment validation, reverts, and redeployments.}
+    \bulletpoint{Investigated and f{}ixed application-security issues found by Black Duck, Checkmarx, and penetration testing.}
+    \bulletpoint{Built ContX AI (Python, React, REST APIs), which turns campaign briefs into personalized marketing content with guardrails against storing personal data; now working with customers in an active pilot.}
+    \bulletpoint{Developed a Model Context Protocol server that lets language models query Black Duck vulnerability metadata and analyze project risk.}
+    \bulletpoint{Designed and documented an internal toolkit to automate work-tracking, Jenkins, Kubernetes, and knowledge-retrieval workf{}lows.}
+  \end{itemize}
+  \entry{Software Development Intern}{Jan. 2025 -- Jul. 2025}{Amadeus Software Labs}{}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract and prepare shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.}
+    \bulletpoint{Published the dashboards, checked data and visuals during QA, and documented the workf{}lows.}
+  \end{itemize}
+  \entry{Android Developer}{Sep. 2022 -- Dec. 2022}{Gear To Care}{Nagpur, India}
+  \begin{itemize}
+    \bulletpoint{Integrated Razorpay in-app payments and implemented Firebase Authentication in an Android application.}
+  \end{itemize}
+\end{itemize}
+
+\section{Selected Internal Tool -- Amadeus Software Labs}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Container Image Security Scanner}{2025}{Python, REST APIs, Podman, Tkinter, PyInstaller}{}
+  \begin{itemize}
+    \bulletpoint{Automated image retrieval from Azure Container Registry, export with Podman, and scan submission and result polling through Black Duck REST APIs; provided command-line tools and a desktop app.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages:} Java, Python, SQL, Go, C \\
+\textbf{Backend:} Spring, Spring Boot, REST APIs, microservices, Kafka \\
+\textbf{Data:} PostgreSQL, Couchbase, Splunk \\
+\textbf{DevOps and cloud:} Docker, Kubernetes, Helm, Jenkins, Argo CD, Git, Azure, Azure Kubernetes Service \\
+\textbf{Concepts:} Data structures and algorithms, object-oriented design, SOLID principles, design patterns, system design \\
+\textbf{Certif{}ications and achievements:} 1,000+ LeetCode problems solved; \mbox{GATE Qualif{}ied} (2023); Claude \mbox{Certif{}ied} Architect, Foundations (Anthropic)
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+\end{document}
