@@ -779,6 +779,79 @@
         "applied": true,
         "note": "Partly supersedes the 2026-09-12 statement (job001-nvidia-devtech-skills-001) that the candidate lacked customer-facing technical collaboration experience; that rejection remains for the other NVIDIA skills."
       }
+    },
+    {
+      "id": "support-tools-017",
+      "job_id": null,
+      "target": {
+        "files": [
+          "candidate/skills.json",
+          "candidate/master_resume.md"
+        ],
+        "field": "technical.tools"
+      },
+      "current_wording": null,
+      "proposed_wording": "Postman, Jira, Slack, Kibana (ELK), Grafana",
+      "rationale": "Developer-support roles (e.g., RBIH job_012) name these tools.",
+      "source": "Candidate selected these as actually used, at work or in college, on 2026-11-18 (ELK and Grafana both confirmed).",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Optional: where and how each was used.",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-18",
+        "decision": "Candidate directly confirmed using each tool; added as skills only, with no invented usage details.",
+        "applied": true
+      }
+    },
+    {
+      "id": "job012-partner-api-lab-001",
+      "job_id": "job_012",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_012/resume_v1.tex",
+        "field": "Personal Project section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Partner API Integration Lab",
+        "attribution": "Personal project",
+        "technologies": [
+          "Python",
+          "Postman",
+          "Newman",
+          "OAuth 2.0",
+          "Webhooks",
+          "Elasticsearch",
+          "Logstash",
+          "Kibana",
+          "Grafana"
+        ],
+        "resume_bullets": [
+          "Built a mock lending-partner API with OAuth 2.0 client-credentials authentication, signed webhooks, and documented error codes, and wrote Postman collections with test scripts for each integration flow, run in CI with Newman.",
+          "Shipped API and webhook logs to Elasticsearch through Logstash, and built Kibana and Grafana dashboards for error rates, latency, and failed webhook deliveries.",
+          "Wrote a troubleshooting runbook for DNS, TLS, timeout, and 4xx/5xx failures, with step-by-step checks using curl, dig, and Postman."
+        ]
+      },
+      "rationale": "Covers RBIH's Postman, API authentication, webhooks, error codes, ELK/Grafana, and DNS/latency troubleshooting requirements in a lending context similar to ULI.",
+      "source": "Assistant-generated from the job_012 RBIH posting at the user's request ('add good projects') on 2026-11-18; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for the job_012 resume despite not_built status.",
+      "approval_status": "approved",
+      "approval_scope": {
+        "job_id": "job_012",
+        "artifacts": [
+          "resumes/job_012/resume_v1.tex",
+          "resumes/job_012/resume_v1.pdf"
+        ],
+        "reuse": "job_012 resume only; no numbers; not screening answers or canonical profile"
+      },
+      "approval_record": {
+        "date": "2026-11-18",
+        "decision": "User first asked to add percentages; after being told invented numbers cannot be used, selected 'Yes, add it (no numbers)' for the exact wording.",
+        "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified. User request to add fabricated percentages declined.",
+        "applied": true
+      }
     }
   ]
 }

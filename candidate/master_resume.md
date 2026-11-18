@@ -216,3 +216,7 @@ Relevant coursework: Data Structures and Algorithms (Java), Design and Analysis 
 - GATE Qualified (2023)
 - Technical Club Member: Led the planning and execution of multiple technical events, contributing to the growth of the college's tech community.
 - Solved over 1,000 LeetCode problems, demonstrating sustained practice in data structures, algorithms, and problem solving.
+
+## Additional tools (candidate-confirmed 2026-11-16)
+
+- Postman, Jira, Slack, Kibana (ELK), Grafana
