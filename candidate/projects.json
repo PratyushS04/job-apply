@@ -114,13 +114,15 @@
       "Automated image retrieval from Azure Container Registry, export with Podman, and scan submission and result polling through Black Duck REST APIs.",
       "Built a Tkinter interface for scanning registry images or existing image archives, with live progress output.",
       "Integrated Teams notifications with scan status, vulnerability summaries, and links to detailed results.",
-      "Packaged the scanner as a Windows executable with PyInstaller and provided CLI tools and a programmatic interface."
+      "Packaged the scanner as a Windows executable with PyInstaller and provided CLI tools and a programmatic interface.",
+      "Used by 48 people; users and the team estimate it saves about two hours of manual work per scan."
     ],
-    "status": "Built and packaged; adoption not specified",
+    "status": "Built and packaged; used by 48 people (candidate-reported 2026-11-18)",
     "review_notes": [
       "Likely overlaps with the existing Black Duck API v2 security-automation achievement; confirm before duplicating it in Experience and Projects.",
       "This source supplies no time-saving measurements. Do not automatically attach the existing 40% figure without confirming that it describes this tool.",
-      "Credential caching is described but its storage security is unspecified; do not claim encrypted or secure caching."
+      "Credential caching is described but its storage security is unspecified; do not claim encrypted or secure caching.",
+      "2026-11-18: Candidate reported 48 users and a team/user estimate of about two hours saved per scan (basis: manual steps replaced; not timed). Keep 'estimated'. Still do not attach the legacy 40% figure."
     ],
     "url": "",
     "start_date": "2025",
@@ -260,9 +262,19 @@
     "name": "Crowd Detection & Management System",
     "category": "personal_project",
     "description": "An end-to-end crowd monitoring solution designed to mitigate overpopulation issues using object detection and computer vision.",
-    "technologies": ["Python", "YOLOv8", "OpenCV", "Computer Vision", "Telegram API"],
+    "technologies": [
+      "Python",
+      "YOLOv8",
+      "OpenCV",
+      "Computer Vision",
+      "Telegram API"
+    ],
     "url": "",
-    "highlights": ["Collected and labeled data for the crowd-detection pipeline.", "Used YOLOv8 and computer vision algorithms to detect crowd density with 80% accuracy.", "Implemented a real-time Telegram bot alert system for crowd management."],
+    "highlights": [
+      "Collected and labeled data for the crowd-detection pipeline.",
+      "Used YOLOv8 and computer vision algorithms to detect crowd density with 80% accuracy.",
+      "Implemented a real-time Telegram bot alert system for crowd management."
+    ],
     "start_date": "2023",
     "end_date": "2023"
   },
@@ -270,9 +282,15 @@
     "name": "MediInfo",
     "category": "personal_project",
     "description": "A medication identification and treatment-guidance system using OCR and large language models.",
-    "technologies": ["OCR", "Large Language Models"],
+    "technologies": [
+      "OCR",
+      "Large Language Models"
+    ],
     "url": "",
-    "highlights": ["Extracted prescription text using OCR and analyzed medicine names with large language models.", "Designed the system to streamline medication identification for healthcare professionals and provide patients with treatment guidance."],
+    "highlights": [
+      "Extracted prescription text using OCR and analyzed medicine names with large language models.",
+      "Designed the system to streamline medication identification for healthcare professionals and provide patients with treatment guidance."
+    ],
     "start_date": "2024",
     "end_date": "2024"
   },
@@ -280,9 +298,18 @@
     "name": "Red Light Violation Detection",
     "category": "personal_project",
     "description": "A computer-vision system for detecting vehicles that violate traffic signals.",
-    "technologies": ["Python", "Computer Vision", "TensorFlow", "YOLOv8", "Convolutional Neural Networks"],
+    "technologies": [
+      "Python",
+      "Computer Vision",
+      "TensorFlow",
+      "YOLOv8",
+      "Convolutional Neural Networks"
+    ],
     "url": "",
-    "highlights": ["Designed and implemented a red-light violation detection system using computer vision and deep-learning technologies.", "Focused the system on accurately identifying traffic-signal violations to support improved road safety."],
+    "highlights": [
+      "Designed and implemented a red-light violation detection system using computer vision and deep-learning technologies.",
+      "Focused the system on accurately identifying traffic-signal violations to support improved road safety."
+    ],
     "start_date": "2024",
     "end_date": "2024"
   }

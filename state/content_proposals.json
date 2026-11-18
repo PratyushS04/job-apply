@@ -852,6 +852,33 @@
         "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified. User request to add fabricated percentages declined.",
         "applied": true
       }
+    },
+    {
+      "id": "metrics-018",
+      "job_id": null,
+      "target": {
+        "files": [
+          "candidate/experience.json",
+          "candidate/projects.json",
+          "candidate/master_resume.md"
+        ]
+      },
+      "current_wording": "Working with customers in an active ContX AI customer pilot.",
+      "proposed_wording": [
+        "Working with 10 customers in an active ContX AI customer pilot.",
+        "Investigate about five production and regression issues per month.",
+        "Container scanner used by 48 people; saves an estimated two hours of manual work per scan."
+      ],
+      "rationale": "Real counts requested for resumes.",
+      "source": "Candidate chat 2026-11-18: 'Customers are 10; I investigated 5 per month; 48 people use it, and it has saved 2hrs per scan person'. Time-saved basis: team/user estimate from replaced manual steps.",
+      "evidence_status": "user_reported (counts); estimated (time saved)",
+      "confirmation_needed": "None for use; keep 'estimated' on the time-saved figure.",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-18",
+        "decision": "Candidate supplied the counts and confirmed the two-hour figure is a team/user estimate. Applied with 'about' and 'estimated' qualifiers.",
+        "applied": true
+      }
     }
   ]
 }

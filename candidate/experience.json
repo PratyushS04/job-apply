@@ -35,7 +35,8 @@
     "achievements": [
       "Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.",
       "Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.",
-      "Working with customers in an active ContX AI customer pilot.",
+      "Working with 10 customers in an active ContX AI customer pilot.",
+      "Investigate about five production and regression issues per month.",
       "Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information.",
       "Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents; designed source linkage, ownership, approval states, indexing, and lifecycle metadata for its knowledge assets.",
       "Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.",
@@ -54,7 +55,8 @@
     ],
     "review_notes": [
       "Full-time start corrected to August 2025 after the candidate confirmed a separate January–July 2025 Amadeus internship. ContX AI, Pod Brain, and the working AI-assisted developer portal prototype belong to the full-time role. The candidate confirmed the portal is separate from ContX AI. Confirm timing of other undated Amadeus achievements before reassigning them in a new application resume.",
-      "2026-11-16: Candidate stated ContX AI is customer-facing, with a pilot running with customers, and that they are actively working with the customers. Customer names, count, and the candidate's specific customer activities (demos, requirement calls, onboarding, feedback, fixes) are not yet specified; do not invent them."
+      "2026-11-16: Candidate stated ContX AI is customer-facing, with a pilot running with customers, and that they are actively working with the customers. Customer names, count, and the candidate's specific customer activities (demos, requirement calls, onboarding, feedback, fixes) are not yet specified; do not invent them.",
+      "2026-11-18: Candidate supplied counts: 10 pilot customers for ContX AI; about five production or regression issues investigated per month."
     ]
   },
   {

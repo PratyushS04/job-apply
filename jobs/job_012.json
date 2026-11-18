@@ -3,7 +3,7 @@
   "url": null,
   "source": "chat",
   "created_at": "2026-11-18T17:50:52.015640+00:00",
-  "updated_at": "2026-11-18T17:56:53.309805+00:00",
+  "updated_at": "2026-11-18T18:12:33.890999+00:00",
   "company": "Reserve Bank Innovation Hub (RBIH)",
   "title": "Developer Support Engineer - II",
   "location": "Bengaluru, Karnataka, India (on-site)",
@@ -28,8 +28,8 @@
     "education": "Not stated"
   },
   "match": {
-    "score": 70,
-    "reasoning": "Supported: customer-reported production defect resolution; AKS issue investigation, deployment validation, reverts, and redeployments; REST API integrations with authentication via configuration files (Black Duck scanner and report utility), report-status and error handling, Microsoft Teams webhook notifications, exponential backoff for API rate limits, corporate-network TLS certificate-chain troubleshooting, and an HTTP client layer for the corporate network; Splunk log data work; documentation of under-documented areas; ContX AI customer pilot; Razorpay payment-gateway and Firebase Authentication integration (fintech-relevant). Candidate confirmed using Postman, Jira, Slack, Kibana/ELK, and Grafana on 2026-11-18. Gaps: 2-4 years in a developer or technical support role versus about 1 year 11 months at Amadeus including the internship (about 2 years 3 months with Gear To Care); the roles are engineering rather than dedicated support; no documented DNS/latency troubleshooting, formal ticket queue ownership, or on-call rotation.",
+    "score": 72,
+    "reasoning": "Supported: customer-reported production defect resolution; AKS issue investigation, deployment validation, reverts, and redeployments; REST API integrations with authentication via configuration files (Black Duck scanner and report utility), report-status and error handling, Microsoft Teams webhook notifications, exponential backoff for API rate limits, corporate-network TLS certificate-chain troubleshooting, and an HTTP client layer for the corporate network; Splunk log data work; documentation of under-documented areas; ContX AI customer pilot; Razorpay payment-gateway and Firebase Authentication integration (fintech-relevant). Candidate confirmed using Postman, Jira, Slack, Kibana/ELK, and Grafana on 2026-11-18. Gaps: 2-4 years in a developer or technical support role versus about 1 year 11 months at Amadeus including the internship (about 2 years 3 months with Gear To Care); the roles are engineering rather than dedicated support; no documented DNS/latency troubleshooting, formal ticket queue ownership, or on-call rotation. Update 2026-11-18: 10 pilot customers and about five production/regression issues per month strengthen the support evidence.",
     "score_breakdown": {
       "required_skills": "26/35",
       "experience": "14/25",
@@ -60,10 +60,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_012/resume_v1.tex",
-    "pdf_path": "resumes/job_012/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "Support-focused v1. Amadeus shown as one company block (Jan 2025-Present) with both actual titles and dates (SDE Aug 2025-Present; Intern Jan-Jul 2025); the user's request to present the internship as full-time was declined. Includes candidate-confirmed tools (Postman, Kibana/ELK, Grafana, Jira, Slack) and approved invented project job012-partner-api-lab-001 (not_built/unverified; disclosed; no numbers). Fabricated percentages declined. Real internal tools: scanner and report utility (REST APIs, Teams webhooks, config-based authentication), social bot (rate-limit backoff, TLS certificate-chain fixes). Tectonic compiled with no warnings; one A4 page; content ends about 0.9 inch from the bottom; text extraction clean; fonts embedded; links match profile.json; education unchanged."
+    "path": "resumes/job_012/resume_v2.tex",
+    "pdf_path": "resumes/job_012/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 adds candidate-reported numbers (metrics-018): 10 pilot customers; about five production/regression issues investigated per month; scanner used by 48 people with an estimated two hours of manual work saved per scan (team/user estimate, labeled 'estimated'). Other content as in v1, including approved invented project job012-partner-api-lab-001 (not_built/unverified; no numbers). Tectonic compiled with no warnings; one A4 page; content ends about 0.7 inch from the bottom; visual check passed; text clean; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",

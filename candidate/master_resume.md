@@ -22,7 +22,8 @@ Internal review note: The candidate confirmed a separate Amadeus internship from
 
 - Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.
 - Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.
-- Working with customers in an active ContX AI customer pilot.
+- Working with 10 customers in an active ContX AI customer pilot.
+- Investigate about five production and regression issues per month.
 - Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information.
 - Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents; designed source linkage, ownership, approval states, indexing, and lifecycle metadata for its knowledge assets.
 - Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.
@@ -220,3 +221,7 @@ Relevant coursework: Data Structures and Algorithms (Java), Design and Analysis 
 ## Additional tools (candidate-confirmed 2026-11-16)
 
 - Postman, Jira, Slack, Kibana (ELK), Grafana
+
+## Container Image Security Scanner usage (candidate-reported 2026-11-18)
+
+- Used by 48 people; users and the team estimate it saves about two hours of manual work per scan.
