@@ -3,7 +3,7 @@
   "url": null,
   "source": "chat",
   "created_at": "2026-11-18T17:50:52.015640+00:00",
-  "updated_at": "2026-11-18T18:12:33.890999+00:00",
+  "updated_at": "2026-11-18T18:15:13.731423+00:00",
   "company": "Reserve Bank Innovation Hub (RBIH)",
   "title": "Developer Support Engineer - II",
   "location": "Bengaluru, Karnataka, India (on-site)",
@@ -67,7 +67,16 @@
   },
   "application": {
     "status": "NOT_STARTED",
-    "questions": [],
+    "questions": [
+      {
+        "question": "Reason for job change",
+        "type": "short_answer",
+        "draft_answer": "I enjoy the part of my current role where I troubleshoot production issues and work directly with users: I investigate about five production and regression issues a month and work with the 10 customers in our ContX AI pilot. I'm looking for a role where integration and production support is the main focus, and RBIH lets me do that on platforms like ULI and MuleHunter that banks and fintechs across India depend on.",
+        "basis": "experience.json (metrics-018, contx-customer-pilot-016); job_012 description. Motivation not yet confirmed by candidate.",
+        "review_required": true,
+        "status": "draft_pending_candidate_confirmation"
+      }
+    ],
     "answers": [],
     "required_fields": {},
     "screenshots": []
