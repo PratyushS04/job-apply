@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4491109747/",
   "source": "chat",
   "created_at": "2026-11-18T12:59:23.424290+00:00",
-  "updated_at": "2026-11-18T13:00:04.939468+00:00",
+  "updated_at": "2026-11-18T13:00:18.879534+00:00",
   "company": "Walmart Global Tech India (from redirect URL; unverified)",
   "title": "Software Engineer III (from redirect URL; unverified)",
   "location": null,
@@ -37,11 +37,12 @@
     "screenshots": []
   },
   "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/). Wants resume and application materials.",
-  "pipeline_status": "NEW",
+  "pipeline_status": "SKIPPED",
   "error": null,
   "posting_metadata": {
     "candidate_profile": "candidates/animesh_murai",
     "redirect_url": "https://in.linkedin.com/jobs/view/ind-software-engineer-iii-at-walmart-global-tech-india-4491109747",
-    "fetch_status": "2026-11-18: www.linkedin.com 301 -> in.linkedin.com, host not allowed; user declined adding it. Awaiting pasted job description."
+    "fetch_status": "2026-11-18: www.linkedin.com 301 -> in.linkedin.com, host not allowed; user declined adding it. Awaiting pasted job description.",
+    "skip_reason": "User reported 2026-11-18 that the posting is closed."
   }
 }
