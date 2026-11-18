@@ -1,0 +1,47 @@
+{
+  "id": "job_005",
+  "url": "https://www.linkedin.com/jobs/view/4485126307/",
+  "source": "chat",
+  "created_at": "2026-11-18T13:01:08.959252+00:00",
+  "updated_at": "2026-11-18T13:01:25.386762+00:00",
+  "company": "Apple (from redirect URL; unverified)",
+  "title": "Applied AI Engineer (from redirect URL; unverified)",
+  "location": null,
+  "job_type": null,
+  "description": null,
+  "requirements": {
+    "required_skills": [],
+    "preferred_skills": [],
+    "experience_years": null,
+    "education": null
+  },
+  "match": {
+    "score": null,
+    "reasoning": null,
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [],
+    "status": "NOT_SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/).",
+  "pipeline_status": "NEW",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidates/animesh_murai",
+    "redirect_url": "https://in.linkedin.com/jobs/view/applied-ai-engineer-at-apple-4485126307",
+    "fetch_status": "2026-11-18: 301 -> in.linkedin.com, host not allowed (user declined adding it earlier). Awaiting pasted job description."
+  }
+}
