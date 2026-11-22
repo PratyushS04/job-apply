@@ -1,0 +1,90 @@
+{
+  "id": "job_015",
+  "url": "https://www.linkedin.com/jobs/view/4492878682/",
+  "source": "chat",
+  "created_at": "2026-11-22T12:17:57.787438+00:00",
+  "updated_at": "2026-11-22T12:19:13.408828+00:00",
+  "company": "DwellFi",
+  "title": "AI Platform Engineer (India - Remote)",
+  "location": "India (remote)",
+  "job_type": "full-time",
+  "description": "California-based startup building an AI-native platform for private-markets workflows (private equity, venture capital, real estate, private credit). Own end-to-end backend infrastructure and AI agents: FastAPI systems integrating AI agents with data workflows; multi-agent LLM orchestration; PostgreSQL performance, integrity, and security; async processing (Celery); prompt strategies and production agent architectures; clean, tested, documented Python; adopt new AI tools. Entrepreneurial ownership expected. Resumes screened by an AI system: ATS-friendly, concise, at most 2 pages. LinkedIn seniority Mid-Senior; over 200 applicants at fetch time on 2026-11-22.",
+  "requirements": {
+    "required_skills": [
+      "Bachelor's in CS/Engineering or equivalent",
+      "2+ years backend development in Python",
+      "API design; SQL/PostgreSQL schema design",
+      "Celery or similar background-job framework",
+      "LLMs (OpenAI, Gemini, Anthropic) with LangChain or RAG",
+      "Docker, Kubernetes, AWS/GCP",
+      "AI/ML or agent-based architectures",
+      "Problem solving, communication, collaboration"
+    ],
+    "preferred_skills": [
+      "FastAPI",
+      "Multi-agent orchestration",
+      "Prompt strategy and production agent architecture",
+      "Testable, documented Python"
+    ],
+    "experience_years": 2,
+    "education": "Bachelor's in CS, Engineering, or related (or equivalent)"
+  },
+  "match": {
+    "score": 66,
+    "reasoning": "Supported: Python LLM applications on Azure OpenAI and Azure AI Foundry (OpenAI models); LangChain RAG with ChromaDB; deployed Meta-RAG; multi-agent workflow evaluations; agentic migration proof of concept; MCP server connecting LLMs to tools; prompt engineering and guardrails; ContX AI with REST APIs and a 10-customer pilot; modular Python with separate AI and TLS test harnesses; Docker, Kubernetes, AKS; Claude Certified Architect (Anthropic). Gaps: FastAPI, Celery/background jobs, and hands-on PostgreSQL schema design are not supported (PostgreSQL is a listed skill only); AWS/GCP production experience is limited (Azure primarily; AWS from a virtual internship); about 1 year 10 months of Python professionally versus 2+; the role is labeled Mid-Senior.",
+    "score_breakdown": {
+      "required_skills": "22/35",
+      "experience": "14/25",
+      "preferred_skills": "10/15",
+      "education": "10/10",
+      "preferences": "10/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Meta-RAG, ContX AI (pilot), MCP server, multi-agent evaluations, agentic proof of concept, AKS deployment validation.",
+      "Amadeus intern: Python and SQL data workflows."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot (LangChain, Azure OpenAI, ChromaDB)",
+      "Social Engagement Bot proof of concept (modular Python, test harnesses, rate-limit backoff)",
+      "Container Image Security Scanner (Python REST client, CLI; 48 users)"
+    ],
+    "skill_gaps": [
+      "FastAPI",
+      "Celery/background jobs",
+      "PostgreSQL schema design (hands-on)",
+      "AWS/GCP production",
+      "2+ years Python backend (about 1.8)"
+    ],
+    "preference_fit": "Remote within India; candidate's remote preference is flexible; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_015/resume_v1.tex",
+    "pdf_path": "resumes/job_015/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Python backend and LLM agent focus: ContX AI (REST APIs; 10-customer pilot), guardrails, Meta-RAG, MCP server, multi-agent evaluations, agentic proof of concept, production investigations; Knowledge Bot RAG; modular social bot with test harnesses and backoff; scanner (48 users). FastAPI, Celery, and PostgreSQL schema design are not claimed. Simple one-column ATS format, one page (posting allows up to 2). Tectonic compiled with no warnings; content ends about 0.6 inch from the bottom; text extraction clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4492878682",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4492878682",
+    "fetched_at": "2026-11-22",
+    "screening": "Company AI resume screening; ATS-friendly, max 2 pages."
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Offer an invented FastAPI/Celery/PostgreSQL agent project; ask about any real FastAPI, Celery, or PostgreSQL use."
+  }
+}
