@@ -927,6 +927,57 @@
         "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
         "applied": true
       }
+    },
+    {
+      "id": "job015-deal-doc-agent-001",
+      "job_id": "job_015",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_015/resume_v2.tex",
+        "field": "Personal Project section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Deal Document Analysis Agent",
+        "attribution": "Personal project",
+        "technologies": [
+          "Python",
+          "FastAPI",
+          "Celery",
+          "Redis",
+          "PostgreSQL",
+          "LangChain",
+          "OpenAI API",
+          "pgvector",
+          "Docker",
+          "AWS"
+        ],
+        "resume_bullets": [
+          "Built a FastAPI service where users upload private-market deal documents, with Celery workers on Redis that parse and embed them in the background and store chunks in PostgreSQL with pgvector.",
+          "Orchestrated LangChain agents that extract key terms, answer questions with cited passages, and flag missing fields, using structured-output prompts and retries for failed LLM calls.",
+          "Designed the PostgreSQL schema for documents, extraction runs, and audit logs, wrote pytest tests for the API and workers, and deployed the stack with Docker Compose on AWS."
+        ]
+      },
+      "rationale": "Covers DwellFi's FastAPI, Celery, PostgreSQL schema design, multi-agent LLM, testing, Docker, and AWS requirements in its private-markets domain.",
+      "source": "Assistant-generated from the job_015 DwellFi posting at the user's request on 2026-11-22; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for the job_015 resume despite not_built status.",
+      "approval_status": "approved",
+      "approval_scope": {
+        "job_id": "job_015",
+        "artifacts": [
+          "resumes/job_015/resume_v2.tex",
+          "resumes/job_015/resume_v2.pdf"
+        ],
+        "reuse": "job_015 resume only; no FastAPI/Celery skill inferred; not screening answers or canonical profile"
+      },
+      "approval_record": {
+        "date": "2026-11-22",
+        "decision": "User selected 'Approve as written' for the exact entry shown.",
+        "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
+        "applied": true
+      }
     }
   ]
 }
