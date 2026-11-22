@@ -1,0 +1,79 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+\newcommand{\company}[2]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& \textbf{#2}\end{tabularx}\vspace{-4pt}}
+\newcommand{\role}[2]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textit{\small #1}&\textit{\small #2}\end{tabularx}\vspace{-5pt}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer who builds Python and SQL data workf{}lows, data-ingestion pipelines, and self-service internal tools on Azure and AWS, with privacy, security, and data-quality checks built in.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \company{Amadeus Software Labs}{Jan. 2025 -- Present}
+  \role{Software Development Engineer}{Aug. 2025 -- Present}
+  \begin{itemize}
+    \bulletpoint{Built ContX AI, which combines guest, property, booking, audience, and brand data into personalized marketing content using Python, React, Azure AI Foundry, and REST APIs; working with 10 customers in an active pilot.}
+    \bulletpoint{Implemented guardrails to avoid storing personal data or fabricating property information, along with marketing compliance controls.}
+    \bulletpoint{Built a working prototype of Pod Brain, a curated knowledge layer for AI agents, and designed its source linkage, ownership, approval states, indexing, and lifecycle metadata.}
+    \bulletpoint{Investigate about f{}ive production and regression issues per month, and validate deployments and redeployments on Azure Kubernetes Service.}
+    \bulletpoint{Investigated and f{}ixed application-security issues found by Black Duck, Checkmarx, and penetration testing.}
+    \bulletpoint{Designed and documented an internal toolkit to automate work-tracking, Jenkins, Kubernetes, and knowledge-retrieval workf{}lows.}
+  \end{itemize}
+  \role{Software Development Intern}{Jan. 2025 -- Jul. 2025}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract and prepare shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.}
+    \bulletpoint{Migrated dashboard inputs from Excel to CSV, developed Power BI visuals and interactive Top-N f{}ilters, and optimized DAX queries.}
+    \bulletpoint{Published the dashboards, checked data and visuals during QA, and documented the extraction and reporting workf{}lows.}
+  \end{itemize}
+\end{itemize}
+
+\section{Selected Data and Tooling Projects -- Amadeus Software Labs}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Documentation Ingestion Pipeline}{2025}{Python, Requests, BeautifulSoup, JSON}{}
+  \begin{itemize}
+    \bulletpoint{Mapped a help portal's hash-based navigation to static content URLs and built a Python scraper for product documentation.}
+    \bulletpoint{Preserved tables as structured records with breadcrumb and parent-category metadata, producing 86 normalized documents and versioned JSON datasets for vector-store ingestion.}
+    \bulletpoint{Built normalization, schema-correction, and token-accounting utilities to inspect data quality and embedding inputs.}
+  \end{itemize}
+  \entry{Container Image Security Scanner}{2025}{Python, REST APIs, Podman, Microsoft Teams webhooks}{}
+  \begin{itemize}
+    \bulletpoint{Built a self-service tool that automates Black Duck scans through REST APIs and posts results to Teams; used by 48 people, saving an estimated two hours of manual work per scan.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages:} Python, SQL, Java \\
+\textbf{Data:} Power BI, DAX, Splunk, PostgreSQL, Couchbase, ChromaDB, Kafka, JSON and CSV pipelines \\
+\textbf{Cloud and DevOps:} AWS, Amazon SageMaker, Azure, Docker, Kubernetes, Jenkins, Git \\
+\textbf{Security:} Black Duck, Checkmarx, personal-data guardrails \\
+\textbf{Certif{}ications and achievements:} Claude \mbox{Certif{}ied} Architect, Foundations (Anthropic); 1,000+ LeetCode problems; \mbox{GATE Qualif{}ied} (2023)
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+\end{document}

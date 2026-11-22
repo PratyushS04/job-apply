@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-22T11:32:36.184048+00:00",
-  "total_jobs": 13,
+  "last_updated": "2026-11-22T11:41:38.471030+00:00",
+  "total_jobs": 14,
   "status_counts": {
     "NEW": 0,
     "ANALYZING": 0,
@@ -8,7 +8,7 @@
     "MATCHING": 0,
     "MATCHED": 1,
     "RESUME_GENERATING": 0,
-    "RESUME_READY": 9,
+    "RESUME_READY": 10,
     "RESUME_REVIEWED": 0,
     "APP_PREPARING": 1,
     "APP_READY": 1,
@@ -31,7 +31,8 @@
     "job_010",
     "job_011",
     "job_012",
-    "job_013"
+    "job_013",
+    "job_014"
   ],
   "recent_errors": []
 }

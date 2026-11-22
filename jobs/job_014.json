@@ -1,0 +1,85 @@
+{
+  "id": "job_014",
+  "url": "https://www.linkedin.com/jobs/view/4491928784/",
+  "source": "chat",
+  "created_at": "2026-11-22T11:40:23.549532+00:00",
+  "updated_at": "2026-11-22T11:41:38.469740+00:00",
+  "company": "Workday",
+  "title": "AI Platforms Engineer (Data Platform Engineering, Architecture & AI)",
+  "location": "Pune, Maharashtra, India (Flex Work: at least 50% in office per quarter)",
+  "job_type": "full-time",
+  "description": "Data Platform Engineering in Workday's Architecture & AI org builds self-service, scalable data platforms and reusable frameworks on AWS. Responsibilities: design, build, and test scalable cloud data platforms; tools that enforce privacy, lineage, and data security at rest and in transit (PII, PCI, CCPA, SOX, GDPR); internal tools that detect anomalies and data-quality problems; release notes and technical documentation; scalable architecture with resource reuse; evaluate new packages and tools; collaborate across time zones. Posted about 1 day before fetch on 2026-11-22; over 200 applicants.",
+  "requirements": {
+    "required_skills": [
+      "1+ years in data engineering",
+      "Modern data stack, including basic Databricks expertise",
+      "Python, Scala, or Java, plus SQL"
+    ],
+    "preferred_skills": [
+      "AWS or other cloud",
+      "Data modeling, data architecture, and performance optimization for analytical workloads",
+      "Communication",
+      "Privacy, lineage, and data-security tooling",
+      "Data-quality and anomaly-detection tooling",
+      "Technical documentation"
+    ],
+    "experience_years": 1,
+    "education": "Not stated"
+  },
+  "match": {
+    "score": 58,
+    "reasoning": "Supported: Python and SQL data extraction workflows from Splunk and SQL into Power BI, DAX query optimization, and data QA (internship); the GMS documentation ingestion pipeline (scraping, structured tables and metadata, 86 normalized documents, versioned JSON datasets, normalization, schema-correction, and token-accounting utilities); PII guardrails and compliance controls in ContX AI; Pod Brain source linkage, ownership, approval states, and lifecycle metadata (lineage-like governance); self-service internal tooling (container scanner used by 48 people; developer portal prototype); security remediation; AWS (SageMaker virtual internship) and Azure; documentation. Gaps: Databricks (a basic qualification) and Spark are not in the profile; data engineering is about 7 months of internship plus pipeline project work, short of 1+ year as a data engineer; no data-warehouse modeling or PCI/SOX/GDPR work.",
+    "score_breakdown": {
+      "required_skills": "18/35",
+      "experience": "12/25",
+      "preferred_skills": "8/15",
+      "education": "10/10",
+      "preferences": "10/15"
+    },
+    "relevant_experience": [
+      "Amadeus intern: Python/Splunk/SQL extraction workflows, Power BI, DAX optimization, QA, documentation.",
+      "Amadeus SDE: ContX AI data integration with PII guardrails (10-customer pilot), Pod Brain metadata governance, internal tooling, security fixes, production investigations."
+    ],
+    "relevant_projects": [
+      "GMS Documentation Ingestion Pipeline (scraping, normalization, schema correction, versioned JSON datasets)",
+      "Container Image Security Scanner (self-service tool; 48 users)"
+    ],
+    "skill_gaps": [
+      "Databricks (basic qualification)",
+      "Spark",
+      "1+ year dedicated data engineering",
+      "Data warehouse modeling",
+      "PCI/SOX/GDPR compliance tooling"
+    ],
+    "preference_fit": "Pune is the candidate's city and a preferred location; hybrid at 50% office time; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_014/resume_v1.tex",
+    "pdf_path": "resumes/job_014/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Data-platform focus: internship data workflows, DAX optimization, and QA; documentation ingestion pipeline with data-quality utilities; ContX AI data integration with PII guardrails (10-customer pilot); Pod Brain metadata governance; production investigations; security fixes; self-service scanner (48 users; estimated two hours saved). Gear To Care omitted as less relevant. Databricks is not claimed. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4491928784",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4491928784",
+    "fetched_at": "2026-11-22"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Ask about real Databricks, Spark, or AWS data-service use."
+  }
+}
