@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4491928784/",
   "source": "chat",
   "created_at": "2026-11-22T11:40:23.549532+00:00",
-  "updated_at": "2026-11-22T11:41:38.469740+00:00",
+  "updated_at": "2026-11-22T11:48:25.555987+00:00",
   "company": "Workday",
   "title": "AI Platforms Engineer (Data Platform Engineering, Architecture & AI)",
   "location": "Pune, Maharashtra, India (Flex Work: at least 50% in office per quarter)",
@@ -57,10 +57,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_014/resume_v1.tex",
-    "pdf_path": "resumes/job_014/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "v1 from supported content only; no invented content. Data-platform focus: internship data workflows, DAX optimization, and QA; documentation ingestion pipeline with data-quality utilities; ContX AI data integration with PII guardrails (10-customer pilot); Pod Brain metadata governance; production investigations; security fixes; self-service scanner (48 users; estimated two hours saved). Gear To Care omitted as less relevant. Databricks is not claimed. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
+    "path": "resumes/job_014/resume_v2.tex",
+    "pdf_path": "resumes/job_014/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 = v1 plus approved invented project job014-databricks-lakehouse-001 (not_built/unverified; disclosed; no numbers). Removed the toolkit bullet and the Security skills line; merged and shortened the internship, guardrail, investigation, and ingestion bullets. Databricks is not added to Technical Skills. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -78,8 +78,10 @@
     "fetched_at": "2026-11-22"
   },
   "content_review": {
-    "proposal_ids": [],
+    "proposal_ids": [
+      "job014-databricks-lakehouse-001"
+    ],
     "hold": null,
-    "notes": "Ask about real Databricks, Spark, or AWS data-service use."
+    "notes": "Invented Databricks project approved for job_014 resume only."
   }
 }
