@@ -3,31 +3,74 @@
   "url": "https://search.jobs.barclays/job/-/-/13015/103508348896?src=JB-12860",
   "source": "chat",
   "created_at": "2026-11-22T11:29:33.568084+00:00",
-  "updated_at": "2026-11-22T11:29:52.716471+00:00",
+  "updated_at": "2026-11-22T11:32:36.182582+00:00",
   "company": "Barclays",
-  "title": null,
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "title": "Software Engineer - AI (Full-stack: React, Java, Spring Boot)",
+  "location": "Pune, Maharashtra, India",
+  "job_type": "full-time",
+  "description": "Hands-on full-stack engineer: React UIs, Java/Spring Boot services, and REST APIs for web, mobile, and API applications; review designs and code; automated tests; investigate defects and environment failures; support CI/CD and releases; observability; asynchronous and concurrent programming; use Claude or an equivalent enterprise AI tool for design, code generation and review, test automation, failure analysis, and documentation under Barclays security, privacy, and responsible-AI controls. Not directly customer-facing. The posting lists Assistant Vice President expectations (lead collaborative assignments, guide team members, influence stakeholders). Over 200 applicants at fetch time.",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
+    "required_skills": [
+      "React: JavaScript, JSX, components, state management, Hooks",
+      "JavaScript: closures, promises, async/await",
+      "Semantic HTML, modern CSS, CSS Grid, responsive design",
+      "Core Java: OOP, collections, exception handling",
+      "Spring/Spring Boot: IoC, DI, transactions, Spring Data JPA, Spring MVC",
+      "RESTful API design and consumption: contracts, versioning, error handling, security, API gateways",
+      "Gradle or Maven",
+      "Testing: Mockito, EasyMock, Pact, Karate (unit, component, contract, API)",
+      "Multithreading: ExecutorService, CompletableFuture, thread safety",
+      "Observability: ELK, Splunk, or AppDynamics; production-failure analysis",
+      "SQL and relational databases",
+      "CI/CD with Jenkins or GitLab"
+    ],
+    "preferred_skills": [
+      "React Native and mobile UX",
+      "Performance tuning; AWS or Azure",
+      "Jest, Appium, Detox",
+      "Claude or equivalent enterprise AI assistant for engineering",
+      "Communication and stakeholder collaboration"
+    ],
     "experience_years": null,
-    "education": null
+    "education": "Not stated"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 56,
+    "reasoning": "Supported: Java 17/Spring 6/Spring Boot 3 modernization across four initiatives with AI assistance; an OpenRewrite and Copilot Agent SDK migration proof of concept; React and REST APIs in ContX AI (10-customer pilot); production defect fixing and about five production/regression investigations a month; security-issue remediation; Jenkins/Kubernetes automation; Splunk, Kibana/ELK, and Grafana (candidate-confirmed); SQL; Azure; Claude Certified Architect, Foundations, which directly supports the Claude preference. Gaps: JavaScript depth, HTML/CSS, Gradle/Maven, Mockito/Pact/Karate, CompletableFuture concurrency, Spring Data JPA, and React Native are not in the profile. The posting carries Assistant Vice President expectations, well above about 1 year 3 months of full-time experience (about 1 year 11 months at Amadeus including the internship), so shortlisting odds are low to moderate.",
+    "score_breakdown": {
+      "required_skills": "16/35",
+      "experience": "6/25",
+      "preferred_skills": "9/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: Java/Spring modernization, migration proof of concept, ContX AI (React, REST, pilot), defect investigation, security fixes, CI/CD toolkit, AI-assisted engineering demos.",
+      "Amadeus intern: Splunk and SQL workflows.",
+      "Gear To Care: Android payments and authentication."
+    ],
+    "relevant_projects": [
+      "Container Image Security Scanner (REST APIs; 48 users; estimated two hours saved per scan)"
+    ],
+    "skill_gaps": [
+      "JavaScript/HTML/CSS depth",
+      "Gradle/Maven",
+      "Mockito/Pact/Karate",
+      "Java concurrency (ExecutorService, CompletableFuture)",
+      "Spring Data JPA",
+      "React Native",
+      "AVP-level seniority"
+    ],
+    "preference_fit": "Pune is the candidate's city and a preferred location; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "status": "GENERATED",
+    "path": "resumes/job_013/resume_v1.tex",
+    "pdf_path": "resumes/job_013/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Java/Spring modernization, migration proof of concept, ContX AI (React, REST; 10-customer pilot), defect investigation (about five per month), security fixes, MCP server, AI-assisted engineering demos, CI/CD toolkit, Splunk/Kibana/Grafana, container scanner (48 users; estimated two hours saved). Claude appears only as the certification; hands-on Claude engineering use is unconfirmed. Tectonic compiled with no warnings; one A4 page; content ends about 0.75 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -37,6 +80,18 @@
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "ERROR",
-  "error": "Posting not read: search.jobs.barclays is not allowed by this environment's network policy, and a web search did not find job ID 103508348896. Resume on hold until the job description is pasted or a LinkedIn link is provided."
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "barclays_url": "https://search.jobs.barclays/job/-/-/13015/103508348896?src=JB-12860",
+    "linkedin_url": "https://www.linkedin.com/jobs/view/4491698128/",
+    "linkedin_job_id": "4491698128",
+    "note": "User sent the LinkedIn link after the Barclays careers page was unreadable; assumed to be the same posting (not verified, because the Barclays page could not be fetched).",
+    "fetched_at": "2026-11-22"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Ask: hands-on Claude use for engineering; Maven/Gradle; JUnit/Mockito; JavaScript/HTML/CSS; reuse of the job_002 React-tests line."
+  }
 }
