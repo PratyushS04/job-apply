@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4485126307/",
   "source": "chat",
   "created_at": "2026-11-18T13:01:08.959252+00:00",
-  "updated_at": "2026-11-23T11:20:57.892991+00:00",
+  "updated_at": "2026-11-23T11:40:00.596701+00:00",
   "company": "Apple",
   "title": "Applied AI Engineer",
   "location": "Bengaluru, Karnataka, India",
@@ -60,11 +60,12 @@
     "screenshots": []
   },
   "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/).",
-  "pipeline_status": "MATCHED",
+  "pipeline_status": "SKIPPED",
   "error": null,
   "posting_metadata": {
     "candidate_profile": "candidates/animesh_murai",
     "redirect_url": "https://in.linkedin.com/jobs/view/applied-ai-engineer-at-apple-4485126307",
-    "fetch_status": "Fetched 2026-11-23 from in.linkedin.com."
+    "fetch_status": "Fetched 2026-11-23 from in.linkedin.com.",
+    "skip_reason": "User 2026-11-23: requires 3+ years experience and posting is old; dropped for now."
   }
 }
