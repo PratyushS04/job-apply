@@ -13,7 +13,7 @@ e.g. "apply to 1, 3, 4, 5, 9 and 10 from today's jobs". The agent imports them
 for your approval before anything is submitted.
 
 Usage:
-    .venv/bin/python tools/daily_search.py --candidate candidates/animesh_murai
+    .venv/bin/python tools/daily_search.py --candidate candidate
     .venv/bin/python tools/daily_search.py --test
 Options: --config PATH, --jobs-dir DIR, --state-dir DIR, --no-notify
 """
@@ -175,7 +175,7 @@ def main(argv: list[str]) -> int:
     opt = discover_jobs._option
     candidate = opt(argv, "--candidate")
     if not candidate:
-        print("Needs --candidate, e.g. --candidate candidates/animesh_murai")
+        print("Needs --candidate, e.g. --candidate candidate")
         return 2
     candidate = candidate.rstrip("/")
     try:

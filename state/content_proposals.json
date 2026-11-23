@@ -1,525 +1,345 @@
 {
   "schema_version": 1,
+  "candidate": "animesh_murai",
+  "note": "Content proposals for the candidate in candidate/ on this branch (Animesh Murai). Moved here from candidate/content_proposals.json on 2026-11-23.",
   "proposals": [
     {
-      "id": "review-contx-ownership-001",
+      "id": "am-exp-google-role-001",
       "job_id": null,
       "targets": [
-        "candidate/experience.json: Amadeus achievements",
-        "candidate/master_resume.md: Amadeus experience"
-      ],
-      "current_wording": "Defined ContX AI capabilities and guardrails for audience-specific creative variants, property-level personalization, prompt-based editing, marketing compliance, manual export, and avoidance of PII storage and fabricated property information.",
-      "proposed_wording": "Contributing to the development of ContX AI, an AI campaign-design MVP for hotel marketers; its planned scope includes personalized content, prompt-based editing, and manual export.",
-      "rationale": "The screenshot supports planned product scope but does not establish personal ownership of defining capabilities or implementing guardrails. Confirm ownership before choosing a stronger action verb.",
-      "source": "User mid-year review conversation and C:/Users/pshen/Downloads/contx-ai-ss.jpeg. User says they are building ContX AI; screenshot describes intended MVP scope.",
-      "evidence_status": "document_supported",
-      "confirmation_needed": "Which parts did the candidate personally design or implement, and which are already working versus planned?",
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-09-10",
-        "decision": "User confirmed ContX AI is completed and asked to add it with Python, MJML, Azure AI Foundry, React, and reasonable supporting integration wording.",
-        "applied": true
-      }
-    },
-    {
-      "id": "review-security-counts-002",
-      "job_id": null,
-      "targets": [
-        "candidate/experience.json: Amadeus security achievements",
-        "candidate/master_resume.md: Amadeus security bullets"
-      ],
-      "current_wording": "Remediated 4 additional High-severity Black Duck vulnerabilities, with story acceptance pending stakeholder review.",
-      "proposed_wording": "Fixed four High-severity Black Duck vulnerabilities; story acceptance remains pending.",
-      "rationale": "The user supplied four fixes with pending acceptance. The previous update added 'additional' without confirming whether these overlap with the reported 14 tickets. Do not claim 18 distinct resolved findings. The original 14-ticket statement supports 'addressed'; accepted closure for every finding is not established.",
-      "source": "User mid-year review notes: 14 addressed security tickets and four High Black Duck fixes with acceptance under discussion.",
-      "evidence_status": "user_reported",
-      "confirmation_needed": "Are the four High findings separate from the 14 tickets, and which tickets have accepted closure?",
-      "approval_status": "superseded",
-      "approval_record": {
-        "date": "2026-09-11",
-        "decision": "Candidate requested removal of detailed security counts and severity claims. Replaced them with a neutral, non-quantified application-security statement.",
-        "applied": true
-      }
-    },
-    {
-      "id": "review-contx-skills-003",
-      "job_id": null,
-      "targets": [
-        "candidate/skills.json: Context-aware Personalization",
-        "candidate/experience.json: ContX-specific attribution of Prompt Engineering",
-        "candidate/master_resume.md: Context-aware Personalization and ContX-specific skill claims"
-      ],
-      "current_wording": "Prompt Engineering; Context-aware Personalization",
-      "proposed_wording": "Add these skills with a specific implementation example after confirming hands-on use in ContX AI or another project.",
-      "rationale": "The preceding update inferred hands-on skills from product scope. Scope alone does not establish the candidate's personal implementation experience.",
-      "source": "ContX AI screenshot and the assistant's previous candidate-profile update.",
-      "evidence_status": "unverified",
-      "confirmation_needed": "What personalization or prompt implementation has the candidate personally performed specifically for ContX AI? General Prompt Engineering is now supported by the separately supplied GMS Knowledge Bot project; this pending review no longer excludes that skill when attributed to the GMS bot.",
-      "new_evidence": "The user requested adding newer projects from C:/Users/pshen/.codex/attachments/51e951c2-e21e-4ede-9adf-dc3734008ab2/pasted-text.txt. The GMS Knowledge Bot description explicitly includes intent-based prompt adaptation. ContX-specific ownership and personalization remain unconfirmed.",
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-09-10",
-        "decision": "User confirmed completed ContX AI work and its implementation stack. Context-aware personalization and prompt engineering may be attributed to ContX AI within the confirmed product scope.",
-        "applied": true
-      }
-    },
-    {
-      "id": "job001-nvidia-devtech-skills-001",
-      "job_id": "job_001",
-      "targets": [
-        "candidate/skills.json",
-        "candidate/master_resume.md",
-        "resumes/job_001/resume_v2.tex"
-      ],
-      "current_wording": "The profile lists C, Python multiprocessing, and AI/ML coursework/projects, but does not list C++, CUDA, GPU programming, GPU performance optimization, or GPU architecture.",
-      "proposed_wording": "Add only the NVIDIA-relevant skills that the candidate can substantiate: C++, CUDA C/C++, GPU programming/performance optimization, GPU architecture, graph machine learning, and/or customer-facing technical collaboration.",
-      "rationale": "These are the role's material screening requirements. Adding any of them to the master resume or tailored resume without hands-on evidence would be misleading.",
-      "source": "NVIDIA AI Developer Technology Engineer, JR2008156, job posting; no supporting candidate evidence currently in the profile.",
-      "evidence_status": "unverified",
-      "confirmation_needed": "For each applicable item, provide where you used it, what you built or optimized, and whether the work was coursework, a personal project, research, or employment. Confirm whether it may be added to the master profile and this NVIDIA application.",
-      "approval_status": "rejected",
-      "approval_record": {
-        "date": "2026-09-12",
-        "decision": "Candidate confirmed they do not have experience in the proposed C++, CUDA, GPU, graph-ML, or customer-facing DevTech areas. Do not add these skills or claims."
-      }
-    },
-    {
-      "id": "job001-cuda-project-001",
-      "job_id": "job_001",
-      "targets": [
-        "resumes/job_001/resume_v3.tex: Selected Projects"
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
       ],
       "current_wording": null,
-      "proposed_wording": {
-        "name": "CUDA Neural Network Kernel Lab",
-        "attribution": "Personal project",
-        "technologies": [
-          "C++",
-          "CUDA",
-          "Python",
-          "NVIDIA Nsight Compute"
-        ],
-        "highlights": [
-          "Built C++ and CUDA implementations of matrix multiplication and ReLU for a small neural-network forward pass, with a CPU reference for output comparison.",
-          "Implemented a shared-memory tiled matrix-multiplication kernel and compared thread-block configurations using CUDA events and NVIDIA Nsight Compute.",
-          "Added numerical checks against the CPU reference and Python scripts to summarize kernel timings across matrix sizes, separating execution time from host-device transfers."
-        ]
-      },
-      "rationale": "Targets the stored NVIDIA requirements for C/C++, parallel programming, AI algorithms, CUDA, and GPU performance analysis. Replaces the shorter Red Light Violation Detection entry while retaining achievements and relevant supported projects.",
-      "source": "Assistant-generated fictional project based on jobs/job_001.json and the user request to complete the attached NVIDIA tailoring task. Not candidate testimony or implementation evidence.",
-      "content_kind": "invented_personal_project",
-      "actual_status": "not_built",
-      "evidence_status": "unverified",
-      "confirmation_needed": "Approve the exact proposed entry for the NVIDIA job_001 resume despite its unbuilt status. This confirms permission to use wording, not factual completion.",
+      "proposed_wording": "Review endpoint security for third-party generative AI tools and other software components as part of Google's security team, working as an Accenture vendor (external workforce).",
+      "rationale": "Core description of current client work; states vendor relationship clearly.",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "What a typical review involves (e.g., assessing install/access requests, checking permissions or data handling) so the bullet can be more specific.",
       "approval_status": "pending",
-      "approval_scope": null,
-      "requested_scope": {
-        "job_id": "job_001",
-        "artifacts": [
-          "resumes/job_001/resume_v3.tex",
-          "resumes/job_001/resume_v3.pdf"
-        ],
-        "canonical_profile": false,
-        "screening_answers": false
-      },
+      "approval_record": null
+    },
+    {
+      "id": "am-exp-tickets-002",
+      "job_id": null,
+      "targets": [
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
+      ],
+      "current_wording": null,
+      "proposed_wording": "Worked through about 1,000 security review tickets since March 2026.",
+      "rationale": "Shows volume and consistency.",
+      "source": "User chat 2026-11-15 ('around 1000 tickets so far')",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Are these tickets you personally resolved/reviewed (not team totals)? Are they all endpoint/security reviews?",
+      "approval_status": "pending",
       "approval_record": null,
-      "preview_path": "resumes/job_001/review/resume_v3_preview.pdf"
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed tickets are their own and all security-related."
+        }
+      ]
     },
     {
-      "id": "contx-org-work-004",
+      "id": "am-exp-eow-automation-003",
       "job_id": null,
       "targets": [
-        "candidate/projects.json: new Amadeus work_project entry",
-        "candidate/experience.json: Amadeus ContX AI achievements",
-        "candidate/master_resume.md: Amadeus experience and projects"
-      ],
-      "current_wording": [
-        "Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.",
-        "Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information."
-      ],
-      "proposed_wording": {
-        "name": "ContX AI — Pod Brain and AI-assisted development",
-        "category": "work_project",
-        "company": "Amadeus Software Labs",
-        "description": "Contributed to ContX AI, an internal hospitality-marketing application that uses campaign, guest, property, and brand context to generate personalized email and advertising content.",
-        "highlights": [
-          "Designed a Pod Brain knowledge-layer proposal to organize project and domain context from Confluence, meeting notes, customer discussions, and engineering artifacts as structured Markdown and JSON for AI development agents.",
-          "Specified source links, ownership, approval states, indexing, and lifecycle metadata so agents could use curated context while enterprise systems remained the authoritative sources.",
-          "Explored automated ingestion and summarization of project artifacts to keep agent context current.",
-          "Contributed to evaluation of language models and a multi-agent proof of concept for marketing copy, structured email content, image generation, and output validation.",
-          "Participated in data-integration design for hotel offers, availability, rates, property content, and facilities, with privacy, factual-grounding, and human-review requirements."
-        ],
-        "status": "Pod Brain design and ingestion exploration; evaluation and prototype scope pending confirmation"
-      },
-      "rationale": "The candidate says this is work done within their organization. A separate Amadeus work-project entry can preserve company attribution and distinguish design, exploration, evaluation, and delivered product work. It must not create a new official job title or imply that the Pod Brain was deployed.",
-      "source": "User-supplied pasted AI-generated ContiX AI write-up at /Users/animeshmurai/.codex/attachments/7b2fcf81-3b3e-4222-b7dd-b6d538645c78/Pasted text.txt. In chat on 2026-10-17, the candidate confirmed this was work in their organization; the pasted draft does not independently verify each detailed contribution.",
-      "evidence_status": "unverified",
-      "confirmation_needed": "Confirm official project spelling (ContX or ContiX); what the candidate personally designed or implemented for Pod Brain and whether it remained a design, became a working prototype, or was deployed; which model and agent evaluations the candidate personally ran versus discussed; and whether the data-integration and guardrail bullets describe the candidate's direct contribution. Approve the exact revised entry for the reusable profile and master resume before applying.",
-      "approval_status": "superseded",
-      "approval_record": {
-        "date": "2026-10-17",
-        "decision": "The candidate confirmed the official ContX AI spelling, a working Pod Brain prototype, and hands-on model and multi-agent evaluations. The broad draft was replaced by the narrower applied proposal contx-org-work-005; detailed integration and guardrail ownership remains pending in contx-org-detail-006.",
-        "applied": false
-      }
-    },
-    {
-      "id": "contx-org-work-005",
-      "job_id": null,
-      "targets": [
-        "candidate/projects.json: ContX AI — Pod Brain and AI Evaluation",
-        "candidate/experience.json: Amadeus ContX AI achievements",
-        "candidate/skills.json: Knowledge Engineering and LLM Evaluation",
-        "candidate/master_resume.md: Amadeus experience and project section"
-      ],
-      "current_wording": "ContX AI was described in the Amadeus role, but the Pod Brain prototype and hands-on evaluations were not yet recorded.",
-      "proposed_wording": {
-        "project_name": "ContX AI — Pod Brain and AI Evaluation",
-        "attribution": "Amadeus Software Labs, Software Development Engineer",
-        "status": "Working Pod Brain prototype and hands-on evaluations; production deployment not confirmed",
-        "experience_bullets": [
-          "Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents; designed source linkage, ownership, approval states, indexing, and lifecycle metadata for its knowledge assets.",
-          "Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation."
-        ],
-        "project_highlights": [
-          "Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents.",
-          "Designed source linkage, ownership, approval states, indexing, and lifecycle metadata for the knowledge assets.",
-          "Explored automated ingestion and summarization of project artifacts to keep agent context current.",
-          "Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation."
-        ],
-        "skills": [
-          "Knowledge Engineering",
-          "LLM Evaluation"
-        ]
-      },
-      "rationale": "Represents the candidate's company work without inventing a new job title, dates, model-training claim, benchmark, or production deployment. Distinguishes the Pod Brain prototype from exploration and evaluation.",
-      "source": "User's 2026-10-17 request to update the supplied ContX AI work account, plus direct replies confirming a working Pod Brain prototype, hands-on model and multi-agent evaluations, and the official spelling. Detailed categories and design elements came from the user-supplied pasted account at /Users/animeshmurai/.codex/attachments/7b2fcf81-3b3e-4222-b7dd-b6d538645c78/Pasted text.txt.",
-      "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-10-17",
-        "decision": "The candidate requested this organizational-work update and then confirmed the official name, a working prototype, and hands-on evaluations. Applied the narrowed wording to the reusable candidate profile and master resume; this does not approve any particular application or imply production deployment.",
-        "scope": "candidate/experience.json, candidate/projects.json, candidate/skills.json, and candidate/master_resume.md for future tailoring",
-        "applied": true
-      }
-    },
-    {
-      "id": "contx-org-detail-006",
-      "job_id": null,
-      "targets": [
-        "candidate/projects.json: optional ContX AI data-integration detail",
-        "candidate/master_resume.md: optional ContX AI data-integration detail"
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Participated in ContX AI data-integration design for hotel offers, availability, rates, property content, and facilities, and defined privacy, factual-grounding, and human-review requirements for those workflows.",
-      "rationale": "The pasted draft describes these activities, but the candidate's latest confirmation covered the Pod Brain prototype and hands-on evaluations, not direct ownership of every integration and guardrail detail.",
-      "source": "User-supplied AI-written ContX AI account at /Users/animeshmurai/.codex/attachments/7b2fcf81-3b3e-4222-b7dd-b6d538645c78/Pasted text.txt; direct contribution to this specific detail remains unconfirmed.",
-      "evidence_status": "unverified",
-      "confirmation_needed": "Which hotel-data integration decisions and guardrails did the candidate personally design or implement, and which were team discussions or future scope? Approve exact wording before adding it to the reusable profile.",
+      "proposed_wording": "Built a Google Apps Script automation that generates the team's end-of-week report, replacing a manual step and saving about 20 minutes every week.",
+      "rationale": "Concrete engineering contribution inside a security role.",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "estimated",
+      "confirmation_needed": "Is the 20 minutes per weekly report? Tool used (Python, Apps Script, Sheets, SQL)? What did it pull data from?",
       "approval_status": "pending",
-      "approval_record": null
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed ~20 min saved every week; left inclusion to Claude's judgment. Tool still unspecified."
+        },
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed tool: Google Apps Script."
+        }
+      ]
     },
     {
-      "id": "amadeus-intern-timeline-007",
+      "id": "am-exp-internal-page-004",
       "job_id": null,
       "targets": [
-        "candidate/experience.json: Amadeus role dates and internship entry",
-        "candidate/master_resume.md: Amadeus experience dates and internship section"
+        "experience.json: Accenture",
+        "resumes/base_sde_v1.tex"
       ],
-      "current_wording": "Software Development Engineer at Amadeus Software Labs, January 2025–Present; no separate Amadeus internship entry.",
-      "proposed_wording": {
-        "internship": "Software Development Intern, Amadeus Software Labs, January–July 2025",
-        "full_time": "Software Development Engineer, Amadeus Software Labs, August 2025–Present"
-      },
-      "rationale": "Separates the confirmed internship from the later full-time role and corrects a materially inaccurate full-time start date.",
-      "source": "Candidate directly requested the internship correction and confirmed the official titles and dates in chat on 2026-10-17.",
+      "current_wording": null,
+      "proposed_wording": "Created a page on the team's internal site using Google Apps Script, showcasing major team milestones.",
+      "rationale": "Web development contribution; currently thin.",
+      "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
-      "confirmation_needed": null,
+      "confirmation_needed": "What the page does/shows, who uses it, and what you built it with.",
       "approval_status": "approved",
       "approval_record": {
-        "date": "2026-10-17",
-        "decision": "User directed the experience update and confirmed Software Development Intern for January–July 2025 and Software Development Engineer from August 2025.",
-        "scope": "Reusable candidate profile and master resume; existing application artifacts require a corrected version and review.",
-        "applied": true
-      }
+        "date": "2026-11-15",
+        "decision": "User supplied wording and asked to add that it used Google Apps Script."
+      },
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User clarified: page for the Accenture team at Google, under team leadership, showcasing team milestones."
+        }
+      ]
     },
     {
-      "id": "amadeus-intern-portal-008",
+      "id": "am-exp-training-005",
       "job_id": null,
       "targets": [
-        "candidate/experience.json: Amadeus Software Development Intern achievement",
-        "candidate/master_resume.md: Amadeus internship bullet"
+        "resumes/base_sde_v1.tex"
+      ],
+      "current_wording": "Cyber Security - SIEM training (P2 proficiency in MyCompetency) ...",
+      "proposed_wording": "Trained by Accenture in SIEM operations with Splunk: SPL searches, dashboards, alert tuning to reduce false positives, and log analysis of Windows, authentication, firewall, and DNS events. | Covered SIEM architecture (forwarders, collectors, normalization, correlation), NIST incident response, threat intelligence (MISP, TAXII), QRadar basics, and VM lab simulations over RDP/SSH.",
+      "rationale": "Condenses the technical resume's training section; drops internal 'MyCompetency' jargon.",
+      "source": "Technical resume",
+      "evidence_status": "document_supported",
+      "confirmation_needed": "Wording approval only.",
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User corrected dates: training was Aug-Oct 2025, not Jan-Mar 2026 (was on bench then). Moved out of the Accenture bullets."
+        },
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed Accenture provided the training for the job."
+        },
+        {
+          "date": "2026-11-15",
+          "note": "User asked to omit training dates and include all Accenture training items from the original technical resume."
+        }
+      ]
+    },
+    {
+      "id": "am-proj-spendwise-006",
+      "job_id": null,
+      "targets": [
+        "projects.json: SpendWise",
+        "resumes/base_sde_v1.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.",
-      "rationale": "Captures the candidate's confirmed personal internship deliverable without claiming product leadership, adoption, production deployment, measured impact, or a RAG pipeline.",
-      "source": "User-supplied AI-written internship account at /Users/animeshmurai/.codex/attachments/8bd648d6-17e7-4ea7-b01d-1000c489b866/Pasted text.txt, narrowed by the candidate's direct 2026-10-17 confirmation that they built a working internal developer portal or AI hub during the internship.",
+      "proposed_wording": "Six SpendWise bullets as shown in resumes/base_sde_v1.tex (privacy-first tracker; push-driven sync described as designed and built; adaptive Gmail API pipeline; parser/dedup/auto-categorization; insights + watchOS; native Android rebuild).",
+      "rationale": "Strongest software project and directly relevant to Apple (Swift, SwiftUI, watchOS).",
+      "source": "User-supplied code review summary 2026-11-15",
+      "evidence_status": "document_supported",
+      "confirmation_needed": "Solo project? Start/end dates? Any App Store/Play Store or TestFlight release? Public GitHub link? You should be able to explain each design choice (AIMD limiter, dedup steps) in an interview.",
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed solo; v1 mid-Jul to 31 Jul 2026; in daily personal use on iPhone, Watch, Android; on GitHub, not App Store. Asked to shorten the entry."
+        }
+      ]
+    },
+    {
+      "id": "am-proj-medihelp-007",
+      "job_id": null,
+      "targets": [
+        "projects.json: MediHelp",
+        "resumes/base_sde_v1.tex"
+      ],
+      "current_wording": "Architected a system for automated extraction and generation of medication information from image data...",
+      "proposed_wording": "Team project: web app that reads a photo of a medicine and extracts its name, ingredients, and strength with PaddleOCR; explains its use by scraping Drugs.com and summarizing with Llama 2 through LangChain.",
+      "rationale": "Replaces vague 'architected... efficient pipelines' with the actual scope; labeled as team work.",
+      "source": "User chat 2026-11-15 and technical resume",
       "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "superseded",
-      "approval_record": {
-        "date": "2026-10-17",
-        "decision": "Candidate clarified that the portal prototype was completed during the August 2025–present full-time role, not the January–July 2025 internship. The same claim was moved to the correct role; see amadeus-fulltime-portal-013.",
-        "scope": "Historical internship attribution is superseded; do not reuse it.",
-        "applied": false
-      }
+      "confirmation_needed": "Which part you built personally; confirm site is Drugs.com; homeopathic-alternatives feature omitted for SDE roles.",
+      "approval_status": "pending",
+      "approval_record": null,
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User confirmed Drugs.com. Individual contribution still unspecified."
+        }
+      ]
     },
     {
-      "id": "amadeus-intern-rag-009",
+      "id": "am-proj-disease-008",
       "job_id": null,
       "targets": [
-        "candidate/experience.json: proposed Amadeus internship RAG bullet",
-        "candidate/master_resume.md: proposed Amadeus internship RAG bullet"
+        "resumes/base_sde_v1.tex"
       ],
-      "current_wording": null,
-      "proposed_wording": "Built a RAG ingestion pipeline for Jira, Confluence, and PDF content during the Amadeus internship.",
-      "rationale": "The pasted AI-written account suggested this claim, but the candidate explicitly denied implementing that ingestion during the internship.",
-      "source": "User-supplied AI-written internship account and the candidate's direct response on 2026-10-17.",
-      "evidence_status": "unverified",
-      "confirmation_needed": null,
+      "current_wording": "...predicts with an accuracy of around 90%...",
+      "proposed_wording": "Trained and compared SVM, neural network, Naive Bayes, decision tree, and KNN classifiers on a Kaggle dataset to predict lifestyle-disease risk from user inputs, reaching about 90% accuracy.",
+      "rationale": "Kept from technical resume per user instruction.",
+      "source": "Technical resume",
+      "evidence_status": "document_supported",
+      "confirmation_needed": "Which model reached ~90% and on what test split; which disease. Will drop the number if you can't explain it in an interview.",
       "approval_status": "rejected",
       "approval_record": {
-        "date": "2026-10-17",
-        "decision": "Candidate answered No when asked whether they implemented RAG ingestion from Jira, Confluence, or PDFs during the internship. Do not use this claim for that role.",
-        "applied": false
-      }
-    },
-    {
-      "id": "amadeus-intern-correction-010",
-      "job_id": null,
-      "targets": [
-        "candidate/experience.json: Amadeus Software Development Intern portal achievement",
-        "candidate/master_resume.md: Amadeus internship portal achievement"
-      ],
-      "current_wording": "Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.",
-      "proposed_wording": "Exclude the internal developer portal or AI hub claim from the Amadeus internship unless the candidate confirms that it was separate work they personally completed.",
-      "rationale": "The candidate said earlier information may be incorrect and supplied a different, detailed iHotelier internship account. The previously approved portal claim is withheld from the reusable profile during this review.",
-      "source": "Candidate's 2026-10-17 correction and pasted AI-written screenshot transcription at /Users/animeshmurai/.codex/attachments/cf2964a7-f75b-48cc-878e-60a06fc9c4bf/Pasted text.txt; prior direct portal response recorded in amadeus-intern-portal-008.",
-      "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-10-17",
-        "decision": "Candidate clarified the portal was full-time work. Removed the portal achievement from the internship entry and placed it under the full-time role.",
-        "scope": "Reusable candidate experience and master resume.",
-        "applied": true
-      }
-    },
-    {
-      "id": "amadeus-intern-ihotelier-011",
-      "job_id": null,
-      "targets": [
-        "candidate/experience.json: Amadeus Software Development Intern achievements and technologies",
-        "candidate/skills.json: DAX",
-        "candidate/master_resume.md: Amadeus internship experience and DAX skill"
-      ],
-      "current_wording": "Contributed to iHotelier Power BI dashboards for Shopping, Availability, and Promotions analytics.",
-      "proposed_wording": {
-        "attribution": "Amadeus Software Labs, Software Development Intern, January–July 2025",
-        "description": "Built data extraction and Power BI reporting workflows for iHotelier Shopping, Availability, and Promotions analytics.",
-        "technologies": [
-          "Python",
-          "Splunk",
-          "SQL",
-          "CSV",
-          "Power BI",
-          "DAX"
-        ],
-        "bullets": [
-          "Built Python workflows to extract and prepare iHotelier shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.",
-          "Migrated dashboard inputs from Excel to CSV, developed Power BI visuals and interactive Top-N property filters, and optimized DAX queries.",
-          "Published the dashboards in the iHotelier workspace, checked data and visuals during QA, and documented the extraction and reporting workflows."
-        ]
+        "date": "2026-11-15",
+        "decision": "User: remove Lifestyle Disease Prediction from the resume."
       },
-      "rationale": "The candidate directly confirmed the dashboard was internship work and that they personally performed every task in the specific follow-up list. Wording groups those contributions without adding a measured result or implying sole ownership of the whole project.",
-      "source": "Candidate-supplied AI-written screenshot transcription at /Users/animeshmurai/.codex/attachments/cf2964a7-f75b-48cc-878e-60a06fc9c4bf/Pasted text.txt, received 2026-10-17. Candidate direct replies on 2026-10-17 confirmed internship attribution and no exclusions from Python/Splunk extraction, SQL queries, Excel-to-CSV migration, Power BI visuals or DAX, Top-N filters, publishing, QA, and documentation.",
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User asked to remove the project from the resume."
+        }
+      ]
+    },
+    {
+      "id": "am-cert-claude-009",
+      "job_id": null,
+      "targets": [
+        "achievements.json",
+        "resumes/base_sde_v1.tex"
+      ],
+      "current_wording": null,
+      "proposed_wording": "Claude Certified Architect - Foundations; Claude Certified Developer - Foundations (Anthropic)",
+      "rationale": "Relevant AI/developer certifications.",
+      "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
-      "confirmation_needed": null,
+      "confirmation_needed": "Exact certificate titles as printed, and issue dates.",
       "approval_status": "approved",
       "approval_record": {
-        "date": "2026-10-17",
-        "decision": "Candidate confirmed personal work on every listed technical task. Applied narrowed, nonnumeric wording to the reusable internship experience, DAX skill, and master resume. The HIT project relationship remains separately unresolved.",
-        "scope": "Reusable candidate experience, skills, and master resume; no specific application approved.",
-        "applied": true
-      }
+        "date": "2026-11-15",
+        "decision": "User directly asked to add both certifications with supplied dates."
+      },
+      "factual_confirmations": [
+        {
+          "date": "2026-11-15",
+          "note": "User supplied CCA-F (2026-07-12) and CCDV-F (2026-11-14), each valid one year; asked to include them."
+        }
+      ]
     },
     {
-      "id": "amadeus-intern-metric-012",
+      "id": "am-skill-dbms-010",
       "job_id": null,
       "targets": [
-        "candidate/experience.json: optional Amadeus internship metric",
-        "candidate/master_resume.md: optional Amadeus internship metric"
+        "skills.json",
+        "resumes/base_sde_v4.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Reduced recurring data-extraction time by approximately 90% compared with the previous manual process.",
-      "rationale": "The pasted account cites 90% in a final presentation and 97.92% in another document, but provides no comparable before/after measurements, sample, or clear definition of the metric. Do not use either figure until its basis and personal attribution are confirmed.",
-      "source": "Candidate-supplied AI-written screenshot transcription at /Users/animeshmurai/.codex/attachments/cf2964a7-f75b-48cc-878e-60a06fc9c4bf/Pasted text.txt, received 2026-10-17; underlying presentation and dashboard page were not provided.",
-      "evidence_status": "unverified",
-      "confirmation_needed": "Provide comparable before/after extraction durations, frequency, and what was measured, or approve a nonnumeric description instead.",
-      "approval_status": "pending",
-      "approval_record": null
-    },
-    {
-      "id": "amadeus-fulltime-portal-013",
-      "job_id": null,
-      "targets": [
-        "candidate/experience.json: Amadeus Software Development Engineer portal achievement",
-        "candidate/master_resume.md: Amadeus full-time portal bullet"
-      ],
-      "current_wording": null,
-      "proposed_wording": "Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.",
-      "rationale": "Preserves the candidate-confirmed prototype while correcting its role attribution. Candidate also confirmed this is separate from ContX AI and its Pod Brain.",
-      "source": "Candidate direct responses on 2026-10-17 confirming prototype ownership, full-time timing, and that the portal is separate from ContX AI.",
+      "proposed_wording": "Databases: DBMS, MySQL, SwiftData, Room",
+      "rationale": "User asked to add DBMS; SwiftData and Room are the databases used in SpendWise.",
+      "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
-      "confirmation_needed": null,
+      "confirmation_needed": "None for inclusion.",
       "approval_status": "approved",
       "approval_record": {
-        "date": "2026-10-17",
-        "decision": "Candidate explicitly corrected the portal timing to the full-time Amadeus role and confirmed it was a separate project from ContX AI.",
-        "scope": "Reusable candidate experience and master resume; no specific job application approved.",
-        "applied": true
+        "date": "2026-11-15",
+        "decision": "User directly asked to add DBMS."
       }
     },
     {
-      "id": "amadeus-intern-ihotelier-core-014",
+      "id": "am-ach-leetcode-sql-011",
       "job_id": null,
       "targets": [
-        "candidate/experience.json: Amadeus Software Development Intern core achievement",
-        "candidate/master_resume.md: Amadeus internship core bullet"
+        "achievements.json",
+        "resumes/base_sde_v4.tex"
+      ],
+      "current_wording": "Solved 300 problems on LeetCode",
+      "proposed_wording": "Solved 300 problems on LeetCode, including about 50 database (SQL) problems",
+      "rationale": "Supports the DBMS skill with evidence.",
+      "source": "User chat 2026-11-15",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Are the ~50 database problems part of the 300 or in addition?",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User confirmed the ~50 database problems are included in the 300."
+      }
+    },
+    {
+      "id": "am-proj-homeserver-012",
+      "job_id": null,
+      "targets": [
+        "projects.json",
+        "resumes/base_sde_v4.tex"
       ],
       "current_wording": null,
-      "proposed_wording": "Contributed to iHotelier Power BI dashboards for Shopping, Availability, and Promotions analytics.",
-      "rationale": "A conservative summary of the project the candidate directly confirmed working on during the internship. Specific technical ownership and performance figures remain under review.",
-      "source": "Candidate-supplied screenshot transcription and direct 2026-10-17 confirmation that they worked on the iHotelier Power BI dashboard during their Amadeus internship.",
+      "proposed_wording": "Home Server -- self-hosted on a spare laptop: Set up and run a spare laptop at home as a personal server for hosting.",
+      "rationale": "User asked to fit it in; shows systems/self-hosting interest. Currently thin.",
+      "source": "User chat 2026-11-15",
       "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "superseded",
+      "confirmation_needed": "OS, services hosted, access method, tools used.",
+      "approval_status": "rejected",
       "approval_record": {
-        "date": "2026-10-17",
-        "decision": "Candidate confirmed the iHotelier dashboard was internship work. Applied a general contribution bullet while awaiting the exact list of personally completed technical tasks.",
-        "scope": "Reusable candidate experience and master resume; no specific job application approved.",
-        "applied": true,
-        "superseded_by": "amadeus-intern-ihotelier-011",
-        "superseded_reason": "Replaced the generic iHotelier bullet with approved specific technical contributions after the candidate confirmed all tasks."
+        "date": "2026-11-15",
+        "decision": "User said the laptop is not currently used and asked to present usage anyway; Claude declined to state unbuilt usage as completed work. Removed from resume v5. Reconsider as a new proposal once actually set up."
       }
     },
     {
-      "id": "amadeus-ihotelier-hit-relation-015",
+      "id": "am-summary-013",
       "job_id": null,
       "targets": [
-        "candidate/projects.json: iHotelier Data-Driven Reporting Platform (HIT) timing and relation",
-        "candidate/master_resume.md: HIT project selection note"
+        "profile.json: summary",
+        "resumes/base_sde_v11.tex"
       ],
-      "current_wording": "The existing HIT reporting-platform project is recorded as 2025 Amadeus work; its relation to the iHotelier internship Power BI dashboard is unspecified.",
-      "proposed_wording": "Clarify whether the HIT reporting platform was the same delivery as, a component of, or separate from the iHotelier internship dashboard, and whether HIT work occurred during the internship or full-time role.",
-      "rationale": "Candidate is unsure of the relationship. Until resolved, keep both descriptions available internally but do not combine them or count them as two distinct delivered projects in an application.",
-      "source": "Existing candidate/projects.json HIT entry and candidate direct 2026-10-17 response that they are unsure whether it is the same as the internship dashboard.",
-      "evidence_status": "unverified",
-      "confirmation_needed": "Compare the actual HIT code or project summary with the internship dashboard work and confirm relationship and timing.",
-      "approval_status": "pending",
-      "approval_record": null
+      "current_wording": "Accenture associate on Google's security team, reviewing endpoint security ... Claude Certified Architect and Developer - Foundations.",
+      "proposed_wording": "Engineer with a B.Tech in Computer Science (AI & ML), working with Google's security team through Accenture on endpoint security for third-party generative AI tools. Strong in C++, data structures and algorithms, and DBMS/SQL; builds software end to end, from Google Apps Script tools to native mobile apps and AI projects.",
+      "rationale": "User asked for a stronger SDE-oriented summary not centered on the iOS app.",
+      "source": "User chat 2026-11-15; 'data structures and algorithms' inferred from 300 LeetCode problems solved",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "User to confirm wording, including the DSA claim.",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-15",
+        "decision": "User confirmed DSA is a strong point (practised in C++), comfortable with problem solving; summary wording accepted."
+      }
     },
     {
-      "id": "job002-payment-ui-project-001",
-      "job_id": "job_002",
+      "id": "am-proj-flowpilot-014",
+      "job_id": "job_003",
+      "targets": [
+        "resumes/job_003/resume_v2.tex: Projects"
+      ],
+      "current_wording": null,
+      "proposed_wording": "FlowPilot -- agentic workflow automation tool | Python, Claude API, pytest, GitHub Actions | In progress. (1) Building a Python agent on the Claude API that uses tool calls to run multi-step workflows (collect data, summarize, draft reports), with human approval before any action. (2) Adding prompt evaluation with pytest test cases and guardrails for unsafe or off-task requests, run by a GitHub Actions CI pipeline on every change.",
+      "rationale": "Covers job_003 gaps: agentic AI, prompt evaluation/safety, Python, CI/CD. User asked for the most appropriate project for the role, to build if shortlisted.",
+      "source": "Assistant-generated for job_003 (Apple Field Design Engineering SDE), 2026-11-15; not candidate testimony.",
       "content_kind": "invented_personal_project",
       "actual_status": "not_built",
       "evidence_status": "unverified",
-      "approval_scope": null,
+      "presentation": "Labelled 'In progress' with intent wording ('Building', 'Adding'), not completed-work wording. Claude declined completed-work framing; the label is accurate only once the user has started the repo.",
+      "approval_scope": "",
+      "confirmation_needed": "User approval of exact wording and scope (job_003 only?); user to start the repository before sending the resume so 'In progress' is true.",
+      "approval_status": "pending",
+      "approval_record": null,
+      "decision_log": [
+        {
+          "date": "2026-11-15",
+          "note": "User asked to drop the 'In progress' label; Claude declined completed-work framing for an unbuilt project. User chose to apply with resume_v1 (no FlowPilot). Proposal remains pending; build later."
+        }
+      ]
+    },
+    {
+      "id": "am-skill-javascript-015",
+      "job_id": "job_006",
       "targets": [
-        "resumes/job_002: optional Selected Projects entry"
+        "skills.json: languages",
+        "resumes/job_006 (future version)"
       ],
       "current_wording": null,
-      "proposed_wording": {
-        "title": "Payment Flow Component Kit",
-        "attribution": "Personal project",
-        "technologies": [
-          "React",
-          "Java",
-          "Spring Boot"
-        ],
-        "status": "Invented; not built",
-        "resume_bullets": [
-          "Built reusable checkout components for payment method selection, order summary, validation, and confirmation states in React.",
-          "Created a Spring Boot mock payment API and tested successful, declined, and retry paths to keep UI states consistent across checkout flows."
+      "proposed_wording": "Languages: ... JavaScript",
+      "rationale": "Cisco prefers JavaScript. Google Apps Script is written in JavaScript, and SpendWise's backend runs on Node.js/Express.",
+      "source": "Inferred from confirmed Google Apps Script work and the SpendWise Node.js backend (language could be TypeScript).",
+      "evidence_status": "user_reported",
+      "confirmation_needed": "Do you write JavaScript (Apps Script / Node.js)? Was the SpendWise backend JavaScript or TypeScript?",
+      "approval_status": "approved",
+      "approval_record": {
+        "date": "2026-11-23",
+        "decision": "User confirmed the Apps Script automation and internal page were written in JavaScript; asked to add JavaScript to resumes/skills and to say JavaScript (not Google Apps Script) in summaries.",
+        "applied": [
+          "base_sde_v12",
+          "resumes/job_006/resume_v2",
+          "resumes/job_003/resume_v3",
+          "skills.json",
+          "experience.json",
+          "profile.json"
         ]
-      },
-      "rationale": "The Amazon PayUI role focuses on reusable payment-page components and rendering behavior. The existing profile shows React application work and a past Razorpay integration, but no confirmed shared UX component library. This optional entry would target that gap without affecting evidence-based match scoring.",
-      "source": "Assistant-generated proposal based on Amazon job 10580011 and the candidate profile; no candidate testimony that this project exists.",
-      "confirmation_needed": "Approve the exact invented, unbuilt entry for job_002 resume use, or edit/reject it. Approval permits this exception but does not confirm the project was built.",
-      "approval_status": "pending",
-      "approval_record": null
-    },
-    {
-      "id": "job002-contx-react-tests-002",
-      "job_id": "job_002",
-      "targets": [
-        "resumes/job_002/resume_v2.tex: Amadeus ContX AI bullet"
-      ],
-      "current_wording": "Built ContX AI, a campaign-design application that uses React, Python, Azure AI Foundry, MJML, and REST APIs to turn natural-language briefs and hotel context into personalized marketing content.",
-      "proposed_wording": "Built React components and wrote tests for ContX AI, a campaign-design application using Python, Azure AI Foundry, MJML, and REST APIs to turn briefs and hotel context into personalized marketing content.",
-      "rationale": "Adds directly confirmed hands-on React component and testing work for a role centered on UI components, without naming unknown components, frameworks, design collaboration, or outcomes.",
-      "source": "Candidate direct response in chat on 2026-10-18: wrote tests and built various components for ContX AI; could not recall specific components and instructed the assistant to add a suitable statement.",
-      "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-10-18",
-        "decision": "Candidate directly confirmed the two factual points and instructed their addition to the Amazon PayUI resume. Wording is intentionally generic because component and test details are unknown.",
-        "scope": "job_002 resume only; no reusable profile merge or screening-answer approval",
-        "applied": true,
-        "artifact": "resumes/job_002/resume_v2.tex and resume_v2.pdf",
-        "artifacts": [
-          "resumes/job_002/resume_v2.tex and resume_v2.pdf",
-          "resumes/job_002/resume_v3.tex and resume_v3.pdf"
-        ]
-      }
-    },
-    {
-      "id": "job002-internal-project-placement-003",
-      "job_id": "job_002",
-      "targets": [
-        "resumes/job_002/resume_v4.tex: Amadeus Software Development Engineer entry"
-      ],
-      "current_wording": "GMS Knowledge Bot and Black Duck Container Image Security Scanner appear under Selected Internal Projects, attributed to Amadeus Software Labs without a specific role.",
-      "proposed_wording": "Place the existing GMS Knowledge Bot and Black Duck Container Image Security Scanner bullets within the Amadeus Software Development Engineer experience entry.",
-      "rationale": "User prefers company projects grouped within the professional experience that produced them. This is an application-only placement; preserve the projects’ existing scope and do not invent dates, impact, or adoption.",
-      "source": "Candidate direct request in chat on 2026-10-18 to move the internal projects inside the software development experience.",
-      "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-10-18",
-        "decision": "Candidate directed placement of the two Amadeus internal projects inside the Software Development Engineer experience entry.",
-        "scope": "job_002 resume only; no canonical project-date changes or screening-answer approval",
-        "applied": true,
-        "artifact": "resumes/job_002/resume_v4.tex and resume_v4.pdf"
-      }
-    },
-    {
-      "id": "job002-application-workskills-004",
-      "job_id": "job_002",
-      "targets": [
-        "applications/job_002: Amazon Work history & skills form"
-      ],
-      "current_wording": {
-        "employers": "Amadeus Software Labs",
-        "technical_domain_skills": "Backend Development, Generative Al/LLMs (RAG, Agentic AI), Cybersecurity Automation | Secondary: DevOps & Cloud (AWS, Azure, Kubernetes), System Design, Data Structures & Algorithms"
-      },
-      "proposed_wording": {
-        "employers": "Amadeus Software Labs; Gear To Care",
-        "technical_domain_skills": "Primary: Java/Python software development, React UI components and tests; Secondary: Generative AI/LLMs, application security, cloud and DevOps (AWS, Azure, Kubernetes), system design"
-      },
-      "rationale": "Completes the requested current-and-past-employer list and makes supported React component/testing work visible for the Amazon PayUI application while correcting a typo.",
-      "source": "candidate/experience.json and candidate/skills.json; candidate direct confirmation of ContX AI React components and tests on 2026-10-18; candidate direct approval of both exact application field edits on 2026-10-18.",
-      "evidence_status": "user_reported",
-      "confirmation_needed": null,
-      "approval_status": "approved",
-      "approval_record": {
-        "date": "2026-10-18",
-        "decision": "Candidate approved both exact field edits for Amazon job 10580011.",
-        "scope": "job_002 Amazon application only; no reusable candidate-profile merge",
-        "applied": true
       }
     }
   ]

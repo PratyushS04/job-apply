@@ -45,7 +45,7 @@ failure with the exact error.
    (if that fails: `git switch -c feature/kali-job-discovery --track origin/feature/kali-job-discovery`).
 4. Confirm these exist: `tools\daily_search.py`, `tools\discover_jobs.py`,
    `tools\schedule\install_daily_search.ps1`, `tools\schedule\run_daily_search.cmd`,
-   `candidates\animesh_murai\job_search.json`.
+   `candidate\job_search.json`.
 
 ## 2. Python environment
 
@@ -65,7 +65,7 @@ The job finder needs Python 3.10 or newer (3.12 recommended).
    - `.venv\Scripts\python.exe tools\find_and_match.py --test`
    - `py -3 tools\job_state.py --test`
 2. A live run through the same script the schedule uses (takes 1-3 minutes):
-   `tools\schedule\run_daily_search.cmd candidates/animesh_murai`
+   `tools\schedule\run_daily_search.cmd candidate`
 3. Check `logs\discovery\daily_search.log` ends with "Digest written to ...",
    then show the user the first five entries of `state\daily_jobs\latest.md`.
    A few failed searches (LinkedIn rate-limits) are fine; all of them failing
@@ -105,7 +105,7 @@ Tell the user what the schedule needs:
 - Change the time: rerun the installer with `-Time HH:MM`.
 - Turn it off: `powershell -ExecutionPolicy Bypass -File tools\schedule\install_daily_search.ps1 -Uninstall`.
 - Search settings (terms, cities, experience limit, title filters):
-  `candidates\animesh_murai\job_search.json`.
+  `candidate\job_search.json`.
 
 ## Troubleshooting
 

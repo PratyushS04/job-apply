@@ -1,6 +1,6 @@
 # job_003 — Apple Field Design Engineering SDE — resume_v1 review (2026-11-15)
 
-Candidate: Animesh Murai (candidates/animesh_murai). Built from base_sde_v11.
+Candidate: Animesh Murai (candidate). Built from base_sde_v11.
 
 ## Tailoring decisions
 - Summary: leads with Apps Script automation, LLM app work (MediHelp, stated as "helped build"), Python/Swift/Node.js, Claude certifications.
@@ -9,7 +9,7 @@ Candidate: Animesh Murai (candidates/animesh_murai). Built from base_sde_v11.
 - Skills: Python first; new AI / LLM and Automation / APIs rows; Combine and Android row dropped.
 
 ## Evidence checks
-- All bullets trace to confirmed facts in candidates/animesh_murai/. No invented projects or metrics.
+- All bullets trace to confirmed facts in candidate/. No invented projects or metrics.
 - Node.js bullet says "wrote a service" — not claimed as production-deployed (backend not deployed per code review).
 - MediHelp individual contribution still unconfirmed; wording describes app scope and labels it a team project.
 - Not claimed (gaps): agentic AI shipped work, prompt evaluation/safety ownership, CI/CD, Scala, production Python.

@@ -6,6 +6,19 @@ matching, resume tailoring and review, application preparation, and verification
 Job inputs follow job intake; standalone candidate updates and workflow reviews
 do not require creating a Job Object.
 
+## Candidate for this branch (2026-11-23)
+
+This branch is Animesh Murai's workspace. His profile is in `candidate/` and his
+content decisions are in `state/content_proposals.json`; his files previously
+under `candidates/animesh_murai/` were moved there. In this file and in the
+skills, "the user" and "the candidate" mean Animesh. The repository owner made
+this change at Animesh's request, so the job-specific invented personal project
+section below applies to Animesh under the same rules: approval of each exact
+entry for a named job, internal `not_built` / `unverified` status, and no
+invented numbers, dates, links, employers, or credentials. Proposals recorded
+before this change (for example `am-proj-flowpilot-014`) keep their status until
+Animesh decides on them again.
+
 ## Non-negotiable resume requirements (user preference, 2026-10-17)
 
 - Tailor every application resume to its specific job description. Select and

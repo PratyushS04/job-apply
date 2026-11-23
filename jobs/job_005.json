@@ -59,11 +59,11 @@
     "required_fields": {},
     "screenshots": []
   },
-  "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/).",
+  "user_comment": "Candidate: animesh_murai (candidate/).",
   "pipeline_status": "SKIPPED",
   "error": null,
   "posting_metadata": {
-    "candidate_profile": "candidates/animesh_murai",
+    "candidate_profile": "candidate",
     "redirect_url": "https://in.linkedin.com/jobs/view/applied-ai-engineer-at-apple-4485126307",
     "fetch_status": "Fetched 2026-11-23 from in.linkedin.com.",
     "skip_reason": "User 2026-11-23: requires 3+ years experience and posting is old; dropped for now."

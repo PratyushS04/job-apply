@@ -1,84 +1,72 @@
 [
   {
-    "company": "Amadeus Software Labs",
-    "title": "Software Development Engineer",
-    "start_date": "2025-08",
+    "company": "Accenture",
+    "client": "Google",
+    "engagement_note": "Accenture employee providing services to Google as external vendor workforce; not a Google employee. User confirmed Google may be named on the resume (2026-11-15).",
+    "title": "Security Managed Services Associate",
+    "start_date": "2026-01",
     "end_date": "",
     "current": true,
-    "location": "",
-    "description": "Develops secure backend systems and context-aware generative AI products, including chatbot architecture, vulnerability-management tooling, Java modernization, and operational automation for GMS workflows.",
-    "technologies": ["Python", "Java", "Spring", "Spring Boot", "React", "MJML", "Azure AI Foundry", "REST APIs", "Generative AI", "RAG", "Meta-RAG", "Large Language Models", "Model Context Protocol", "Prompt Engineering", "Black Duck API v2", "Checkmarx", "Container Security", "OpenRewrite", "GitHub Copilot Agent SDK", "Agentic AI", "Jenkins", "Kubernetes", "Azure Kubernetes Service"],
-    "achievements": [
-      "Investigated and fixed application-security issues identified through Black Duck, Checkmarx, and penetration testing.",
-      "Built ContX AI, a context-aware campaign-design application that turns natural-language briefs and GMS guest, property, booking, audience, and brand context into personalized content for email, messaging, Google Ads, and Meta Ads using Python, React, Azure AI Foundry, MJML, and REST APIs.",
-      "Implemented audience-specific variants, property-level personalization, prompt-based editing, marketing compliance controls, and manual export, with guardrails to avoid storing PII or fabricating property information.",
-      "Built a working prototype of the ContX AI Pod Brain, a curated project-knowledge layer for AI development agents; designed source linkage, ownership, approval states, indexing, and lifecycle metadata for its knowledge assets.",
-      "Built a working prototype of an AI-assisted internal developer portal to bring engineering knowledge and tools into one interface.",
-      "Ran hands-on evaluations of language models and multi-agent workflows for personalized marketing copy, structured email content, image generation, and output validation.",
-      "Engineered and deployed a Meta-RAG framework for the Loyalty Portal chatbot, implementing multi-stage contextual validation to minimize LLM hallucinations and improve response grounding.",
-      "Developed a custom Model Context Protocol server for Black Duck, enabling LLMs to query vulnerability metadata, analyze project risks, and generate real-time remediation strategies through a chat-based interface.",
-      "Independently developed an end-to-end security tool using Black Duck API v2 to automate container image downloads and vulnerability scanning, reducing manual work for security developers by 40%.",
-      "Architected a proof of concept for agentic AI-assisted Java Spring migration using OpenRewrite recipes and the GitHub Copilot Agent SDK to automate legacy-code modernization and reduce manual migration effort.",
-      "Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and Core and Loyalty dependency upgrades.",
-      "Resolved a customer-reported stability defect in the sync-currency-exchange-rates service, improving the reliability of currency exchange-rate synchronization.",
-      "Supported the AKS regression program and DE93897 through testing, issue investigation, deployment validation, reverts, and redeployments.",
-      "Designed and documented the GMS AI Skills Toolkit to automate Rally, Jenkins, Kubernetes, and knowledge-retrieval workflows.",
-      "Developed and demonstrated practical MCP and GitHub Copilot Skills use cases during GMS IP Weeks 26.1 and 26.2, showing how AI-assisted workflows can improve developer productivity.",
-      "Strengthened engineering documentation by creating detailed Rally notes, research findings, and implementation analyses for previously undocumented or under-documented GMS areas.",
-      "Advanced internal innovation efforts by drafting three Lift proposals, contributing to the Internship Idea Program, and presenting an AI-based Hotel Receptionist concept to the GMS initiative group."
+    "phases": [
+      {
+        "period": "2026-01 to 2026-03",
+        "description": "On bench, seeking onboarding to a project (user, 2026-11-15). No training claimed for this period."
+      },
+      {
+        "period": "2026-03 to present",
+        "description": "Google security team: reviewing Google's endpoint security with regard to third-party generative AI tools and other components."
+      }
     ],
-    "review_notes": [
-      "Full-time start corrected to August 2025 after the candidate confirmed a separate January–July 2025 Amadeus internship. ContX AI, Pod Brain, and the working AI-assisted developer portal prototype belong to the full-time role. The candidate confirmed the portal is separate from ContX AI. Confirm timing of other undated Amadeus achievements before reassigning them in a new application resume."
-    ]
-  },
-  {
-    "company": "Amadeus Software Labs",
-    "title": "Software Development Intern",
-    "start_date": "2025-01",
-    "end_date": "2025-07",
-    "current": false,
-    "location": "",
-    "description": "Built data extraction and Power BI reporting workflows for iHotelier Shopping, Availability, and Promotions analytics.",
-    "technologies": ["Python", "Splunk", "SQL", "CSV", "Power BI", "DAX"],
-    "achievements": [
-      "Built Python workflows to extract and prepare iHotelier shopping, availability, and promotion data from Splunk and SQL sources for Power BI reporting.",
-      "Migrated dashboard inputs from Excel to CSV, developed Power BI visuals and interactive Top-N property filters, and optimized DAX queries.",
-      "Published the dashboards in the iHotelier workspace, checked data and visuals during QA, and documented the extraction and reporting workflows."
+    "facts_user_reported": [
+      "Personally worked on about 1,000 tickets since March 2026; all security-related (confirmed 2026-11-15).",
+      "Built the team's end-of-week report automation in JavaScript using Google Apps Script; saves about 20 minutes every week (confirmed 2026-11-15; JavaScript confirmed 2026-11-23).",
+      "Created a page on the team's internal site in JavaScript (Google Apps Script), showcasing major team milestones (JavaScript confirmed 2026-11-23)."
     ],
-    "review_notes": [
-      "The candidate directly confirmed this employer, official title, January–July 2025 dates, and that iHotelier dashboard work occurred during the internship. The earlier portal/AI hub achievement belongs to the full-time role and must not be attributed to this internship.",
-      "The candidate explicitly said they did not implement RAG ingestion from Jira, Confluence, or PDFs during this internship. Do not attribute a RAG pipeline to this role.",
-      "The candidate confirmed personally working on all listed iHotelier tasks: Python/Splunk extraction, SQL queries, Excel-to-CSV migration, Power BI visuals and DAX, Top-N filters, publishing, QA, and documentation. The relationship to the existing HIT project and conflicting performance metrics remain unresolved."
-    ]
+    "training_from_technical_resume": [
+      "Splunk: SPL searches, dashboard creation, alerts",
+      "SIEM architecture: log forwarders, collectors, correlation engine, log collection and normalization",
+      "Log analysis on Windows, authentication, firewall, DNS, and network events",
+      "Alert tuning to reduce false positives",
+      "Virtual-machine lab simulations; remote access (RDP/SSH concepts)",
+      "NIST incident response lifecycle; threat intelligence concepts (MISP, TAXII); QRadar conceptual exposure"
+    ],
+    "location": "Hyderabad, India",
+    "siem_training": {
+      "dates": "2025-08 to 2025-10",
+      "provider": "Accenture (required training for the job, confirmed 2026-11-15)",
+      "source": "User correction 2026-11-15",
+      "resume_display": "Show without dates, as Accenture training bullets under the Accenture role (user, 2026-11-15)."
+    }
   },
   {
-    "company": "AWS Academy",
-    "title": "AI-ML Virtual Intern",
-    "start_date": "2023-05",
-    "end_date": "2023-07",
-    "current": false,
-    "location": "Virtual",
-    "description": "Completed an AI-ML virtual internship focused on AWS cloud infrastructure and machine learning applications.",
-    "technologies": ["AWS", "Amazon SageMaker", "Amazon Rekognition", "Amazon Forecast", "Amazon Lex", "Machine Learning", "Computer Vision", "Natural Language Processing"],
+    "company": "PFSN",
+    "title": "Sports Content Writer (freelance)",
+    "start_date": "2025-04",
+    "end_date": "2026-04",
     "achievements": [
-      "Developed foundational knowledge of AWS cloud infrastructure and its use in machine learning, including forecasting, computer vision, and natural language processing.",
-      "Implemented end-to-end machine learning pipelines with Amazon SageMaker covering problem formulation, data collection, feature engineering, model training, deployment, and evaluation.",
-      "Used Amazon Rekognition, Forecast, and Lex to build practical image and video analysis, forecasting, and natural language processing solutions."
-    ]
+      "Published 1,300+ articles (WWE, Tennis, Formula 1, 2026 Winter Olympics).",
+      "900,000+ cumulative article reads as of July 2026."
+    ],
+    "resume_use": "Omit from technical resumes (user, 2026-11-15)."
   },
   {
-    "company": "Gear To Care",
-    "title": "Android Developer",
-    "start_date": "2022-09",
-    "end_date": "2022-12",
-    "current": false,
-    "location": "Nagpur, India",
-    "description": "Developed Android application capabilities for payments, authentication, and user notifications.",
-    "technologies": ["Android", "Firebase", "Firebase Authentication", "Razorpay"],
+    "company": "ITRWrestling",
+    "title": "Wrestling Content Writer (freelance)",
+    "start_date": "2025-08",
+    "end_date": "2026-02",
     "achievements": [
-      "Integrated Razorpay to facilitate seamless in-app transactions and improve the user payment experience.",
-      "Implemented Firebase Authentication protocols to secure application access and user data.",
-      "Designed and deployed instant and scheduled Firebase notifications, improving response time by 30%."
-    ]
+      "Published 1,000+ articles covering WWE, AEW, TNA, and independent wrestling."
+    ],
+    "resume_use": "Omit from technical resumes (user, 2026-11-15)."
+  },
+  {
+    "company": "SportsLumo",
+    "title": "Sports Content Writer",
+    "start_date": "2023-06",
+    "end_date": "2024-04",
+    "achievements": [
+      "Published 1,200+ articles covering Tennis and Football."
+    ],
+    "resume_use": "Omit from technical resumes (user, 2026-11-15)."
   }
 ]

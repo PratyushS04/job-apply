@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install (or remove) the daily job search as a macOS LaunchAgent.
 #
-#   tools/schedule/install_daily_search.sh                      # candidates/animesh_murai at 02:00
+#   tools/schedule/install_daily_search.sh                      # candidate at 02:00
 #   tools/schedule/install_daily_search.sh candidates/<name> 7 30   # another candidate / time
 #   tools/schedule/install_daily_search.sh --uninstall
 #
@@ -22,7 +22,7 @@ if [[ "${1:-}" == "--uninstall" ]]; then
   exit 0
 fi
 
-CANDIDATE="${1:-candidates/animesh_murai}"
+CANDIDATE="${1:-candidate}"
 HOUR="${2:-2}"
 MINUTE="${3:-0}"
 PYTHON="$REPO/.venv/bin/python"

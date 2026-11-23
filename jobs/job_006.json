@@ -50,7 +50,7 @@
     "version": 2,
     "tex": "resumes/job_006/resume_v2.tex",
     "pdf": "resumes/job_006/resume_v2.pdf",
-    "base": "candidates/animesh_murai/resumes/base_sde_v11.tex",
+    "base": "candidate/resumes/base_sde_v11.tex",
     "review_notes": "resumes/job_006/review/review_notes.md",
     "javascript_added": "2026-11-23"
   },
@@ -59,11 +59,11 @@
     "resume_upload": "applications/job_006/Animesh_Murai_Resume.pdf",
     "submission": "Candidate applies manually (LinkedIn / careers.cisco.com)."
   },
-  "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/).",
+  "user_comment": "Candidate: animesh_murai (candidate/).",
   "pipeline_status": "RESUME_READY",
   "error": null,
   "posting_metadata": {
-    "candidate_profile": "candidates/animesh_murai",
+    "candidate_profile": "candidate",
     "redirect_url": "https://in.linkedin.com/jobs/view/software-engineer-at-cisco-4491158274",
     "fetch_status": "Fetched 2026-11-23 from in.linkedin.com after user approved the host.",
     "seniority": "Entry level"

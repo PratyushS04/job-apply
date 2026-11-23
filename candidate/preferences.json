@@ -1,20 +1,19 @@
 {
   "target_roles": [],
-  "target_locations": ["Bengaluru", "Pune", "Hyderabad"],
-  "remote_preference": "flexible",
+  "target_locations": [
+    "Hyderabad",
+    "Bengaluru",
+    "Pune"
+  ],
+  "remote_preference": null,
   "min_salary": null,
   "max_salary": null,
   "salary_currency": "INR",
-  "job_types": ["full-time"],
+  "job_types": [],
   "industries": [],
   "company_sizes": [],
   "deal_breakers": [],
-  "max_experience_years_required": null,
+  "max_experience_years_required": 2,
   "min_match_score": 50,
-  "notice_period_months": 2,
-  "india_work_authorization": true,
-  "india_employer_sponsorship_needed": false,
-  "willing_to_relocate_to_hyderabad": true,
-  "confirmed_as_of": "2026-10-18",
-  "notes": "Two-month notice period. Preferred Indian job locations: Bengaluru, Pune, and Hyderabad. Candidate confirmed authorization to work in India without employer sponsorship and willingness to relocate to Hyderabad on 2026-10-18. Recheck time-sensitive answers when a later application asks."
+  "notes": "Created 2026-11-23 when this branch was converted to a single-candidate workspace. Locations, experience limit, and minimum match score are copied from candidate/job_search.json. Other fields are unknown; ask the candidate before using them in an application."
 }

@@ -52,8 +52,8 @@ When the user provides a `.xlsx` file:
 
 When the user asks to find new jobs rather than supplying them:
 
-1. Run `.venv/bin/python tools/discover_jobs.py search --candidate candidates/<name>`.
-   It reads `candidates/<name>/job_search.json` (search terms, locations,
+1. Run `.venv/bin/python tools/discover_jobs.py search --candidate candidate`.
+   It reads `candidate/job_search.json` (search terms, locations,
    boards, recency, title/company filters), searches LinkedIn, Indeed, Naukri
    and Glassdoor, removes cross-board duplicates and jobs already in `jobs/`,
    and saves a numbered shortlist to `state/discovered_jobs.json`. It creates
@@ -83,13 +83,13 @@ mentions. Both are rough text checks, not the match score.
 When the user asks to find and match jobs in one go, or to run discovery
 unattended, run:
 
-`.venv/bin/python tools/find_and_match.py --candidate candidates/<name>`
+`.venv/bin/python tools/find_and_match.py --candidate candidate`
 (add `--dry-run` to preview the auto-picks, `--limit N` to cap imports).
 
 It searches, imports up to `auto_import_limit` postings with at least
 `min_skill_hits` skill mentions (most mentions first), then runs Claude Code
 headless (`claude -p`) to analyze and match only those jobs against
-`candidates/<name>/`, with `min_match_score` from `job_search.json`. That agent
+`candidate/`, with `min_match_score` from `job_search.json`. That agent
 may edit only `jobs/**`. Jobs end at `MATCHED` or `SKIPPED`, and the run prints
 them ranked by score. It never tailors resumes, fills forms, or submits; the
 user chooses which matched jobs continue. Requires the `claude` CLI to be
@@ -98,7 +98,7 @@ to hand them to the agent instead.
 
 #### Daily digest (scheduled)
 
-`tools/daily_search.py --candidate candidates/<name>` runs the same search
+`tools/daily_search.py --candidate candidate` runs the same search
 on a schedule, 2am by default: `tools/schedule/install_daily_search.sh` on
 macOS (launchd), `tools/schedule/install_daily_search.ps1` on Windows (Task
 Scheduler). It imports nothing. It writes a numbered, best-first digest to

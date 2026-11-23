@@ -1,31 +1,30 @@
 [
   {
-    "title": "Claude Certified Architect, Foundations",
     "type": "certification",
-    "date": "",
+    "name": "Claude Certified Architect - Foundations (CCA-F)",
     "issuer": "Anthropic",
-    "description": "Earned Anthropic's Claude Certified Architect, Foundations certification.",
-    "source": "Candidate-confirmed; official certification name verified against Anthropic."
+    "date": "2026-07-12",
+    "note": "User-reported 2026-11-15.",
+    "valid_until": "2027-07"
   },
   {
-    "title": "GATE Qualified",
     "type": "certification",
-    "date": "2023",
-    "issuer": "GATE",
-    "description": "Qualified the GATE examination in 2023."
+    "name": "Claude Certified Developer - Foundations (CCDV-F)",
+    "issuer": "Anthropic",
+    "date": "2026-11-14",
+    "note": "User-reported 2026-11-15.",
+    "valid_until": "2027-11"
   },
   {
-    "title": "Technical Club Member",
-    "type": "other",
-    "date": "",
-    "issuer": "RCOEM Nagpur",
-    "description": "Led the planning and execution of multiple technical events, contributing to the growth of the college's tech community."
+    "type": "profile",
+    "name": "LeetCode",
+    "url": "https://leetcode.com/u/sAMurai7781/",
+    "note": "User-reported 2026-11-15: 300 problems total, including ~50 database problems.",
+    "problems_solved": 300,
+    "database_problems_solved": 50
   },
   {
-    "title": "Solved 1,000+ LeetCode Problems",
-    "type": "other",
-    "date": "",
-    "issuer": "LeetCode",
-    "description": "Solved over 1,000 LeetCode problems, demonstrating sustained practice in data structures, algorithms, and problem solving."
+    "type": "writing",
+    "name": "900,000+ cumulative article reads at PFSN as of July 2026"
   }
 ]

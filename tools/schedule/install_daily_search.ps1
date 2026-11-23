@@ -1,7 +1,7 @@
 # Install (or remove) the daily job search as a Windows scheduled task.
 #
 #   powershell -ExecutionPolicy Bypass -File tools\schedule\install_daily_search.ps1
-#   powershell -ExecutionPolicy Bypass -File tools\schedule\install_daily_search.ps1 -Candidate candidates/animesh_murai -Time 07:30
+#   powershell -ExecutionPolicy Bypass -File tools\schedule\install_daily_search.ps1 -Candidate candidate -Time 07:30
 #   powershell -ExecutionPolicy Bypass -File tools\schedule\install_daily_search.ps1 -Uninstall
 #
 # The task runs as you, while you are signed in (a locked screen is fine). It
@@ -11,7 +11,7 @@
 # logs\discovery\daily_search.log, the digest to state\daily_jobs\latest.md.
 
 param(
-    [string]$Candidate = "candidates/animesh_murai",
+    [string]$Candidate = "candidate",
     [string]$Time = "02:00",
     [switch]$Uninstall
 )

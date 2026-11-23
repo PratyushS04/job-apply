@@ -18,7 +18,7 @@ Requires Python 3.10+ and python-jobspy (see requirements.txt). The other
 tools still run on the system Python.
 
 Usage:
-    .venv/bin/python tools/discover_jobs.py search --candidate candidates/animesh_murai
+    .venv/bin/python tools/discover_jobs.py search --candidate candidate
     .venv/bin/python tools/discover_jobs.py import 1,4,7
     .venv/bin/python tools/discover_jobs.py import all
     .venv/bin/python tools/discover_jobs.py --test
@@ -706,7 +706,7 @@ def main(argv: list[str]) -> int:
         if argv[0] == "search":
             candidate = _option(argv, "--candidate")
             if not candidate:
-                print("search needs --candidate, e.g. --candidate candidates/animesh_murai")
+                print("search needs --candidate, e.g. --candidate candidate")
                 return 2
             candidate = candidate.rstrip("/")
             config_path = _option(argv, "--config", os.path.join(candidate, "job_search.json"))

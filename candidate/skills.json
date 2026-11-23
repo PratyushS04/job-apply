@@ -1,12 +1,77 @@
 {
-  "technical": {
-    "languages": ["Java", "Python", "Go", "C", "SQL", "Shell scripting"],
-    "frameworks": ["TensorFlow", "Spring", "Spring Boot", "React", "LangChain", "Streamlit", "Tkinter"],
-    "tools": ["Git", "GitHub", "Docker", "Podman", "Kubernetes", "Helm", "Jenkins", "Kafka", "Argo CD", "Power BI", "DAX", "OpenCV", "OCR", "YOLOv8", "Black Duck", "Checkmarx", "OpenRewrite", "GitHub Copilot Agent SDK", "Requests", "BeautifulSoup", "Splunk", "PyInstaller", "PlantUML", "MJML"],
-    "platforms": ["Linux", "Azure", "Azure Kubernetes Service", "AWS", "Amazon SageMaker", "Amazon Rekognition", "Amazon Forecast", "Amazon Lex", "Firebase", "Razorpay", "Android", "Azure OpenAI", "Azure AI Foundry", "Azure Container Registry"],
-    "databases": ["SQL", "PostgreSQL", "Couchbase", "NoSQL", "ChromaDB"],
-    "other": ["Backend Development", "Microservices", "Client-Server Development", "REST API Integration", "CI/CD", "System Design", "Design Patterns", "SOLID Principles", "Object-Oriented Programming", "Data Structures and Algorithms", "Operating Systems", "Computer Networking", "Database Management Systems", "Debugging", "Code Review", "Cybersecurity", "Application Security", "AI-driven Automation", "AI-assisted Software Modernization", "Generative AI", "RAG", "Meta-RAG", "Large Language Models", "Model Context Protocol", "Prompt Engineering", "Context-aware Personalization", "Agentic AI", "Knowledge Engineering", "LLM Evaluation", "Vulnerability Management", "Container Security", "Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing", "Convolutional Neural Networks", "Web Scraping", "Multiprocessing", "Vector Databases"]
-  },
-  "soft_skills": ["Technical event planning", "Technical event execution", "Community leadership"],
-  "certifications": ["Claude Certified Architect, Foundations (Anthropic)", "GATE Qualified (2023)"]
+  "languages": [
+    "C++",
+    "Java",
+    "Python",
+    "JavaScript",
+    "Swift",
+    "Kotlin",
+    "SQL (MySQL)"
+  ],
+  "mobile": [
+    "SwiftUI",
+    "SwiftData",
+    "Swift Concurrency",
+    "Combine",
+    "Swift Charts",
+    "WatchConnectivity",
+    "WidgetKit",
+    "Jetpack Compose",
+    "Room",
+    "Hilt",
+    "WorkManager"
+  ],
+  "backend_cloud_apis": [
+    "Node.js",
+    "Express",
+    "Gmail API",
+    "Google Cloud Pub/Sub",
+    "APNs",
+    "OAuth 2.0",
+    "REST APIs",
+    "Google Apps Script"
+  ],
+  "ai_ml": [
+    "scikit-learn",
+    "Pandas",
+    "NumPy",
+    "LangChain",
+    "Llama 2",
+    "PaddleOCR"
+  ],
+  "security": [
+    "Splunk (SPL, dashboards, alerts)",
+    "SIEM",
+    "Log analysis",
+    "Alert tuning",
+    "NIST incident response",
+    "Threat intelligence basics (MISP, TAXII)",
+    "QRadar (conceptual)"
+  ],
+  "unconfirmed_not_used": [
+    "Git",
+    "Xcode",
+    "Android Studio",
+    "JavaScript vs TypeScript for the Node.js backend"
+  ],
+  "soft": [
+    "Problem solving",
+    "Decision making",
+    "Teamwork",
+    "Communication",
+    "Technical and editorial writing"
+  ],
+  "databases": [
+    "DBMS (user: very proficient)",
+    "SQL",
+    "MySQL",
+    "SwiftData",
+    "Room"
+  ],
+  "core_cs": [
+    "Data structures and algorithms (practised in C++; user-confirmed strong point 2026-11-15)",
+    "Problem solving",
+    "DBMS"
+  ],
+  "javascript_note": "Confirmed 2026-11-23: Google Apps Script work (EOW report automation, internal site page) written in JavaScript. SpendWise backend language (JS vs TS) not confirmed."
 }

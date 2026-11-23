@@ -19,9 +19,9 @@ matched jobs go on to resume tailoring and applications; nothing here writes a
 resume, fills a form, or submits anything.
 
 Usage:
-    .venv/bin/python tools/find_and_match.py --candidate candidates/animesh_murai
-    .venv/bin/python tools/find_and_match.py --candidate candidates/animesh_murai --dry-run
-    .venv/bin/python tools/find_and_match.py --candidate candidates/animesh_murai --no-agent
+    .venv/bin/python tools/find_and_match.py --candidate candidate
+    .venv/bin/python tools/find_and_match.py --candidate candidate --dry-run
+    .venv/bin/python tools/find_and_match.py --candidate candidate --no-agent
     .venv/bin/python tools/find_and_match.py --test
 
 Options:
@@ -68,15 +68,20 @@ def pick_for_import(shortlist: list[dict], min_skill_hits: int, limit: int) -> l
 def build_agent_prompt(job_ids: list[str], candidate: str, config: dict) -> str:
     ids = ", ".join(job_ids)
     locations = ", ".join(config["locations"])
+    if os.path.normpath(candidate) == "candidate":
+        candidate_rule = ("- Candidate: use the profile in `candidate/` and proposals in\n"
+                          "  `state/content_proposals.json`, as the skills describe.")
+    else:
+        candidate_rule = (f"- Candidate: use the profile in `{candidate}/` (profile.json, experience.json,\n"
+                          "  projects.json, skills.json, education.json, achievements.json,\n"
+                          "  content_proposals.json) wherever the skills say `candidate/`. Do not read or\n"
+                          "  use `candidate/`; that is a different person.")
     return f"""Run job analysis and candidate matching for these Job Objects only: {ids}.
 
 Follow AGENTS.md, .agents/AGENTS.md, and the job-analysis and candidate-matching
 skills in .agents/skills/, with these overrides for this run:
 
-- Candidate: use the profile in `{candidate}/` (profile.json, experience.json,
-  projects.json, skills.json, education.json, achievements.json,
-  content_proposals.json) wherever the skills say `candidate/`. Do not read or
-  use `candidate/`; that is a different person.
+{candidate_rule}
 - Preferences: target locations {locations}; minimum match score
   {config["min_match_score"]}. Score location against these.
 - Each Job Object already holds the description copied from the job board
@@ -281,7 +286,7 @@ def main(argv: list[str]) -> int:
     opt = discover_jobs._option
     candidate = opt(argv, "--candidate")
     if not candidate:
-        print("Needs --candidate, e.g. --candidate candidates/animesh_murai")
+        print("Needs --candidate, e.g. --candidate candidate")
         return 2
     candidate = candidate.rstrip("/")
     limit = opt(argv, "--limit")

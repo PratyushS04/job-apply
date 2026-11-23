@@ -36,11 +36,11 @@
     "required_fields": {},
     "screenshots": []
   },
-  "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/). Wants resume and application materials.",
+  "user_comment": "Candidate: animesh_murai (candidate/). Wants resume and application materials.",
   "pipeline_status": "SKIPPED",
   "error": null,
   "posting_metadata": {
-    "candidate_profile": "candidates/animesh_murai",
+    "candidate_profile": "candidate",
     "redirect_url": "https://in.linkedin.com/jobs/view/ind-software-engineer-iii-at-walmart-global-tech-india-4491109747",
     "fetch_status": "2026-11-18: www.linkedin.com 301 -> in.linkedin.com, host not allowed; user declined adding it. Awaiting pasted job description.",
     "skip_reason": "User reported 2026-11-18 that the posting is closed."
