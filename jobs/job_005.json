@@ -3,25 +3,48 @@
   "url": "https://www.linkedin.com/jobs/view/4485126307/",
   "source": "chat",
   "created_at": "2026-11-18T13:01:08.959252+00:00",
-  "updated_at": "2026-11-18T13:01:25.386762+00:00",
-  "company": "Apple (from redirect URL; unverified)",
-  "title": "Applied AI Engineer (from redirect URL; unverified)",
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "updated_at": "2026-11-23T11:20:57.892991+00:00",
+  "company": "Apple",
+  "title": "Applied AI Engineer",
+  "location": "Bengaluru, Karnataka, India",
+  "job_type": "Full-time",
+  "description": "Apple IS&T, AI & Data Platforms (AiDP). Build Apple's AI data and ML platforms; develop AI applications from prototypes to production agentic workflows; own shipping, adoption, monitoring, production troubleshooting; work with stakeholders; manage priorities across distributed orgs. Minimum: CS or related bachelor's; 3+ years software/platform development; strong Python (plus TypeScript/Java/Go ideally); experience architecting AI systems on cloud. Preferred: communication; LLM serving/inference; 1+ yr shipping production AI; LangChain/LangGraph, CrewAI, AutoGen; prompt engineering, fine-tuning, RAG, agent orchestration; MCP, tool-calling, OAuth; DSA; distributed systems (Kafka, Spark, etc.); problem solving. Mid-Senior level; posted 2026-10-31, valid through 2026-11-30. Role Number 200692393-0321. Source: in.linkedin.com page fetched 2026-11-23.",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
-    "experience_years": null,
-    "education": null
+    "required_skills": [
+      "3+ years software/platform development",
+      "Python (strong)",
+      "Architecting AI systems on cloud"
+    ],
+    "preferred_skills": [
+      "LangChain/LangGraph",
+      "Agent orchestration",
+      "RAG",
+      "Prompt engineering",
+      "MCP",
+      "Tool-calling",
+      "OAuth",
+      "DSA",
+      "Distributed systems",
+      "Production AI shipping"
+    ],
+    "experience_years": "3+",
+    "education": "Bachelor's in CS or related"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 35,
+    "reasoning": "Below the 3-year minimum (~10 months at Accenture since Jan 2026). Supported partial matches: LangChain (MediHelp, team project), OAuth 2.0 (SpendWise Google Sign-In), DSA, Claude certifications, generative AI tool security reviews. No production AI shipping, cloud AI architecture, RAG, MCP implementation, or distributed systems evidence.",
+    "strengths": [
+      "DSA",
+      "LangChain",
+      "OAuth",
+      "Claude certs"
+    ],
+    "gaps": [
+      "3+ years",
+      "Production AI",
+      "Cloud AI architecture",
+      "Distributed systems"
+    ]
   },
   "resume": {
     "status": "NOT_STARTED",
@@ -37,11 +60,11 @@
     "screenshots": []
   },
   "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/).",
-  "pipeline_status": "NEW",
+  "pipeline_status": "MATCHED",
   "error": null,
   "posting_metadata": {
     "candidate_profile": "candidates/animesh_murai",
     "redirect_url": "https://in.linkedin.com/jobs/view/applied-ai-engineer-at-apple-4485126307",
-    "fetch_status": "2026-11-18: 301 -> in.linkedin.com, host not allowed (user declined adding it earlier). Awaiting pasted job description."
+    "fetch_status": "Fetched 2026-11-23 from in.linkedin.com."
   }
 }

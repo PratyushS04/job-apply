@@ -3,45 +3,75 @@
   "url": "https://www.linkedin.com/jobs/view/4491158274/",
   "source": "chat",
   "created_at": "2026-11-23T07:07:48.887173+00:00",
-  "updated_at": "2026-11-23T07:08:05.163190+00:00",
-  "company": "Cisco (from redirect URL; unverified)",
-  "title": "Software Engineer (from redirect URL; unverified)",
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "updated_at": "2026-11-23T11:22:10.448640+00:00",
+  "company": "Cisco",
+  "title": "Software Engineer",
+  "location": "Hyderabad, Telangana, India",
+  "job_type": "Full-time",
+  "description": "Cisco Software Engineer, entry level, Hyderabad (posted 2026-11-17, valid through 2026-12-17). Develop software following Cisco Design Thinking with focus on simplification and UX, secure coding, user privacy; partner with design and product; write technical design and user documentation; debug in development and production; communicate status; small features focused on coding and testing; SDLC/agile practices; analyze user requirements; support test code and debugging; apply secure coding guidelines. Minimum: Bachelor's + 0 years; basic technical knowledge via coursework/internship; deep interest in front-end technologies and intuitive UX. Preferred: React, JavaScript; Figma mockups built exactly. Source: in.linkedin.com page fetched 2026-11-23.",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
-    "experience_years": null,
-    "education": null
+    "required_skills": [
+      "Bachelor's degree",
+      "Software development fundamentals",
+      "Interest in front-end and UX",
+      "Secure coding",
+      "Debugging",
+      "Testing",
+      "Documentation"
+    ],
+    "preferred_skills": [
+      "React",
+      "JavaScript",
+      "Figma"
+    ],
+    "experience_years": "0",
+    "education": "Bachelor's"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 70,
+    "reasoning": "Entry-level role in the candidate's city (Hyderabad); 0-year minimum met. Strong supported evidence: native UI work in SwiftUI/Swift Charts/watchOS and Jetpack Compose/Material 3 (SpendWise, solo, privacy-first, biometric lock); internal site page built with Google Apps Script; secure-coding-adjacent experience from ~1,000 security tickets reviewing third-party generative AI tools for Google; strong C++/DSA. Gaps: no React or Figma evidence; JavaScript not yet confirmed (likely via Google Apps Script and the Node.js backend - pending user confirmation).",
+    "strengths": [
+      "Hyderabad",
+      "Entry level",
+      "Native UI (SwiftUI, Compose)",
+      "Privacy/security awareness",
+      "DSA"
+    ],
+    "gaps": [
+      "React",
+      "Figma",
+      "JavaScript unconfirmed"
+    ],
+    "unresolved_proposals": [
+      "am-skill-javascript-015"
+    ]
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "version": 1,
+    "tex": "resumes/job_006/resume_v1.tex",
+    "pdf": "resumes/job_006/resume_v1.pdf",
+    "base": "candidates/animesh_murai/resumes/base_sde_v11.tex",
+    "review_notes": "resumes/job_006/review/review_notes.md"
   },
   "application": {
-    "status": "NOT_STARTED",
-    "questions": [],
-    "answers": [],
-    "required_fields": {},
-    "screenshots": []
+    "prep": "applications/job_006/application_prep.md",
+    "resume_upload": "applications/job_006/Animesh_Murai_Resume.pdf",
+    "submission": "Candidate applies manually (LinkedIn / careers.cisco.com)."
   },
   "user_comment": "Candidate: animesh_murai (candidates/animesh_murai/).",
-  "pipeline_status": "NEW",
+  "pipeline_status": "RESUME_READY",
   "error": null,
   "posting_metadata": {
     "candidate_profile": "candidates/animesh_murai",
     "redirect_url": "https://in.linkedin.com/jobs/view/software-engineer-at-cisco-4491158274",
-    "fetch_status": "2026-11-23: 301 -> in.linkedin.com, host not allowed (user declined adding it). Awaiting pasted job description."
+    "fetch_status": "Fetched 2026-11-23 from in.linkedin.com after user approved the host.",
+    "seniority": "Entry level"
+  },
+  "content_review": {
+    "hold": false,
+    "proposal_ids": [
+      "am-skill-javascript-015"
+    ],
+    "note": "Optional: add JavaScript if confirmed. Screening answers (notice period, CTC, start date) need candidate input."
   }
 }

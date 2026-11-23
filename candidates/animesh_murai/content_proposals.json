@@ -314,6 +314,22 @@
           "note": "User asked to drop the 'In progress' label; Claude declined completed-work framing for an unbuilt project. User chose to apply with resume_v1 (no FlowPilot). Proposal remains pending; build later."
         }
       ]
+    },
+    {
+      "id": "am-skill-javascript-015",
+      "job_id": "job_006",
+      "targets": [
+        "skills.json: languages",
+        "resumes/job_006 (future version)"
+      ],
+      "current_wording": null,
+      "proposed_wording": "Languages: ... JavaScript",
+      "rationale": "Cisco prefers JavaScript. Google Apps Script is written in JavaScript, and SpendWise's backend runs on Node.js/Express.",
+      "source": "Inferred from confirmed Google Apps Script work and the SpendWise Node.js backend (language could be TypeScript).",
+      "evidence_status": "derived",
+      "confirmation_needed": "Do you write JavaScript (Apps Script / Node.js)? Was the SpendWise backend JavaScript or TypeScript?",
+      "approval_status": "pending",
+      "approval_record": null
     }
   ]
 }
