@@ -1,0 +1,25 @@
+{
+  "_about": "Search settings for tools/discover_jobs.py. Every search term is run in every location across every site. Title keyword filters match whole words, case-insensitive.",
+  "search_terms": [
+    "Software Development Engineer",
+    "Software Engineer"
+  ],
+  "locations": [
+    "Hyderabad",
+    "Bengaluru",
+    "Pune"
+  ],
+  "sites": ["indeed", "linkedin", "naukri", "glassdoor"],
+  "country_indeed": "India",
+  "results_per_search": 20,
+  "hours_old": 72,
+  "is_remote": false,
+  "job_type": "fulltime",
+  "fetch_description": true,
+  "require_title_keywords": [],
+  "exclude_title_keywords": [
+    "senior", "sr", "lead", "staff", "principal", "manager", "architect", "director", "head", "intern", "internship"
+  ],
+  "exclude_companies": [],
+  "proxies": []
+}

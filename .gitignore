@@ -1,3 +1,5 @@
 .dashboard/
 __pycache__/
 *.pyc
+.venv/
+state/discovered_jobs.json

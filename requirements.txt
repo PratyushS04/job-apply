@@ -1,0 +1,3 @@
+# Only needed for tools/discover_jobs.py (Python 3.10+). The other tools use the
+# standard library; tools/intake_excel.py additionally needs openpyxl.
+python-jobspy==1.5.0

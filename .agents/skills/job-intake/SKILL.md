@@ -48,6 +48,30 @@ When the user provides a `.xlsx` file:
 2. Same column expectations as CSV
 3. Requires `openpyxl` — if not installed, run `pip install openpyxl` first
 
+### 4. Job Discovery (job boards via JobSpy)
+
+When the user asks to find new jobs rather than supplying them:
+
+1. Run `.venv/bin/python tools/discover_jobs.py search --candidate candidates/<name>`.
+   It reads `candidates/<name>/job_search.json` (search terms, locations,
+   boards, recency, title/company filters), searches LinkedIn, Indeed, Naukri
+   and Glassdoor, removes cross-board duplicates and jobs already in `jobs/`,
+   and saves a numbered shortlist to `state/discovered_jobs.json`. It creates
+   no Job Objects.
+2. Show the shortlist to the user and let them choose. Do not import the whole
+   list on your own initiative.
+3. Run `.venv/bin/python tools/discover_jobs.py import <numbers>` (e.g. `1,4,7`,
+   `2-6` or `all`) with the user's picks. Each becomes a `NEW` Job Object with
+   `source: "jobspy"`, the board's title/company/location/description, and
+   board details in `posting_metadata` (including `candidate_profile`).
+4. The description is the board's copy. Job analysis still opens the posting,
+   confirms it is live, and fills in requirements.
+
+Setup (Python 3.10+): `uv venv --python 3.12 .venv && uv pip install --python
+.venv/bin/python -r requirements.txt`. Some searches failing (LinkedIn
+rate-limits heavily) does not stop the others; failures are listed in the
+shortlist file.
+
 ## Output
 
 Every intake operation produces:
