@@ -202,7 +202,7 @@ _DESC_YEARS_RE = re.compile(
     re.I,
 )
 _DESC_EXPERIENCE_LABEL_RE = re.compile(
-    r"experience(?:\s+required)?\s*\**\s*[:\-]\s*\**\s*(\d{1,2})\s*\+?\s*(?:(?:-|–|—|to)\s*\d{1,2}\s*)?(?:years?|yrs?)",
+    r"(?:experience|\bexp\.?)(?:\s+required)?\s*\**\s*[:\-]\s*\**\s*(\d{1,2})\s*\+?\s*(?:(?:-|–|—|to)\s*\d{1,2}\s*)?(?:years?|yrs?)",
     re.I,
 )
 

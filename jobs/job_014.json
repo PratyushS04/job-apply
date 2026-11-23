@@ -1,0 +1,127 @@
+{
+  "id": "job_014",
+  "url": "https://in.indeed.com/viewjob?jk=b291ceea32fdfe64",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:31.074173+00:00",
+  "updated_at": "2026-11-23T19:24:15.877555+00:00",
+  "company": "Apple",
+  "title": "Software Engineer - AI & Data Platforms",
+  "location": "TS, India",
+  "job_type": "fulltime",
+  "description": "Summary\n  \n  \nAI & Data Platforms (AiDP) is IS&T's engine for AI-powered innovation. The team brings together data, application development, and machine learning \u2014 including generative AI \u2014 along with data services and customer success functions, to help IS&T build solutions more efficiently and streamline the adoption and embedding of generative AI across Apple. The Applied Machine Learning team within the AI & Data Platform organisation drives large-scale machine learning and GenAI workflows across Apple's enterprise ecosystem. Our platforms power real-time fraud decisioning in the critical path of customer transactions across Apple Retail, Online Store, Media, and Support, where reliability, scale, and low latency are fundamental.\n  \n  \nDescription\n  \n  \nThis role sits in the Reliability & Platform Engineering organization, but it is not a traditional operations role. You will write software that builds the platform: automation, deployment pipelines, developer tooling, and services running on Kubernetes and AWS. You will work alongside and be mentored by senior engineers, contributing across the full lifecycle from design to production\n  \n  \nMinimum Qualifications  \n  \n  \n\n* Bachelor\u2019s degree in Computer Science, Computer Engineering, or a related technical discipline from a reputed, top-tier engineering institution.\n* 1-3 years of industry experience; internships, co-ops, research, and significant projects count\n* Strong programming skills in Python, with a solid understanding of software development fundamentals\n* Good understanding of data structures, algorithms, operating systems, and networking fundamentals.\n* Understanding of distributed systems concepts through coursework or projects\n* Familiarity with Linux and Git, along with exposure to containerisation, Kubernetes, or public cloud platforms such as AWS or Alibaba Cloud.\n* Good understanding of databases, including relational database concepts and the ability to write efficient SQL queries.\n* Strong analytical and problem-solving skills, a willingness to learn, and effective communication abilities.\n\n  \n  \n  \nPreferred Qualifications  \n  \n  \n\n* Internship or project experience with Kubernetes, AWS, Terraform, or CI/CD tools\n* Exposure to ML inference, GenAI, or LLM-based applications\n* Interest in or exposure to model serving frameworks\n* Familiarity with NoSQL databases such as Cassandra, Solr, OpenSearch\n* Basic familiarity with monitoring tools such as Prometheus or Grafana\n* Open-source contributions or personal projects applying AI to automation\n\n  \n  \n  \n\nAt Apple, we believe accessibility is a fundamental human right. You\u2019ll find that idea reflected in everything here \u2014 in our culture, our benefits and our digital tools. By welcoming as many perspectives as possible, we help you build a career where you feel like you belong.  \n  \nLearn about accessibility in Apple\u2019s workplace",
+  "requirements": {
+    "required_skills": [
+      "Python",
+      "DSA, operating systems, networking",
+      "Distributed systems concepts",
+      "Linux and Git; containers/Kubernetes or AWS exposure",
+      "Relational databases and SQL",
+      "1-3 years incl. internships/projects"
+    ],
+    "preferred_skills": [
+      "Kubernetes, AWS, Terraform, CI/CD",
+      "ML inference / GenAI / LLM apps",
+      "Model serving",
+      "NoSQL (Cassandra, Solr, OpenSearch)",
+      "Prometheus / Grafana",
+      "Personal projects applying AI to automation"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's in CS/CE from a top-tier engineering institution"
+  },
+  "match": {
+    "score": 62,
+    "reasoning": "Target company (profile lists 'Software Engineer (Apple)'). Fits: Python, DSA, SQL/DBMS, GenAI project (MediHelp: LangChain + Llama 2), automation at work, security/log-analysis background relevant to reliability. Gaps: Kubernetes/AWS/containers, Linux and Git not confirmed, distributed systems only via coursework; the 'top-tier institution' wording may weigh against RCOEM.",
+    "relevant_experience": [
+      "Accenture, Google security team: log analysis, Splunk, alert tuning (training), ~1,000 security tickets",
+      "JavaScript report automation"
+    ],
+    "relevant_projects": [
+      "MediHelp (Python, LangChain, Llama 2, PaddleOCR)",
+      "SpendWise (Node.js backend, Pub/Sub, APNs)"
+    ],
+    "skill_gaps": [
+      "Kubernetes / containers / AWS",
+      "Linux and Git not confirmed",
+      "Distributed systems (coursework only)",
+      "Monitoring tools (has Splunk, not Prometheus/Grafana)"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "APPROVED",
+    "path": "resumes/job_014/resume_v1.tex",
+    "pdf_path": "resumes/job_014/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "resumes/job_014/review/review_notes.md (6/10)",
+    "approved": {
+      "date": "2026-11-24",
+      "by_user": "apply to all three",
+      "version": 1
+    }
+  },
+  "application": {
+    "status": "SUBMITTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": [
+      "applications/job_014/screenshots/confirmation.jpg"
+    ],
+    "resume_upload": "applications/job_014/Animesh_Murai_Resume.pdf",
+    "screening_source": "candidate/screening_answers.json",
+    "apply_url": "https://jobs.apple.com/en-in/details/200696143-1052",
+    "note": "2026-11-24: Apple sign-in page open in the user's HP Chrome; waiting for the user to sign in with their Apple Account.",
+    "filling_log": [
+      "2026-11-24: User signed in to Apple. Accepted the required Candidate Privacy Policy (India); optional recruiting-data opt-in left unticked.",
+      "Step 1: uploaded applications/job_014/Animesh_Murai_Resume.pdf.",
+      "Step 2 (Profile): name, email, phone +91 8308082999, India / Hyderabad / Telangana, education (RCOEM, Computer Science Engineering (specialization in AI & ML), Bachelor's, graduated), employment (Accenture, Security Managed Services Associate, current, from Jan 2026, description from approved resume). Waiting on postcode from user.",
+      "Step 2 saved after postcode 500049; Apple required list picks: employer 'Accenture', field of study 'Computer Science' (only list option; exact field remains on the resume); skills Python, SQL.",
+      "Paused at Step 3 Self-Disclosure (gender + consent checkbox): user's choice needed.",
+      "Step 3: gender Male and demographic-data consent ticked, per user (2026-11-24).",
+      "Step 4: 18+ Yes; employed by Apple No; Apple contractor No; authorized to work in India Yes; sponsorship No.",
+      "At Step 5 Review & Submit; all sections verified; waiting for the user's 'submit'."
+    ],
+    "submitted": {
+      "date": "2026-11-24",
+      "by": "Claude, on the user's explicit 'Submit Apple'",
+      "confirmation": "Apple: 'Your information has been submitted for Software Engineer - AI & Data Platforms role.'"
+    }
+  },
+  "user_comment": null,
+  "pipeline_status": "SUBMITTED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "indeed",
+    "board_url": "https://in.indeed.com/viewjob?jk=b291ceea32fdfe64",
+    "job_url_direct": "https://jsv3.recruitics.com/redirect?rx_cid=3427&rx_jobId=200696143-1052-en-US&rx_url=https%3A%2F%2Fjobs.apple.com%2Fen-us%2Fdetails%2F200696143-1052%3Fboard_id%3DJB001%26rx_a%3D0%26rx_c%3D%26rx_ch%3Djobp4p%26rx_group%3D122365%26rx_id%3D7ba743c1-e4de-11f1-97ce-6df4c2174dc1%26rx_job%3D200696143-1052-en-US%26rx_medium%3Dcpc%26rx_product%3Dprogrammatic-ppc%252Ccore%26rx_r%3Dnone%26rx_source%3Dindeed%26rx_ts%3D20261123T140435Z%26rx_vp%3Dcpc",
+    "date_posted": "2026-11-20",
+    "is_remote": false,
+    "salary": null,
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": 1,
+    "candidate_skills_mentioned": [
+      "Python",
+      "SQL"
+    ],
+    "company_url": "https://in.indeed.com/cmp/Apple",
+    "search_term": "Software Development Engineer",
+    "search_location": "Hyderabad",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  },
+  "content_review": {
+    "hold": false,
+    "proposal_ids": [
+      "am-exp-google-role-001",
+      "am-exp-tickets-002",
+      "am-exp-eow-automation-003",
+      "am-exp-training-005",
+      "am-proj-spendwise-006",
+      "am-proj-medihelp-007"
+    ],
+    "note": "Resume v1 approved for job_014 (application scope, 2026-11-24)."
+  }
+}

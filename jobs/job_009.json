@@ -1,0 +1,106 @@
+{
+  "id": "job_009",
+  "url": "https://in.indeed.com/viewjob?jk=6f229912ccec0a13",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:31.021046+00:00",
+  "updated_at": "2026-11-23T19:03:52.018436+00:00",
+  "company": "Ansira",
+  "title": "Software Engineer - I",
+  "location": "KA, India",
+  "job_type": "fulltime",
+  "description": "We are seeking an AI-forward Full-Stack Developer with 1 - 2 years of experience to design, develop, and maintain responsive web applications using .NET Core, Angular, and SQL Server. This role is built for a modern developer who acts as an AI enthusiast leveraging tools like Claude Code and GitHub Copilot to optimize code generation, debugging, and overall sprint velocity. Alongside standard technical execution, the ideal candidate possesses key communication and problem-solving soft skills to effectively integrate within an agile development team.\n\nAs a Software Engineer I at Ansira Inc., you will contribute to the design, development, and maintenance of our marketing technology solutions, working as part of an agile team to deliver high-quality software.  \n  \nResponsibilities:\\*\\*  \n  \n\n* Develop and maintain software applications using various programming languages and frameworks, adhering to established coding standards and best practices.\n* Participate in the full software development lifecycle, including requirements gathering, design, coding, testing, deployment, and support.\n* Collaborate with senior engineers and team leads to understand project requirements and translate them into technical solutions.\n* Write and execute unit, integration, and system tests to ensure software quality and reliability.\n* Troubleshoot and debug software issues, identifying root causes and implementing effective solutions.\n* Document technical designs, code, and processes to ensure maintainability and knowledge transfer.\n* Actively participate in code reviews, providing constructive feedback and learning from peers.\n* Stay up-to-date with emerging technologies and industry trends, applying new knowledge to improve existing systems.\n\n  \nQualifications:\\*\\*  \n  \n\n* Bachelor's degree in Computer Science, Software Engineering, or a related field, or equivalent practical experience.\n* Solid understanding of object-oriented programming (OOP) principles and data structures.\n* Proficiency in modern programming language such as C#, Python, and Typescript.\n* Familiarity with relational databases and SQL.\n* Basic understanding of web development concepts (e.g., HTML, CSS, JavaScript).\n* Experience with version control systems (e.g., Git).\n* Strong problem-solving and analytical skills.\n* Excellent written and verbal communication skills.\n* Ability to work effectively in a team-oriented, collaborative environment.\n* Eagerness to learn new technologies and grow professionally.",
+  "requirements": {
+    "required_skills": [
+      "OOP and data structures",
+      "C#, Python or TypeScript",
+      "Relational databases and SQL",
+      "HTML, CSS, JavaScript",
+      "Git"
+    ],
+    "preferred_skills": [
+      ".NET Core",
+      "Angular",
+      "SQL Server",
+      "AI coding tools (Claude Code, GitHub Copilot)"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's in CS/SE or equivalent"
+  },
+  "match": {
+    "score": 63,
+    "reasoning": "Junior full-stack role (1-2 years). Core qualifications fit: OOP/DSA, Python, SQL/MySQL/DBMS, JavaScript. Stack-specific gaps: .NET Core, Angular, C#, SQL Server; Git is not confirmed in the profile.",
+    "relevant_experience": [
+      "JavaScript tools at Accenture/Google (report automation, internal site page)"
+    ],
+    "relevant_projects": [
+      "SpendWise: multi-platform app with Node.js backend"
+    ],
+    "skill_gaps": [
+      ".NET Core / C#",
+      "Angular / TypeScript",
+      "SQL Server (has MySQL)",
+      "Git not confirmed",
+      "HTML/CSS not listed"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "APPROVED",
+    "path": "resumes/job_009/resume_v2.tex",
+    "pdf_path": "resumes/job_009/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "resumes/job_009/review/review_notes.md (7/10)",
+    "approved": {
+      "date": "2026-11-24",
+      "by_user": "apply to all three",
+      "version": 2
+    }
+  },
+  "application": {
+    "status": "POSTING_CLOSED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": [],
+    "resume_upload": "applications/job_009/Animesh_Murai_Resume.pdf",
+    "screening_source": "candidate/screening_answers.json",
+    "note": "2026-11-24: Workday link R1144 returns 'page doesn't exist'; Ansira careers search for 'Software Engineer' lists only Senior Software Engineer (R1168) and Sr. QA Engineer. Not applied."
+  },
+  "user_comment": "User: 'leave the ansira one' (2026-11-24).",
+  "pipeline_status": "SKIPPED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "indeed",
+    "board_url": "https://in.indeed.com/viewjob?jk=6f229912ccec0a13",
+    "job_url_direct": "https://ansira.wd1.myworkdayjobs.com/Ansira_Careers/job/India-Bengaluru/Software-Engineer---I_R1144",
+    "date_posted": "2026-11-23",
+    "is_remote": false,
+    "salary": null,
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": 1,
+    "candidate_skills_mentioned": [
+      "Python",
+      "JavaScript",
+      "SQL"
+    ],
+    "company_url": "https://in.indeed.com/cmp/Ansira",
+    "search_term": "Software Development Engineer",
+    "search_location": "Bengaluru",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  },
+  "content_review": {
+    "hold": false,
+    "proposal_ids": [
+      "am-exp-google-role-001",
+      "am-exp-tickets-002",
+      "am-exp-eow-automation-003",
+      "am-exp-training-005",
+      "am-proj-spendwise-006",
+      "am-proj-medihelp-007"
+    ],
+    "note": "Resume v2 approved for job_009 (application scope, 2026-11-24)."
+  }
+}

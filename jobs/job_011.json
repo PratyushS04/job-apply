@@ -1,0 +1,82 @@
+{
+  "id": "job_011",
+  "url": "https://in.indeed.com/viewjob?jk=40596e742dcda042",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:31.040795+00:00",
+  "updated_at": "2026-11-23T16:08:33.267688+00:00",
+  "company": "Byteflow Innovations Private Limited",
+  "title": "Software Developer - Petrophysics",
+  "location": "KA, India",
+  "job_type": "fulltime",
+  "description": "Software Developer - Petrophysics\n\nExp: 5-8 yrs\n\n- Bachelor's in geology, geophysics, computer science, or engineering (Master's preferred)\n\n- Min. 5 yrs software development, preferably in oil & gas with subsurface domain knowledge\n\n- OOP including C++ and C#, Python, .NET Framework, Azure services, DevOps\n\n- Parallel computing, AI/ML technologies, DevOps practices\n\n- Software architecture & design patterns\n\n- Authentication and cybersecurity protocols including OAuth\n\n- Plus: OpenGL, Qt, OSDU; Petrel, Techlog, Studio and related subsurface tools\n\n- Soft skills: problem-solving, attention to detail, verbal/written communication, independent and team working, adaptability, ability to mentor others\n\nPay: \u20b91,000,000.00 - \u20b92,000,000.00 per year\n\nBenefits:\n\n* Provident Fund\n\nWork Location: In person",
+  "requirements": {
+    "required_skills": [
+      "5+ yrs software development (oil & gas preferred)",
+      "C++, C#, Python, .NET",
+      "Azure, DevOps",
+      "Parallel computing, AI/ML",
+      "Architecture and design patterns",
+      "OAuth / cybersecurity protocols"
+    ],
+    "preferred_skills": [
+      "OpenGL, Qt, OSDU",
+      "Petrel, Techlog, Studio"
+    ],
+    "experience_years": 5,
+    "education": "Bachelor's in geology/geophysics/CS/engineering (Master's preferred)"
+  },
+  "match": {
+    "score": 20,
+    "reasoning": "DEAL-BREAKER: posting asks for 5-8 years (the user's limit is 2). Also requires oil & gas subsurface domain knowledge, C#/.NET and Azure.",
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [
+      "5-8 years experience required",
+      "Oil & gas / petrophysics domain",
+      "C#, .NET, Azure"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "SKIPPED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "indeed",
+    "board_url": "https://in.indeed.com/viewjob?jk=40596e742dcda042",
+    "job_url_direct": null,
+    "date_posted": "2026-11-22",
+    "is_remote": false,
+    "salary": {
+      "min": 1000000.0,
+      "max": 2000000.0,
+      "currency": "INR",
+      "interval": "yearly"
+    },
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": null,
+    "candidate_skills_mentioned": [
+      "C++",
+      "Python"
+    ],
+    "company_url": "https://in.indeed.com/cmp/Byteflow-Innovations-Private-Limited",
+    "search_term": "Software Engineer",
+    "search_location": "Bengaluru",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  }
+}

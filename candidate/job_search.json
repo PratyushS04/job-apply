@@ -22,7 +22,7 @@
     "chief", "president", "vp", "avp", "cto", "founder"
   ],
   "exclude_companies": [],
-  "max_experience_years": 2,
+  "max_experience_years": 1,
   "min_skill_hits": 1,
   "auto_import_limit": 8,
   "min_match_score": 50,

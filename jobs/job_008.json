@@ -1,0 +1,88 @@
+{
+  "id": "job_008",
+  "url": "https://in.indeed.com/viewjob?jk=bf9c95bf2c3f6b19",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:30.989633+00:00",
+  "updated_at": "2026-11-23T16:08:33.090858+00:00",
+  "company": "Kaplan",
+  "title": "AI Software Engineer (Hybrid)",
+  "location": "KA, India",
+  "job_type": "fulltime",
+  "description": "**Job Description**\n\nAs an AI Software Engineer, your primary responsibility will be to design, orchestrate, and optimise AI-assisted software delivery workflows. Rather than focusing on manual software development, you will engineer systems where AI agents contribute directly to implementation, testing, optimisation, and operational activities under human supervision and governance.\n\n  \n\nYou will work within a small, high-performing AI Engineering Pod alongside AI Product Owners and Quality Engineers to rapidly deliver business outcomes through AI-native engineering practices.\n\n  \n\nThe role combines software engineering, AI orchestration, automation, and lightweight platform engineering to enable faster, more adaptive, and increasingly automated delivery approaches.\n\n  \n\nYou will leverage Generative AI tools, orchestration frameworks, and modern cloud platforms to accelerate delivery while maintaining engineering quality, security, and operational reliability. The pod operates with rapid iteration cycles, lightweight governance, and a strong focus on measurable business outcomes over traditional delivery artifacts.\n\n**Detailed Responsibilities**\n\nAI-Orchestrated Engineering\n\n* Design and orchestrate AI-assisted workflows for software implementation, testing, deployment, and operational automation.\n* Leverage Generative AI tooling to accelerate engineering delivery, infrastructure automation, and operational activities.\n* Build lightweight services, APIs, orchestration layers, and integrations that support AI-native delivery workflows.\n* Implement Retrieval-Augmented Generation (RAG), semantic retrieval, and contextual AI capabilities where appropriate.\n* Continuously refine prompts, orchestration patterns, and workflow performance to improve reliability, quality, and delivery efficiency.\n* Troubleshoot and optimise AI workflows when outputs become inconsistent, unreliable, or operationally ineffective.\n\nAI-Native Delivery & Automation\n\n* Build and optimise AI-assisted CI/CD pipelines, deployment workflows, and automated engineering processes.\n* Implement automated validation, testing, and evaluation capabilities for AI-generated outputs.\n* Drive automation-first engineering practices across development, deployment, and operational workflows.\n* Leverage AI tooling to accelerate infrastructure-as-code, configuration generation, and operational scripting.\n* Deliver containerised and deployable solutions aligned with enterprise cloud and operational standards.\n* Ensure observability, traceability, and logging are embedded across AI workflows and services.\n\nEngineering Standards & Governance\n\n* Ensure solutions align with enterprise security, architecture, and compliance standards.\n* Establish reusable orchestration patterns, engineering standards, and implementation approaches for AI-assisted delivery.\n* Design modular, maintainable, and composable solutions that minimise unnecessary complexity.\n* Support secure AI engineering practices, including prompt safety, data handling, and output validation.\n* Ensure delivered solutions are operationally supportable with appropriate documentation and monitoring.\n\nCollaboration & Delivery\n\n* Collaborate closely with the AI Product Owner to translate business intent into executable AI-assisted workflows.\n* Work alongside the AI Quality & Evaluation Engineer to improve testing strategies, evaluation frameworks, and operational confidence.\n* Engage with cloud, platform, architecture, security, and operational teams where required to support delivery outcomes.\n* Participate in rapid iteration cycles focused on experimentation, validation, and measurable business outcomes.\n* Share learnings, reusable patterns, and best practices across the wider engineering organization.\n* Contribute to the ongoing evolution of the AI Engineering Pod operating model.\n\nOperational Performance & Risk Management\n\n* Monitor workflow performance, operational reliability, cost, and delivery effectiveness.\n* Identify and mitigate risks relating to scalability, security, reliability, and operational sustainability.\n* Support vulnerability remediation, operational improvements, and secure delivery practices.\n* Continuously identify opportunities to increase automation and reduce manual engineering effort.\n\n**What You Might Be Doing**\n\nYour current or recent roles may include:\n\n* Technical Lead\n* Full Stack Software Developer\n* DevOps Engineer\n* Platform Engineer\n\n**What You\u2019ll Bring to the Role**\n\nYou are a strong software engineer who is comfortable working in environments where AI systems form part of the delivery process. You understand how to combine\n\nengineering judgement with AI tools to design, build, and operate reliable software systems.\n\nYou are motivated by solving complex technical problems through automation, orchestration, and iterative system design, rather than manual implementation alone.\n\nYou are able to:\n\n* Understand the strengths and limitations of AI-generated outputs and guide them toward reliable, production-ready outcomes\n* Work effectively in fast-moving, experimental environments where solutions evolve through iteration rather than upfront specification\n* Balance speed of delivery with engineering quality, security, and operational reliability\n* Operate with a high degree of autonomy while collaborating closely with product, architecture, quality, testing, and operations colleagues\n* Continuously learn and adapt as AI tooling and engineering practices evolve\n\n**Skills & Experience**\n\nEssential:\n\n* Strong software engineering experience across modern application development stacks such as .NET, Node.js, Python, JavaScript, React, or similar technologies.\n* Experience designing and building APIs, integrations, distributed systems, and cloud-native applications.\n* Experience with cloud platforms such as AWS or Azure.\n* Experience with CI/CD tooling such as Azure DevOps, GitHub Actions, or similar platforms.\n* Experience with containerisation and infrastructure-as-code and containerisation technologies such as Terraform, Docker, Kubernetes.\n* Experience using Generative AI tools and AI coding assistants (e.g. GitHub Copilot, ChatGPT, Claude, Gemini, or similar) to support development, debugging, and delivery workflows.\n* Strong understanding of software engineering fundamentals, including debugging, testing, performance, and system design.\n* Ability to operate effectively in ambiguous and rapidly evolving environments.\n* Strong analytical, troubleshooting, and problem-solving skills.\n* Understanding of secure software engineering practices and application security principles.\n\nDesirable:\n\n* Familiarity with AI-assisted development concepts such as prompt engineering,\n* AI orchestration, and agent-based workflows.\n* Exposure to Retrieval-Augmented Generation (RAG), semantic search, or vector-based information retrieval concepts.\n* Experience building or supporting automation workflows using AI tools, APIs, or scripting.\n* Awareness of AI observability, evaluation, or monitoring approaches.\n* Familiarity with emerging AI interoperability concepts (e.g. MCP or similar standards).\n* Exposure to responsible AI practices, governance, or model evaluationapproaches.\n\n**Personal Attributes**\n\n* Strong systems thinking and structured problem-solving mindset.\n* Curious, experimental, and highly adaptable to new technologies and evolving delivery approaches.\n* Comfortable working in ambiguous environments and shaping solutions iteratively rather than relying on fixed specifications.\n* Able to challenge traditional delivery assumptions constructively and propose alternative, more automated approaches.\n* Strong communication and collaboration skills across technical and non-technical stakeholders.\n* Able to balance rapid experimentation with operational reliability, security, and delivery responsibility.\n* Self-directed, proactive, and focused on delivering measurable outcomes.\n* Strong attention to detail, with a pragmatic focus on delivery speed and value.\n* Committed to continuous learning and applying emerging technologies in practical, production-focused ways.\n\nYou'll also carry out other duties, within the broad scope and spirit of your role, as requested by your manager. Our business continuously evolves, so your role will too.\n\n**How You Can Build Your Career at Kaplan**\n\nPotential future progression paths may include:\n\n* Head of Development\n* Other / more senior roles within IT function\n\n**Location**\n\nBangalore, KA, India\n\n**Additional Locations**\n\n**Employee Type**\n\nEmployee\n\n**Job Functional Area**\n\nIT Development\n\n**Business Unit**\n\n00092 Kaplan Health\n\n**Diversity & Inclusion Statement****:**\n\nKaplan is committed to cultivating an inclusive workplace that values diversity, promotes equity, and integrates inclusivity into all aspects of our operations. We are an equal opportunity employer and all qualified applicants will receive consideration for employment regardless of age, race, creed, color, national origin, ancestry, marital status, sexual orientation, gender identity or expression, disability, veteran status, nationality, or sex. We believe that diversity strengthens our organization, fuels innovation, and improves our ability to serve our students, customers, and communities. Learn more about our culture here.\n\nKaplan considers qualified applicants for employment even if applicants have an arrest or conviction in their background check records. Kaplan complies with related background check regulations, including but not limited to, the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. There are various positions where certain convictions may disqualify applicants, such as those positions requiring interaction with minors, financial records, or other sensitive and/or confidential information.\n\n*Kaplan is a drug-free workplace and complies with applicable laws.*",
+  "requirements": {
+    "required_skills": [
+      ".NET/Node.js/Python/JavaScript/React application development",
+      "APIs, integrations, distributed and cloud-native systems",
+      "AWS or Azure",
+      "CI/CD (Azure DevOps, GitHub Actions)",
+      "Docker, Kubernetes, Terraform / infrastructure-as-code",
+      "GenAI coding assistants",
+      "Secure software engineering"
+    ],
+    "preferred_skills": [
+      "Prompt engineering, AI orchestration, agent workflows",
+      "RAG / semantic search",
+      "AI automation workflows",
+      "AI observability and evaluation",
+      "MCP"
+    ],
+    "experience_years": null,
+    "education": null
+  },
+  "match": {
+    "score": 42,
+    "reasoning": "Below the 50 threshold. The role expects strong production experience with cloud (AWS/Azure), CI/CD, Docker/Kubernetes/Terraform, and lists Technical Lead / DevOps / Platform Engineer as typical prior roles. The candidate has Node.js, Python, JavaScript, REST APIs and LangChain/Llama 2 project work, but none of the cloud, CI/CD, container or IaC requirements.",
+    "relevant_experience": [
+      "JavaScript automation at Accenture/Google"
+    ],
+    "relevant_projects": [
+      "MediHelp: LangChain + Llama 2 + OCR pipeline",
+      "SpendWise Node.js/Express push backend (not production-deployed)"
+    ],
+    "skill_gaps": [
+      "AWS/Azure",
+      "CI/CD tooling",
+      "Docker, Kubernetes, Terraform",
+      "Seniority: typical prior roles are Tech Lead / DevOps / Platform Engineer"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "SKIPPED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "indeed",
+    "board_url": "https://in.indeed.com/viewjob?jk=bf9c95bf2c3f6b19",
+    "job_url_direct": "https://ghc.wd1.myworkdayjobs.com/en-US/Kaplan_Careers/job/Bangalore-KA-India/AI-Software-Engineer--Hybrid-_JR259570",
+    "date_posted": "2026-11-23",
+    "is_remote": false,
+    "salary": null,
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": null,
+    "candidate_skills_mentioned": [
+      "Python",
+      "JavaScript",
+      "Node.js"
+    ],
+    "company_url": "https://in.indeed.com/cmp/Kaplan",
+    "search_term": "Software Development Engineer",
+    "search_location": "Bengaluru",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  }
+}

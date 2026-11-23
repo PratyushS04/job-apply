@@ -1,0 +1,76 @@
+{
+  "id": "job_012",
+  "url": "https://in.indeed.com/viewjob?jk=92cc16c70e5376e2",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:31.053479+00:00",
+  "updated_at": "2026-11-23T16:08:33.356733+00:00",
+  "company": "Byteflow Innovations Private Limited",
+  "title": "C / C++ / Python Developer",
+  "location": "KA, India",
+  "job_type": "fulltime",
+  "description": "C / C++ / Python Developer - Azure\n\nExp: 4-9 yrs\n\n- Strong programming experience in C, C++ and Python\n\n- Hands-on experience with Microsoft Azure and cloud-based application development\n\n- Experience with CI/CD and DevOps practices\n\nPay: \u20b9800,000.00 - \u20b92,000,000.00 per year\n\nBenefits:\n\n* Provident Fund\n\nWork Location: In person",
+  "requirements": {
+    "required_skills": [
+      "C, C++, Python",
+      "Microsoft Azure cloud development",
+      "CI/CD and DevOps"
+    ],
+    "preferred_skills": [],
+    "experience_years": 4,
+    "education": null
+  },
+  "match": {
+    "score": 32,
+    "reasoning": "DEAL-BREAKER: posting asks for 4-9 years (the user's limit is 2). Language fit is good (C++ strongest, Python), but Azure and CI/CD are gaps.",
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [
+      "4-9 years experience required",
+      "Azure",
+      "CI/CD / DevOps"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "SKIPPED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "indeed",
+    "board_url": "https://in.indeed.com/viewjob?jk=92cc16c70e5376e2",
+    "job_url_direct": null,
+    "date_posted": "2026-11-22",
+    "is_remote": false,
+    "salary": {
+      "min": 800000.0,
+      "max": 2000000.0,
+      "currency": "INR",
+      "interval": "yearly"
+    },
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": null,
+    "candidate_skills_mentioned": [
+      "C++",
+      "Python"
+    ],
+    "company_url": "https://in.indeed.com/cmp/Byteflow-Innovations-Private-Limited",
+    "search_term": "Software Engineer",
+    "search_location": "Bengaluru",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  }
+}

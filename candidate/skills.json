@@ -49,7 +49,6 @@
     "QRadar (conceptual)"
   ],
   "unconfirmed_not_used": [
-    "Git",
     "Xcode",
     "Android Studio",
     "JavaScript vs TypeScript for the Node.js backend"
@@ -73,5 +72,15 @@
     "Problem solving",
     "DBMS"
   ],
-  "javascript_note": "Confirmed 2026-11-23: Google Apps Script work (EOW report automation, internal site page) written in JavaScript. SpendWise backend language (JS vs TS) not confirmed."
+  "javascript_note": "Confirmed 2026-11-23: Google Apps Script work (EOW report automation, internal site page) written in JavaScript. SpendWise backend language (JS vs TS) not confirmed.",
+  "web": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "tools": [
+    "Git",
+    "Claude Code (AI coding assistant, currently using)"
+  ],
+  "confirmed_2026_11_24": "User: 'i do use git, i have used html css js, claude code im using currently'."
 }

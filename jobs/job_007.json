@@ -1,0 +1,174 @@
+{
+  "id": "job_007",
+  "url": "https://in.indeed.com/viewjob?jk=335ec0b11f768423",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:21.346476+00:00",
+  "updated_at": "2026-11-23T18:48:29.129904+00:00",
+  "company": "Google",
+  "title": "Software Engineer II, Google Cloud",
+  "location": "TS, India",
+  "job_type": "fulltime",
+  "description": "In most instances, this position requires in-person interviews as part of the hiring process.\n\n### **Minimum qualifications:**\n\n* Bachelor\u2019s degree or equivalent practical experience.\n* 1 year of experience with software development in one or more programming languages (e.g., Python, C, C++, Java, JavaScript).\n* 1 year of experience with data structures and algorithms.\n\n  \n\n### **Preferred qualifications:**\n\n* Master's degree in Computer Science or a related technical field.\nFamiliarity with authentication, authorization, or identity concepts (e.g., OAuth 2.0, OIDC, SAML, TLS/mTLS, or IAM) generalist backend engineers passionate about security and reliability are welcome to apply.  \n\n**About the job**\n-----------------\n\nGoogle's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google\u2019s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.\n\nGoogle is an engineering company at heart. We hire people with a broad set of technical skills who are ready to take on some of technology's greatest challenges and make an impact on users around the world. At Google, engineers not only revolutionize search, they routinely work on scalability and storage solutions, large-scale applications and entirely new platforms for developers around the world. From Google Ads to Chrome, Android to YouTube, social to local, Google engineers are changing the world one technological achievement after another.\n\n**Responsibilities**\n--------------------\n\n* Write product or system development code.\n* Review code developed by other developers and provide feedback to ensure best practices (e.g., style guidelines, checking code in, accuracy, testability, and efficiency).\n* Contribute to existing documentation or educational content and adapt content based on product/program updates and user feedback.\n* Triage product or system issues and debug/track/resolve by analyzing the sources of issues and the impact on hardware, network, or service operations and quality.\n\nGoogle is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form.",
+  "requirements": {
+    "required_skills": [
+      "Software development in Python, C, C++, Java or JavaScript (1 yr)",
+      "Data structures and algorithms (1 yr)"
+    ],
+    "preferred_skills": [
+      "OAuth 2.0 / OIDC / SAML / TLS / IAM",
+      "Security and reliability interest"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's or equivalent practical experience (Master's preferred)"
+  },
+  "match": {
+    "score": 72,
+    "reasoning": "Both minimum qualifications fit: C++ is the strongest language and DSA is a confirmed strong point; software work is mostly JavaScript automation at Accenture/Google plus SpendWise. Preferred identity/auth concepts are covered by SpendWise's Google Sign-In (OAuth 2.0) and the current endpoint-security work. Gaps: professional software-development time is under a year and there is no Master's.",
+    "relevant_experience": [
+      "Accenture, Google security team (2026-03 to present): endpoint security reviews for third-party GenAI tools, ~1,000 security tickets",
+      "JavaScript (Apps Script) end-of-week report automation, ~20 min saved weekly"
+    ],
+    "relevant_projects": [
+      "SpendWise: Swift/Kotlin apps with Google Sign-In (OAuth 2.0), Gmail API, Node.js push backend"
+    ],
+    "skill_gaps": [
+      "Dedicated software-development experience is under 1 year (projects and automation count toward it)",
+      "No Master's (preferred only)"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "APPROVED",
+    "path": "resumes/job_007/resume_v1.tex",
+    "pdf_path": "resumes/job_007/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "resumes/job_007/review/review_notes.md (8/10)",
+    "approved": {
+      "date": "2026-11-23",
+      "by_user": "proceed with application"
+    }
+  },
+  "application": {
+    "status": "SUBMITTED",
+    "prep": "applications/job_007/application_prep.md",
+    "resume_upload": "applications/job_007/Animesh_Murai_Resume.pdf",
+    "apply_url": "https://careers.google.com/jobs/results/83624643516080838-software-engineer-ii/",
+    "submission": "Claude fills the Google Careers form in the user's Chrome (user asked 2026-11-24); final submit only after the user's explicit 'submit'.",
+    "questions": [
+      {
+        "question": "Current or previous work at Google (incl. vendor/contractor)?",
+        "type": "choice"
+      },
+      {
+        "question": "Notice period",
+        "type": "short_answer"
+      },
+      {
+        "question": "Current and expected CTC",
+        "type": "short_answer"
+      },
+      {
+        "question": "Earliest start date",
+        "type": "date"
+      },
+      {
+        "question": "Total experience",
+        "type": "number"
+      },
+      {
+        "question": "Software development experience",
+        "type": "long_answer"
+      },
+      {
+        "question": "Authentication / identity experience",
+        "type": "long_answer"
+      }
+    ],
+    "answers": [
+      {
+        "question_index": 0,
+        "answer": "Yes - vendor through Accenture on Google's security team since March 2026 (not a Google employee)."
+      },
+      {
+        "question_index": 1,
+        "answer": "1-2 months (user estimate, unconfirmed)"
+      },
+      {
+        "question_index": 2,
+        "answer": "Current 4.5 LPA; expected about 9 LPA"
+      },
+      {
+        "question_index": 3,
+        "answer": "Right after the notice period ends"
+      },
+      {
+        "question_index": 4,
+        "answer": "About 11 months"
+      },
+      {
+        "question_index": 5,
+        "answer": "See application_prep.md (draft)"
+      },
+      {
+        "question_index": 6,
+        "answer": "See application_prep.md (draft)"
+      }
+    ],
+    "needs_user_input": [],
+    "cover_letter_path": "applications/job_007/application_prep.md#cover-letter (draft with placeholder)",
+    "required_fields": {},
+    "screenshots": [],
+    "screening_source": "candidate/screening_answers.json (user, 2026-11-23)",
+    "filling_log": [
+      "2026-11-24: Careers profile updated and saved: approved resume uploaded, city Hyderabad/Telangana, degree Bachelor of Engineering (Graduated), major copied from education.json, Accenture job added, Alphabet experience Yes (vendor) with user-supplied birthday month/day and username, unsupported auto-filled skills removed, Hyderabad added to locations, accuracy certification ticked.",
+      "2026-11-24: Role information answered per user: bachelor's Yes, 1 yr software development Yes, 1 yr DSA Yes, eligible to work in India Yes, sponsorship No.",
+      "Paused at Voluntary self-identification (user's choice needed). Review & apply not reached; nothing submitted.",
+      "2026-11-24: User finished and submitted the application themselves."
+    ],
+    "submitted": {
+      "date": "2026-11-24",
+      "by": "user",
+      "note": "User completed the voluntary self-identification and submitted on Google Careers themselves ('ive completed google's application'). Not independently verified by Claude."
+    }
+  },
+  "user_comment": null,
+  "pipeline_status": "SUBMITTED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "indeed",
+    "board_url": "https://in.indeed.com/viewjob?jk=335ec0b11f768423",
+    "job_url_direct": "https://careers.google.com/jobs/results/83624643516080838-software-engineer-ii/",
+    "date_posted": "2026-11-23",
+    "is_remote": false,
+    "salary": null,
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": 1,
+    "candidate_skills_mentioned": [
+      "C++",
+      "Java",
+      "Python",
+      "JavaScript",
+      "OAuth 2.0",
+      "Data structures and algorithms"
+    ],
+    "company_url": "https://in.indeed.com/cmp/Google",
+    "search_term": "Software Development Engineer",
+    "search_location": "Hyderabad",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  },
+  "content_review": {
+    "hold": false,
+    "proposal_ids": [
+      "am-exp-google-role-001",
+      "am-exp-tickets-002",
+      "am-exp-eow-automation-003",
+      "am-exp-training-005",
+      "am-proj-spendwise-006",
+      "am-proj-medihelp-007"
+    ],
+    "note": "Resume v1 approved for job_007 (application scope, 2026-11-23). Screening answers supplied 2026-11-23; notice period is the user's unconfirmed estimate. Cover-letter 'why Google' line left for the user (optional)."
+  }
+}

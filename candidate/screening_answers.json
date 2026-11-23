@@ -1,0 +1,14 @@
+{
+  "source": "User chat 2026-11-23 (given for job_007 Google; reusable for other applications unless the user says otherwise)",
+  "notice_period": {
+    "answer": "1-2 months",
+    "status": "user_estimate_unconfirmed",
+    "note": "User is not sure; confirm from the Accenture appointment letter or HR portal before stating a single number."
+  },
+  "current_ctc_lpa": 4.5,
+  "expected_ctc_lpa": 9,
+  "expected_ctc_note": "User said 'around 9'.",
+  "earliest_start": "Right after the notice period ends",
+  "google_vendor_history": "Disclose: worked at Google as a vendor through Accenture (Google security team, since March 2026); not a Google employee.",
+  "total_experience": "About 11 months at Accenture (Jan 2026 - present), derived from experience.json"
+}

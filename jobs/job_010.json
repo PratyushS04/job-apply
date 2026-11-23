@@ -1,0 +1,89 @@
+{
+  "id": "job_010",
+  "url": "https://www.glassdoor.co.in/job-listing/j?jl=1010333259581",
+  "source": "jobspy",
+  "created_at": "2026-11-23T16:01:31.030123+00:00",
+  "updated_at": "2026-11-23T16:08:33.175028+00:00",
+  "company": "Ignite Insurance Systems",
+  "title": "Software Engineer I",
+  "location": "Hyder\u0101b\u0101d, India",
+  "job_type": "fulltime",
+  "description": "We have an exciting opportunity for a Software Engineer I to join our Web Application team as a full-stack engineer. You will work on a mix of new projects and the maintenance and support of existing web applications, as we deliver SaaS applications in the cloud. As part of a small agile team, you will contribute to new features, learn how our products and architecture are built, and grow into owning features alongside experienced engineers. We want to talk to you if you care about quality, learn quickly, and want to delight customers.\n\n  \n\nPrincipal responsibilities\n  \n\n* Write quality code and help design performant, efficient, and reusable solutions that meet our business goals.\n* Develop, maintain, and support applications, components, and services, using current and new technologies.\n* Understand existing code, maintain existing applications, and enhance them with new features.\n* Take on well-defined tasks, and ask for help early when you're stuck.\n* Keep quality high and the applications responsive.\n* Work as part of an agile team to design and launch new features, and take part in team ceremonies (refinements, stand-ups, demos, retrospectives).\n* Partner with Architecture, DevOps, DBA, QA, Support, Product, and peer platform teams.\n* Take part in code reviews: review teammates' work and respond to feedback on your own.\n* Document code, technical specifications, and implementation, and share knowledge within the team.\n* Collaborate with onshore (US) teams across time zones.\n* Be available for occasional off-hours or weekend support, particularly for severe or critical issues.\n\n  \n\nRequired experience\n  \n\n* Hands-on experience with C# and .NET (Framework or Core).\n* ASP.NET MVC or ASP.NET Web API (REST).\n* SQL, with Microsoft SQL Server preferred.\n* HTML, CSS, and JavaScript.\n* API integrations using JSON and REST.\n* A unit testing framework (for example NUnit).\n* Source control with Git, and Microsoft Visual Studio.\n* A good understanding of object-oriented design and software development processes.\n* Strong analytical and troubleshooting skills.\n* Clear communication, one-on-one and in small groups.\n* The ability to learn quickly, teach yourself, and adapt to new technologies.\n\nNice to have\n  \n\n* A modern front-end framework such as React or Angular (TypeScript a plus).\n* ASP.NET Web Forms, Entity Framework or EF Core, ADO.NET, LINQ, and IIS.\n* jQuery, AJAX, and Kendo UI or a similar component library.\n* AWS, especially Lambda, S3, SQS, and Batch.\n* Asynchronous and parallel programming (async/await, the TPL).\n* SOAP services and SSO (single sign-on) concepts.\n* Exposure to microservices, distributed systems, and CI/CD.\n* Containerization, Windows Services, and cron jobs.\n* Building deployable artifacts and promoting changes through environments.\n* Interest in AI-assisted development (for example GitHub Copilot or Claude), including reviewing and verifying AI-generated code.\n\nQualifications\n  \n\n* 1+ years of experience working on web-based applications.\n* Bachelor's degree (B.E./B.Tech or equivalent) in Computer Science, Software Engineering, or a related field.\n\n  \n\n**Our People, Our Culture**\n\nFor more than 50 years, Verisk has helped property and casualty insurers make smarter decisions about risk through AI-powered risk modeling, advanced analytics, and technology solutions spanning the entire policy lifecycle. We are a leading strategic data, analytics, and technology partner to the global insurance industry, guided by core values of learning, caring, and results while maintaining the highest ethical standards as stewards of the industry's most comprehensive datasets. Learn more about Verisk and what we are doing within the insurance industry.\n\nFor the eighth consecutive year, Verisk is proudly recognized as a Great Place to Work\u00ae for outstanding workplace culture in the US, the fourth consecutive year in the UK, Spain, and India, and the second consecutive year in Poland. In addition, we\u2019ve been recognized by The Wall Street Journal as one of the Best-Managed Companies and by Forbes as a World\u2019s Best Employer, testaments to the value we place on workplace culture.\n\n**Our Culture** : Explore our inclusive, people-first culture that fosters innovation, collaboration, and belonging.\n\n**Awards & Recognition** : See why Verisk is consistently recognized as a Great Place to Work\u2122 around the world.\n\n**Our Businesses** : Learn about the diverse industries we serve \u2014 from insurance and energy to financial services and beyond.\n\n**Life at Verisk** : Discover what it\u2019s like to work at Verisk through employee stories, team highlights, and culture moments.\n\n**Careers at Verisk** : Join a global team of problem-solvers and innovators doing meaningful work that\u2019s shaping the future of industries. Whether you're just starting out or looking to take your career to the next level, Verisk offers growth, purpose, and a people-first culture\n\nLet\u2019s build something meaningful together!\n\nVerisk Analytics is an equal opportunity employer.\n\nAll members of the Verisk Analytics family of companies are equal opportunity employers. We consider all qualified applicants for employment without regard to race, religion, color, national origin, citizenship, sex, gender identity and/or expression, sexual orientation, veteran's status, age or disability or any other characteristics protected by applicable law. Verisk\u2019s minimum hiring age is 18 except in countries with a higher age limit subject to applicable law.\n\nhttps://www.verisk.com/company/careers/\n\nUnsolicited resumes sent to Verisk, including unsolicited resumes sent to a Verisk business mailing address, fax machine, or email address, or directly to Verisk employees, will be considered Verisk property. Verisk will NOT pay a fee for any placement resulting from the receipt of an unsolicited resume.\n\nVerisk Employee Privacy Notice",
+  "requirements": {
+    "required_skills": [
+      "C# and .NET",
+      "ASP.NET MVC or Web API",
+      "SQL (SQL Server)",
+      "HTML, CSS, JavaScript",
+      "JSON/REST integrations",
+      "NUnit or similar",
+      "Git and Visual Studio",
+      "OOP"
+    ],
+    "preferred_skills": [
+      "React or Angular (TypeScript)",
+      "Entity Framework, LINQ, IIS",
+      "AWS Lambda/S3/SQS",
+      "async/await",
+      "CI/CD, microservices",
+      "AI-assisted development"
+    ],
+    "experience_years": 1,
+    "education": "B.E./B.Tech in CS/SE or related"
+  },
+  "match": {
+    "score": 40,
+    "reasoning": "Below the 50 threshold. Most required items are the C#/.NET/ASP.NET stack, which is not in the profile, plus 1+ years on web applications. Matches: SQL, JavaScript, REST, OOP, unit testing exposure (JUnit in SpendWise).",
+    "relevant_experience": [
+      "JavaScript automation at Accenture/Google"
+    ],
+    "relevant_projects": [
+      "SpendWise (JUnit tests, REST/Gmail API)"
+    ],
+    "skill_gaps": [
+      "C# / .NET / ASP.NET MVC / Web API",
+      "SQL Server",
+      "NUnit",
+      "Visual Studio, Git not confirmed",
+      "1+ years web application experience"
+    ],
+    "status": "SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "SKIPPED",
+  "error": null,
+  "posting_metadata": {
+    "candidate_profile": "candidate",
+    "discovered_via": "jobspy",
+    "board": "glassdoor",
+    "board_url": "https://www.glassdoor.co.in/job-listing/j?jl=1010333259581",
+    "job_url_direct": null,
+    "date_posted": "2026-11-23",
+    "is_remote": false,
+    "salary": null,
+    "job_level": null,
+    "experience_range": null,
+    "required_experience_years_estimate": 1,
+    "candidate_skills_mentioned": [
+      "JavaScript",
+      "SQL"
+    ],
+    "company_url": "https://www.glassdoor.co.in/Overview/W-EI_IE2161445.htm",
+    "search_term": "Software Development Engineer",
+    "search_location": "Hyderabad",
+    "description_source": "job board listing via JobSpy; verify against the live posting"
+  }
+}

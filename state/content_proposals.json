@@ -17,7 +17,33 @@
       "evidence_status": "user_reported",
       "confirmation_needed": "What a typical review involves (e.g., assessing install/access requests, checking permissions or data handling) so the bullet can be more specific.",
       "approval_status": "pending",
-      "approval_record": null
+      "approval_record": null,
+      "application_approvals": [
+        {
+          "job_id": "job_007",
+          "date": "2026-11-23",
+          "artifact": "resumes/job_007/resume_v1.pdf",
+          "decision": "User reviewed the job_007 resume (told that approving it covers these pending lines for this application) and replied 'proceed with application'. Application-only approval; global approval_status unchanged."
+        },
+        {
+          "job_id": "job_009",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_009/resume_v2.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_014",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_014/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_013",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_013/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        }
+      ]
     },
     {
       "id": "am-exp-tickets-002",
@@ -38,6 +64,32 @@
         {
           "date": "2026-11-15",
           "note": "User confirmed tickets are their own and all security-related."
+        }
+      ],
+      "application_approvals": [
+        {
+          "job_id": "job_007",
+          "date": "2026-11-23",
+          "artifact": "resumes/job_007/resume_v1.pdf",
+          "decision": "User reviewed the job_007 resume (told that approving it covers these pending lines for this application) and replied 'proceed with application'. Application-only approval; global approval_status unchanged."
+        },
+        {
+          "job_id": "job_009",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_009/resume_v2.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_014",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_014/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_013",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_013/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
         }
       ]
     },
@@ -64,6 +116,32 @@
         {
           "date": "2026-11-15",
           "note": "User confirmed tool: Google Apps Script."
+        }
+      ],
+      "application_approvals": [
+        {
+          "job_id": "job_007",
+          "date": "2026-11-23",
+          "artifact": "resumes/job_007/resume_v1.pdf",
+          "decision": "User reviewed the job_007 resume (told that approving it covers these pending lines for this application) and replied 'proceed with application'. Application-only approval; global approval_status unchanged."
+        },
+        {
+          "job_id": "job_009",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_009/resume_v2.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_014",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_014/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_013",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_013/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
         }
       ]
     },
@@ -119,6 +197,32 @@
           "date": "2026-11-15",
           "note": "User asked to omit training dates and include all Accenture training items from the original technical resume."
         }
+      ],
+      "application_approvals": [
+        {
+          "job_id": "job_007",
+          "date": "2026-11-23",
+          "artifact": "resumes/job_007/resume_v1.pdf",
+          "decision": "User reviewed the job_007 resume (told that approving it covers these pending lines for this application) and replied 'proceed with application'. Application-only approval; global approval_status unchanged."
+        },
+        {
+          "job_id": "job_009",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_009/resume_v2.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_014",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_014/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_013",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_013/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        }
       ]
     },
     {
@@ -141,6 +245,32 @@
           "date": "2026-11-15",
           "note": "User confirmed solo; v1 mid-Jul to 31 Jul 2026; in daily personal use on iPhone, Watch, Android; on GitHub, not App Store. Asked to shorten the entry."
         }
+      ],
+      "application_approvals": [
+        {
+          "job_id": "job_007",
+          "date": "2026-11-23",
+          "artifact": "resumes/job_007/resume_v1.pdf",
+          "decision": "User reviewed the job_007 resume (told that approving it covers these pending lines for this application) and replied 'proceed with application'. Application-only approval; global approval_status unchanged."
+        },
+        {
+          "job_id": "job_009",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_009/resume_v2.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_014",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_014/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_013",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_013/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        }
       ]
     },
     {
@@ -162,6 +292,32 @@
         {
           "date": "2026-11-15",
           "note": "User confirmed Drugs.com. Individual contribution still unspecified."
+        }
+      ],
+      "application_approvals": [
+        {
+          "job_id": "job_007",
+          "date": "2026-11-23",
+          "artifact": "resumes/job_007/resume_v1.pdf",
+          "decision": "User reviewed the job_007 resume (told that approving it covers these pending lines for this application) and replied 'proceed with application'. Application-only approval; global approval_status unchanged."
+        },
+        {
+          "job_id": "job_009",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_009/resume_v2.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_014",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_014/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
+        },
+        {
+          "job_id": "job_013",
+          "date": "2026-11-24",
+          "artifact": "resumes/job_013/resume_v1.pdf",
+          "decision": "User reviewed the resumes (told approval covers these pending lines) and replied 'apply to all three'. Application-only approval."
         }
       ]
     },
