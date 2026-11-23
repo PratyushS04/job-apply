@@ -3,7 +3,7 @@
   "url": "https://www.naukri.com/job-listings-software-development-engineer-apple-india-pvt-ltd-bengaluru-0-to-6-years-110826502201",
   "source": "chat",
   "created_at": "2026-11-15T18:53:29.607398+00:00",
-  "updated_at": "2026-11-15T19:15:00.953119+00:00",
+  "updated_at": "2026-11-23T11:39:33.364614+00:00",
   "company": "Apple India Pvt Ltd",
   "title": "Software Development Engineer",
   "location": "Bengaluru, India",
@@ -56,9 +56,9 @@
     ]
   },
   "resume": {
-    "version": 1,
-    "tex": "resumes/job_003/resume_v1.tex",
-    "pdf": "resumes/job_003/resume_v1.pdf",
+    "version": 3,
+    "tex": "resumes/job_003/resume_v3.tex",
+    "pdf": "resumes/job_003/resume_v3.pdf",
     "base": "candidates/animesh_murai/resumes/base_sde_v11.tex",
     "review_notes": "resumes/job_003/review/review_notes.md",
     "previous": "resumes/job_003/resume_v1.pdf",
@@ -66,7 +66,8 @@
       "date": "2026-11-15",
       "decision": "Candidate chose option A: submit resume_v1 (supported content only)."
     },
-    "not_used": "resumes/job_003/resume_v2.pdf (contains unbuilt FlowPilot)"
+    "not_used": "resumes/job_003/resume_v2.pdf (contains unbuilt FlowPilot)",
+    "javascript_added": "2026-11-23"
   },
   "application": {
     "prep": "applications/job_003/application_prep.md",

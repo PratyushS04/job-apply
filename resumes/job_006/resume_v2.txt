@@ -1,0 +1,61 @@
+                                    Animesh Murai
+             Hyderabad, India | +91-8308082999 | asmurai27@gmail.com | LinkedIn | GitHub | LeetCode
+
+
+Summary
+Engineer with a B.Tech in Computer Science (AI & ML), working with Google’s security team through Accenture
+on endpoint security for third-party generative AI tools. Has built user-facing apps end to end, from native iPhone,
+Apple Watch, and Android interfaces in SwiftUI and Jetpack Compose to an internal site page built in JavaScript.
+Strong in C++, DSA, and DBMS/SQL.
+
+
+Experience
+  Security Managed Services Associate                                                           Jan 2026 – Present
+  Accenture | Client: Google (vendor, external workforce)                                         Hyderabad, India
+     •   Review endpoint security for third-party generative AI tools and other software components for Google’s
+         security team, handling about 1,000 security tickets individually since March 2026.
+     • Created a page on the team’s internal site in JavaScript, showcasing major team milestones.
+     • Built a JavaScript automation in Google Apps Script that generates the team’s end-of-week report,
+
+       replacing a manual step and saving about 20 minutes every week.
+     • Trained by Accenture in SIEM operations with Splunk (SPL searches, dashboards, alert tuning, log
+
+       analysis), SIEM architecture, NIST incident response, and threat intelligence.
+
+
+Projects
+  SpendWise – personal ﬁnance app (solo) | Swift, SwiftUI, Kotlin, Jetpack Compose, Node.js                Jul 2026
+     • Built a privacy-ﬁrst expense tracker with native iPhone, Apple Watch, and Android apps that turns Gmail
+       bank-alert emails into categorized transactions on-device; built v1 in about two weeks, in daily use since.
+     • Built the iOS interface in SwiftUI and Swift Charts, with insight screens for monthly trends, streaks,
+
+       merchant proﬁles, and a daily spending heatmap, plus a watchOS app with watch-face complications.
+     • Rebuilt the app natively for Android with Jetpack Compose and Material 3, using Clean Architecture
+
+       (MVVM), Hilt, and Room.
+     • Added a biometric lock that re-locks the app whenever it moves to the background, and a Gmail API sync
+
+       pipeline that handles rate limits with retries and backoﬀ.
+  MediHelp – LLM-powered web app (team project) | Python, PaddleOCR, Llama 2, LangChain                        2024
+     •   Web app that reads a photo of a medicine, extracts its name, ingredients, and strength with PaddleOCR,
+         and explains what it does by scraping Drugs.com and summarizing with Llama 2 through LangChain.
+
+
+Certifications & Achievements
+  Claude Certiﬁed Architect – Foundations (CCA-F) – Anthropic                                   Jul 2026 – Jul 2027
+  Claude Certiﬁed Developer – Foundations (CCDV-F) – Anthropic                                Nov 2026 – Nov 2027
+  Solved 300 problems on LeetCode, including about 50 database (SQL) problems
+
+Technical Skills
+  Languages: C++, JavaScript, Java, Python, Swift, Kotlin, SQL
+  UI / Front-end: SwiftUI, Jetpack Compose, Material 3, Swift Charts, WidgetKit, Google Apps Script
+  Backend / APIs: Node.js, Express, Gmail API, OAuth 2.0, Google Cloud Pub/Sub, REST APIs
+  Databases: DBMS, MySQL, SwiftData, Room
+  AI / ML: LangChain, Llama 2, PaddleOCR, scikit-learn, Pandas, NumPy
+  Security: Splunk (SPL, dashboards, alerts), SIEM, log analysis, NIST incident response
+
+
+Education
+  B. Tech. in Computer Science Engineering (specialization in AI & ML)                        Dec 2021 – May 2025
+  Shri Ramdeobaba College of Engineering and Management | CGPA: 7.57                          Nagpur, Maharashtra
+

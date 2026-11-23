@@ -4,7 +4,7 @@ Posted 2026-11-17 · open until about 2026-12-17 · Full-time · LinkedIn job 44
 **Apply through:** the LinkedIn posting, or Cisco's own careers site (careers.cisco.com / cisco.wd5.myworkday.com).
 Cisco's posting warns about fake recruiters: only trust contact from a cisco.com email after you apply, and never pay or share ID/bank details.
 
-**Resume to upload:** `applications/job_006/Animesh_Murai_Resume.pdf` (same as `resumes/job_006/resume_v1.pdf`).
+**Resume to upload:** `applications/job_006/Animesh_Murai_Resume.pdf` (same as `resumes/job_006/resume_v2.pdf`).
 
 ## Why this is a good fit
 - Entry level, minimum is a bachelor's with 0 years — you qualify.
@@ -31,7 +31,7 @@ Cisco's posting warns about fake recruiters: only trust contact from a cisco.com
 - Total experience to declare (~10 months at Accenture)
 
 ## Short answers (draft, confirmed facts only)
-**Front-end / UI experience:** I built SpendWise's interfaces myself: the iPhone app in SwiftUI and Swift Charts (trend, streak, and heatmap screens), an Apple Watch app with watch-face complications, and the Android app in Jetpack Compose with Material 3. At Accenture I created a page on my team's internal site using Google Apps Script. I haven't used React or Figma yet.
+**Front-end / UI experience:** I built SpendWise's interfaces myself: the iPhone app in SwiftUI and Swift Charts (trend, streak, and heatmap screens), an Apple Watch app with watch-face complications, and the Android app in Jetpack Compose with Material 3. At Accenture I created a page on my team's internal site in JavaScript (Google Apps Script). I haven't used React or Figma yet.
 
 **Secure coding / privacy:** SpendWise keeps all financial data on the device and re-locks behind biometrics whenever it goes to the background. At work I review endpoint security for third-party generative AI tools for Google's security team and have handled about 1,000 security tickets since March 2026.
 
@@ -40,7 +40,7 @@ Cisco's posting warns about fake recruiters: only trust contact from a cisco.com
 ## Cover note (draft — add your own "why Cisco" line before using)
 Hello Hiring Team,
 
-I'm applying for the entry-level Software Engineer role in Hyderabad. I'm a Security Managed Services Associate at Accenture, working with Google's security team, where I review endpoint security for third-party generative AI tools and have handled about 1,000 security tickets since March 2026. I've also built a Google Apps Script page on our team's internal site and an automation that generates our end-of-week report.
+I'm applying for the entry-level Software Engineer role in Hyderabad. I'm a Security Managed Services Associate at Accenture, working with Google's security team, where I review endpoint security for third-party generative AI tools and have handled about 1,000 security tickets since March 2026. I've also built a page on our team's internal site and an automation that generates our end-of-week report, both in JavaScript.
 
 Outside work, I built SpendWise on my own: a privacy-first finance app with native iPhone, Apple Watch, and Android interfaces in SwiftUI and Jetpack Compose. It keeps all financial data on the device, re-locks behind biometrics, and I've used it daily since July 2026. I'm strongest in C++ and data structures and algorithms, and I hold the Claude Certified Architect and Developer – Foundations certifications.
 

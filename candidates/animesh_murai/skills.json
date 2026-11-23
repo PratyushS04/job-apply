@@ -3,6 +3,7 @@
     "C++",
     "Java",
     "Python",
+    "JavaScript",
     "Swift",
     "Kotlin",
     "SQL (MySQL)"
@@ -71,5 +72,6 @@
     "Data structures and algorithms (practised in C++; user-confirmed strong point 2026-11-15)",
     "Problem solving",
     "DBMS"
-  ]
+  ],
+  "javascript_note": "Confirmed 2026-11-23: Google Apps Script work (EOW report automation, internal site page) written in JavaScript. SpendWise backend language (JS vs TS) not confirmed."
 }
