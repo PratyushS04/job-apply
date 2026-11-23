@@ -19,6 +19,9 @@ Classify Intent
      ├── "Apply to these jobs" / URLs / CSV / Excel
      │        → job-intake skill → job-analysis → candidate-matching
      │
+     ├── "Apply to 1, 3, 4 from today's jobs" (numbers from the daily digest)
+     │        → Daily picks flow below
+     │
      ├── "What's the status?" / "Show my applications"
      │        → application-tracking skill
      │
@@ -75,6 +78,29 @@ When processing jobs through the full pipeline:
 - Present final summary for user approval
 - Submit on approval
 - Record confirmation
+
+## Daily Picks Flow
+
+`tools/daily_search.py` runs on a schedule and writes a numbered digest to
+`state/daily_jobs/latest.md` (numbers match `state/discovered_jobs.json`).
+When the user replies with numbers from it ("apply to 1st, 3rd, 9th"):
+
+1. Confirm which list the numbers refer to: show the digest date and the
+   picked titles/companies before importing. If the shortlist is older than
+   the digest the user means, or a manual search has replaced it, say so.
+2. Import exactly those numbers:
+   `.venv/bin/python tools/discover_jobs.py import <numbers>`.
+3. Take each imported job through the full pipeline (analysis, matching,
+   resume tailoring and review, application prep, form filling, verification)
+   using the profile in its `posting_metadata.candidate_profile` wherever the
+   skills say `candidate/`.
+4. The user's picks are the decision to pursue these jobs, so skip the
+   "which jobs to proceed with" question after matching. Still report a
+   below-threshold score or deal-breaker and ask before continuing that job.
+5. All other checkpoints still apply: content approvals, final review, and
+   rule 7. Each application stops at `AWAITING_APPROVAL`. Present them
+   together so the user can approve several at once ("submit 1, 3 and 9" or
+   "submit all ready"). Submit only the ones approved.
 
 ## State Management
 

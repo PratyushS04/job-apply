@@ -72,6 +72,38 @@ Setup (Python 3.10+): `uv venv --python 3.12 .venv && uv pip install --python
 rate-limits heavily) does not stop the others; failures are listed in the
 shortlist file.
 
+The search also drops postings asking for more than `max_experience_years`
+and counts how many of the candidate's skills (`skills.json`) each posting
+mentions. Both are rough text checks, not the match score.
+
+#### One command: find → import → analyze → match
+
+When the user asks to find and match jobs in one go, or to run discovery
+unattended, run:
+
+`.venv/bin/python tools/find_and_match.py --candidate candidates/<name>`
+(add `--dry-run` to preview the auto-picks, `--limit N` to cap imports).
+
+It searches, imports up to `auto_import_limit` postings with at least
+`min_skill_hits` skill mentions (most mentions first), then runs Claude Code
+headless (`claude -p`) to analyze and match only those jobs against
+`candidates/<name>/`, with `min_match_score` from `job_search.json`. That agent
+may edit only `jobs/**`. Jobs end at `MATCHED` or `SKIPPED`, and the run prints
+them ranked by score. It never tailors resumes, fills forms, or submits; the
+user chooses which matched jobs continue. Requires the `claude` CLI to be
+signed in. If it is not, the jobs stay `NEW` and the command prints a request
+to hand them to the agent instead.
+
+#### Daily digest (scheduled)
+
+`tools/daily_search.py --candidate candidates/<name>` runs the same search
+on a schedule (installed with `tools/schedule/install_daily_search.sh`, 2am by
+default). It imports nothing. It writes a numbered, best-first digest to
+`state/daily_jobs/<date>.md` and `latest.md`, plus a macOS notification. Digest
+numbers are the shortlist numbers, so the user's picks ("1st, 3rd, 9th") go
+straight to `discover_jobs.py import`, which also accepts that phrasing. The
+orchestrator's Daily Picks Flow covers what happens after import.
+
 ## Output
 
 Every intake operation produces:

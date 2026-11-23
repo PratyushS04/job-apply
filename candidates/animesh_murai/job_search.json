@@ -18,8 +18,13 @@
   "fetch_description": true,
   "require_title_keywords": [],
   "exclude_title_keywords": [
-    "senior", "sr", "lead", "staff", "principal", "manager", "architect", "director", "head", "intern", "internship"
+    "senior", "sr", "lead", "staff", "principal", "manager", "architect", "director", "head", "intern", "internship",
+    "chief", "president", "vp", "avp", "cto", "founder"
   ],
   "exclude_companies": [],
+  "max_experience_years": 2,
+  "min_skill_hits": 1,
+  "auto_import_limit": 8,
+  "min_match_score": 50,
   "proxies": []
 }

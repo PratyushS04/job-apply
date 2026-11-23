@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .venv/
 state/discovered_jobs.json
+logs/
+state/daily_jobs/
