@@ -53,6 +53,8 @@ AGENT_ALLOWED_TOOLS = [
     "WebFetch",
     "Edit(jobs/**)",  # Edit rules cover every file-writing tool
     "Bash(python3 tools/job_state.py:*)",
+    "Bash(python tools/job_state.py:*)",  # Windows
+    "Bash(py -3 tools/job_state.py:*)",  # Windows
 ]
 
 
@@ -109,11 +111,12 @@ def run_agent(prompt: str, logs_dir: str, repo_dir: str) -> int:
     cmd = [claude, "-p", prompt, "--allowedTools", *AGENT_ALLOWED_TOOLS]
     print(f"\nRunning analysis and matching with Claude Code (log: {log_path})...\n", flush=True)
     output: list[str] = []
-    with open(log_path, "w") as log:
+    with open(log_path, "w", encoding="utf-8") as log:
         log.write(prompt + "\n\n--- agent output ---\n")
         log.flush()
         proc = subprocess.Popen(cmd, cwd=repo_dir, stdout=subprocess.PIPE,
-                                stderr=subprocess.STDOUT, text=True)
+                                stderr=subprocess.STDOUT, text=True,
+                                encoding="utf-8", errors="replace")
         for line in proc.stdout:
             sys.stdout.write(line)
             log.write(line)
@@ -140,7 +143,7 @@ def discover_jobs_load(job_id: str, jobs_dir: str) -> dict | None:
     path = os.path.join(jobs_dir, f"{job_id}.json")
     if not os.path.exists(path):
         return None
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -223,11 +226,11 @@ def run_test():
         jobs_dir, state_dir, logs_dir = (os.path.join(tmp, d) for d in ("jobs", "state", "logs"))
         os.makedirs(cand)
         os.makedirs(jobs_dir)
-        with open(os.path.join(cand, "skills.json"), "w") as f:
+        with open(os.path.join(cand, "skills.json"), "w", encoding="utf-8") as f:
             json.dump({"languages": ["C++", "Python", "Java", "SQL (MySQL)"],
                        "soft": ["Python"], "mobile": ["Room"]}, f)
         config_path = os.path.join(cand, "job_search.json")
-        with open(config_path, "w") as f:
+        with open(config_path, "w", encoding="utf-8") as f:
             json.dump({"search_terms": ["software engineer"], "locations": ["Hyderabad"],
                        "max_experience_years": 2, "min_skill_hits": 1,
                        "auto_import_limit": 1, "min_match_score": 55}, f)
@@ -244,10 +247,10 @@ def run_test():
         def fake_agent(prompt, logs, repo):
             seen["prompt"] = prompt
             path = os.path.join(jobs_dir, "job_001.json")
-            job = json.load(open(path))
+            job = json.load(open(path, encoding="utf-8"))
             job["pipeline_status"] = "MATCHED"
             job["match"]["score"] = 72
-            json.dump(job, open(path, "w"))
+            json.dump(job, open(path, "w", encoding="utf-8"))
             return 0
 
         out = run(cand, config_path, jobs_dir, state_dir, logs_dir, scraper=fake_scraper,
@@ -256,7 +259,7 @@ def run_test():
         assert "job_001" in seen["prompt"] and cand in seen["prompt"]
         assert "minimum match score\n  55" in seen["prompt"]
         assert "Do not read or\n  use `candidate/`" in seen["prompt"]
-        assert json.load(open(os.path.join(jobs_dir, "job_001.json")))["match"]["score"] == 72
+        assert json.load(open(os.path.join(jobs_dir, "job_001.json"), encoding="utf-8"))["match"]["score"] == 72
 
         # Second run: Acme is now tracked, so Beta (1 skill) is next; Gamma (0) never.
         out = run(cand, config_path, jobs_dir, state_dir, logs_dir, scraper=fake_scraper,
@@ -268,6 +271,7 @@ def run_test():
 
 
 def main(argv: list[str]) -> int:
+    discover_jobs.use_utf8_output()
     if not argv or argv[0] in ("-h", "--help"):
         print(__doc__)
         return 0

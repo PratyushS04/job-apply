@@ -68,7 +68,9 @@ When the user asks to find new jobs rather than supplying them:
    confirms it is live, and fills in requirements.
 
 Setup (Python 3.10+): `uv venv --python 3.12 .venv && uv pip install --python
-.venv/bin/python -r requirements.txt`. Some searches failing (LinkedIn
+.venv/bin/python -r requirements.txt`. On Windows, use `.venv\Scripts\python.exe`
+wherever this skill says `.venv/bin/python`; the `daily-job-search-setup` skill
+covers Windows setup. Some searches failing (LinkedIn
 rate-limits heavily) does not stop the others; failures are listed in the
 shortlist file.
 
@@ -97,9 +99,10 @@ to hand them to the agent instead.
 #### Daily digest (scheduled)
 
 `tools/daily_search.py --candidate candidates/<name>` runs the same search
-on a schedule (installed with `tools/schedule/install_daily_search.sh`, 2am by
-default). It imports nothing. It writes a numbered, best-first digest to
-`state/daily_jobs/<date>.md` and `latest.md`, plus a macOS notification. Digest
+on a schedule, 2am by default: `tools/schedule/install_daily_search.sh` on
+macOS (launchd), `tools/schedule/install_daily_search.ps1` on Windows (Task
+Scheduler). It imports nothing. It writes a numbered, best-first digest to
+`state/daily_jobs/<date>.md` and `latest.md`, plus a notification on macOS. Digest
 numbers are the shortlist numbers, so the user's picks ("1st, 3rd, 9th") go
 straight to `discover_jobs.py import`, which also accepts that phrasing. The
 orchestrator's Daily Picks Flow covers what happens after import.

@@ -109,7 +109,7 @@ def run(candidate: str, config_path: str, jobs_dir: str, state_dir: str,
     os.makedirs(out_dir, exist_ok=True)
     path = os.path.join(out_dir, f"{now:%Y-%m-%d}.md")
     for target in (path, os.path.join(out_dir, "latest.md")):
-        with open(target, "w") as f:
+        with open(target, "w", encoding="utf-8") as f:
             f.write(digest)
     count = min(len(result["shortlist"]), size)
     print(f"Digest written to {path}", flush=True)
@@ -144,15 +144,15 @@ def run_test():
     with tempfile.TemporaryDirectory() as tmp:
         cand = os.path.join(tmp, "cand")
         os.makedirs(cand)
-        json.dump({"languages": ["Python", "SQL", "Java"]}, open(os.path.join(cand, "skills.json"), "w"))
+        json.dump({"languages": ["Python", "SQL", "Java"]}, open(os.path.join(cand, "skills.json"), "w", encoding="utf-8"))
         config = os.path.join(cand, "job_search.json")
-        json.dump({"search_terms": ["x"], "locations": ["y"], "digest_size": 2}, open(config, "w"))
+        json.dump({"search_terms": ["x"], "locations": ["y"], "digest_size": 2}, open(config, "w", encoding="utf-8"))
         jobs_dir, state_dir = os.path.join(tmp, "jobs"), os.path.join(tmp, "state")
         path = run(cand, config, jobs_dir, state_dir, send_notification=False,
                    scraper=fake_scraper, now=datetime(2026, 11, 24, 2, 0))
-        text = open(path).read()
+        text = open(path, encoding="utf-8").read()
         assert path.endswith("2026-11-24.md")
-        assert open(os.path.join(state_dir, DIGEST_DIR, "latest.md")).read() == text
+        assert open(os.path.join(state_dir, DIGEST_DIR, "latest.md"), encoding="utf-8").read() == text
         assert "**1. Software Engineer** at Acme" in text  # 2 skills ranks first
         assert "**2. SDE** at Beta" in text
         assert "Gamma" not in text  # beyond digest_size
@@ -165,6 +165,7 @@ def run_test():
 
 
 def main(argv: list[str]) -> int:
+    discover_jobs.use_utf8_output()
     if argv and argv[0] in ("-h", "--help"):
         print(__doc__)
         return 0

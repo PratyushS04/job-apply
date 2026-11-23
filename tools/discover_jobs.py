@@ -239,7 +239,7 @@ def load_skill_terms(candidate_dir: str) -> list[str]:
     path = os.path.join(candidate_dir, "skills.json")
     if not os.path.exists(path):
         return []
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     def walk(value, key=""):
@@ -268,7 +268,7 @@ def matching_skills(row: dict, skill_terms: list[str]) -> list[str]:
 
 
 def load_config(path: str) -> dict:
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         user_config = json.load(f)
     config = dict(DEFAULT_CONFIG)
     config.update({k: v for k, v in user_config.items() if not k.startswith("_")})
@@ -334,7 +334,7 @@ def existing_job_index(jobs_dir: str) -> SeenJobs:
     for filename in sorted(os.listdir(jobs_dir)):
         if not filename.endswith(".json"):
             continue
-        with open(os.path.join(jobs_dir, filename), "r") as f:
+        with open(os.path.join(jobs_dir, filename), "r", encoding="utf-8") as f:
             job = json.load(f)
         meta = job.get("posting_metadata") or {}
         urls = SeenJobs._urls(job.get("url"), meta.get("job_url_direct"), meta.get("board_url"))
@@ -412,7 +412,7 @@ def save_shortlist(shortlist: list[dict], stats: dict, errors: list[dict],
         "errors": errors,
         "jobs": shortlist,
     }
-    with open(path, "w") as f:
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, default=str)
     return path
 
@@ -527,7 +527,7 @@ def cmd_import(spec: str, jobs_dir: str, state_dir: str) -> list[dict]:
     path = os.path.join(state_dir, SHORTLIST_FILE)
     if not os.path.exists(path):
         raise FileNotFoundError(f"No shortlist at {path}. Run the 'search' command first.")
-    with open(path, "r") as f:
+    with open(path, "r", encoding="utf-8") as f:
         payload = json.load(f)
     rows = {row["number"]: row for row in payload["jobs"]}
     picks = parse_picks(spec, sorted(rows))
@@ -554,7 +554,7 @@ def cmd_import(spec: str, jobs_dir: str, state_dir: str) -> list[dict]:
         job_id = generate_job_id(jobs_dir)
         job = row_to_job(row, job_id, candidate)
         os.makedirs(jobs_dir, exist_ok=True)
-        with open(os.path.join(jobs_dir, f"{job_id}.json"), "w") as f:
+        with open(os.path.join(jobs_dir, f"{job_id}.json"), "w", encoding="utf-8") as f:
             json.dump(job, f, indent=2)
         created.append(job)
 
@@ -634,11 +634,11 @@ def run_test():
         existing = create_job_object("https://www.naukri.com/job-listings-sde-3/", "Cisco",
                                      source="chat", job_id="job_001")
         existing["title"] = "Software Development Engineer"
-        with open(os.path.join(jobs_dir, "job_001.json"), "w") as f:
+        with open(os.path.join(jobs_dir, "job_001.json"), "w", encoding="utf-8") as f:
             json.dump(existing, f)
 
         config_path = os.path.join(tmp, "job_search.json")
-        with open(config_path, "w") as f:
+        with open(config_path, "w", encoding="utf-8") as f:
             json.dump({"search_terms": ["software engineer"], "locations": ["Hyderabad", "Pune"],
                        "exclude_title_keywords": ["senior"]}, f)
 
@@ -656,7 +656,7 @@ def run_test():
 
         created = cmd_import("2", jobs_dir, state_dir)
         assert len(created) == 1
-        job = json.load(open(os.path.join(jobs_dir, "job_002.json")))
+        job = json.load(open(os.path.join(jobs_dir, "job_002.json"), encoding="utf-8"))
         assert job["source"] == "jobspy" and job["pipeline_status"] == "NEW"
         assert job["company"] == "Acme" and job["title"] == "Software Engineer"
         assert job["posting_metadata"]["candidate_profile"] == "candidates/test"
@@ -678,6 +678,13 @@ def run_test():
 # CLI
 # ---------------------------------------------------------------------------
 
+def use_utf8_output() -> None:
+    """Print UTF-8 even when Windows redirects output to a log ("Hyderābād")."""
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
+
+
 def _option(args: list[str], name: str, default: str | None = None) -> str | None:
     if name in args:
         return args[args.index(name) + 1]
@@ -685,6 +692,7 @@ def _option(args: list[str], name: str, default: str | None = None) -> str | Non
 
 
 def main(argv: list[str]) -> int:
+    use_utf8_output()
     if not argv or argv[0] in ("-h", "--help"):
         print(__doc__)
         return 0

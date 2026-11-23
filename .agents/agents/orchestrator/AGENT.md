@@ -89,7 +89,8 @@ When the user replies with numbers from it ("apply to 1st, 3rd, 9th"):
    picked titles/companies before importing. If the shortlist is older than
    the digest the user means, or a manual search has replaced it, say so.
 2. Import exactly those numbers:
-   `.venv/bin/python tools/discover_jobs.py import <numbers>`.
+   `.venv/bin/python tools/discover_jobs.py import <numbers>`
+   (Windows: `.venv\Scripts\python.exe tools\discover_jobs.py import <numbers>`).
 3. Take each imported job through the full pipeline (analysis, matching,
    resume tailoring and review, application prep, form filling, verification)
    using the profile in its `posting_metadata.candidate_profile` wherever the
