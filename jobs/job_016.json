@@ -1,0 +1,88 @@
+{
+  "id": "job_016",
+  "url": "https://www.linkedin.com/jobs/view/4493988645/",
+  "source": "chat",
+  "created_at": "2026-11-24T20:44:00.803917+00:00",
+  "updated_at": "2026-11-24T20:45:03.419451+00:00",
+  "company": "Visa",
+  "title": "SW Engineer (Python, Kafka, GenAI) - Product Reliability Engineering, Data Streaming Platform",
+  "location": "Bengaluru, Karnataka, India (hybrid)",
+  "job_type": "full-time",
+  "description": "Product Reliability Engineering team supporting Visa's Kafka-based Data Streaming Platform, combining software development with SRE. Build Python software and automation; agentic and GenAI applications (LLMs, RAG, LangChain, LangGraph); APIs and backend services, occasionally UI; learn and support Kafka reliability, performance, scalability, and operations; tools that reduce manual operational effort; troubleshoot and fix root causes; cross-functional collaboration; documentation. Experience band in title: 6 months to 24 months only. Posted about 14 hours before fetch on 2026-11-24; over 200 applicants.",
+  "requirements": {
+    "required_skills": [
+      "Bachelor's degree or equivalent",
+      "About 6 months to 2 years of software development",
+      "Strong Python",
+      "CS fundamentals, data structures, APIs, software engineering practices",
+      "Problem solving; willingness to learn platform operations"
+    ],
+    "preferred_skills": [
+      "Python applications or automation",
+      "GenAI: LLMs, RAG, LangChain, LangGraph",
+      "REST APIs, JSON, SQL",
+      "HTML/CSS/JavaScript or UI/UX exposure",
+      "Linux and system concepts (CPU, memory, storage, networking)",
+      "AWS or Google Cloud",
+      "Kafka, Hadoop, or big data (useful, not required)",
+      "Communication"
+    ],
+    "experience_years": 0.5,
+    "education": "Bachelor's degree or equivalent"
+  },
+  "match": {
+    "score": 82,
+    "reasoning": "Experience fits the 6-24 month band: about 1 year 4 months full-time (since Aug 2025), plus a 7-month internship. Strong Python; GenAI with LangChain and RAG (GMS Knowledge Bot, deployed Meta-RAG), agentic proof of concept and MCP server; REST APIs (ContX AI, 10-customer pilot) and React UI exposure; JSON pipelines and SQL; production support (about five production/regression investigations a month, customer-reported defect fix, AKS deployment validation); automation that reduces manual effort (scanner used by 48 people, estimated two hours saved per scan; Jenkins/Kubernetes toolkit); Linux, Docker, Kubernetes, Splunk, Kibana, Grafana; computer networks and operating systems coursework; DSA (1,000+ LeetCode). Gaps: LangGraph not in the profile; Kafka is a listed skill without work evidence (posting says not required); limited AWS/GCP; HTML/CSS/JavaScript not in profile.",
+    "score_breakdown": {
+      "required_skills": "33/35",
+      "experience": "23/25",
+      "preferred_skills": "9/15",
+      "education": "10/10",
+      "preferences": "7/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: production investigations, defect fix, AKS deployments, Meta-RAG, ContX AI pilot, MCP server, agentic proof of concept, automation toolkit, security fixes.",
+      "Amadeus intern: Python, Splunk, SQL workflows."
+    ],
+    "relevant_projects": [
+      "Container Image Security Scanner (automation; 48 users)",
+      "GMS Knowledge Bot (LangChain RAG; JSON ingestion pipeline)"
+    ],
+    "skill_gaps": [
+      "LangGraph",
+      "Hands-on Kafka",
+      "AWS/GCP depth",
+      "HTML/CSS/JavaScript"
+    ],
+    "preference_fit": "Bengaluru is a preferred location (relocation confirmed 2026-11-13); hybrid; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only. Strongest experience-band match so far."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_016/resume_v1.tex",
+    "pdf_path": "resumes/job_016/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Reliability-first: production investigations (about five per month), defect fix, AKS deployments; then GenAI (Meta-RAG, ContX AI pilot, MCP, agentic proof of concept), automation toolkit, security fixes; scanner (48 users; estimated two hours saved) and Knowledge Bot (LangChain RAG, JSON ingestion). Kafka listed only as an existing profile skill; LangGraph not claimed. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "linkedin_job_id": "4493988645",
+    "fetched_from": "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/4493988645",
+    "fetched_at": "2026-11-24"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Ask about any real LangGraph or Kafka use."
+  }
+}
