@@ -978,6 +978,55 @@
         "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
         "applied": true
       }
+    },
+    {
+      "id": "job016-kafka-ops-copilot-001",
+      "job_id": "job_016",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_016/resume_v2.tex",
+        "field": "Personal Project section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Kafka Ops Copilot",
+        "attribution": "Personal project",
+        "technologies": [
+          "Python",
+          "Apache Kafka",
+          "LangGraph",
+          "LangChain",
+          "FastAPI",
+          "Prometheus",
+          "Docker",
+          "Linux"
+        ],
+        "resume_bullets": [
+          "Built a LangGraph agent that diagnoses Kafka issues such as consumer lag, under-replicated partitions, and broker disk pressure by calling tools that read Kafka admin APIs, broker logs, and Linux CPU, memory, and disk metrics.",
+          "Exposed the agent through a FastAPI service with JSON endpoints, and used retrieval-augmented generation over runbooks to suggest fixes that require operator approval before any change.",
+          "Ran a multi-broker Kafka cluster in Docker with a Python load generator to reproduce lag and broker failures for testing the agent."
+        ]
+      },
+      "rationale": "Covers Visa's Kafka platform reliability, LangGraph/LangChain agentic apps, RAG, APIs/JSON, and Linux system-concept preferences.",
+      "source": "Assistant-generated from the job_016 Visa posting at the user's request on 2026-11-24; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for the job_016 resume despite not_built status.",
+      "approval_status": "approved",
+      "approval_scope": {
+        "job_id": "job_016",
+        "artifacts": [
+          "resumes/job_016/resume_v2.tex",
+          "resumes/job_016/resume_v2.pdf"
+        ],
+        "reuse": "job_016 resume only; no Kafka/LangGraph skill inferred; not screening answers or canonical profile"
+      },
+      "approval_record": {
+        "date": "2026-11-24",
+        "decision": "User selected 'Approve as written' for the exact entry shown.",
+        "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
+        "applied": true
+      }
     }
   ]
 }

@@ -3,7 +3,7 @@
   "url": "https://www.linkedin.com/jobs/view/4493988645/",
   "source": "chat",
   "created_at": "2026-11-24T20:44:00.803917+00:00",
-  "updated_at": "2026-11-24T20:45:03.419451+00:00",
+  "updated_at": "2026-11-24T20:48:12.843537+00:00",
   "company": "Visa",
   "title": "SW Engineer (Python, Kafka, GenAI) - Product Reliability Engineering, Data Streaming Platform",
   "location": "Bengaluru, Karnataka, India (hybrid)",
@@ -60,10 +60,10 @@
   },
   "resume": {
     "status": "GENERATED",
-    "path": "resumes/job_016/resume_v1.tex",
-    "pdf_path": "resumes/job_016/resume_v1.pdf",
-    "version": 1,
-    "review_notes": "v1 from supported content only; no invented content. Reliability-first: production investigations (about five per month), defect fix, AKS deployments; then GenAI (Meta-RAG, ContX AI pilot, MCP, agentic proof of concept), automation toolkit, security fixes; scanner (48 users; estimated two hours saved) and Knowledge Bot (LangChain RAG, JSON ingestion). Kafka listed only as an existing profile skill; LangGraph not claimed. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
+    "path": "resumes/job_016/resume_v2.tex",
+    "pdf_path": "resumes/job_016/resume_v2.pdf",
+    "version": 2,
+    "review_notes": "v2 = v1 plus approved invented project job016-kafka-ops-copilot-001 (not_built/unverified; disclosed; no numbers), placed after the real Amadeus projects. Removed the security-fix and agentic-migration bullets, the Knowledge Bot ingestion bullet, and GATE; shortened the summary, investigation, MCP, internship, and Knowledge Bot lines. LangGraph is not added to Technical Skills. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -81,8 +81,10 @@
     "fetched_at": "2026-11-24"
   },
   "content_review": {
-    "proposal_ids": [],
+    "proposal_ids": [
+      "job016-kafka-ops-copilot-001"
+    ],
     "hold": null,
-    "notes": "Ask about any real LangGraph or Kafka use."
+    "notes": "Invented Kafka/LangGraph project approved for job_016 resume only."
   }
 }
