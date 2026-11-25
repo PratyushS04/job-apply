@@ -1027,6 +1027,54 @@
         "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
         "applied": true
       }
+    },
+    {
+      "id": "job017-agent-workspace-shell-001",
+      "job_id": "job_017",
+      "content_kind": "invented_personal_project",
+      "target": {
+        "file": "resumes/job_017/resume_v1.tex",
+        "field": "Personal Project section (application-only)"
+      },
+      "current_wording": null,
+      "proposed_wording": {
+        "name": "Agent-Ready Workspace Shell",
+        "attribution": "Personal project",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Model Context Protocol",
+          "Python",
+          "FastAPI",
+          "PostgreSQL",
+          "Playwright"
+        ],
+        "resume_bullets": [
+          "Built a browser-based data workspace in React and TypeScript with a shared navigation shell and a plugin interface that lets independent tools register their own panels and commands.",
+          "Exposed the same commands through a Model Context Protocol server so AI coding agents can open items, run queries, and read results with the same permissions as the signed-in user.",
+          "Built a Python FastAPI backend for workspace metadata and SQL queries against PostgreSQL, and tested the interface with Playwright, including keyboard navigation."
+        ]
+      },
+      "rationale": "Covers Fabric Platform Shell's extensible browser shell, agent-facing platform capabilities, full-stack, and data-tool preferences; TypeScript is not in the supported profile.",
+      "source": "Assistant-generated from the job_017 Microsoft posting at the user's request ('If needed u can add tailor project') on 2026-11-25; not candidate testimony.",
+      "actual_status": "not_built",
+      "evidence_status": "unverified",
+      "confirmation_needed": "Approval of exact wording for the job_017 resume despite not_built status.",
+      "approval_status": "approved",
+      "approval_scope": {
+        "job_id": "job_017",
+        "artifacts": [
+          "resumes/job_017/resume_v1.tex",
+          "resumes/job_017/resume_v1.pdf"
+        ],
+        "reuse": "job_017 resume only; no TypeScript/FastAPI skill inferred; not screening answers or canonical profile"
+      },
+      "approval_record": {
+        "date": "2026-11-25",
+        "decision": "User selected 'Approve as written' for the exact entry shown.",
+        "note": "Approval permits use of invented wording; it does not confirm the work happened. actual_status remains not_built and evidence_status unverified.",
+        "applied": true
+      }
     }
   ]
 }

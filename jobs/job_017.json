@@ -3,31 +3,63 @@
   "url": "https://apply.careers.microsoft.com/careers?domain=microsoft.com&hl=en&start=0&location=India&pid=1970393557054138&sort_by=match&filter_include_remote=1&filter_include_relocation=0",
   "source": "chat",
   "created_at": "2026-11-25T07:28:53.175215+00:00",
-  "updated_at": "2026-11-25T07:28:53.207880+00:00",
+  "updated_at": "2026-11-25T07:52:33.384970+00:00",
   "company": "Microsoft",
-  "title": null,
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "title": "Software Engineer 2 (Fabric Platform Shell, Microsoft IQ)",
+  "location": "Hyderabad, Telangana, India (3 days/week in office; travel under 25%)",
+  "job_type": "full-time",
+  "description": "Fabric Platform Shell (Microsoft IQ) builds the front door to Microsoft Fabric for customers and AI agents: shared platform capabilities and experiences unifying Fabric workloads in an extensible environment, evolving for agent-driven development. Responsibilities: design and build shared platform capabilities; full-stack and backend development for customers and AI agents; collaborate with UX, PM, and engineers; technical ownership; use AI-assisted and agentic development across the lifecycle and help evolve AI-driven engineering practices; reliable, secure, performant code. Requires the Microsoft Cloud background check. Job number 200065742; posted 2026-11-25. Source: posting text pasted by the user on 2026-11-25 (careers site not reachable from this environment). The careers site's own 'Strong match' label is Microsoft's automated estimate, not this score.",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
-    "experience_years": null,
-    "education": null
+    "required_skills": [
+      "Bachelor's in CS or related AND 3+ years technical engineering experience coding in C, C++, C#, Java, JavaScript, or Python, OR equivalent experience",
+      "Microsoft Cloud background check"
+    ],
+    "preferred_skills": [
+      "Scalable cloud services, shared platform capabilities, modern full-stack applications",
+      "AI-assisted development tools, coding agents, agentic workflows",
+      "Advancing AI-driven engineering practices",
+      "High-performance user and developer experiences, browser-based apps",
+      "Developer platforms, extensible systems, data and analytics solutions",
+      "Cross-geography collaboration; customer focus"
+    ],
+    "experience_years": 3,
+    "education": "Bachelor's in Computer Science or related technical field (or equivalent experience)"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 66,
+    "reasoning": "Strong on the preferred AI-driven engineering themes: AI-assisted Java modernization across four initiatives, agentic migration proof of concept (GitHub Copilot Agent SDK), MCP server and Copilot Skills demos, Claude certification; developer platform work (AI-assisted developer portal prototype, Pod Brain knowledge layer for AI agents, automation toolkit, scanner used by 48 people); full-stack ContX AI with a React UI (10-customer pilot); Azure and Kubernetes; Power BI analytics (part of Fabric). Main gap: the minimum asks for 3+ years of technical engineering (or equivalent); the candidate has about 1 year 4 months full-time, about 1 year 11 months including the Amadeus internship, about 2 years 3 months with Gear To Care. JavaScript/TypeScript and browser performance work are not in the profile.",
+    "score_breakdown": {
+      "required_skills": "20/35",
+      "experience": "11/25",
+      "preferred_skills": "12/15",
+      "education": "10/10",
+      "preferences": "13/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: AI-assisted modernization, agentic proof of concept, MCP, developer portal, Pod Brain, ContX AI (React; pilot), toolkit, production investigations.",
+      "Amadeus intern: Power BI dashboards and DAX."
+    ],
+    "relevant_projects": [
+      "Container Image Security Scanner (developer tool; 48 users)",
+      "GMS Knowledge Bot (Streamlit interface)"
+    ],
+    "skill_gaps": [
+      "3+ years experience (minimum)",
+      "JavaScript/TypeScript",
+      "Browser performance engineering",
+      "Extensible plugin architectures"
+    ],
+    "unresolved_proposals": "Invented project proposal pending; excluded from this score.",
+    "preference_fit": "Hyderabad is a preferred location; relocation confirmed; 3 days/week in office.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only."
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "status": "GENERATED",
+    "path": "resumes/job_017/resume_v1.tex",
+    "pdf_path": "resumes/job_017/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1: supported content plus approved invented project job017-agent-workspace-shell-001 (not_built/unverified; disclosed; no numbers), placed after the real developer-tool project. Leads with full-stack ContX AI (10-customer pilot), developer portal, Pod Brain, AI-assisted modernization, agentic proof of concept, MCP and Copilot demos, production investigations; Power BI internship; scanner (48 users). Gear To Care omitted for space. TypeScript/FastAPI not added to skills. Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -37,6 +69,19 @@
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "ERROR",
-  "error": "Posting not read: apply.careers.microsoft.com is not allowed in this environment (the user declined adding it on 2026-11-15), and a web search did not find pid 1970393557054138. Resume on hold until the job description is pasted or a LinkedIn link is provided."
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "microsoft_job_number": "200065742",
+    "careers_pid": "1970393557054138",
+    "related_job": "job_005 (earlier Fabric Platform Shell Software Engineer role)",
+    "source_text": "pasted by user 2026-11-25"
+  },
+  "content_review": {
+    "proposal_ids": [
+      "job017-agent-workspace-shell-001"
+    ],
+    "hold": null,
+    "notes": "Invented project approved for job_017 only. job005-web-shell-project-001 remains pending and unrelated."
+  }
 }

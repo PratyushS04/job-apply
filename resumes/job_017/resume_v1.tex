@@ -1,0 +1,81 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+\newcommand{\company}[2]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& \textbf{#2}\end{tabularx}\vspace{-4pt}}
+\newcommand{\role}[2]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textit{\small #1}&\textit{\small #2}\end{tabularx}\vspace{-5pt}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer who builds full-stack applications and developer-platform tools with React, Python, and Java on Azure, using AI-assisted and agentic development across the lifecycle.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \company{Amadeus Software Labs}{Jan. 2025 -- Present}
+  \role{Software Development Engineer}{Aug. 2025 -- Present}
+  \begin{itemize}
+    \bulletpoint{Built ContX AI, a full-stack application with a React interface, Python services, REST APIs, and Azure AI Foundry that turns campaign briefs into personalized marketing content; working with 10 customers in an active pilot.}
+    \bulletpoint{Built a working prototype of an AI-assisted internal developer portal that brings engineering knowledge and tools into one interface.}
+    \bulletpoint{Built a working prototype of Pod Brain, a curated knowledge layer for AI development agents, with source linkage, ownership, approval states, and lifecycle metadata.}
+    \bulletpoint{Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and dependency upgrades.}
+    \bulletpoint{Built a proof of concept for agentic Java Spring migration that combines OpenRewrite recipes with the GitHub Copilot Agent SDK.}
+    \bulletpoint{Developed a Model Context Protocol server for Black Duck, and demonstrated MCP and GitHub Copilot Skills use cases to engineering teams.}
+    \bulletpoint{Investigate about f{}ive production and regression issues per month and validate Kubernetes redeployments.}
+  \end{itemize}
+  \role{Software Development Intern}{Jan. 2025 -- Jul. 2025}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract and prepare data from Splunk and SQL sources for Power BI, developed interactive Top-N f{}ilters, and optimized DAX queries.}
+  \end{itemize}
+\end{itemize}
+
+\section{Selected Developer Tool -- Amadeus Software Labs}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Container Image Security Scanner}{2025}{Python, REST APIs, Podman, Tkinter}{}
+  \begin{itemize}
+    \bulletpoint{Built a self-service tool with a CLI, programmatic interface, and desktop UI that automates Black Duck scans; used by 48 people, saving an estimated two hours of manual work per scan.}
+  \end{itemize}
+\end{itemize}
+
+\section{Personal Project}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{Agent-Ready Workspace Shell}{}{TypeScript, React, Model Context Protocol, Python, FastAPI, PostgreSQL, Playwright}{}
+  \begin{itemize}
+    \bulletpoint{Built a browser-based data workspace in React and TypeScript with a shared navigation shell and a plugin interface that lets independent tools register their own panels and commands.}
+    \bulletpoint{Exposed the same commands through a Model Context Protocol server so AI coding agents can open items, run queries, and read results with the same permissions as the signed-in user.}
+    \bulletpoint{Built a Python FastAPI backend for workspace metadata and SQL queries against PostgreSQL, and tested the interface with Playwright, including keyboard navigation.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages and frameworks:} Java, Python, SQL, React, Spring Boot, REST APIs, Streamlit \\
+\textbf{AI-assisted engineering:} GitHub Copilot Agent SDK, Model Context Protocol, OpenRewrite, prompt engineering, LLM evaluation, Azure OpenAI, Azure AI Foundry \\
+\textbf{Cloud and data:} Azure, Azure Kubernetes Service, Docker, Kubernetes, Jenkins, Git, Power BI, DAX \\
+\textbf{Certif{}ications and achievements:} Claude \mbox{Certif{}ied} Architect, Foundations (Anthropic); 1,000+ LeetCode problems
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+\end{document}
