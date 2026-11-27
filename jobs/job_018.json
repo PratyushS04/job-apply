@@ -3,31 +3,57 @@
   "url": "https://www.google.com/about/careers/applications/jobs/results/121182603511243462-software-engineer-ii-google-cloud",
   "source": "chat",
   "created_at": "2026-11-27T13:12:18.232958+00:00",
-  "updated_at": "2026-11-27T13:12:33.299223+00:00",
+  "updated_at": "2026-11-27T13:20:43.299395+00:00",
   "company": "Google",
-  "title": "Software Engineer II, Google Cloud (title from URL)",
-  "location": null,
-  "job_type": null,
-  "description": null,
+  "title": "Software Engineer II, Google Cloud",
+  "location": "Bengaluru, Karnataka, India; in-person interviews usually required",
+  "job_type": "full-time",
+  "description": "Google Cloud Software Engineer II at Google's 'Early' level. Responsibilities: write product or system development code; review other developers' code; contribute to and update documentation; triage, debug, track, and resolve product or system issues by analyzing sources and impact on hardware, network, or service operations. Fetched from the Google Careers page on 2026-11-27 (network now unrestricted).",
   "requirements": {
-    "required_skills": [],
-    "preferred_skills": [],
-    "experience_years": null,
-    "education": null
+    "required_skills": [
+      "Bachelor's degree or equivalent practical experience",
+      "1 year of software development in one or more languages (Python, C, C++, Java, JavaScript)",
+      "1 year of experience with data structures and algorithms",
+      "Experience integrating generative AI tools or LLM interfaces into workflows"
+    ],
+    "preferred_skills": [
+      "Master's degree in Computer Science or related field"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's degree or equivalent practical experience"
   },
   "match": {
-    "score": null,
-    "reasoning": null,
-    "relevant_experience": [],
-    "relevant_projects": [],
-    "skill_gaps": [],
-    "status": "NOT_SCORED"
+    "score": 85,
+    "reasoning": "Meets all four minimum qualifications with supported evidence: B.Tech CSE; about 1 year 4 months full-time in Python and Java (plus a 7-month internship); strong DSA (1,000+ LeetCode, GATE 2023, DSA coursework in Java); and generative AI integrated into workflows (ContX AI with a 10-customer pilot, deployed Meta-RAG, MCP server connecting LLMs to Black Duck, AI-assisted Java modernization, agentic migration proof of concept, automation toolkit). The responsibilities (code, debugging and triage, documentation) match the production investigations (about five per month), the customer-reported defect fix, security fixes, and documentation work. Gaps: the preferred Master's degree; formal code-review duties are not documented. Google hiring is highly competitive, so a strong fit is not a likely shortlist.",
+    "score_breakdown": {
+      "required_skills": "34/35",
+      "experience": "21/25",
+      "preferred_skills": "5/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: ContX AI (pilot), Meta-RAG, MCP server, AI-assisted modernization, agentic proof of concept, production investigations, defect fix, security fixes, documentation.",
+      "Amadeus intern: Python/Splunk/SQL workflows."
+    ],
+    "relevant_projects": [
+      "GMS Knowledge Bot (LLM workflow, RAG)",
+      "Container Image Security Scanner (48 users; estimated two hours saved per scan)"
+    ],
+    "skill_gaps": [
+      "Master's degree (preferred)",
+      "Code-review responsibility not documented"
+    ],
+    "preference_fit": "Bengaluru is a preferred location; relocation confirmed; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only. One of the strongest matches; Google's application limits may apply (see job_008 and job_009)."
   },
   "resume": {
-    "status": "NOT_STARTED",
-    "path": null,
-    "version": null,
-    "review_notes": null
+    "status": "GENERATED",
+    "path": "resumes/job_018/resume_v1.tex",
+    "pdf_path": "resumes/job_018/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. Mirrors the four minimum qualifications: Python/Java development, DSA (LeetCode and GATE in the summary), and LLM integration into workflows (ContX AI pilot, Meta-RAG, MCP server, AI-assisted modernization, agentic proof of concept); plus triage, defect fix, security fixes, documentation, Knowledge Bot, and scanner (48 users). Tectonic compiled with no warnings; one A4 page; content ends about 0.6 inch from the bottom; visual check passed; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
     "status": "NOT_STARTED",
@@ -37,6 +63,17 @@
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "ERROR",
-  "error": "Posting not read: www.google.com careers pages are not allowed in this environment, and a web search did not find job ID 121182603511243462 (many differently scoped 'Software Engineer II, Google Cloud' postings exist). Resume on hold until the job description is pasted."
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "google_job_id": "121182603511243462",
+    "level": "Early",
+    "fetched_from": "https://www.google.com/about/careers/applications/jobs/results/121182603511243462-software-engineer-ii-google-cloud",
+    "fetched_at": "2026-11-27"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Optional: ask about code-review duties."
+  }
 }

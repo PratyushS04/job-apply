@@ -1,0 +1,83 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=0.6in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0pt}
+\setlist[itemize]{leftmargin=0.18in,itemsep=3pt,topsep=4pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\newcommand{\entry}[4]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& #2\\\textit{\small #3}&\textit{\small #4}\end{tabularx}\vspace{-5pt}}
+\newcommand{\bulletpoint}[1]{\item\small{#1}}
+\newcommand{\company}[2]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textbf{#1}& \textbf{#2}\end{tabularx}\vspace{-4pt}}
+\newcommand{\role}[2]{\item\begin{tabularx}{\textwidth}{@{}Xr@{}}\textit{\small #1}&\textit{\small #2}\end{tabularx}\vspace{-5pt}}
+
+\begin{document}
+\begin{center}
+  {\Large\bfseries Pratyush Shendre}\\[2pt]
+  \small Pune, Maharashtra, India $|$ +91-9975080249 $|$
+  \href{mailto:pshendre6604@gmail.com}{pshendre6604@gmail.com} $|$
+  \href{https://www.linkedin.com/in/pratyush-shendre-2256a7223/}{\underline{LinkedIn}} $|$
+  \href{https://github.com/PratyushS04}{\underline{GitHub}}
+\end{center}
+
+\section{Professional Summary}
+\small Software Development Engineer who writes and maintains Python and Java software, integrates LLMs into engineering and business workf{}lows, and triages production issues. Strong data structures and algorithms background: 1,000+ LeetCode problems solved and GATE qualif{}ied.
+
+\section{Experience}
+\begin{itemize}[leftmargin=0in,label={}]
+  \company{Amadeus Software Labs}{Jan. 2025 -- Present}
+  \role{Software Development Engineer}{Aug. 2025 -- Present}
+  \begin{itemize}
+    \bulletpoint{Built ContX AI, which integrates Azure AI Foundry language models into a campaign-design workf{}low using Python, React, and REST APIs; working with 10 customers in an active pilot.}
+    \bulletpoint{Engineered and deployed a Meta-RAG framework for the Loyalty Portal chatbot, using multi-stage contextual validation to reduce hallucinations and ground responses.}
+    \bulletpoint{Developed a Model Context Protocol server that connects language models to Black Duck, so engineers can query vulnerability metadata and get remediation suggestions through chat.}
+    \bulletpoint{Applied AI-assisted development across four Java modernization initiatives covering Java 17, Spring 6, Spring Boot 3, and dependency upgrades.}
+    \bulletpoint{Built a proof of concept for agentic Java Spring migration that combines OpenRewrite recipes with the GitHub Copilot Agent SDK.}
+    \bulletpoint{Resolved a customer-reported stability defect in the service that synchronizes currency exchange rates.}
+    \bulletpoint{Investigate about f{}ive production and regression issues per month, and validate deployments, reverts, and redeployments on Azure Kubernetes Service.}
+    \bulletpoint{Investigated and f{}ixed application-security issues found by Black Duck, Checkmarx, and penetration testing.}
+    \bulletpoint{Wrote research f{}indings and implementation analyses for under-documented product areas.}
+  \end{itemize}
+  \role{Software Development Intern}{Jan. 2025 -- Jul. 2025}
+  \begin{itemize}
+    \bulletpoint{Built Python workf{}lows to extract and prepare data from Splunk and SQL sources for Power BI reporting, and optimized DAX queries.}
+  \end{itemize}
+  \company{Gear To Care}{Sep. 2022 -- Dec. 2022}
+  \role{Android Developer}{Nagpur, India}
+  \begin{itemize}
+    \bulletpoint{Integrated Razorpay in-app payments and Firebase Authentication into an Android application.}
+  \end{itemize}
+\end{itemize}
+
+\section{Selected Projects -- Amadeus Software Labs}
+\begin{itemize}[leftmargin=0in,label={}]
+  \entry{GMS Knowledge Bot}{2025}{Python, LangChain, Azure OpenAI, ChromaDB, Streamlit}{}
+  \begin{itemize}
+    \bulletpoint{Built a two-model Meta-RAG assistant that classif{}ies questions by intent and adjusts retrieval depth, generation settings, and prompts for each query.}
+  \end{itemize}
+  \entry{Container Image Security Scanner}{2025}{Python, REST APIs, Podman}{}
+  \begin{itemize}
+    \bulletpoint{Automated Black Duck scans through REST APIs with a CLI and programmatic interface; used by 48 people, saving an estimated two hours of manual work per scan.}
+  \end{itemize}
+\end{itemize}
+
+\section{Technical Skills}
+\small\textbf{Languages:} Python, Java, SQL, C, Go \\
+\textbf{Generative AI:} Azure OpenAI, Azure AI Foundry, LangChain, RAG, Model Context Protocol, GitHub Copilot Agent SDK, prompt engineering \\
+\textbf{Frameworks and tools:} Spring Boot, React, REST APIs, Docker, Kubernetes, Jenkins, Git, Splunk, Azure \\
+\textbf{Concepts:} Data structures and algorithms, object-oriented design, system design, debugging \\
+\textbf{Certif{}ications:} Claude \mbox{Certif{}ied} Architect, Foundations (Anthropic); \mbox{GATE Qualif{}ied} (2023)
+
+\section{Education}
+\begin{tabularx}{\textwidth}{@{}Xr@{}}
+  \textbf{Bachelor of Technology} & Aug. 2021 -- Jul. 2025 \\
+  \textit{\small RCOEM Nagpur} & \textit{\small GPA: 8.23/10} \\
+\end{tabularx}
+\small\textbf{Field:} Computer Science and Engineering (Artif{}icial Intelligence and Machine Learning)\\
+\small\textbf{Coursework:} Data Structures and Algorithms (Java), Design and Analysis of Algorithms (Java), Object-Oriented Programming (Java), Computer Networks, Operating Systems, Database Management Systems, Machine Learning, Deep Learning (Python), Neural Networks, Natural Language Processing, Digital Image Processing.
+\end{document}
