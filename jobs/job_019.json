@@ -3,7 +3,7 @@
   "url": "https://www.google.com/about/careers/applications/jobs/results/123778327126123206-software-engineer-ii-ai-security",
   "source": "chat",
   "created_at": "2026-11-27T13:28:39.303017+00:00",
-  "updated_at": "2026-11-27T13:29:50.369796+00:00",
+  "updated_at": "2026-11-27T13:32:57.711819+00:00",
   "company": "Google",
   "title": "Software Engineer II, AI Security (Google Cloud Model Armor)",
   "location": "Pune, Maharashtra, India; in-person interviews usually required",
@@ -58,14 +58,22 @@
     "review_notes": "v1 from supported content only; no invented content. AI-security focus: ContX AI guardrails and pilot, Meta-RAG validation, LLM output-validation evaluations, security remediation, MCP vulnerability server, AI-assisted modernization, production investigations; container scanner and report utility (48 users; estimated two hours saved); Knowledge Bot; security skills row. Prompt-injection work is not claimed. Gear To Care omitted for focus. Tectonic compiled with no warnings; one A4 page; content ends about 1 inch from the bottom; text clean; fonts embedded; links match profile.json; education unchanged."
   },
   "application": {
-    "status": "NOT_STARTED",
-    "questions": [],
-    "answers": [],
-    "required_fields": {},
+    "status": "CANDIDATE_REVIEWING_GOOGLE_FORM",
+    "resume_to_upload": "resumes/job_019/resume_v1.pdf",
+    "review_2026_11_27": [
+      "Delete the auto-created work entry 'Container Image Security Scanner, June 2025 - June 2025' (a project, not a job; dates not confirmed).",
+      "Gear To Care location should be Nagpur, India (form shows Pune).",
+      "Education: Bachelor of Technology, Computer Science and Engineering (Artificial Intelligence and Machine Learning), Aug 2021 - Jul 2025, GPA 8.23/10.",
+      "Remove duplicate emails and phone numbers.",
+      "Skills: remove auto-parsed noise and 'Penetration Testing' (candidate fixed pen-test findings, did not perform pen testing); add GenAI/LLM, RAG, LangChain, application security, vulnerability management, Azure, REST APIs.",
+      "Confirm the uploaded 'resume_v1 (1).pdf' is the AI Security version (job_019), not the job_018 file with the same name.",
+      "Minimum-qualification and work-authorization answers match the profile."
+    ],
+    "note": "Candidate fills and submits the Google form personally. Address shown on the form is not stored in this repository.",
     "screenshots": []
   },
   "user_comment": null,
-  "pipeline_status": "RESUME_READY",
+  "pipeline_status": "APP_PREPARING",
   "error": null,
   "metadata": {
     "google_job_id": "123778327126123206",
