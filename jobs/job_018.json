@@ -1,0 +1,42 @@
+{
+  "id": "job_018",
+  "url": "https://www.google.com/about/careers/applications/jobs/results/121182603511243462-software-engineer-ii-google-cloud",
+  "source": "chat",
+  "created_at": "2026-11-27T13:12:18.232958+00:00",
+  "updated_at": "2026-11-27T13:12:33.299223+00:00",
+  "company": "Google",
+  "title": "Software Engineer II, Google Cloud (title from URL)",
+  "location": null,
+  "job_type": null,
+  "description": null,
+  "requirements": {
+    "required_skills": [],
+    "preferred_skills": [],
+    "experience_years": null,
+    "education": null
+  },
+  "match": {
+    "score": null,
+    "reasoning": null,
+    "relevant_experience": [],
+    "relevant_projects": [],
+    "skill_gaps": [],
+    "status": "NOT_SCORED"
+  },
+  "resume": {
+    "status": "NOT_STARTED",
+    "path": null,
+    "version": null,
+    "review_notes": null
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "ERROR",
+  "error": "Posting not read: www.google.com careers pages are not allowed in this environment, and a web search did not find job ID 121182603511243462 (many differently scoped 'Software Engineer II, Google Cloud' postings exist). Resume on hold until the job description is pasted."
+}
