@@ -1,0 +1,82 @@
+{
+  "id": "job_019",
+  "url": "https://www.google.com/about/careers/applications/jobs/results/123778327126123206-software-engineer-ii-ai-security",
+  "source": "chat",
+  "created_at": "2026-11-27T13:28:39.303017+00:00",
+  "updated_at": "2026-11-27T13:29:50.369796+00:00",
+  "company": "Google",
+  "title": "Software Engineer II, AI Security (Google Cloud Model Armor)",
+  "location": "Pune, Maharashtra, India; in-person interviews usually required",
+  "job_type": "full-time",
+  "description": "Google Cloud Model Armor platform engineering: the security gateway and runtime defense boundary for enterprise generative AI applications. Detection models catch adversarial prompts and malicious outputs, and the platform team builds and scales the distributed infrastructure for real-time protection across multi-cloud and multi-model ecosystems. Responsibilities: write product or system code; review code; contribute to documentation; triage, debug, and resolve product or system issues. Google 'Early' level. Fetched from the Google Careers page on 2026-11-27.",
+  "requirements": {
+    "required_skills": [
+      "Bachelor's degree or equivalent practical experience",
+      "1 year of software development in Python, C, C++, Java, or JavaScript",
+      "1 year of experience with data structures and algorithms",
+      "Experience integrating generative AI tools or LLM interfaces into workflows"
+    ],
+    "preferred_skills": [
+      "Master's degree in Computer Science or related field",
+      "(Team context) GenAI security: adversarial prompts, malicious outputs, runtime defense; distributed cloud infrastructure"
+    ],
+    "experience_years": 1,
+    "education": "Bachelor's degree or equivalent practical experience"
+  },
+  "match": {
+    "score": 87,
+    "reasoning": "Meets all four minimum qualifications (B.Tech CSE; about 1 year 4 months full-time Python/Java plus internship; DSA with 1,000+ LeetCode and GATE; LLMs integrated into workflows). The team's GenAI security focus matches supported work: ContX AI guardrails against storing personal data and fabricating facts (10-customer pilot); deployed Meta-RAG with multi-stage validation against hallucinations; LLM output-validation evaluations; application-security remediation from Black Duck, Checkmarx, and penetration testing; MCP server connecting LLMs to vulnerability data; container vulnerability scanning automation (48 users; estimated two hours saved per scan). Gaps: preferred Master's; no prompt-injection or adversarial-prompt detection work documented; no large-scale distributed infrastructure experience.",
+    "score_breakdown": {
+      "required_skills": "34/35",
+      "experience": "21/25",
+      "preferred_skills": "7/15",
+      "education": "10/10",
+      "preferences": "15/15"
+    },
+    "relevant_experience": [
+      "Amadeus SDE: ContX AI guardrails and pilot, Meta-RAG validation, LLM evaluations, security remediation, MCP server, production investigations, defect fix.",
+      "Amadeus intern: Python/Splunk/SQL workflows."
+    ],
+    "relevant_projects": [
+      "Container Image Security Scanner and report utility (48 users)",
+      "GMS Knowledge Bot (RAG)"
+    ],
+    "skill_gaps": [
+      "Master's degree (preferred)",
+      "Prompt-injection / adversarial-prompt detection",
+      "Large-scale distributed infrastructure"
+    ],
+    "preference_fit": "Pune is the candidate's city and a preferred location; full-time.",
+    "status": "SCORED",
+    "score_note": "Editorial estimate from supported facts only. Strongest match so far; Google's per-period application limits may apply alongside job_008, job_009, and job_018."
+  },
+  "resume": {
+    "status": "GENERATED",
+    "path": "resumes/job_019/resume_v1.tex",
+    "pdf_path": "resumes/job_019/resume_v1.pdf",
+    "version": 1,
+    "review_notes": "v1 from supported content only; no invented content. AI-security focus: ContX AI guardrails and pilot, Meta-RAG validation, LLM output-validation evaluations, security remediation, MCP vulnerability server, AI-assisted modernization, production investigations; container scanner and report utility (48 users; estimated two hours saved); Knowledge Bot; security skills row. Prompt-injection work is not claimed. Gear To Care omitted for focus. Tectonic compiled with no warnings; one A4 page; content ends about 1 inch from the bottom; text clean; fonts embedded; links match profile.json; education unchanged."
+  },
+  "application": {
+    "status": "NOT_STARTED",
+    "questions": [],
+    "answers": [],
+    "required_fields": {},
+    "screenshots": []
+  },
+  "user_comment": null,
+  "pipeline_status": "RESUME_READY",
+  "error": null,
+  "metadata": {
+    "google_job_id": "123778327126123206",
+    "level": "Early",
+    "team": "Google Cloud Model Armor",
+    "fetched_from": "https://www.google.com/about/careers/applications/jobs/results/123778327126123206-software-engineer-ii-ai-security",
+    "fetched_at": "2026-11-27"
+  },
+  "content_review": {
+    "proposal_ids": [],
+    "hold": null,
+    "notes": "Optional: ask about any real prompt-injection or jailbreak testing."
+  }
+}
